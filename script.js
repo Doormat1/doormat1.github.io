@@ -20,11 +20,11 @@ const ENERGY_NEEDED_TO_MELT = 150; // arbitrary units
 const ENERGY_NEEDED_TO_BOIL = 250; // arbitrary units
 
 const states = [
-    { temp: -20, image: 'https://github.com/Doormat1/doormat1.github.io/blob/main/Ice-Cube-1.gif', status: 'Frozen ice cube' },
-    { temp: 0, image: 'Ice-Cube-2.gif', status: 'Ice melting (0°C)' },
-    { temp: 1, image: 'Water-heating.gif', status: 'Liquid water heating up' },
-    { temp: 100, image: 'boiling-water.gif', status: 'Water boiling (100°C)' },
-    { temp: 101, image: 'Steam.gif', status: 'Water has evaporated, now heating the steam' }
+    { temp: -20, image: 'https://doormat1.github.io/Ice-Cube-1.gif', status: 'Frozen ice cube' },
+    { temp: 0, image: 'https://doormat1.github.io/Ice-Cube-2.gif', status: 'Ice melting (0°C)' },
+    { temp: 1, image: 'https://doormat1.github.io/Water-heating.gif', status: 'Liquid water heating up' },
+    { temp: 100, image: 'https://doormat1.github.io/boiling-water.gif', status: 'Water boiling (100°C)' },
+    { temp: 101, image: 'https://doormat1.github.io/Steam.gif', status: 'Water has evaporated, now heating the steam' }
 ];
 
 function updateTimer() {
