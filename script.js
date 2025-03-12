@@ -20,7 +20,7 @@ const ENERGY_NEEDED_TO_MELT = 150; // arbitrary units
 const ENERGY_NEEDED_TO_BOIL = 250; // arbitrary units
 
 const states = [
-    { temp: -20, image: 'ice-cube-1.gif', status: 'Frozen ice cube' },
+    { temp: -20, image: 'https://github.com/Doormat1/doormat1.github.io/blob/main/Ice-Cube-1.gif', status: 'Frozen ice cube' },
     { temp: 0, image: 'ice-cube-2.gif', status: 'Ice melting (0°C)' },
     { temp: 1, image: 'water-heating.gif', status: 'Liquid water heating up' },
     { temp: 100, image: 'boiling-water.gif', status: 'Water boiling (100°C)' },
