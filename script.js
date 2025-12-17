@@ -91,6 +91,7 @@ function heat() {
 
 heatButton.addEventListener('click', () => {
     if (!isHeating) {
+        iceImage.src = states[0].image;
         isHeating = true;
         startTime = new Date().getTime();
         timerInterval = setInterval(updateTimer, 1000);
@@ -98,4 +99,5 @@ heatButton.addEventListener('click', () => {
         heatButton.disabled = true;
     }
 });
+
 
