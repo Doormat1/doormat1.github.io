@@ -24,7 +24,7 @@ const states = [
     { temp: 0, image: 'https://doormat1.github.io/Melting.gif', status: 'Ice melting (0°C)' },
     { temp: 0.1, image: 'https://doormat1.github.io/Heating_water.gif', status: 'Liquid water heating up' },
     { temp: 100, image: 'https://doormat1.github.io/Boiling.gif', status: 'Water boiling (100°C)' },
-    { temp: 100.1, image: 'https://doormat1.github.io/Steam (2).gif', status: 'Water has evaporated, now heating the steam' }
+    { temp: 100.1, image: 'https://doormat1.github.io/Steam_new.gif', status: 'Water has evaporated, now heating the steam' }
 ];
 
 function updateTimer() {
