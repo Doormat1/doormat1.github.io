@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Circuit Symbols — Landing</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .names{display:grid;grid-template-columns:repeat(4,minmax(180px,1fr));gap:8px;margin-top:12px}
+    .name{background:#ffa200;border:1px solid #334155;color:#e2e8f0;border-radius:10px;padding:10px;text-align:center}
+    .grid3{display:grid;grid-template-columns:repeat(3,100px);grid-template-rows:repeat(3,100px);gap:6px;margin:16px auto}
+    .grid3 .box{border:2px solid #334155;border-radius:8px;background:#003cff}
+    .instructions{display:flex;flex-direction:column;align-items:center;background:#ffa200;border:1px solid #334155;border-radius:12px;padding:12px;margin-top:12px}
+    .actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="h1">Circuit Symbols — Landing</h1>
+    <div class="instructions">
+      <p><strong>Instructions:</strong> Draw a 3 by 3 grid like the one below and then write down 9 of the names of common circuit components, one in each box.</p>
+      <div class="grid3" aria-hidden="true">
+        <div class="box"></div><div class="box"></div><div class="box"></div>
+        <div class="box"></div><div class="box"></div><div class="box"></div>
+        <div class="box"></div><div class="box"></div><div class="box"></div>
+      </div>
+    </div>
+
+    <h2 class="h1" style="margin-top:12px">Common circuit component names</h2>
+    <div class="names">
+      <div class="name">Cell</div>
+      <div class="name">Battery</div>
+      <div class="name">Open Switch</div>
+      <div class="name">Closed Switch</div>
+      <div class="name">Lamp</div>
+      <div class="name">Fuse</div>
+      <div class="name">Ammeter</div>
+      <div class="name">Resistor</div>
+      <div class="name">Variable Resistor</div>
+      <div class="name">Wire</div>
+      <div class="name">Diode</div>
+      <div class="name">Voltmeter</div>
+      <div class="name">LDR</div>
+      <div class="name">Thermistor</div>
+      <div class="name">DC Power Supply</div>
+      <div class="name">AC Power Supply</div>
+    </div>
+
+    <div class="actions">
+      <a href="bingo.html"><button>Go to Bingo Card</button></a>
+      <a href="caller.html"><button class="secondary">Go to Caller</button></a>
+    </div>
+  </div>
+</body>
+</html>

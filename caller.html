@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Circuit Symbols Caller (BS/IEC)</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="h1">Caller</h1>
+      <div class="controls">
+        <a href="index.html" class="secondary"><button class="secondary">Back to landing</button></a>
+        <button id="btn-next" onclick="nextSymbol()">Call next symbol</button>
+        <button id="btn-reset" class="secondary" onclick="resetRound()">Reset round</button>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="image-wrap">
+        <img id="caller-img" src="" alt="" />
+      </div>
+      <div class="status">
+        <div>Shown: <span id="count">0 / 16</span></div>
+        <div>Current: <span id="current-name">—</span></div>
+        <div>Seen this round: <span id="seen">None yet</span></div>
+      </div>
+      <div id="toast" class="toast" aria-live="polite" aria-atomic="true">All symbols counted!</div>
+      <div class="footer">Each symbol appears only once per game. When all have been called, a completion message will appear.</div>
+    </div>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

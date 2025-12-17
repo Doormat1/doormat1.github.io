@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Circuit Symbols Bingo (BS/IEC)</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="h1">Bingo Card</h1>
+      <div class="controls">
+        <a href="index.html" class="secondary"><button class="secondary">Back to landing</button></a>
+        <button id="btn-new-card" class="secondary" onclick="newCard()">New bingo card</button>
+        <button id="btn-reset" class="secondary" onclick="resetRound()" title="Reset whole round (reshuffle caller & card)">Reset round</button>
+      </div>
+    </div>
+    <p class="footer">Click a tile to mark it. Tiles are auto-marked when a called symbol appears on the card.</p>
+    <div id="grid" class="grid"></div>
+  </div>
+  <script src="assets/js/app.js"></script>
+  <script>window.addEventListener('DOMContentLoaded', ()=>{showTab && showTab('bingo');});</script>
+</body>
+</html>
