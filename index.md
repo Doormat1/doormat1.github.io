@@ -13,6 +13,6 @@ title: Home
   {% if excluded_basenames contains basename %}{% continue %}{% endif %}
   {% if page.url contains "/assets/" or page.url contains "/vendor/" or page.url contains "/_site/" %}{% continue %}{% endif %}
   {% if page.dir contains "_layouts" or page.dir contains "_includes" or page.dir contains "_data" or page.dir contains "_sass" %}{% continue %}{% endif %}
-  <li><a href="{{ page.urlve_url }}{{ page.title | default: page.url }}</a></li>
+  <li><a href="{{ pagelative_url }}{{ page.title | default: page.url }}</a></li>
 {% endfor %}
 </ul>
