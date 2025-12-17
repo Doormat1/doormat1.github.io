@@ -12,7 +12,7 @@ let timerInterval;
 let meltingEnergy = 0;
 let boilingEnergy = 0;
 let currentState = 0;  // Track the current state index
-
+let heatingInterval; // This allows us to stop the heat loop later
 // Phase change thresholds
 const MELTING_POINT = 0;
 const BOILING_POINT = 100;
@@ -90,14 +90,29 @@ function heat() {
 }
 
 heatButton.addEventListener('click', () => {
-    if (!isHeating) {
-        iceImage.src = states[0].image;
-        isHeating = true;
-        startTime = new Date().getTime();
-        timerInterval = setInterval(updateTimer, 1000);
-        setInterval(heat, 100);
-        heatButton.disabled = true;
-    }
+    // 1. Stop any existing loops (prevents speed-up if clicked again)
+    clearInterval(timerInterval);
+    clearInterval(heatingInterval);
+
+    // 2. Reset all simulation values to the start
+    currentTemp = -20;
+    meltingEnergy = 0;
+    boilingEnergy = 0;
+    currentState = 0;
+    isHeating = true;
+
+    // 3. Reset the Display
+    iceImage.src = states[0].image;
+    status.textContent = states[0].status;
+    temperature.textContent = `Temperature: -20.0°C`;
+    progressBarFill.style.width = `0%`;
+    timerDisplay.textContent = `Time: 0:00`;
+    
+    // 4. Disable button during simulation
+    heatButton.disabled = true;
+
+    // 5. Start the timers fresh
+    startTime = new Date().getTime();
+    timerInterval = setInterval(updateTimer, 1000);
+    heatingInterval = setInterval(heat, 100); 
 });
-
-
