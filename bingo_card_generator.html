@@ -55,7 +55,6 @@
       <h1 class="h1">Bingo Cards — Batch Generator</h1>
       <div class="controls">
          <a href="bingohome.html" class="secondary"><button class="secondary">Back to landing</button></a>
-        </a>
 
         <label for="inputCount" class="sr-only">Number of cards</label>
         <input id="inputCount" type="number" min="1" max="100" value="9" class="secondary"
@@ -82,8 +81,8 @@ https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js</script>
 https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
 
   <!-- Page logic -->
-  <script>
-    // ----- 1) Symbols (replace with your actual circuit symbols or SVGs) -----
+<script>
+    // ----- 1) Symbols -----
     const SYMBOLS = [
       'Resistor', 'Capacitor', 'Inductor', 'Diode', 'LED',
       'Battery', 'Switch', 'Lamp', 'Motor',
@@ -150,11 +149,16 @@ https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
 
     // ----- 5) Download all as PDF -----
     async function downloadAllAsPdf() {
+      // Ensure libraries loaded
       const { jsPDF } = window.jspdf || {};
-      if (!jsPDF) { alert('jsPDF failed to load.'); return; }
+      if (!jsPDF) { alert('jsPDF library not loaded. Check script tags.'); return; }
+      if (!window.html2canvas) { alert('html2canvas library not loaded. Check script tags.'); return; }
 
       const cards = Array.from(document.querySelectorAll('.card'));
       if (cards.length === 0) { alert('No cards to download.'); return; }
+
+      // Scroll to top to prevent html2canvas cutting off images
+      window.scrollTo(0, 0); 
 
       const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
       const pageW = pdf.internal.pageSize.getWidth();
@@ -164,13 +168,17 @@ https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
       const maxH = pageH - margin * 2;
 
       for (let i = 0; i < cards.length; i++) {
+        // scale: 2 improves resolution
         const canvas = await html2canvas(cards[i], { backgroundColor: '#ffffff', scale: 2 });
         const imgData = canvas.toDataURL('image/png');
 
         const pxW = canvas.width, pxH = canvas.height;
-        const dpi = 96;
+        // 96 DPI is standard for web canvas
+        const dpi = 96; 
         const imgWmm = (pxW / dpi) * 25.4;
         const imgHmm = (pxH / dpi) * 25.4;
+        
+        // Fit image within A4 margins maintaining aspect ratio
         const scale = Math.min(maxW / imgWmm, maxH / imgHmm);
         const drawW = imgWmm * scale;
         const drawH = imgHmm * scale;
@@ -186,10 +194,14 @@ https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
 
     // ----- 6) Download PNGs in a ZIP -----
     async function downloadAllAsPngZip() {
-      if (!window.JSZip) { alert('JSZip failed to load.'); return; }
+      if (!window.JSZip) { alert('JSZip library not loaded. Check script tags.'); return; }
+      if (!window.html2canvas) { alert('html2canvas library not loaded.'); return; }
 
       const cards = Array.from(document.querySelectorAll('.card'));
       if (cards.length === 0) { alert('No cards to download.'); return; }
+
+      // Scroll to top
+      window.scrollTo(0, 0);
 
       const zip = new JSZip();
       for (let i = 0; i < cards.length; i++) {
@@ -226,5 +238,5 @@ https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
       const input = document.getElementById('inputCount');
       generateCards(parseInt(input.value, 10) || 9);
     });
-  </script>
+      </script>
 </body>
