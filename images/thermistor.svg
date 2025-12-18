@@ -2,6 +2,5 @@
 <line x1="10" y1="60" x2="60" y2="60" />
 <rect x="60" y="45" width="80" height="30" />
 <line x1="140" y1="60" x2="190" y2="60" />
-<path d="M 60 30 L 120 90" />
-<text x="120" y="95" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#111" stroke="none">T</text>
+<path d="M130 5 L80 80 L70 80 ">
 </svg>
