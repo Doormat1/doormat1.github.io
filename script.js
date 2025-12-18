@@ -29,7 +29,7 @@ const ENERGY_NEEDED_TO_BOIL = 250;
 const states = [
     { temp: -19.9, image: 'https://doormat1.github.io/heating_images/solid_heating.gif', status: 'Frozen ice cube' },
     { temp: 0, image: 'https://doormat1.github.io/heating_images/Melting.gif', status: 'Ice melting (0°C)' },
-    { temp: 0.1, image: 'https://doormat1.github.io/heating_images/Heating_water.gif', status: 'Liquid water heating up' },
+    { temp: 0.1, image: 'heating_images/Heating_water.gif', status: 'Liquid water heating up' },
     { temp: 100, image: 'https://doormat1.github.io/heating_images/Boiling.gif', status: 'Water boiling (100°C)' },
     { temp: 100.1, image: 'https://doormat1.github.io/heating_images/Steam_new.gif', status: 'Water has evaporated, now heating the steam' }
 ];
@@ -179,4 +179,5 @@ heatButton.addEventListener('click', () => {
     startTime = new Date().getTime();
     timerInterval = setInterval(updateTimer, 1000);
     heatingInterval = setInterval(heat, 100); 
+
 });
