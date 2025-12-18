@@ -5,11 +5,11 @@
      stroke="#111" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Small arrowhead marker (about half size) -->
+  <!-- Small arrowhead marker -->
   <defs>
     <marker id="arrow"
             markerWidth="4" markerHeight="4"
-            refX            refX="4" refY="2"
+            refX="3.6" refY="2"
             orient="auto"
             markerUnits="strokeWidth">
       <path d="M0,0 L4,2 L0,4 Z" fill="#111"/>
@@ -23,12 +23,10 @@
   <circle cx="100" cy="60" r="50" stroke-width="4"/>
 
   <!-- Parallel light arrows (vector ≈ (18, 15)) -->
-  <!-- Top arrow: ends outside circle near y=45 -->
+  <!-- Endpoints chosen to be outside the circle -->
   <line x1="32" y1="30" x2="50" y2="45" stroke-width="3" marker-end="url(#arrow)"/>
-
-  <!-- Middle arrow: ends outside circle near y=65 -->
   <line x1="30" y1="50" x2="48" y2="65" stroke-width="3" marker-end="url(#arrow)"/>
-
-  <!-- Bottom arrow: ends outside circle near y=85 (~3/4 up the circle) -->
+  <!-- Bottom arrow ~3/4 up the circle -->
   <line x1="36" y1="70" x2="54" y2="85" stroke-width="3" marker-end="url(#arrow)"/>
+
 </svg>
