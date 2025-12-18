@@ -2,7 +2,7 @@
 <line x1="10" y1="60" x2="60" y2="60" />
 <rect x="60" y="45" width="80" height="30" />
 <line x1="140" y1="60" x2="190" y2="60" />
-<circle cx="100" cy="60" r="40"/>
+<circle cx="100" cy="60" r="45"/>
 <path d="M 40 30 L 60 45" />
 <path d="M 35 40 L 55 55" />
 <path d="M 45 20 L 65 35" />
