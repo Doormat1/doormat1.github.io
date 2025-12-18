@@ -84,11 +84,10 @@
 <script>
     // ----- 1) Symbols -----
     const SYMBOLS = [
-      'Resistor', 'Capacitor', 'Inductor', 'Diode', 'LED',
-      'Battery', 'Switch', 'Lamp', 'Motor',
-      'Fuse', 'Ground', 'Ammeter', 'Voltmeter', 'Thermistor',
-      'LDR', 'Transistor (NPN)', 'Transistor (PNP)', 'Op Amp',
-      'Transformer', 'Speaker', 'Microphone', 'Relay', 'Bridge Rectifier'
+      'Resistor', 'Variable resistor', 'Cell', 'Diode', 'LED',
+      'Battery', 'Open Switch', 'Lamp', 'Closed Switch',
+      'Fuse', 'Thermistor', 'Ammeter', 'Voltmeter', 'Thermistor',
+      'LDR', 'Wire'
     ];
     function getSymbolHTML(symbol) {
       return `<span class="label">${symbol}</span>`;
