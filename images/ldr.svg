@@ -5,15 +5,14 @@
      stroke="#111" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
 
-  <!-- Define a small arrowhead marker -->
+  <!-- Small arrowhead marker (about half size) -->
   <defs>
     <marker id="arrow"
-            markerWidth="6" markerHeight="6"
-            refX="5" refY="3"
+            markerWidth="4" markerHeight="4"
+            refX            refX="4" refY="2"
             orient="auto"
             markerUnits="strokeWidth">
-      <!-- Small arrowhead -->
-      <path d="M0,0 L3,1 L0,3 Z" fill="#111"/>
+      <path d="M0,0 L4,2 L0,4 Z" fill="#111"/>
     </marker>
   </defs>
 
@@ -23,10 +22,13 @@
   <line x1="140" y1="60" x2="190" y2="60" stroke-width="4"/>
   <circle cx="100" cy="60" r="50" stroke-width="4"/>
 
-  <!-- Parallel light arrows (endpoints outside the circle) -->
-  <!-- All arrows have the same vector (22, 18), so they are parallel -->
-  <line x1="26" y1="22" x2="48" y2="40" stroke-width="3" marker-end="url(#arrow)"/>
-  <line x1="26" y1="42" x2="48" y2="60" stroke-width="3" marker-end="url(#arrow)"/>
-  <line x1="26" y1="62" x2="48" y2="80" stroke-width="3" marker-end="url(#arrow)"/>
+  <!-- Parallel light arrows (vector ≈ (18, 15)) -->
+  <!-- Top arrow: ends outside circle near y=45 -->
+  <line x1="32" y1="30" x2="50" y2="45" stroke-width="3" marker-end="url(#arrow)"/>
 
+  <!-- Middle arrow: ends outside circle near y=65 -->
+  <line x1="30" y1="50" x2="48" y2="65" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Bottom arrow: ends outside circle near y=85 (~3/4 up the circle) -->
+  <line x1="36" y1="70" x2="54" y2="85" stroke-width="3" marker-end="url(#arrow)"/>
 </svg>
