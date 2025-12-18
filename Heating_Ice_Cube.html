@@ -8,16 +8,29 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heat Ice Cube Investigation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
+            /* Changed to allow scrolling if height exceeds viewport */
+            min-height: 100vh; 
+            margin: 0;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
             background-color: #f4f4f4;
         }
+
+        /* 2. New Main Wrapper for side-by-side layout */
+        .main-wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            flex-wrap: wrap; /* Wraps on mobile */
+            justify-content: center;
+            padding: 20px;
+        }
+
         .container {
             width: 300px;
             text-align: center;
@@ -26,22 +39,30 @@ layout: default
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
         }
-        #temperature {
-            font-size: 24px;
-            margin-bottom: 20px;
+
+        /* 3. New Graph Container Styles */
+        .graph-container {
+            width: 500px; /* Wider than the controls */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: none; /* Hidden by default */
         }
+
+        #temperature { font-size: 24px; margin-bottom: 20px; }
+        
         #progress-bar {
             width: 100%;
             height: 30px;
             background-color: #ddd;
             border-radius: 5px;
             overflow: hidden;
+            margin-bottom: 20px;
         }
-        #progress-bar-fill {
-            height: 100%;
-            background-color: #4CAF50;
-            width: 0%;
-        }
+        
+        #progress-bar-fill { height: 100%; background-color: #4CAF50; width: 0%; }
+        
         button {
             padding: 10px 20px;
             font-size: 16px;
@@ -50,54 +71,51 @@ layout: default
             background-color: #007BFF;
             color: white;
             border-radius: 5px;
+            margin: 5px; /* Added spacing between buttons */
         }
-        button:disabled {
-            background-color: #aaa;
-            cursor: not-allowed;
-        }
-        .steam {
-            position: absolute;
-            top: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            opacity: 0;
-            transition: opacity 0.5s;
-        }
+        
+        button:disabled { background-color: #aaa; cursor: not-allowed; }
+        
+        /* Secondary button style for the graph toggle */
+        #toggleGraphBtn { background-color: #6c757d; }
+
         .ice-cube-container {
             position: relative;
-            margin: 20px auto;  /* Changed from 20px 0 to 20px auto */
+            margin: 20px auto;
             width: 200px;
             height: 200px;
-            display: flex;      /* Added */
-            justify-content: center;  /* Added */
-            align-items: center;      /* Added */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .ice-cube-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        #timer {
-            font-size: 20px;
-            margin: 10px 0;
-            color: #333;
-        }
+        
+        .ice-cube-container img { width: 100%; height: 100%; object-fit: contain; }
+        #timer { font-size: 20px; margin: 10px 0; color: #333; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>Heat the Ice Cube</h1>
-    <div class="ice-cube-container">
-        <img id="iceImage" src="heating_images/ice-cube-1.gif" alt="Ice Cube">
+<div class="main-wrapper">
+    <div class="container">
+        <h1>Heat the Ice Cube</h1>
+        <div class="ice-cube-container">
+            <img id="iceImage" src="https://doormat1.github.io/heating_images/solid_heating.gif" alt="Ice Cube">
+        </div>
+        <div id="timer">Time: 0:00</div>
+        <div id="temperature">Temperature: -20.0°C</div>
+        <div id="progress-bar">
+            <div id="progress-bar-fill"></div>
+        </div>
+        
+        <div id="status" style="min-height: 20px; margin-bottom: 10px;"></div>
+        
+        <button id="heatButton">Heat Ice Cube</button>
+        <button id="toggleGraphBtn">Show Graph</button>
     </div>
-    <div id="timer">Time: 0:00</div>
-    <div id="temperature">Temperature: -20°C</div>
-    <div id="progress-bar">
-        <div id="progress-bar-fill"></div>
+
+    <div class="graph-container" id="graphContainer">
+        <canvas id="tempChart"></canvas>
     </div>
-    <button id="heatButton">Heat Ice Cube</button>
-    <div id="status"></div>
 </div>
 
 <script src="script.js"></script>
