@@ -6,5 +6,5 @@
 
   <path d="M 70 95 L 130 25" stroke="black" stroke-width="3" />
 
-  <polygon points="130,25 122,32 133,35" fill="black" stroke="none"/>
+  <polygon points="130,30 120,33 127,40" fill="black" stroke="none"/>
 </svg>
