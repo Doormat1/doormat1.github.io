@@ -4,10 +4,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Circuit Symbols Bingo (BS/IEC)</title>
+  <title>Circuit Symbols Bingo — Batch Generator</title>
+
+  <!-- Reuse your existing stylesheet -->
   assets/css/styles.css
+
   <style>
-    /* Optional: layout for multiple cards */
+    /* Minimal layout helpers; keeps your styles.css as the base */
     .cards-wrapper {
       display: grid;
       gap: 16px;
@@ -24,106 +27,171 @@
       font-size: 1rem;
       margin: 0 0 8px 0;
     }
-    /* Ensures white background for screenshots */
+    /* Ensure white background for screenshots */
     body, .card { background: #fff; }
+
+    /* Example tile styling if your styles.css doesn't define it */
+    /* Comment out if you already have .grid/.tile in styles.css */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+    }
+    .tile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: #fafafa;
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 8px;
+    }
+    .tile .label {
+      line-height: 1.2;
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="header">
-      <h1 class="h1">Bingo Card</h1>
+      <h1 class="h1">Bingo Cards — Batch Generator</h1>
+
       <div class="controls">
-        bingohome.html<button class="secondary">Back to landing</button></a>
-        <!-- Change this button to generate multiple cards -->
-        <button id="btn-generate" class="secondary" onclick="promptAndGenerateCards()">Generate cards…</button>
-        <button id="btn-reset" class="secondary" onclick="resetRound()" title="Reset whole round (reshuffle caller &amp; card)">Reset round</button>
-        <!-- New download buttons -->
-        <button id="btn-download-pdf" class="secondary" onclick="downloadAllAsPdf()">Download all as PDF</button>
-        <button id="btn-download-png" class="secondary" onclick="downloadAllAsPngZip()">Download all as PNG (ZIP)</button>
+        bingohome.html
+          <button class="secondary">Back to landing</button>
+        </a>
+
+        <!-- Input: number of cards -->
+        <label for="inputCount" class="sr-only">Number of cards</label>
+        <input id="inputCount" type="number" min="1" max="100" value="9" class="secondary"
+               style="width: 8rem;" aria-label="Number of cards" />
+
+        <button id="btn-generate" class="secondary">Generate cards</button>
+
+        <button id="btn-download-pdf" class="secondary">Download all as PDF</button>
+        <button id="btn-download-png" class="secondary">Download all as PNG (ZIP)</button>
+
+        <button id="btn-reset" class="secondary" title="Clear all generated cards">Clear</button>
       </div>
     </div>
 
-    <p class="footer">Click a tile to mark it. Tiles are auto-marked when a called symbol appears on the card.</p>
+    <p class="footer">
+      Enter how many 3×3 cards you need, click <em>Generate cards</em>, then download as PDF or PNGs.
+    </p>
 
-    <!-- Original single-card target (used as a generator) -->
-    <div id="grid" class="grid"></div>
-
-    <!-- NEW: multiple cards will be inserted here -->
+    <!-- Where multiple cards will be inserted -->
     <div id="cardsWrapper" class="cards-wrapper" aria-live="polite"></div>
   </div>
 
-  <!-- Your existing logic -->
-  assets/js/app.js</script>
-
-  <!-- Helpers for rendering images/PDF (client-side) -->
+  <!-- Libraries for client-side capture & export -->
   https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js</script>
   https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js</script>
   https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
 
-  <!-- Our multi-card & download helpers -->
   <script>
-    // Ensure any existing UI setup still runs
-    window.addEventListener('DOMContentLoaded', () => { showTab && showTab('bingo'); });
+    // -----------------------------
+    // 1) Symbol pool (replace with your own set)
+    // -----------------------------
+    // For production, replace this with your circuit symbols list
+    // or generate from your existing assets. Each entry can be text or SVG HTML.
+    const SYMBOLS = [
+      'Resistor', 'Capacitor', 'Inductor', 'Diode', 'LED',
+      'Battery', 'Switch', 'Lamp', 'Motor',
+      'Fuse', 'Ground', 'Ammeter', 'Voltmeter', 'Thermistor',
+      'LDR', 'Transistor (NPN)', 'Transistor (PNP)', 'Op Amp',
+      'Transformer', 'Speaker', 'Microphone', 'Relay', 'Bridge Rectifier'
+    ];
 
-    /**
-     * Ask user how many cards to generate, then build them.
-     * Re-uses your existing newCard() which renders into #grid.
-     */
-    async function promptAndGenerateCards() {
-      const input = prompt('How many bingo cards do you need? (1–100)', '9');
-      if (!input) return;
-      const count = Math.max(1, Math.min(100, parseInt(input, 10) || 1));
-      await generateCards(count);
+    // Optional: map symbol -> SVG markup (if you have them)
+    // Return a string of HTML (e.g., an <svg> block) to render in the tile.
+    function getSymbolHTML(symbol) {
+      // Example: simple text label; swap for your SVGs as needed
+      return `<span class="label">${symbol}</span>`;
     }
 
-    /**
-     * Calls your existing newCard() repeatedly, then clones the result of #grid
-     * into a dedicated .card element. This avoids refactoring your current logic.
-     */
-    async function generateCards(count) {
-      const cardsWrapper = document.getElementById('cardsWrapper');
-      const grid = document.getElementById('grid');
-
-      // Clear old results
-      cardsWrapper.innerHTML = '';
-
-      // Optional: hide the live grid once we start producing multiple cards
-      grid.style.display = 'none';
-
-      for (let i = 1; i <= count; i++) {
-        // Generate a fresh random card in #grid using your existing function
-        if (typeof newCard === 'function') {
-          newCard();
-        } else {
-          console.warn('newCard() is not defined. Please ensure assets/js/app.js exposes it.');
-        }
-
-        // Clone the rendered HTML from #grid into a standalone "card"
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.setAttribute('data-card-index', i.toString());
-        card.innerHTML = `<h2>Card ${i}</h2>` + grid.innerHTML;
-
-        cardsWrapper.appendChild(card);
-
-        // Give the browser a tick to render (helps with later screenshots)
-        await nextFrame();
+    // -----------------------------
+    // 2) Helpers
+    // -----------------------------
+    function choiceShuffle(arr) {
+      // Fisher-Yates shuffle (copy to avoid mutating original)
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
       }
-      alert(`${count} card(s) generated. Use the buttons to download as PDF or PNG.`);
+      return a;
+    }
+
+    function sampleUnique(arr, k) {
+      if (k > arr.length) throw new Error('Not enough unique symbols to sample.');
+      return choiceShuffle(arr).slice(0, k);
     }
 
     function nextFrame() {
       return new Promise(resolve => requestAnimationFrame(() => resolve()));
     }
 
-    /**
-     * Render each .card to a canvas using html2canvas, then add each image
-     * as a page in a single PDF, and download it.
-     */
+    // -----------------------------
+    // 3) Build one 3×3 card
+    // -----------------------------
+    function buildCardElement(index) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.setAttribute('data-card-index', index.toString());
+
+      // Title
+      const title = document.createElement('h2');
+      title.textContent = `Card ${index}`;
+      card.appendChild(title);
+
+      // Grid container
+      const grid = document.createElement('div');
+      grid.className = 'grid';
+      card.appendChild(grid);
+
+      // Pick 9 unique symbols
+      const selected = sampleUnique(SYMBOLS, 9);
+
+      // Fill 3×3 grid
+      for (let i = 0; i < 9; i++) {
+        const tile = document.createElement('div');
+        tile.className = 'tile';
+        tile.setAttribute('data-symbol', selected[i]);
+
+        // Insert symbol (text or SVG HTML)
+        tile.innerHTML = getSymbolHTML(selected[i]);
+
+        grid.appendChild(tile);
+      }
+
+      return card;
+    }
+
+    // -----------------------------
+    // 4) Generate multiple cards
+    // -----------------------------
+    async function generateCards(count) {
+      const wrapper = document.getElementById('cardsWrapper');
+      wrapper.innerHTML = '';
+
+      for (let i = 1; i <= count; i++) {
+        const card = buildCardElement(i);
+        wrapper.appendChild(card);
+        await nextFrame();
+      }
+    }
+
+    // -----------------------------
+    // 5) Download as PDF
+    // -----------------------------
     async function downloadAllAsPdf() {
       const { jsPDF } = window.jspdf || {};
       if (!jsPDF) {
-        alert('jsPDF not loaded.');
+        alert('jsPDF failed to load.');
         return;
       }
 
@@ -141,17 +209,12 @@
       const maxW = pageW - margin * 2;
       const maxH = pageH - margin * 2;
 
+      // Render each card to canvas and add as a page
       for (let i = 0; i < cards.length; i++) {
         const canvas = await html2canvas(cards[i], { backgroundColor: '#ffffff', scale: 2 });
         const imgData = canvas.toDataURL('image/png');
 
-        // Compute image size in mm keeping aspect ratio
         const pxW = canvas.width, pxH = canvas.height;
-        const ratio = Math.min(maxW / pxW, maxH / pxH) * 25.4 / 96; // 96 px per inch ≈ 3.78 px/mm
-        const w = pxW * 25.4 / 96 * ratio / (25.4/96); // simpler: scale via ratio directly
-        const h = pxH * 25.4 / 96 * ratio / (25.4/96);
-
-        // Better: compute in mm directly
         const dpi = 96; // typical CSS pixel density
         const imgWmm = (pxW / dpi) * 25.4;
         const imgHmm = (pxH / dpi) * 25.4;
@@ -169,12 +232,12 @@
       pdf.save(`bingo-cards-${cards.length}.pdf`);
     }
 
-    /**
-     * Render each .card to a canvas and collect PNGs in a ZIP for a single download.
-     */
+    // -----------------------------
+    // 6) Download PNGs in a ZIP
+    // -----------------------------
     async function downloadAllAsPngZip() {
       if (!window.JSZip) {
-        alert('JSZip not loaded.');
+        alert('JSZip failed to load.');
         return;
       }
 
@@ -202,5 +265,28 @@
       URL.revokeObjectURL(a.href);
       a.remove();
     }
+
+    // -----------------------------
+    // 7) Wire up controls
+    // -----------------------------
+    document.getElementById('btn-generate').addEventListener('click', async    document.getElementById('btn-generate').addEventListener('click', async () => {
+      const input = document.getElementById('inputCount');
+      const val = Math.max(1, Math.min(100, parseInt(input.value, 10) || 1));
+      await generateCards(val);
+    });
+
+    document.getElementById('btn-reset').addEventListener('click', () => {
+      document.getElementById('cardsWrapper').innerHTML = '';
+    });
+
+    document.getElementById('btn-download-pdf').addEventListener('click', downloadAllAsPdf);
+    document.getElementById('btn-download-png').addEventListener('click', downloadAllAsPngZip);
+
+    // Optional: generate default set on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const input = document.getElementById('inputCount');
+      generateCards(parseInt(input.value, 10) || 9);
+    });
   </script>
 </body>
+
