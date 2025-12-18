@@ -3,5 +3,5 @@
 <line x1="160" y1="60" x2="190" y2="60" />
 <circle cx="65" cy="60" r="5" />
 <circle cx="155" cy="60" r="5" />
-<text x="57" y="110" font-family="DejaVu Sans, Arial, sans-serif" font-size="144" fill="#111" stroke="none">~</text>
+<text x="70" y="110" font-family="DejaVu Sans, Arial, sans-serif" font-size="100" fill="#111" stroke="none">~</text>
 </svg>
