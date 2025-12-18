@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Circuit Symbols Bingo — Batch Generator</title>
 
-  <!-- Reuse your existing stylesheet -->
+  <!-- Your existing stylesheet -->
   assets/css/styles.css
 
+  <!-- Minimal local styles (optional; remove if your CSS already defines .grid/.tile/.container) -->
   <style>
-    /* Minimal layout helpers; keeps your styles.css as the base */
     .cards-wrapper {
       display: grid;
       gap: 16px;
@@ -27,11 +27,7 @@
       font-size: 1rem;
       margin: 0 0 8px 0;
     }
-    /* Ensure white background for screenshots */
-    body, .card { background: #fff; }
-
-    /* Example tile styling if your styles.css doesn't define it */
-    /* Comment out if you already have .grid/.tile in styles.css */
+    /* If styles.css already sets .grid/.tile, you can delete this block */
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -49,32 +45,25 @@
       text-align: center;
       padding: 8px;
     }
-    .tile .label {
-      line-height: 1.2;
-    }
+    .tile .label { line-height: 1.2; }
   </style>
 </head>
-
 <body>
   <div class="container">
     <div class="header">
       <h1 class="h1">Bingo Cards — Batch Generator</h1>
-
       <div class="controls">
         bingohome.html
           <button class="secondary">Back to landing</button>
         </a>
 
-        <!-- Input: number of cards -->
         <label for="inputCount" class="sr-only">Number of cards</label>
         <input id="inputCount" type="number" min="1" max="100" value="9" class="secondary"
                style="width: 8rem;" aria-label="Number of cards" />
 
         <button id="btn-generate" class="secondary">Generate cards</button>
-
         <button id="btn-download-pdf" class="secondary">Download all as PDF</button>
         <button id="btn-download-png" class="secondary">Download all as PNG (ZIP)</button>
-
         <button id="btn-reset" class="secondary" title="Clear all generated cards">Clear</button>
       </div>
     </div>
@@ -83,21 +72,17 @@
       Enter how many 3×3 cards you need, click <em>Generate cards</em>, then download as PDF or PNGs.
     </p>
 
-    <!-- Where multiple cards will be inserted -->
     <div id="cardsWrapper" class="cards-wrapper" aria-live="polite"></div>
   </div>
 
-  <!-- Libraries for client-side capture & export -->
+  <!-- Libraries (loaded with proper <script> tags) -->
   https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js</script>
   https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js</script>
   https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js</script>
 
+  <!-- Page logic -->
   <script>
-    // -----------------------------
-    // 1) Symbol pool (replace with your own set)
-    // -----------------------------
-    // For production, replace this with your circuit symbols list
-    // or generate from your existing assets. Each entry can be text or SVG HTML.
+    // ----- 1) Symbols (replace with your actual circuit symbols or SVGs) -----
     const SYMBOLS = [
       'Resistor', 'Capacitor', 'Inductor', 'Diode', 'LED',
       'Battery', 'Switch', 'Lamp', 'Motor',
@@ -105,19 +90,12 @@
       'LDR', 'Transistor (NPN)', 'Transistor (PNP)', 'Op Amp',
       'Transformer', 'Speaker', 'Microphone', 'Relay', 'Bridge Rectifier'
     ];
-
-    // Optional: map symbol -> SVG markup (if you have them)
-    // Return a string of HTML (e.g., an <svg> block) to render in the tile.
     function getSymbolHTML(symbol) {
-      // Example: simple text label; swap for your SVGs as needed
       return `<span class="label">${symbol}</span>`;
     }
 
-    // -----------------------------
-    // 2) Helpers
-    // -----------------------------
-    function choiceShuffle(arr) {
-      // Fisher-Yates shuffle (copy to avoid mutating original)
+    // ----- 2) Helpers -----
+    function shuffle(arr) {
       const a = arr.slice();
       for (let i = a.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -125,59 +103,43 @@
       }
       return a;
     }
-
     function sampleUnique(arr, k) {
-      if (k > arr.length) throw new Error('Not enough unique symbols to sample.');
-      return choiceShuffle(arr).slice(0, k);
+      if (k > arr.length) throw new Error('Not enough unique symbols.');
+      return shuffle(arr).slice(0, k);
     }
-
     function nextFrame() {
-      return new Promise(resolve => requestAnimationFrame(() => resolve()));
+      return new Promise(r => requestAnimationFrame(() => r()));
     }
 
-    // -----------------------------
-    // 3) Build one 3×3 card
-    // -----------------------------
+    // ----- 3) Build a 3×3 card -----
     function buildCardElement(index) {
       const card = document.createElement('div');
       card.className = 'card';
-      card.setAttribute('data-card-index', index.toString());
+      card.setAttribute('data-card-index', String(index));
 
-      // Title
       const title = document.createElement('h2');
       title.textContent = `Card ${index}`;
       card.appendChild(title);
 
-      // Grid container
       const grid = document.createElement('div');
       grid.className = 'grid';
       card.appendChild(grid);
 
-      // Pick 9 unique symbols
       const selected = sampleUnique(SYMBOLS, 9);
-
-      // Fill 3×3 grid
       for (let i = 0; i < 9; i++) {
         const tile = document.createElement('div');
         tile.className = 'tile';
         tile.setAttribute('data-symbol', selected[i]);
-
-        // Insert symbol (text or SVG HTML)
         tile.innerHTML = getSymbolHTML(selected[i]);
-
         grid.appendChild(tile);
       }
-
       return card;
     }
 
-    // -----------------------------
-    // 4) Generate multiple cards
-    // -----------------------------
+    // ----- 4) Generate multiple cards -----
     async function generateCards(count) {
       const wrapper = document.getElementById('cardsWrapper');
       wrapper.innerHTML = '';
-
       for (let i = 1; i <= count; i++) {
         const card = buildCardElement(i);
         wrapper.appendChild(card);
@@ -185,37 +147,27 @@
       }
     }
 
-    // -----------------------------
-    // 5) Download as PDF
-    // -----------------------------
+    // ----- 5) Download all as PDF -----
     async function downloadAllAsPdf() {
       const { jsPDF } = window.jspdf || {};
-      if (!jsPDF) {
-        alert('jsPDF failed to load.');
-        return;
-      }
+      if (!jsPDF) { alert('jsPDF failed to load.'); return; }
 
       const cards = Array.from(document.querySelectorAll('.card'));
-      if (cards.length === 0) {
-        alert('No cards to download. Generate some first.');
-        return;
-      }
+      if (cards.length === 0) { alert('No cards to download.'); return; }
 
-      // A4 portrait PDF
       const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
       const pageW = pdf.internal.pageSize.getWidth();
       const pageH = pdf.internal.pageSize.getHeight();
-      const margin = 10; // mm
+      const margin = 10;
       const maxW = pageW - margin * 2;
       const maxH = pageH - margin * 2;
 
-      // Render each card to canvas and add as a page
       for (let i = 0; i < cards.length; i++) {
         const canvas = await html2canvas(cards[i], { backgroundColor: '#ffffff', scale: 2 });
         const imgData = canvas.toDataURL('image/png');
 
         const pxW = canvas.width, pxH = canvas.height;
-        const dpi = 96; // typical CSS pixel density
+        const dpi = 96;
         const imgWmm = (pxW / dpi) * 25.4;
         const imgHmm = (pxH / dpi) * 25.4;
         const scale = Math.min(maxW / imgWmm, maxH / imgHmm);
@@ -228,27 +180,17 @@
         if (i > 0) pdf.addPage();
         pdf.addImage(imgData, 'PNG', x, y, drawW, drawH);
       }
-
       pdf.save(`bingo-cards-${cards.length}.pdf`);
     }
 
-    // -----------------------------
-    // 6) Download PNGs in a ZIP
-    // -----------------------------
+    // ----- 6) Download PNGs in a ZIP -----
     async function downloadAllAsPngZip() {
-      if (!window.JSZip) {
-        alert('JSZip failed to load.');
-        return;
-      }
+      if (!window.JSZip) { alert('JSZip failed to load.'); return; }
 
       const cards = Array.from(document.querySelectorAll('.card'));
-      if (cards.length === 0) {
-        alert('No cards to download. Generate some first.');
-        return;
-      }
+      if (cards.length === 0) { alert('No cards to download.'); return; }
 
       const zip = new JSZip();
-
       for (let i = 0; i < cards.length; i++) {
         const canvas = await html2canvas(cards[i], { backgroundColor: '#ffffff', scale: 2 });
         const dataUrl = canvas.toDataURL('image/png');
@@ -266,27 +208,22 @@
       a.remove();
     }
 
-    // -----------------------------
-    // 7) Wire up controls
-    // -----------------------------
-    document.getElementById('btn-generate').addEventListener('click', async    document.getElementById('btn-generate').addEventListener('click', async () => {
+    // ----- 7) Wire up buttons -----
+    document.getElementById('btn-generate').addEventListener('click', async () => {
       const input = document.getElementById('inputCount');
       const val = Math.max(1, Math.min(100, parseInt(input.value, 10) || 1));
       await generateCards(val);
     });
-
+    document.getElementById('btn-download-pdf').addEventListener('click', downloadAllAsPdf);
+    document.getElementById('btn-download-png').addEventListener('click', downloadAllAsPngZip);
     document.getElementById('btn-reset').addEventListener('click', () => {
       document.getElementById('cardsWrapper').innerHTML = '';
     });
 
-    document.getElementById('btn-download-pdf').addEventListener('click', downloadAllAsPdf);
-    document.getElementById('btn-download-png').addEventListener('click', downloadAllAsPngZip);
-
-    // Optional: generate default set on load
+    // Generate default on load
     window.addEventListener('DOMContentLoaded', () => {
       const input = document.getElementById('inputCount');
       generateCards(parseInt(input.value, 10) || 9);
     });
   </script>
 </body>
-
