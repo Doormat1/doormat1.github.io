@@ -83,7 +83,7 @@ function nextSymbol(){
 }
 
 function resetRound(){
-  initGame();
+  location.reload();
 }
 
 // Status & UI helpers
