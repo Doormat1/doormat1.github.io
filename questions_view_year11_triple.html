@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Question Bank - Year 11 Triple Award</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Year 11 Triple Award Question Bank</h1>
+            <p>Browse all available questions</p>
+            <a href="quiz_builder_year11_triple.html" class="nav-link">🎲 Generate Quiz</a>
+        </div>
+
+        <div class="controls">
+            <div class="filter-group">
+                <label>Topic:</label>
+                <select id="topicFilter">
+                    <option value="">All Topics</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Search:</label>
+                <input type="text" id="searchFilter" placeholder="Search questions or answers..." />
+            </div>
+            <div class="filter-group">
+                <label>Question Range:</label>
+                <input type="number" id="minQuestion" placeholder="From" style="width: 80px;" />
+                <span>-</span>
+                <input type="number" id="maxQuestion" placeholder="To" style="width: 80px;" />
+            </div>
+            <button class="topic-filter-all" onclick="clearFilters()">Clear Filters</button>
+            <div class="stats" id="stats"></div>
+        </div>
+
+        <div class="content">
+            <div class="table-container">
+                <table id="questionsTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 100px;">Question #</th>
+                            <th style="width: 150px;">Topic</th>
+                            <th style="width: 40%;">Question</th>
+                            <th style="width: 40%;">Answer</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions_data_year11_triple.js"></script>
+    <script>
+        let currentQuestions = [...questionsData];
+
+        // Get unique topics
+        const topics = [...new Set(questionsData.map(q => q.topic))].sort();
+        const topicFilter = document.getElementById('topicFilter');
+        topics.forEach(topic => {
+            const option = document.createElement('option');
+            option.value = topic;
+            option.textContent = topic;
+            topicFilter.appendChild(option);
+        });
+
+        // Get topic class for styling
+        function getTopicClass(topic) {
+            return 'topic-' + topic.toLowerCase().replace(/\s+/g, '-');
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            if (currentQuestions.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="no-results">No questions found matching your filters</td></tr>';
+                updateStats();
+                return;
+            }
+
+            currentQuestions.forEach(q => {
+                const row = document.createElement('tr');
+                const topicClass = getTopicClass(q.topic);
+                
+                row.innerHTML = `
+                    <td><span class="question-num">${q.questionNumber}</span></td>
+                    <td><span class="topic-badge ${topicClass}">${q.topic}</span></td>
+                    <td class="question-text">${q.question}</td>
+                    <td class="answer-text">${q.answer}</td>
+                `;
+                tbody.appendChild(row);
+            });
+
+            updateStats();
+        }
+
+        // Update stats
+        function updateStats() {
+            const stats = document.getElementById('stats');
+            const total = questionsData.length;
+            const showing = currentQuestions.length;
+            const maxNum = currentQuestions.length > 0 ? Math.max(...currentQuestions.map(q => q.questionNumber)) : 0;
+            stats.textContent = `Showing ${showing} of ${total} questions (up to Q${maxNum})`;
+        }
+
+        // Apply filters
+        function applyFilters() {
+            const topic = document.getElementById('topicFilter').value;
+            const search = document.getElementById('searchFilter').value.toLowerCase();
+            const minQ = document.getElementById('minQuestion').value;
+            const maxQ = document.getElementById('maxQuestion').value;
+
+            currentQuestions = questionsData.filter(q => {
+                // Topic filter
+                if (topic && q.topic !== topic) return false;
+
+                // Search filter
+                if (search && !q.question.toLowerCase().includes(search) && !q.answer.toLowerCase().includes(search)) {
+                    return false;
+                }
+
+                // Range filter
+                if (minQ && q.questionNumber < parseInt(minQ)) return false;
+                if (maxQ && q.questionNumber > parseInt(maxQ)) return false;
+
+                return true;
+            });
+
+            renderTable();
+        }
+
+        // Clear filters
+        function clearFilters() {
+            document.getElementById('topicFilter').value = '';
+            document.getElementById('searchFilter').value = '';
+            document.getElementById('minQuestion').value = '';
+            document.getElementById('maxQuestion').value = '';
+            currentQuestions = [...questionsData];
+            renderTable();
+        }
+
+        // Event listeners
+        document.getElementById('topicFilter').addEventListener('change', applyFilters);
+        document.getElementById('searchFilter').addEventListener('input', applyFilters);
+        document.getElementById('minQuestion').addEventListener('input', applyFilters);
+        document.getElementById('maxQuestion').addEventListener('input', applyFilters);
+
+        // Initial render
+        renderTable();
+    </script>
+</body>
+</html>

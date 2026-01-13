@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Quiz Builder - Select Course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 50px 30px;
+        }
+
+        .intro-text {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .course-selection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .course-card {
+            background: white;
+            border: 3px solid #e9ecef;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .course-card.year10 {
+            background: linear-gradient(135deg, #667eea 0%, #667eea 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        .course-card.year10:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #5568d3 100%);
+        }
+
+        .course-card.double {
+            background: linear-gradient(135deg, #764ba2 0%, #764ba2 100%);
+            color: white;
+            border-color: #764ba2;
+        }
+
+        .course-card.double:hover {
+            background: linear-gradient(135deg, #6a3e91 0%, #6a3e91 100%);
+        }
+
+        .course-card.triple {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-color: #f5576c;
+        }
+
+        .course-card.triple:hover {
+            background: linear-gradient(135deg, #e87dd9 0%, #e44959 100%);
+        }
+
+        .course-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .course-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .course-description {
+            font-size: 14px;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            .course-card {
+                padding: 20px;
+            }
+
+            .course-icon {
+                font-size: 40px;
+            }
+
+            .course-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 GCSE Quiz Builder</h1>
+            <p>Select your course to get started</p>
+        </div>
+
+        <div class="content">
+            <div class="intro-text">
+                Choose your science course to access customised quizzes tailored to your syllabus
+            </div>
+
+            <div class="course-selection">
+                <a href="quiz_builder_year10.html" class="course-card year10">
+                    <div class="course-icon">📖</div>
+                    <div class="course-title">Year 10</div>
+                    <div class="course-description">Double Award and Triple</div>
+                </a>
+
+                <a href="quiz_builder_year11_double.html" class="course-card double">
+                    <div class="course-icon">🔬</div>
+                    <div class="course-title">Year 11 Double Award</div>
+                    <div class="course-description">Double Award only</div>
+                </a>
+
+                <a href="quiz_builder_year11_triple.html" class="course-card triple">
+                    <div class="course-icon">⚗️</div>
+                    <div class="course-title">Year 11 Triple Award</div>
+                    <div class="course-description">Separate sciences (Triple)</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Click on a course to start building custom quizzes</p>
+            <p style="margin-top: 15px;">
+                <a href="csv_converter.html" style="display: inline-block; background: #667eea; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: all 0.3s;" onmouseover="this.style.background='#5568d3'; this.style.transform='translateY(-2px)';" onmouseout="this.style.background='#667eea'; this.style.transform='translateY(0)';">🔄 CSV to JS Converter</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

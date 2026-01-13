@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to JS Converter</title>
+    <link rel="stylesheet" href="styles-builder.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔄 CSV to JavaScript Converter</h1>
+            <p>Convert your CSV question data to JavaScript format</p>
+            <a href="index.html" class="nav-link">← Back to Home</a>
+        </div>
+
+        <div class="content">
+            <div class="instructions">
+                <h3>How to Use:</h3>
+                <ol>
+                    <li>Open your questions CSV file in Excel or a text editor</li>
+                    <li>Copy all the data (including the header row with QuestionNumber, Topic, Question, Answer)</li>
+                    <li>Paste it into the "CSV Input" box on the left</li>
+                    <li>Click "Convert to JavaScript"</li>
+                    <li>Click "Copy JavaScript Code" to copy the result</li>
+                    <li>Open questions_data.js and replace the questionsData array with the copied code</li>
+                </ol>
+            </div>
+
+            <div class="converter-grid">
+                <div class="panel">
+                    <h2>📋 CSV Input</h2>
+                    <textarea id="csvInput" placeholder="Paste your CSV data here...
+
+Example format:
+QuestionNumber,Topic,Question,Answer
+1,Algebra,Solve for x: 2x + 5 = 13,x = 4
+2,Geometry,What is the area of a circle?,πr²"></textarea>
+                </div>
+
+                <div class="panel">
+                    <h2>💾 JavaScript Output</h2>
+                    <textarea id="jsOutput" readonly placeholder="Converted JavaScript code will appear here..."></textarea>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn-convert" onclick="convertCSV()">🔄 Convert to JavaScript</button>
+                <button class="btn-copy" onclick="copyToClipboard()">📋 Copy JavaScript Code</button>
+                <button class="btn-clear" onclick="clearAll()">🗑️ Clear All</button>
+            </div>
+
+            <div id="message"></div>
+            <div id="stats" class="stats" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        function convertCSV() {
+            const csvInput = document.getElementById('csvInput').value.trim();
+            const messageDiv = document.getElementById('message');
+            const statsDiv = document.getElementById('stats');
+
+            if (!csvInput) {
+                showMessage('Please paste CSV data first', 'error');
+                return;
+            }
+
+            try {
+                const lines = csvInput.split('\n').filter(line => line.trim());
+                
+                if (lines.length < 2) {
+                    showMessage('CSV must have at least a header row and one data row', 'error');
+                    return;
+                }
+
+                // Parse header
+                const headers = parseCSVLine(lines[0]).map(h => h.trim());
+                
+                // Find column indices (case-insensitive)
+                const getIndex = (name) => headers.findIndex(h => h.toLowerCase() === name.toLowerCase());
+                const questionNumIndex = getIndex('questionnumber');
+                const topicIndex = getIndex('topic');
+                const questionIndex = getIndex('question');
+                const answerIndex = getIndex('answer');
+
+                if (questionNumIndex === -1 || topicIndex === -1 || questionIndex === -1 || answerIndex === -1) {
+                    showMessage('CSV must have columns: QuestionNumber, Topic, Question, Answer', 'error');
+                    return;
+                }
+
+                // Parse data rows
+                const questions = [];
+                for (let i = 1; i < lines.length; i++) {
+                    const values = parseCSVLine(lines[i]);
+                    if (values.length >= 4) {
+                        questions.push({
+                            questionNumber: parseInt(values[questionNumIndex]) || i,
+                            topic: values[topicIndex]?.trim() || 'General',
+                            question: values[questionIndex]?.trim() || '',
+                            answer: values[answerIndex]?.trim() || ''
+                        });
+                    }
+                }
+
+                if (questions.length === 0) {
+                    showMessage('No valid question data found', 'error');
+                    return;
+                }
+
+                // Generate JavaScript code
+                let jsCode = '// Questions Data - Edit this file to add or modify questions\n';
+                jsCode += 'const questionsData = [\n';
+                
+                questions.forEach((q, index) => {
+                    jsCode += `    { questionNumber: ${q.questionNumber}, topic: "${escapeString(q.topic)}", question: "${escapeString(q.question)}", answer: "${escapeString(q.answer)}" }`;
+                    if (index < questions.length - 1) {
+                        jsCode += ',\n';
+                    } else {
+                        jsCode += '\n';
+                    }
+                });
+                
+                jsCode += '];\n';
+
+                document.getElementById('jsOutput').value = jsCode;
+                showMessage(`Successfully converted ${questions.length} questions!`, 'success');
+                
+                statsDiv.style.display = 'block';
+                statsDiv.textContent = `✅ Converted ${questions.length} questions | Topics: ${[...new Set(questions.map(q => q.topic))].join(', ')}`;
+            } catch (error) {
+                showMessage('Error converting CSV: ' + error.message, 'error');
+            }
+        }
+
+        function parseCSVLine(line) {
+            const result = [];
+            let current = '';
+            let inQuotes = false;
+
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                const nextChar = line[i + 1];
+
+                if (char === '"' && inQuotes && nextChar === '"') {
+                    // Handle escaped quotes
+                    current += '"';
+                    i++; // Skip next quote
+                } else if (char === '"') {
+                    inQuotes = !inQuotes;
+                } else if (char === ',' && !inQuotes) {
+                    result.push(current);
+                    current = '';
+                } else {
+                    current += char;
+                }
+            }
+            result.push(current);
+            return result;
+        }
+
+        function escapeString(str) {
+            return str.replace(/\\/g, '\\\\')
+                      .replace(/"/g, '\\"')
+                      .replace(/\n/g, '\\n')
+                      .replace(/\r/g, '');
+        }
+
+        function copyToClipboard() {
+            const jsOutput = document.getElementById('jsOutput');
+            
+            if (!jsOutput.value) {
+                showMessage('Nothing to copy! Convert CSV data first', 'error');
+                return;
+            }
+
+            jsOutput.select();
+            document.execCommand('copy');
+            
+            showMessage('✅ JavaScript code copied to clipboard!', 'success');
+        }
+
+        function clearAll() {
+            document.getElementById('csvInput').value = '';
+            document.getElementById('jsOutput').value = '';
+            document.getElementById('message').innerHTML = '';
+            document.getElementById('stats').style.display = 'none';
+        }
+
+        function showMessage(text, type) {
+            const messageDiv = document.getElementById('message');
+            messageDiv.className = 'message ' + type;
+            messageDiv.textContent = text;
+        }
+    </script>
+</body>
+</html>

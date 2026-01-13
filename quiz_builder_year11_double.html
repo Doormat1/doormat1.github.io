@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Quiz Builder - Year 11 Double Award</title>
+    <link rel="stylesheet" href="styles-builder.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Year 11 Double Award Quiz Builder</h1>
+            <p>Generate custom quizzes from your question bank</p>
+            <a href="questions_view_year11_double.html" class="nav-link">📚 View Questions</a>
+            <a href="index.html" class="nav-link">← Back</a>
+        </div>
+
+        <div class="controls">
+            <div class="instructions">
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Select how many questions you want (6, 8, or 10)</li>
+                    <li>Optionally filter by topic and question range</li>
+                    <li>Click "Generate Quiz" to create your custom quiz</li>
+                </ol>
+            </div>
+
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label for="numQuestions">Number of Questions:</label>
+                    <select id="numQuestions">
+                        <option value="6">6 Questions</option>
+                        <option value="8">8 Questions</option>
+                        <option value="10">10 Questions</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="maxQuestion">Questions taught up to:</label>
+                    <input type="number" id="maxQuestion" placeholder="e.g., 50 (leave empty for all)" min="1" />
+                </div>
+
+                <div class="control-group">
+                    <label for="topicFilter">Filter by Topic (optional):</label>
+                    <input type="text" id="topicFilter" placeholder="e.g., Algebra, or leave empty for all" />
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn-generate" id="generateBtn">Generate Quiz</button>
+            </div>
+
+            <div id="messageArea"></div>
+        </div>
+
+        <div class="quiz-container" id="quizContainer">
+            <div class="info-message">
+                Configure your quiz settings and click "Generate Quiz" to begin
+            </div>
+        </div>
+    </div>
+
+    <script src="questions_data_year11_double.js"></script>
+    <script>
+        // Display initial stats
+        window.addEventListener('load', function() {
+            showMessage(`Question bank loaded: ${questionsData.length} questions available`, 'success');
+        });
+
+        // Generate quiz
+        document.getElementById('generateBtn').addEventListener('click', function() {
+            const numQuestions = parseInt(document.getElementById('numQuestions').value);
+            const maxQuestion = document.getElementById('maxQuestion').value;
+            const topicFilter = document.getElementById('topicFilter').value.trim();
+
+            // Filter questions
+            let filteredQuestions = [...questionsData];
+
+            // Filter by max question number
+            if (maxQuestion) {
+                const maxNum = parseInt(maxQuestion);
+                filteredQuestions = filteredQuestions.filter(q => q.questionNumber <= maxNum);
+            }
+
+            // Filter by topic
+            if (topicFilter) {
+                filteredQuestions = filteredQuestions.filter(q => 
+                    q.topic.toLowerCase().includes(topicFilter.toLowerCase())
+                );
+            }
+
+            if (filteredQuestions.length === 0) {
+                showMessage('No questions match your filters', 'error');
+                return;
+            }
+
+            if (filteredQuestions.length < numQuestions) {
+                showMessage(`Only ${filteredQuestions.length} questions available with current filters`, 'error');
+                return;
+            }
+
+            // Randomly select questions
+            const selectedQuestions = getRandomQuestions(filteredQuestions, numQuestions);
+            displayQuiz(selectedQuestions);
+        });
+
+        // Get random questions without duplicates
+        function getRandomQuestions(questions, count) {
+            const shuffled = [...questions].sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, count);
+        }
+
+        // Display quiz
+        function displayQuiz(questions) {
+            const container = document.getElementById('quizContainer');
+            container.innerHTML = '';
+
+            questions.forEach((q, index) => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                
+                const checkboxId = `answer-${index}`;
+                
+                card.innerHTML = `
+                    <div class="question-header">
+                        <span class="question-number">Question ${q.questionNumber}</span>
+                        <span class="question-topic">${q.topic}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;">
+                        <div class="question-text">${q.question}</div>
+                        <div class="answer-section" style="flex-direction: column; width: auto; justify-content: flex-start; margin-top: 0;">
+                            <div class="show-answer-checkbox">
+                                <input type="checkbox" id="${checkboxId}" style="width: 16px; height: 16px;" />
+                                <label for="${checkboxId}">Show</label>
+                            </div>
+                            <div class="answer-content" id="content-${index}">
+                                <div class="answer-label">Answer:</div>
+                                <div class="answer-text">${q.answer}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                container.appendChild(card);
+
+                // Add checkbox event listener
+                document.getElementById(checkboxId).addEventListener('change', function(e) {
+                    const content = document.getElementById(`content-${index}`);
+                    if (e.target.checked) {
+                        content.classList.add('show');
+                    } else {
+                        content.classList.remove('show');
+                    }
+                });
+            });
+
+            showMessage(`Quiz generated with ${questions.length} questions!`, 'success');
+        }
+
+        // Show message
+        function showMessage(text, type) {
+            const messageArea = document.getElementById('messageArea');
+            const className = type === 'error' ? 'error-message' : 'success-message';
+            messageArea.innerHTML = `<div class="${className}">${text}</div>`;
+            setTimeout(() => {
+                messageArea.innerHTML = '';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
