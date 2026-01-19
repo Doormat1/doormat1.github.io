@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young's Modulus - Searle's Apparatus Practical</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Young's Modulus Practical</h1>
+            <p class="subtitle">Searle's Wire Stretching Apparatus</p>
+            <p class="instructions">Read the micrometer images carefully. Record your measurements on paper and draw your own graph.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Instructions Section -->
+            <section class="instructions-section">
+                <h2>Instructions</h2>
+                <ol>
+                    <li><strong>Measure the wire diameter:</strong> Examine the three micrometer images below. Each shows a different measurement of the wire diameter. Record all three readings.</li>
+                    <li><strong>Calculate average diameter:</strong> Find the average of your three measurements.</li>
+                    <li><strong>Add masses:</strong> Use the apparatus below to add masses (100g increments) and observe the wire extension.</li>
+                    <li><strong>Measure extension:</strong> Read the vernier scale extension for each added mass.</li>
+                    <li><strong>Record data:</strong> Write all your measurements in the data table on paper.</li>
+                    <li><strong>Calculate Young's Modulus:</strong> Use the formula: E = (F × L) / (A × ΔL)</li>
+                    <li><strong>Draw a graph:</strong> Plot Load (N) vs Extension (mm) on graph paper.</li>
+                </ol>
+            </section>
+
+            <!-- Theory Section -->
+            <section class="theory-section">
+                <h2>Formula</h2>
+                <div class="formula">
+                    E = (F × L) / (A × ΔL)
+                </div>
+                <ul class="formula-explain">
+                    <li><strong>E</strong> = Young's Modulus (Pa)</li>
+                    <li><strong>F</strong> = Force applied (N) = m × g</li>
+                    <li><strong>L</strong> = Original length of wire (m)</li>
+                    <li><strong>A</strong> = Cross-sectional area (m²) = πr²</li>
+                    <li><strong>ΔL</strong> = Extension (m)</li>
+                </ul>
+            </section>
+
+            <!-- Micrometer Readings Section -->
+            <section class="micrometer-section">
+                <h2>Step 1: Measure Wire Diameter (Micrometer)</h2>
+                <p class="instruction">Examine the three micrometer images below. Record all three diameter readings in the spaces provided.</p>
+                
+                <div class="micrometer-readings-grid">
+                    <!-- Reading 1 -->
+                    <div class="micrometer-reading">
+                        <h3>Reading 1</h3>
+                        <div class="micrometer-placeholder">
+                            <img src="micrometer1.svg" alt="Micrometer Reading 1" class="micrometer-image">
+                        </div>
+                        <div class="reading-input">
+                            <label>Diameter Reading 1 (mm):</label>
+                            <input type="number" class="diameter-input" placeholder="e.g., 2.35" step="0.01" min="0.1" max="10">
+                        </div>
+                    </div>
+
+                    <!-- Reading 2 -->
+                    <div class="micrometer-reading">
+                        <h3>Reading 2</h3>
+                        <div class="micrometer-placeholder">
+                            <img src="micrometer2.svg" alt="Micrometer Reading 2" class="micrometer-image">
+                        </div>
+                        <div class="reading-input">
+                            <label>Diameter Reading 2 (mm):</label>
+                            <input type="number" class="diameter-input" placeholder="e.g., 2.41" step="0.01" min="0.1" max="10">
+                        </div>
+                    </div>
+
+                    <!-- Reading 3 -->
+                    <div class="micrometer-reading">
+                        <h3>Reading 3</h3>
+                        <div class="micrometer-placeholder">
+                            <img src="micrometer3.svg" alt="Micrometer Reading 3" class="micrometer-image">
+                        </div>
+                        <div class="reading-input">
+                            <label>Diameter Reading 3 (mm):</label>
+                            <input type="number" class="diameter-input" placeholder="e.g., 2.38" step="0.01" min="0.1" max="10">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="diameter-summary">
+                    <h3>Diameter Summary</h3>
+                    <div class="summary-grid">
+                        <div class="summary-item">
+                            <label>Average Diameter (mm):</label>
+                            <span id="averageDiameter">-</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Wire Setup Section -->
+            <section class="setup-section">
+                <h2>Step 2: Apparatus Setup</h2>
+                <div class="setup-grid">
+                    <div class="setup-item">
+                        <label>Wire Length (m):</label>
+                        <input type="number" id="wireLengthInput" placeholder="e.g., 1.0" step="0.01" min="0.1" value="1.0">
+                    </div>
+                    <div class="setup-item">
+                        <label>Initial Vernier Reading (mm):</label>
+                        <input type="number" id="initialVernierInput" placeholder="e.g., 0.0" step="0.1" min="0" value="0.0">
+                    </div>
+                </div>
+                <button id="confirmSetupBtn" class="btn btn-primary">Confirm Setup</button>
+            </section>
+
+            <div class="main-grid">
+
+                <!-- Right Panel: Experiment -->
+                <div class="panel experiment-panel">
+                    <h2>Step 3: Conduct Experiment</h2>
+                    
+                    <!-- Apparatus Visualization -->
+                    <div class="apparatus-section">
+                        <h3>Searle's Apparatus</h3>
+                        <svg class="apparatus-visual" viewBox="0 0 400 350">
+                            <!-- Fixed support structure -->
+                            <rect x="20" y="20" width="360" height="30" fill="#8B7355" stroke="#333" stroke-width="2"/>
+                            <text x="200" y="40" text-anchor="middle" font-size="12" font-weight="bold">Fixed Support</text>
+                            
+                            <!-- Left fixed clamp -->
+                            <rect x="40" y="50" width="30" height="40" fill="#555" stroke="#333" stroke-width="2"/>
+                            <circle cx="55" cy="85" r="8" fill="none" stroke="#333" stroke-width="2"/>
+                            <text x="55" y="110" text-anchor="middle" font-size="10">Fixed</text>
+                            <text x="55" y="123" text-anchor="middle" font-size="10">Clamp</text>
+                            
+                            <!-- Wire -->
+                            <line x1="70" y1="70" x2="330" y2="70" id="wire" stroke="#1a1a1a" stroke-width="3"/>
+                            <circle cx="70" cy="70" r="4" fill="#1a1a1a"/>
+                            <circle cx="330" cy="70" r="4" fill="#1a1a1a"/>
+                            
+                            <!-- Right movable clamp -->
+                            <rect x="330" y="50" width="30" height="40" fill="#555" stroke="#333" stroke-width="2"/>
+                            <circle cx="345" cy="85" r="8" fill="none" stroke="#333" stroke-width="2"/>
+                            <text x="345" y="110" text-anchor="middle" font-size="10">Movable</text>
+                            <text x="345" y="123" text-anchor="middle" font-size="10">Clamp</text>
+                            
+                            <!-- Pulley at right -->
+                            <circle cx="345" cy="200" r="20" fill="none" stroke="#666" stroke-width="3"/>
+                            <circle cx="345" cy="200" r="15" fill="#ddd" stroke="#333" stroke-width="1"/>
+                            <text x="345" y="205" text-anchor="middle" font-size="10">Pulley</text>
+                            
+                            <!-- String from movable clamp to pulley -->
+                            <line x1="345" y1="90" x2="345" y2="180" stroke="#333" stroke-width="2" stroke-dasharray="3,3"/>
+                            
+                            <!-- Mass holder -->
+                            <rect x="320" y="220" width="50" height="30" fill="#FFD700" stroke="#333" stroke-width="2"/>
+                            <text id="massDisplay" x="345" y="240" text-anchor="middle" font-size="14" font-weight="bold">0g</text>
+                            
+                            <!-- String from pulley to mass -->
+                            <line x1="345" y1="220" x2="345" y2="220" stroke="#333" stroke-width="2"/>
+                            
+                            <!-- Reference mark -->
+                            <line x1="10" y1="70" x2="25" y2="70" stroke="red" stroke-width="3"/>
+                            <text x="15" y="90" text-anchor="middle" font-size="9" fill="red">Reference</text>
+                            
+                            <!-- Extension indicator -->
+                            <line x1="15" id="extensionIndicator" y1="70" x2="15" y2="70" stroke="blue" stroke-width="2" stroke-dasharray="2,2"/>
+                            <text id="extensionLabel" x="15" y="140" text-anchor="middle" font-size="9" fill="blue">0.0 mm</text>
+                        </svg>
+                    </div>
+
+                    <!-- Vernier Scale Visualization -->
+                    <div class="vernier-scale-section">
+                        <h3>Vernier Scale Reading</h3>
+                        <p class="instruction">As you add masses, read the extension value below and enter it in the input field.</p>
+                        <div class="vernier-reading-display">
+                            <div class="reading-box">
+                                <span class="reading-label">Current Reading:</span>
+                                <span id="vernierReadingDisplay" class="reading-value">0.0 mm</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Mass Control -->
+                    <div class="mass-control-section">
+                        <h3>Add Masses (100g each)</h3>
+                        <div class="mass-buttons">
+                            <button id="addMassBtn" class="btn btn-secondary">+ Add 100g</button>
+                            <button id="removeMassBtn" class="btn btn-secondary">- Remove 100g</button>
+                        </div>
+                        <div class="current-mass-display">
+                            <strong>Current Load: <span id="currentMassCount">0</span> × 100g = <span id="currentMassGrams">0</span>g</strong>
+                        </div>
+                    </div>
+
+                    <!-- Vernier Reading -->
+                    <div class="vernier-reading-section">
+                        <h3>Measure Extension (Vernier Scale)</h3>
+                        <p class="instruction">Read the vernier scale and record the extension below.</p>
+                        
+                        <div class="reading-input">
+                            <label>Vernier Scale Reading (mm):</label>
+                            <input type="number" id="vernierReadingInput" placeholder="e.g., 0.5" step="0.1" min="0" value="0.0">
+                        </div>
+                        
+                        <button id="recordReadingBtn" class="btn btn-success">Record Extension Reading</button>
+                    </div>
+
+                    <!-- Data Collection Table -->
+                    <div class="data-collection">
+                        <h3>Data Collected</h3>
+                        <table class="collection-table">
+                            <thead>
+                                <tr>
+                                    <th>Mass Added (g)</th>
+                                    <th>Force (N)</th>
+                                    <th>Extension (mm)</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="collectionTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Table and Results -->
+            <div class="panel results-panel">
+                <div class="results-grid">
+                    <!-- Data Summary -->
+                    <div class="data-summary-section">
+                        <h2>Summary of Collected Data</h2>
+                        <table class="summary-table">
+                            <thead>
+                                <tr>
+                                    <th>Mass (g)</th>
+                                    <th>Force (N)</th>
+                                    <th>Extension (mm)</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody id="summaryTableBody">
+                            </tbody>
+                        </table>
+                        <p id="noDataSummary" class="no-data">No data collected yet.</p>
+                    </div>
+
+                    <!-- Instructions for Graph -->
+                    <div class="graph-instructions">
+                        <h2>Next Steps</h2>
+                        <div class="instructions-box">
+                            <h3>📊 Plot Your Graph</h3>
+                            <ol>
+                                <li><strong>On graph paper,</strong> draw a graph of <strong>Load (N)</strong> vs <strong>Extension (mm)</strong></li>
+                                <li><strong>Plot your data points</strong> from the table above</li>
+                                <li><strong>Draw a best-fit line</strong> through your points</li>
+                                <li><strong>Calculate the gradient:</strong> Gradient = ΔLoad / ΔExtension</li>
+                            </ol>
+                            
+                            <h3>📐 Calculate Young's Modulus</h3>
+                            <p>Use the formula:</p>
+                            <div class="formula-box">
+                                E = (Gradient × L) / A
+                            </div>
+                            <p>Where:</p>
+                            <ul>
+                                <li><strong>Gradient</strong> = slope from your graph (N/mm)</li>
+                                <li><strong>L</strong> = wire length (m) = <span id="displayWireLength">1.0</span> m</li>
+                                <li><strong>A</strong> = cross-sectional area (m²) = π × r²</li>
+                            </ul>
+
+                            <h3>📝 Show Your Working</h3>
+                            <div class="working-box">
+                                <p><strong>Wire diameter (average):</strong> <span id="displayDiameter">-</span> mm</p>
+                                <p><strong>Wire radius:</strong> <span id="displayRadius">-</span> m</p>
+                                <p><strong>Cross-sectional area:</strong> <span id="displayArea">-</span> m²</p>
+                                <hr>
+                                <p><strong>To find Young's Modulus from your graph:</strong></p>
+                                <p>E = (Gradient × L) / A</p>
+                                <p>E = (<span id="gradientPlaceholder">your gradient</span> × <span id="displayLength2">1.0</span>) / <span id="areaPlaceholder">your area</span></p>
+                                <p>E = <span id="resultPlaceholder">Your answer in Pa</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Control Buttons -->
+            <div class="control-panel">
+                <button id="resetBtn" class="btn btn-danger">Reset Experiment</button>
+                <button id="printBtn" class="btn btn-info">Print Data Sheet</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Physics Practical - Young's Modulus using Searle's Apparatus</p>
+            <p><small>Assume g = 9.81 m/s² | Students should record data on paper and draw their own graph</small></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
