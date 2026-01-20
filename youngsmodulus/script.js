@@ -471,8 +471,8 @@ function initializeVernierScale() {
     
     if (!mainScale || !vernierScaleSVG) return;
     
-    // Create main scale markings (0 to 10 mm)
-    for (let i = 0; i <= 10; i++) {
+    // Create main scale markings (0 to 11 mm)
+    for (let i = 0; i <= 11; i++) {
         const x = 50 + (i * MM_TO_PX);
         
         // Major marking (every mm)
@@ -496,7 +496,7 @@ function initializeVernierScale() {
         mainScale.appendChild(text);
         
         // Minor markings (0.5 mm intervals)
-        if (i < 10) {
+        if (i < 11) {
             const halfX = x + (MM_TO_PX / 2);
             const halfLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
             halfLine.setAttribute('x1', halfX);
@@ -557,3 +557,4 @@ diameterInputs[2].placeholder = '2.46 (example)';
 document.addEventListener('DOMContentLoaded', function() {
     initializeVernierScale();
 });
+
