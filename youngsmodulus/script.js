@@ -32,7 +32,6 @@ const currentMassGramsDisplay = document.getElementById('currentMassGrams');
 const massDisplay = document.getElementById('massDisplay');
 const testWireLine = document.getElementById('testWireLine');
 const vernierScaleGroup = document.getElementById('vernierScaleGroup');
-const vernierReadingDisplay = document.getElementById('vernierReadingDisplay');
 
 // DOM Elements - Vernier Scale SVG
 const vernierScale = document.getElementById('vernierScale');
@@ -190,11 +189,6 @@ function updateMassDisplay() {
     
     // Update vernier scale
     updateVernierScale(totalExtension);
-    
-    // Update simple display
-    if (vernierReadingDisplay) {
-        vernierReadingDisplay.textContent = totalExtension.toFixed(1) + ' mm';
-    }
 }
 
 function updateApparatusVisualization(extensionMm) {
@@ -458,9 +452,6 @@ function resetExperiment() {
         }
         if (vernierReadingText) {
             vernierReadingText.textContent = '0.0 mm';
-        }
-        if (vernierReadingDisplay) {
-            vernierReadingDisplay.textContent = '0.0 mm';
         }
 
         // Disable mass buttons
