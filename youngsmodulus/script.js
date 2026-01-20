@@ -1,6 +1,7 @@
 // Constants
 const G = 9.81; // m/s²
 const MASS_INCREMENT = 0.1; // kg (100g)
+const MM_TO_PX = 60; // Scale factor: 1mm = 60px on the vernier scale
 
 // State
 let state = {
@@ -9,7 +10,8 @@ let state = {
     wireLengthMeters: null,
     initialVernierReading: null,
     currentMassCount: 0,
-    collectedData: []
+    collectedData: [],
+    currentExtensionMm: 0
 };
 
 
@@ -28,10 +30,13 @@ const removeMassBtn = document.getElementById('removeMassBtn');
 const currentMassCountDisplay = document.getElementById('currentMassCount');
 const currentMassGramsDisplay = document.getElementById('currentMassGrams');
 const massDisplay = document.getElementById('massDisplay');
-const wireElement = document.getElementById('wire');
-const extensionIndicator = document.getElementById('extensionIndicator');
-const extensionLabel = document.getElementById('extensionLabel');
+const testWireLine = document.getElementById('testWireLine');
+const vernierScaleGroup = document.getElementById('vernierScaleGroup');
 const vernierReadingDisplay = document.getElementById('vernierReadingDisplay');
+
+// DOM Elements - Vernier Scale SVG
+const vernierScale = document.getElementById('vernierScale');
+const vernierReadingText = document.getElementById('vernierReadingText');
 
 // DOM Elements - Recording
 const vernierReadingInput = document.getElementById('vernierReadingInput');
@@ -170,23 +175,56 @@ function updateMassDisplay() {
     currentMassGramsDisplay.textContent = massGrams;
     massDisplay.textContent = massGrams + 'g';
 
-    // Animate wire extension with realistic variation (not perfectly linear)
+    // Calculate extension with realistic variation
     // Base extension ~0.6mm per 100g, but with random variation ±0.1mm per mass
     let totalExtension = 0;
     for (let i = 0; i < state.currentMassCount; i++) {
-        // Generate variation for each mass added (simulates real experimental variation)
         const variation = (Math.random() - 0.5) * 0.2; // ±0.1mm variation
         totalExtension += 0.6 + variation; // ~0.6mm per 100g plus variation
     }
     
-    const extensionPixels = totalExtension * 2;
-    const wireEndX = 330 + extensionPixels;
-
-    wireElement.setAttribute('x2', wireEndX);
-    extensionIndicator.setAttribute('y2', 70 + extensionPixels);
+    state.currentExtensionMm = totalExtension;
     
-    // Update vernier scale display with the calculated realistic extension
-    vernierReadingDisplay.textContent = totalExtension.toFixed(1) + ' mm';
+    // Update apparatus visualization
+    updateApparatusVisualization(totalExtension);
+    
+    // Update vernier scale
+    updateVernierScale(totalExtension);
+    
+    // Update simple display
+    if (vernierReadingDisplay) {
+        vernierReadingDisplay.textContent = totalExtension.toFixed(1) + ' mm';
+    }
+}
+
+function updateApparatusVisualization(extensionMm) {
+    // Scale extension for visualization (exaggerate for visibility)
+    const extensionPx = extensionMm * 8; // 1mm = 8px for apparatus
+    
+    // Update test wire length
+    if (testWireLine) {
+        const newY2 = 320 + extensionPx;
+        testWireLine.setAttribute('y2', newY2);
+    }
+    
+    // Move vernier scale group with wire extension
+    if (vernierScaleGroup) {
+        vernierScaleGroup.setAttribute('transform', `translate(0, ${extensionPx})`);
+    }
+}
+
+function updateVernierScale(extensionMm) {
+    // Update the vernier scale position
+    // 1 mm = 60 px on the scale
+    const translateX = extensionMm * MM_TO_PX;
+    
+    if (vernierScale) {
+        vernierScale.setAttribute('transform', `translate(${translateX}, 0)`);
+    }
+    
+    if (vernierReadingText) {
+        vernierReadingText.textContent = extensionMm.toFixed(1) + ' mm';
+    }
 }
 
 // ==================== RECORDING DATA ====================
@@ -377,7 +415,8 @@ function resetExperiment() {
             wireLengthMeters: null,
             initialVernierReading: null,
             currentMassCount: 0,
-            collectedData: []
+            collectedData: [],
+            currentExtensionMm: 0
         };
 
         // Clear inputs
@@ -405,10 +444,24 @@ function resetExperiment() {
         displayArea.textContent = '-';
         areaPlaceholder.textContent = '-';
 
-        // Reset wire visualization
-        wireElement.setAttribute('x2', '330');
-        extensionIndicator.setAttribute('y2', '70');
-        extensionLabel.textContent = '0.0 mm';
+        // Reset apparatus visualization
+        if (testWireLine) {
+            testWireLine.setAttribute('y2', '320');
+        }
+        if (vernierScaleGroup) {
+            vernierScaleGroup.setAttribute('transform', 'translate(0, 0)');
+        }
+
+        // Reset vernier scale
+        if (vernierScale) {
+            vernierScale.setAttribute('transform', 'translate(0, 0)');
+        }
+        if (vernierReadingText) {
+            vernierReadingText.textContent = '0.0 mm';
+        }
+        if (vernierReadingDisplay) {
+            vernierReadingDisplay.textContent = '0.0 mm';
+        }
 
         // Disable mass buttons
         addMassBtn.disabled = true;
@@ -416,6 +469,85 @@ function resetExperiment() {
         confirmSetupBtn.disabled = false;
 
         alert('✓ Experiment reset');
+    }
+}
+
+// ==================== VERNIER SCALE INITIALIZATION ====================
+
+function initializeVernierScale() {
+    const mainScale = document.getElementById('mainScale');
+    const vernierScaleSVG = document.getElementById('vernierScale');
+    
+    if (!mainScale || !vernierScaleSVG) return;
+    
+    // Create main scale markings (0 to 10 mm)
+    for (let i = 0; i <= 10; i++) {
+        const x = 50 + (i * MM_TO_PX);
+        
+        // Major marking (every mm)
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', x);
+        line.setAttribute('y1', '40');
+        line.setAttribute('x2', x);
+        line.setAttribute('y2', '70');
+        line.setAttribute('stroke', '#000');
+        line.setAttribute('stroke-width', '2');
+        mainScale.appendChild(line);
+        
+        // Number label
+        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', x);
+        text.setAttribute('y', '80');
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('font-size', '11');
+        text.setAttribute('font-weight', 'bold');
+        text.textContent = i;
+        mainScale.appendChild(text);
+        
+        // Minor markings (0.5 mm intervals)
+        if (i < 10) {
+            const halfX = x + (MM_TO_PX / 2);
+            const halfLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            halfLine.setAttribute('x1', halfX);
+            halfLine.setAttribute('y1', '40');
+            halfLine.setAttribute('x2', halfX);
+            halfLine.setAttribute('y2', '60');
+            halfLine.setAttribute('stroke', '#666');
+            halfLine.setAttribute('stroke-width', '1.5');
+            mainScale.appendChild(halfLine);
+        }
+    }
+    
+    // Create vernier scale markings (9 divisions = 10 main scale divisions)
+    // Each vernier division = 54px (0.9mm in terms of main scale)
+    // This creates 0.1mm precision
+    const vernierDivisions = 10;
+    const vernierSpacing = (MM_TO_PX * 9) / 10; // 54px per division
+    
+    for (let i = 0; i <= vernierDivisions; i++) {
+        const x = 50 + (i * vernierSpacing);
+        
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', x);
+        line.setAttribute('y1', '90');
+        line.setAttribute('x2', x);
+        line.setAttribute('y2', '120');
+        line.setAttribute('stroke', '#0066cc');
+        line.setAttribute('stroke-width', '2');
+        vernierScaleSVG.appendChild(line);
+        
+        // Number label for vernier scale
+        if (i % 2 === 0) {
+            const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            text.setAttribute('x', x);
+            text.setAttribute('y', '135');
+            text.setAttribute('text-anchor', 'middle');
+            text.setAttribute('font-size', '10');
+            text.setAttribute('fill', '#0066cc');
+            text.setAttribute('font-weight', 'bold');
+            text.textContent = i;
+            vernierScaleSVG.appendChild(text);
+        }
     }
 }
 
@@ -429,3 +561,8 @@ removeMassBtn.disabled = true;
 diameterInputs[0].placeholder = '2.45 (example)';
 diameterInputs[1].placeholder = '2.42 (example)';
 diameterInputs[2].placeholder = '2.46 (example)';
+
+// Initialize vernier scale when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    initializeVernierScale();
+});

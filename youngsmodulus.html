@@ -129,63 +129,105 @@ layout: default
                     <!-- Apparatus Visualization -->
                     <div class="apparatus-section">
                         <h3>Searle's Apparatus</h3>
-                        <svg class="apparatus-visual" viewBox="0 0 400 350">
-                            <!-- Fixed support structure -->
-                            <rect x="20" y="20" width="360" height="30" fill="#8B7355" stroke="#333" stroke-width="2"/>
-                            <text x="200" y="40" text-anchor="middle" font-size="12" font-weight="bold">Fixed Support</text>
+                        <svg class="apparatus-visual" viewBox="0 0 500 450">
+                            <!-- Rigid support beam at top -->
+                            <rect x="30" y="20" width="440" height="25" fill="#8B7355" stroke="#333" stroke-width="2"/>
+                            <text x="250" y="37" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Rigid Support Beam</text>
                             
-                            <!-- Left fixed clamp -->
-                            <rect x="40" y="50" width="30" height="40" fill="#555" stroke="#333" stroke-width="2"/>
-                            <circle cx="55" cy="85" r="8" fill="none" stroke="#333" stroke-width="2"/>
-                            <text x="55" y="110" text-anchor="middle" font-size="10">Fixed</text>
-                            <text x="55" y="123" text-anchor="middle" font-size="10">Clamp</text>
+                            <!-- Reference wire (left) - Control wire -->
+                            <g id="referenceWire">
+                                <!-- Clamp -->
+                                <rect x="80" y="45" width="40" height="20" fill="#666" stroke="#333" stroke-width="1.5"/>
+                                <text x="100" y="72" text-anchor="middle" font-size="9">Control</text>
+                                <text x="100" y="82" text-anchor="middle" font-size="9">Wire</text>
+                                
+                                <!-- Wire -->
+                                <line x1="100" y1="65" x2="100" y2="320" stroke="#444" stroke-width="2"/>
+                                
+                                <!-- Fixed scale attached to control wire -->
+                                <rect x="80" y="320" width="40" height="60" fill="#ddd" stroke="#333" stroke-width="1.5"/>
+                                <text x="100" y="335" text-anchor="middle" font-size="8" font-weight="bold">Scale</text>
+                                <line x1="85" y1="345" x2="95" y2="345" stroke="#000" stroke-width="1"/>
+                                <line x1="85" y1="355" x2="95" y2="355" stroke="#000" stroke-width="1"/>
+                                <line x1="85" y1="365" x2="95" y2="365" stroke="#000" stroke-width="1"/>
+                            </g>
                             
-                            <!-- Wire -->
-                            <line x1="70" y1="70" x2="330" y2="70" id="wire" stroke="#1a1a1a" stroke-width="3"/>
-                            <circle cx="70" cy="70" r="4" fill="#1a1a1a"/>
-                            <circle cx="330" cy="70" r="4" fill="#1a1a1a"/>
+                            <!-- Test wire (right) - Experimental wire -->
+                            <g id="testWire">
+                                <!-- Clamp -->
+                                <rect x="320" y="45" width="40" height="20" fill="#666" stroke="#333" stroke-width="1.5"/>
+                                <text x="340" y="72" text-anchor="middle" font-size="9">Test</text>
+                                <text x="340" y="82" text-anchor="middle" font-size="9">Wire</text>
+                                
+                                <!-- Wire (will stretch) -->
+                                <line x1="340" y1="65" x2="340" id="testWireLine" y2="320" stroke="#1a1a1a" stroke-width="2.5"/>
+                                
+                                <!-- Vernier scale attached to test wire (moves with extension) -->
+                                <g id="vernierScaleGroup" transform="translate(0, 0)">
+                                    <rect x="320" y="320" width="40" height="60" fill="#e8f4f8" stroke="#333" stroke-width="1.5"/>
+                                    <text x="340" y="335" text-anchor="middle" font-size="7" font-weight="bold">Vernier</text>
+                                    <line x1="345" y1="345" x2="355" y2="345" stroke="#00f" stroke-width="1"/>
+                                    <line x1="345" y1="355" x2="355" y2="355" stroke="#00f" stroke-width="1"/>
+                                    <line x1="345" y1="365" x2="355" y2="365" stroke="#00f" stroke-width="1"/>
+                                </g>
+                                
+                                <!-- Pulley -->
+                                <circle cx="340" cy="400" r="18" fill="#ddd" stroke="#333" stroke-width="2"/>
+                                <circle cx="340" cy="400" r="12" fill="#bbb" stroke="#333" stroke-width="1"/>
+                                <line x1="340" y1="380" x2="340" y2="390" stroke="#333" stroke-width="2"/>
+                                
+                                <!-- Mass hanger -->
+                                <rect x="325" y="418" width="30" height="25" fill="#FFD700" stroke="#333" stroke-width="2"/>
+                                <text id="massDisplay" x="340" y="434" text-anchor="middle" font-size="11" font-weight="bold">0g</text>
+                            </g>
                             
-                            <!-- Right movable clamp -->
-                            <rect x="330" y="50" width="30" height="40" fill="#555" stroke="#333" stroke-width="2"/>
-                            <circle cx="345" cy="85" r="8" fill="none" stroke="#333" stroke-width="2"/>
-                            <text x="345" y="110" text-anchor="middle" font-size="10">Movable</text>
-                            <text x="345" y="123" text-anchor="middle" font-size="10">Clamp</text>
+                            <!-- Labels and arrows -->
+                            <text x="250" y="100" text-anchor="middle" font-size="11" fill="#666" font-style="italic">← Wire Length L →</text>
                             
-                            <!-- Pulley at right -->
-                            <circle cx="345" cy="200" r="20" fill="none" stroke="#666" stroke-width="3"/>
-                            <circle cx="345" cy="200" r="15" fill="#ddd" stroke="#333" stroke-width="1"/>
-                            <text x="345" y="205" text-anchor="middle" font-size="10">Pulley</text>
+                            <!-- Extension arrow indicator -->
+                            <line x1="150" y1="350" x2="280" y2="350" stroke="#d00" stroke-width="2" marker-end="url(#arrowhead)"/>
+                            <text x="215" y="345" text-anchor="middle" font-size="10" fill="#d00" font-weight="bold">Extension ΔL</text>
                             
-                            <!-- String from movable clamp to pulley -->
-                            <line x1="345" y1="90" x2="345" y2="180" stroke="#333" stroke-width="2" stroke-dasharray="3,3"/>
-                            
-                            <!-- Mass holder -->
-                            <rect x="320" y="220" width="50" height="30" fill="#FFD700" stroke="#333" stroke-width="2"/>
-                            <text id="massDisplay" x="345" y="240" text-anchor="middle" font-size="14" font-weight="bold">0g</text>
-                            
-                            <!-- String from pulley to mass -->
-                            <line x1="345" y1="220" x2="345" y2="220" stroke="#333" stroke-width="2"/>
-                            
-                            <!-- Reference mark -->
-                            <line x1="10" y1="70" x2="25" y2="70" stroke="red" stroke-width="3"/>
-                            <text x="15" y="90" text-anchor="middle" font-size="9" fill="red">Reference</text>
-                            
-                            <!-- Extension indicator -->
-                            <line x1="15" id="extensionIndicator" y1="70" x2="15" y2="70" stroke="blue" stroke-width="2" stroke-dasharray="2,2"/>
-                            <text id="extensionLabel" x="15" y="140" text-anchor="middle" font-size="9" fill="blue">0.0 mm</text>
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="#d00" />
+                                </marker>
+                            </defs>
                         </svg>
                     </div>
 
                     <!-- Vernier Scale Visualization -->
                     <div class="vernier-scale-section">
-                        <h3>Vernier Scale Reading</h3>
-                        <p class="instruction">As you add masses, read the extension value below and enter it in the input field.</p>
-                        <div class="vernier-reading-display">
-                            <div class="reading-box">
-                                <span class="reading-label">Current Reading:</span>
-                                <span id="vernierReadingDisplay" class="reading-value">0.0 mm</span>
-                            </div>
-                            
+                        <h3>Vernier Scale (Interactive)</h3>
+                        <p class="instruction">Read the vernier scale carefully. The main scale shows mm, and the vernier scale shows 0.1 mm divisions.</p>
+                        <div class="vernier-container">
+                            <svg id="vernierScaleSVG" viewBox="0 0 800 200" class="vernier-scale-svg">
+                                <!-- Main Scale (fixed) -->
+                                <g id="mainScale">
+                                    <!-- Main scale background -->
+                                    <rect x="50" y="40" width="700" height="50" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+                                    <text x="400" y="30" text-anchor="middle" font-size="12" font-weight="bold">Main Scale (mm)</text>
+                                    
+                                    <!-- Main scale markings (0-10 mm) -->
+                                    <!-- Each mm = 60px -->
+                                </g>
+                                
+                                <!-- Vernier Scale (moves) -->
+                                <g id="vernierScale" transform="translate(0, 0)">
+                                    <!-- Vernier scale background -->
+                                    <rect x="50" y="90" width="540" height="50" fill="#e3f2fd" stroke="#333" stroke-width="2"/>
+                                    <text x="320" y="157" text-anchor="middle" font-size="12" font-weight="bold">Vernier Scale (0.1 mm)</text>
+                                    
+                                    <!-- Zero mark indicator (red line) -->
+                                    <line x1="50" y1="90" x2="50" y2="140" stroke="red" stroke-width="3"/>
+                                    <polygon points="50,85 45,90 55,90" fill="red"/>
+                                </g>
+                                
+                                <!-- Reading display -->
+                                <rect x="600" y="160" width="150" height="35" fill="#fff" stroke="#333" stroke-width="2" rx="5"/>
+                                <text x="615" y="180" font-size="11" font-weight="bold">Reading:</text>
+                                <text id="vernierReadingText" x="720" y="182" text-anchor="end" font-size="16" font-weight="bold" fill="#0066cc">0.0 mm</text>
+                            </svg>
                         </div>
                     </div>
 
