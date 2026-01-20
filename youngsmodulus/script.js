@@ -1,6 +1,6 @@
 // Constants
 const G = 9.81; // m/s²
-const MASS_INCREMENT = 0.1; // kg (100g)
+const MASS_INCREMENT = 1; // kg (1kg)
 const MM_TO_PX = 60; // Scale factor: 1mm = 60px on the vernier scale
 
 // State
@@ -169,17 +169,17 @@ function removeMass() {
 }
 
 function updateMassDisplay() {
-    const massGrams = state.currentMassCount * 100;
+    const massGrams = state.currentMassCount * 1000; // 1kg = 1000g
     currentMassCountDisplay.textContent = state.currentMassCount;
     currentMassGramsDisplay.textContent = massGrams;
     massDisplay.textContent = massGrams + 'g';
 
     // Calculate extension with realistic variation
-    // Base extension ~0.6mm per 100g, but with random variation ±0.1mm per mass
+    // Base extension ~6mm per 1kg, but with random variation ±0.5mm per mass
     let totalExtension = 0;
     for (let i = 0; i < state.currentMassCount; i++) {
-        const variation = (Math.random() - 0.5) * 0.2; // ±0.1mm variation
-        totalExtension += 0.6 + variation; // ~0.6mm per 100g plus variation
+        const variation = (Math.random() - 0.5); // ±0.5mm variation
+        totalExtension += 6 + variation; // ~6mm per 1kg plus variation
     }
     
     state.currentExtensionMm = totalExtension;
