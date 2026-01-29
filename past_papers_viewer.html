@@ -568,8 +568,8 @@ layout: default
             
             mainTitle.textContent = label;
             
-            // Convert path to file:// URL for opening
-            const fileUrl = 'file:///' + folderPath.replace(/\\/g, '/').replace(/:/g, ':');
+            // Convert path to file:// URL for opening commented out for a test
+            //const fileUrl = 'file:///' + folderPath.replace(/\\/g, '/').replace(/:/g, ':'); 
             
             contentDiv.innerHTML = `
                 <div style="display: flex; flex-direction: column; gap: 20px;">
@@ -640,4 +640,5 @@ layout: default
     </script>
 </body>
 </html>
+
 
