@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Papers Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            display: flex;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            width: 35%;
+            background: #f8f9fa;
+            padding: 30px;
+            border-right: 2px solid #e9ecef;
+            overflow-y: auto;
+        }
+
+        .main {
+            width: 65%;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .filter-section {
+            margin-bottom: 25px;
+        }
+
+        .filter-section label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.05em;
+        }
+
+        .filter-section select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 1em;
+            background-color: white;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-section select:hover,
+        .filter-section select:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+
+        .filter-section select:disabled {
+            background-color: #e9ecef;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .reset-btn {
+            width: 100%;
+            padding: 12px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            font-size: 1em;
+        }
+
+        .reset-btn:hover {
+            background: #c82333;
+        }
+
+        .main h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .pdf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .pdf-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .pdf-item:hover {
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .pdf-item-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .pdf-item-name {
+            color: #333;
+            font-weight: 600;
+            word-break: break-word;
+            margin-bottom: 10px;
+        }
+
+        .pdf-item-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: opacity 0.3s ease;
+        }
+
+        .pdf-item-link:hover {
+            opacity: 0.9;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #999;
+            padding: 40px 20px;
+        }
+
+        .empty-state-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        .empty-state-text {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        @media (max-width: 1024px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 2px solid #e9ecef;
+            }
+
+            .main {
+                width: 100%;
+            }
+        }
+
+        .breadcrumb {
+            color: #667eea;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+        }
+
+        .breadcrumb span {
+            margin: 0 5px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Past Papers Viewer</h1>
+            <p>Browse and access exam papers by qualification, subject, and year</p>
+        </header>
+
+        <div class="content">
+            <div class="sidebar">
+                <div class="filter-section">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" onchange="updateNextLevel()">
+                        <option value="">Select a subject...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level1Section" style="display: none;">
+                    <label for="level1" id="level1Label">Category:</label>
+                    <select id="level1" onchange="updateLevel2()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level2Section" style="display: none;">
+                    <label for="level2" id="level2Label">Category:</label>
+                    <select id="level2" onchange="updateLevel3()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level3Section" style="display: none;">
+                    <label for="level3" id="level3Label">Category:</label>
+                    <select id="level3" onchange="updateLevel4()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level4Section" style="display: none;">
+                    <label for="level4" id="level4Label">Category:</label>
+                    <select id="level4" onchange="updateLevel5()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level5Section" style="display: none;">
+                    <label for="level5" id="level5Label">Category:</label>
+                    <select id="level5" onchange="updateLevel6()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <div class="filter-section" id="level6Section" style="display: none;">
+                    <label for="level6" id="level6Label">Category:</label>
+                    <select id="level6" onchange="updateContent()" disabled>
+                        <option value="">Select...</option>
+                    </select>
+                </div>
+
+                <button class="reset-btn" onclick="resetFilters()">Reset All Filters</button>
+            </div>
+
+            <div class="main">
+                <div id="breadcrumb" class="breadcrumb"></div>
+                <h2 id="mainTitle">Welcome</h2>
+                <div id="content">
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📖</div>
+                        <div class="empty-state-text">Select filters to view past papers</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="folder_config.js"></script>
+    <script>
+        let config = null;
+        let currentPath = []; // Track the navigation path
+
+        // Load configuration on page load
+        async function loadConfig() {
+            try {
+                config = { folderStructure: configData.folderStructure };
+                initializeFilters();
+            } catch (error) {
+                console.error('Error loading config:', error);
+                showError('Could not load configuration. Please ensure folder_config.js is in the same directory.');
+            }
+        }
+
+        function initializeFilters() {
+            const subjectSelect = document.getElementById('subject');
+            subjectSelect.innerHTML = '<option value="">Select a subject...</option>';
+            
+            if (config && config.folderStructure) {
+                Object.keys(config.folderStructure).sort().forEach(subject => {
+                    const option = document.createElement('option');
+                    option.value = subject;
+                    option.textContent = subject;
+                    subjectSelect.appendChild(option);
+                });
+            }
+        }
+
+        function showError(message) {
+            const contentDiv = document.getElementById('content');
+            contentDiv.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">⚠️</div>
+                    <div class="empty-state-text">${message}</div>
+                </div>
+            `;
+        }
+
+        function updateNextLevel() {
+            const subject = document.getElementById('subject').value;
+            clearAllLevels();
+            currentPath = [subject];
+            
+            if (!subject) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const subjectData = config.folderStructure[subject];
+            if (typeof subjectData === 'object' && subjectData !== null) {
+                const keys = Object.keys(subjectData).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(1, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function updateLevel2() {
+            const level1 = document.getElementById('level1').value;
+            clearLevels([2, 3, 4, 5]);
+            currentPath = [currentPath[0], level1];
+            
+            if (!level1) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const data = getDataAtPath(currentPath);
+            if (typeof data === 'string') {
+                // This is a terminal node - display it
+                displayFolder(data, currentPath.join(' > '));
+                updateBreadcrumb();
+                return;
+            }
+            if (typeof data === 'object' && data !== null && typeof data !== 'string') {
+                const keys = Object.keys(data).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(2, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function updateLevel3() {
+            const level2 = document.getElementById('level2').value;
+            clearLevels([3, 4, 5]);
+            currentPath = [currentPath[0], currentPath[1], level2];
+            
+            if (!level2) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const data = getDataAtPath(currentPath);
+            if (typeof data === 'string') {
+                // This is a terminal node - display it
+                displayFolder(data, currentPath.join(' > '));
+                updateBreadcrumb();
+                return;
+            }
+            if (typeof data === 'object' && data !== null && typeof data !== 'string') {
+                const keys = Object.keys(data).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(3, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function updateLevel4() {
+            const level3 = document.getElementById('level3').value;
+            clearLevels([4, 5]);
+            currentPath = [currentPath[0], currentPath[1], currentPath[2], level3];
+            
+            if (!level3) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const data = getDataAtPath(currentPath);
+            if (typeof data === 'string') {
+                // This is a terminal node - display it
+                displayFolder(data, currentPath.join(' > '));
+                updateBreadcrumb();
+                return;
+            }
+            if (typeof data === 'object' && data !== null && typeof data !== 'string') {
+                const keys = Object.keys(data).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(4, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function updateLevel5() {
+            const level4 = document.getElementById('level4').value;
+            clearLevels([5, 6]);
+            currentPath = [currentPath[0], currentPath[1], currentPath[2], currentPath[3], level4];
+            
+            if (!level4) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const data = getDataAtPath(currentPath);
+            if (typeof data === 'string') {
+                // This is a terminal node - display it
+                displayFolder(data, currentPath.join(' > '));
+                updateBreadcrumb();
+                return;
+            }
+            if (typeof data === 'object' && data !== null && typeof data !== 'string') {
+                const keys = Object.keys(data).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(5, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function updateLevel6() {
+            const level5 = document.getElementById('level5').value;
+            clearLevels([6]);
+            currentPath = [currentPath[0], currentPath[1], currentPath[2], currentPath[3], currentPath[4], level5];
+            
+            if (!level5) {
+                updateBreadcrumb();
+                return;
+            }
+
+            const data = getDataAtPath(currentPath);
+            if (typeof data === 'string') {
+                // This is a terminal node - display it
+                displayFolder(data, currentPath.join(' > '));
+                updateBreadcrumb();
+                return;
+            }
+            if (typeof data === 'object' && data !== null && typeof data !== 'string') {
+                const keys = Object.keys(data).filter(k => k !== 'path');
+                if (keys.length > 0) {
+                    populateLevel(6, keys, 'Category');
+                }
+            }
+            updateBreadcrumb();
+        }
+
+        function getDataAtPath(path) {
+            let data = config.folderStructure;
+            for (let key of path) {
+                if (data && typeof data === 'object' && key in data) {
+                    data = data[key];
+                } else {
+                    return null;
+                }
+            }
+            return data;
+        }
+
+        function populateLevel(levelNum, options, defaultLabel) {
+            const section = document.getElementById(`level${levelNum}Section`);
+            const select = document.getElementById(`level${levelNum}`);
+            const label = document.getElementById(`level${levelNum}Label`);
+            
+            label.textContent = defaultLabel;
+            select.innerHTML = '<option value="">Select...</option>';
+            
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                select.appendChild(opt);
+            });
+            
+            select.disabled = false;
+            section.style.display = 'block';
+        }
+
+        function clearAllLevels() {
+            clearLevels([1, 2, 3, 4, 5, 6]);
+        }
+
+        function clearLevels(levels) {
+            levels.forEach(level => {
+                const section = document.getElementById(`level${level}Section`);
+                const select = document.getElementById(`level${level}`);
+                select.value = '';
+                select.disabled = true;
+                section.style.display = 'none';
+            });
+        }
+
+        function updateContent() {
+            const level6 = document.getElementById('level6').value;
+            if (level6) {
+                currentPath.push(level6);
+            }
+
+            const finalData = getDataAtPath(currentPath);
+            let folderPath = null;
+            let label = '';
+
+            if (typeof finalData === 'string') {
+                folderPath = finalData;
+                label = currentPath.join(' > ');
+            } else if (typeof finalData === 'object' && finalData !== null) {
+                // If it's still an object, it means we need to go deeper
+                // This shouldn't happen in normal flow, but handle it
+                const keys = Object.keys(finalData).filter(k => k !== 'path');
+                if (keys.length === 1 && typeof finalData[keys[0]] === 'string') {
+                    folderPath = finalData[keys[0]];
+                    label = currentPath.join(' > ');
+                } else if (finalData.path) {
+                    folderPath = finalData.path;
+                    label = currentPath.join(' > ');
+                }
+            }
+
+            if (folderPath) {
+                displayFolder(folderPath, label);
+            } else {
+                showError('Could not find folder path');
+            }
+            updateBreadcrumb();
+        }
+
+        function displayFolder(folderPath, label) {
+            const contentDiv = document.getElementById('content');
+            const mainTitle = document.getElementById('mainTitle');
+            
+            mainTitle.textContent = label;
+            
+            // Convert path to file:// URL for opening
+            const fileUrl = 'file:///' + folderPath.replace(/\\/g, '/').replace(/:/g, ':');
+            
+            contentDiv.innerHTML = `
+                <div style="display: flex; flex-direction: column; gap: 20px;">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 8px; color: white;">
+                        <p style="font-size: 0.95em; margin-bottom: 10px; opacity: 0.9;"><strong>📂 Folder Location:</strong></p>
+                        <p style="font-family: monospace; word-break: break-all; font-size: 0.85em; background: rgba(0,0,0,0.1); padding: 10px; border-radius: 4px;">
+                            ${folderPath}
+                        </p>
+                        <p style="margin-top: 15px;">
+                            <a href="${fileUrl}" target="_blank" style="color: white; text-decoration: none; font-weight: 600; background: rgba(255,255,255,0.2); padding: 10px 18px; border-radius: 4px; display: inline-block; transition: all 0.3s; cursor: pointer; border: 2px solid rgba(255,255,255,0.3);">
+                                📁 Open Folder in File Explorer
+                            </a>
+                        </p>
+                    </div>
+                    <div style="border: 2px solid #e9ecef; border-radius: 8px; padding: 20px; background: #f8f9fa;">
+                        <p style="color: #333; font-size: 0.95em; margin-bottom: 15px; font-weight: 600;">
+                            💡 How to access your files:
+                        </p>
+                        <ol style="color: #666; font-size: 0.9em; line-height: 1.8; margin-left: 20px;">
+                            <li>Click the "Open Folder in File Explorer" button above</li>
+                            <li>Your default browser will open the folder location</li>
+                            <li>You can download, view, or manage the papers directly</li>
+                            <li>When this moves to GitHub Pages, all files will be accessible online</li>
+                        </ol>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateBreadcrumb() {
+            const subject = document.getElementById('subject').value;
+            const level1 = document.getElementById('level1').value;
+            const level2 = document.getElementById('level2').value;
+            const level3 = document.getElementById('level3').value;
+            const level4 = document.getElementById('level4').value;
+            const level5 = document.getElementById('level5').value;
+            const level6 = document.getElementById('level6').value;
+
+            let breadcrumb = 'Past Papers';
+            if (subject) breadcrumb += ` > ${subject}`;
+            if (level1) breadcrumb += ` > ${level1}`;
+            if (level2) breadcrumb += ` > ${level2}`;
+            if (level3) breadcrumb += ` > ${level3}`;
+            if (level4) breadcrumb += ` > ${level4}`;
+            if (level5) breadcrumb += ` > ${level5}`;
+            if (level6) breadcrumb += ` > ${level6}`;
+
+            document.getElementById('breadcrumb').textContent = breadcrumb;
+        }
+
+        function resetFilters() {
+            document.getElementById('subject').value = '';
+            clearAllLevels();
+            currentPath = [];
+            
+            document.getElementById('mainTitle').textContent = 'Welcome';
+            document.getElementById('content').innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-state-icon">📖</div>
+                    <div class="empty-state-text">Select a subject to browse past papers</div>
+                </div>
+            `;
+            document.getElementById('breadcrumb').textContent = 'Past Papers';
+        }
+
+        // Load config on page load
+        window.addEventListener('DOMContentLoaded', loadConfig);
+    </script>
+</body>
+</html>
