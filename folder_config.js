@@ -1,7 +1,7 @@
 const configData = {
   "folderStructure": {
     "Applied": {
-      "Combined Paper Packs": "G:/My Drive/Past Papers/Applied/Combined Paper Packs",
+      "Combined Paper Packs": "https://drive.google.com/drive/folders/1YoUyZWyObvGpPfiU3ZD1-SkTEJzrwzxa?usp=drive_link",
       "Mark Schemes": {
         "Unit 1": {
           "By Topic": "G:/My Drive/Past Papers/Applied/Mark Schemes/Unit 1/By Topic",
@@ -1007,3 +1007,4 @@ if (typeof window !== "undefined") {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = configData;
 }
+
