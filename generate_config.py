@@ -2,11 +2,11 @@ import os
 import json
 import re
 
-base_path = 'G:/My Drive/Past Papers'
+base_path = '/workspaces/doormat1.github.io/Past Paper'
 # Output modes: 'local' for file:// paths, 'github' for repo-relative URLs
-OUTPUT_MODE = 'local'
+OUTPUT_MODE = 'github'
 # Repo subfolder for GitHub Pages output (no leading slash needed)
-REPO_ROOT = 'papers'
+REPO_ROOT = 'Past Paper'
 IGNORE_DIR_KEYWORDS = ['front covers']
 
 def is_ignored_dir(name):
@@ -100,14 +100,18 @@ def find_mark_scheme_folder(papers_path):
             category = part
     
     # Check folder type (Whole/Separated/By Topic)
+    # Check all parts of the path to detect folder type
     folder_type = None
-    last_part = parts[-1] if parts else ''
-    if 'whole' in last_part.lower():
-        folder_type = 'whole'
-    elif 'separated' in last_part.lower():
-        folder_type = 'separated'
-    elif 'by topic' in last_part.lower():
-        folder_type = 'by_topic'
+    for part in parts:
+        if 'whole' in part.lower():
+            folder_type = 'whole'
+            break
+        elif 'separated' in part.lower():
+            folder_type = 'separated'
+            break
+        elif 'by topic' in part.lower():
+            folder_type = 'by_topic'
+            break
     
     # Build mark scheme paths
     ms_base = os.path.join(base_path, subject, 'Mark Schemes')
@@ -162,13 +166,12 @@ def find_matching_ms_folder(ms_base_path, folder_type):
     
     dirs = [item for item in items if os.path.isdir(os.path.join(ms_base_path, item))]
     
-    # Match folder type
+    # First pass: Match folder type exactly
     for dir_name in dirs:
         dir_lower = dir_name.lower()
         
         if folder_type == 'whole' and 'whole' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
-            # Return as object with path and files
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'separated' and 'separated' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
@@ -177,7 +180,7 @@ def find_matching_ms_folder(ms_base_path, folder_type):
             full_path = os.path.join(ms_base_path, dir_name)
             return {'path': format_path(full_path), 'files': list_files(full_path)}
     
-    # Fallback: return first available mark scheme folder
+    # Fallback: return first available mark scheme folder (only if no exact type match found)
     if dirs:
         full_path = os.path.join(ms_base_path, dirs[0])
         return {'path': format_path(full_path), 'files': list_files(full_path)}
