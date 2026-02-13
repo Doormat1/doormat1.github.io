@@ -51,7 +51,7 @@ def add_filename_to_pdf(pdf_path, filename_text):
 
 def main():
     # Path to search
-    search_path = "G:/My Drive/Past Papers"
+    search_path = "Past Paper/Applied"
     
     # Check if the path exists
     if not os.path.exists(search_path):
@@ -72,20 +72,19 @@ def main():
     for pdf_file in pdf_files:
         filename = os.path.basename(pdf_file)
         
-        # Check if filename contains "2024" and does NOT contain "questions"
-        if "2024" in filename and "questions" not in filename.lower():
-            print(f"Processing: {filename}")
+
             
-            # Remove .pdf extension for the text to add
-            filename_text = filename.replace(".pdf", "").replace(".PDF", "")
+    # Remove .pdf extension for the text to add
+    filename_text = filename.replace(".pdf", "").replace(".PDF", "")
             
-            if add_filename_to_pdf(pdf_file, filename_text):
-                processed_count += 1
-                print(f"  ✓ Successfully added filename to all pages")
-            else:
-                print(f"  ✗ Failed to process file")
+        if add_filename_to_pdf(pdf_file, filename_text):
+            processed_count += 1
+            print(f"  ✓ Successfully added filename to all pages")
+        else:
+            print(f"  ✗ Failed to process file")
     
     print(f"\nCompleted! Processed {processed_count} files.")
 
 if __name__ == "__main__":
     main()
+
