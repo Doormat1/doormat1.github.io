@@ -4,7 +4,7 @@
 <<
 /Type /Pages
 /Count 5
-/Kids [ 4 0 R 21 0 R 34 0 R 41 0 R 51 0 R ]
+/Kids [ 4 0 R 22 0 R 35 0 R 42 0 R 52 0 R ]
 >>
 endobj
 2 0 obj
@@ -35,8 +35,29 @@ endobj
 /TT0 12 0 R
 /TT1 16 0 R
 /F1 20 0 R
+/F17e05c5ca-e554-46eb-9cce-0d41e739a912 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/F1fb28cf42-353e-4ee9-8e01-c96142196c53 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F168652f6f-c802-478c-a9d4-b933c4308c62 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -85,9 +106,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 14729
+/Length 15351
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -776,6 +800,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F17e05c5ca-e554-46eb-9cce-0d41e739a912 12 Tf
+14.4 TL
+ET
+BT
+/F17e05c5ca-e554-46eb-9cce-0d41e739a912 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1fb28cf42-353e-4ee9-8e01-c96142196c53 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F168652f6f-c802-478c-a9d4-b933c4308c62 12 Tf
+14.4 TL
+ET
+BT
+/F168652f6f-c802-478c-a9d4-b933c4308c62 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -1162,9 +1241,18 @@ endobj
 endobj
 21 0 obj
 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 22 0 R
+/Contents 23 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /MediaBox [ 0 0 595.276 841.89 ]
 /Resources <<
@@ -1173,14 +1261,35 @@ endobj
 /GS1 7 0 R
 >>
 /Font <<
-/T1_0 23 0 R
-/T1_1 25 0 R
+/T1_0 24 0 R
+/T1_1 26 0 R
 /TT0 12 0 R
 /TT1 16 0 R
-/TT2 30 0 R
+/TT2 31 0 R
 /F1 20 0 R
+/F18386f685-e3fa-4628-9572-4da66d2363b4 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/F1ff3a13e4-c468-4360-a7aa-249d62ca1f4b <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1b25207f0-bce9-4360-ae43-7184d9fc67bc <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -1206,11 +1315,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-22 0 obj
+23 0 obj
 <<
-/Length 12694
+/Length 13316
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -2031,13 +2143,68 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F18386f685-e3fa-4628-9572-4da66d2363b4 12 Tf
+14.4 TL
+ET
+BT
+/F18386f685-e3fa-4628-9572-4da66d2363b4 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1ff3a13e4-c468-4360-a7aa-249d62ca1f4b 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1b25207f0-bce9-4360-ae43-7184d9fc67bc 12 Tf
+14.4 TL
+ET
+BT
+/F1b25207f0-bce9-4360-ae43-7184d9fc67bc 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-23 0 obj
+24 0 obj
 <<
 /BaseFont /BTKGUF+ArialMT
-/Encoding 24 0 R
+/Encoding 25 0 R
 /FirstChar 30
 /FontDescriptor 10 0 R
 /LastChar 31
@@ -2046,34 +2213,34 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /seven /one ]
 /Type /Encoding
 >>
 endobj
-25 0 obj
+26 0 obj
 <<
 /BaseFont /BTKGUF+TimesNRMTPro
-/Encoding 26 0 R
+/Encoding 27 0 R
 /FirstChar 31
-/FontDescriptor 27 0 R
+/FontDescriptor 28 0 R
 /LastChar 215
 /Subtype /Type1
-/ToUnicode 29 0 R
+/ToUnicode 30 0 R
 /Type /Font
 /Widths [ 561 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 667 ]
 >>
 endobj
-26 0 obj
+27 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 31 /Delta ]
 /Type /Encoding
 >>
 endobj
-27 0 obj
+28 0 obj
 <<
 /Ascent 946
 /CapHeight 687
@@ -2082,7 +2249,7 @@ endobj
 /Flags 34
 /FontBBox [ -94 -378 1199 946 ]
 /FontFamily (Times\040NR\040MT\040Pro)
-/FontFile3 28 0 R
+/FontFile3 29 0 R
 /FontName /BTKGUF+TimesNRMTPro
 /FontStretch /Normal
 /FontWeight 400
@@ -2092,7 +2259,7 @@ endobj
 /XHeight 464
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
 /Filter /FlateDecode
 /Subtype /Type1C
@@ -2111,7 +2278,7 @@ Hâbd`ab`ddq
 E©≈©Ee@3ı›ÇA¶*ò ÕLc ÇåÌ ˚5/ˇ——Ω˜«õΩå@Re/s7Àèéü:ÿæ˜˝>*˙€Ó˚d÷Ô/ÿ~+¸> ˙ƒ˘3â˝[ò˝›Ó7êœˆcø(àıƒ„˚©ˇùøÏGi9„ã[Eø'¸N¯ˇ;nC⁄˜¯Ôqﬂ„Ä¨øÅÙ˜ÑÔ	iÅrâøæ'≤Ú˝8⁄ΩÌßa9„èMbøK∆∞z±˝Æ˚√˙√dõËÔülﬂΩ,cÂ´ôı#e⁄îEﬂ=fÕÍc˚ù—«.∑¿}j„Œ•\wπóNËÔÎÂ·π;g ^    ˇˇ   ˇˇ ®¶ƒ%
 endstream
 endobj
-29 0 obj
+30 0 obj
 <<
 /Filter /FlateDecode
 /Length 253
@@ -2121,20 +2288,20 @@ Hâ\PMkƒ Ω˚+Ê∏{X4ŸB)àPvY»°4Ì0:IÖF≈òC˛}GwŸBt|Ã{èÁSwÓºÀ¿ﬂS0=fù∑	ó∞&É0‡‰<kZ∞Œ‰
 ‰ÖJ1Ùˆﬂ¸xU£˘÷â…ÊB\q|zPLûÀ[P+.≠®àZqπÒã}ÓaÕöÂ¨ª©K4ÁÒææ"ê™ˆ  ˇˇ   ˇˇ E"tk
 endstream
 endobj
-30 0 obj
+31 0 obj
 <<
 /BaseFont /BTKGUF+ArialWGL-Italic
 /Encoding /WinAnsiEncoding
 /FirstChar 69
-/FontDescriptor 31 0 R
+/FontDescriptor 32 0 R
 /LastChar 121
 /Subtype /TrueType
-/ToUnicode 33 0 R
+/ToUnicode 34 0 R
 /Type /Font
 /Widths [ 667 0 778 722 0 0 667 0 833 0 0 0 0 0 667 0 0 0 0 0 0 0 0 0 0 0 0 0 556 556 0 556 556 0 0 556 222 0 0 222 0 0 556 0 0 333 0 278 556 500 722 0 500 ]
 >>
 endobj
-31 0 obj
+32 0 obj
 <<
 /Ascent 998
 /CapHeight 716
@@ -2142,7 +2309,7 @@ endobj
 /Flags 96
 /FontBBox [ -262 -325 1082 998 ]
 /FontFamily (Arial\040WGL)
-/FontFile2 32 0 R
+/FontFile2 33 0 R
 /FontName /BTKGUF+ArialWGL-Italic
 /FontStretch /Normal
 /FontWeight 400
@@ -2152,7 +2319,7 @@ endobj
 /XHeight 519
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
 /Filter /FlateDecode
 /Length1 20841
@@ -2191,7 +2358,7 @@ oñ–"¯\D”UA∆ñR&"éã>ÎŸ17°«^ﬂçÊKv∏nø¨u´Y◊Ù…7{Ëy∫√ﬂÂ[
 ó[qÈrpöXÃ&\JKêÜgpπOCKp	B?Hª§gw—[€ëJpÕŒJnáB√Œ7Êl1Ás÷ô3ŒúÊ\eŒÊ2gÄ9:sŒ1ßõµ´5¨6´Mj£™™’Ø**Q€›ÍAZˇÌÅ∞Høh˝Ú9¨àVÒ~™*dä6ü©òπ5˘ﬁ1Ô∆˘œúÊ“∆Ÿ<?£e(èòƒúœD˘5›tYuéÎ&g3w¨"•/lTπÚ‘•dﬁrióê6b<2aïqWª66c"W76mõt<JESë±÷ÎìŸ4ãµV?é®~*Ãô'e‹eÎÉª9Ï:¢Îàn¥õø2sﬂmÛ!ÒPÌ∂M˛2_∞ tó~0≤e∫#ímï}I∫kÃ	›óÃ⁄∂â[#9<ˆªÇ€	9uü§GRÍæ‰¸‘„4…·±Û∏é8—$ßuƒOq=tGp	ëêÎ< =íÎÈ<8¡+öë-j⁄—\…Tºπ¯®D Èâ‡ß™HdÚÈ´!˝u§_:˘Ë1ä1!·§ˇW‹ÀË∫±,Œ åUTI∆ûXrG¯¡ò‹˜P◊ÿ€XÖ|ı}'A›ÊçZÜµI•¢zxîöx %Ü∑†Gz£Î±äü–-I7°™ï˙∆˚∆E	OØ(5£‹R+E◊Gzc∫U+ÖQnEèÎ,÷0H‘XŒ÷Ø’Z¨’rÅò<ë3yj6o3xz1k£6x§ÉÜ[›Ûƒ~GÖËÛ’¡∫÷–PÒmî¶ìtË0.¡÷Wq)htÚVıø   ˇˇ   ˇˇ ∞ËµX
 endstream
 endobj
-33 0 obj
+34 0 obj
 <<
 /Filter /FlateDecode
 /Length 338
@@ -2202,11 +2369,11 @@ Hâ\íÕj√0«Ô~
 éSòaÒlá.UÚ,ÜŒ]aÒUùóêúoﬁˇ`ènÇ ,∂$Ù“¯◊¶GHb⁄™∂Ô¶yE9'>gèêE-è1É≈—7C„Æ®äîV	≈âV©–ŸÒÏûviÕwT±Ÿ“·4%C¨Ö5ÛNx«|>0Öèƒ€ß»dTëØ#ì!ŒÑ3ÊçÜYÓ ˘Æ\Ùs÷œ˜¬{ÊJ∏b>	S!ÖMÕöZ45kj—‘¨©s·úYj—\ã}Õ˙iö•—#√Ìπ˜ÅEÛÑ«Ã-@zÏ<˜ºs¯¯/¸‡Å≤¯Sø   ˇˇ   ˇˇ ›Êû»
 endstream
 endobj
-34 0 obj
+35 0 obj
 <<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 35 0 R
+/Contents 36 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /MediaBox [ 0 0 595.276 841.89 ]
 /Resources <<
@@ -2215,17 +2382,38 @@ endobj
 /GS1 7 0 R
 >>
 /Font <<
-/T1_0 36 0 R
-/T1_1 25 0 R
+/T1_0 37 0 R
+/T1_1 26 0 R
 /TT0 12 0 R
 /TT1 16 0 R
-/TT2 38 0 R
+/TT2 39 0 R
 /F1 20 0 R
+/F129a349ee-5076-4a11-b3b6-f4eaa941c1ed <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1f74e4211-b2c7-46de-a0ff-1374dc43e7f5 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1dd3ac179-3edf-4d94-b598-266ed8b3896b <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /Properties <<
-/MC0 39 0 R
+/MC0 40 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -2274,11 +2462,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-35 0 obj
+36 0 obj
 <<
-/Length 14795
+/Length 15417
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -3102,13 +3293,68 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F129a349ee-5076-4a11-b3b6-f4eaa941c1ed 12 Tf
+14.4 TL
+ET
+BT
+/F129a349ee-5076-4a11-b3b6-f4eaa941c1ed 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1f74e4211-b2c7-46de-a0ff-1374dc43e7f5 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1dd3ac179-3edf-4d94-b598-266ed8b3896b 12 Tf
+14.4 TL
+ET
+BT
+/F1dd3ac179-3edf-4d94-b598-266ed8b3896b 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-36 0 obj
+37 0 obj
 <<
 /BaseFont /BTKGUF+ArialMT
-/Encoding 37 0 R
+/Encoding 38 0 R
 /FirstChar 30
 /FontDescriptor 10 0 R
 /LastChar 31
@@ -3117,14 +3363,14 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-37 0 obj
+38 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /eight /one ]
 /Type /Encoding
 >>
 endobj
-38 0 obj
+39 0 obj
 <<
 /BaseFont /BTKGUF+ArialWGL
 /Encoding /WinAnsiEncoding
@@ -3136,12 +3382,12 @@ endobj
 /Widths [ 584 0 0 0 0 0 0 556 556 556 556 0 0 556 0 0 0 0 0 0 0 0 0 0 0 0 0 611 0 722 0 0 0 0 833 0 778 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 556 0 0 0 0 0 0 0 0 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 556 ]
 >>
 endobj
-39 0 obj
+40 0 obj
 <<
-/Metadata 40 0 R
+/Metadata 41 0 R
 >>
 endobj
-40 0 obj
+41 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -3793,11 +4039,11 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-41 0 obj
+42 0 obj
 <<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 42 0 R
+/Contents 43 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /MediaBox [ 0 0 595.276 841.89 ]
 /Resources <<
@@ -3806,18 +4052,39 @@ endobj
 /GS1 7 0 R
 >>
 /Font <<
-/T1_0 43 0 R
+/T1_0 44 0 R
 /TT0 12 0 R
-/TT1 45 0 R
+/TT1 46 0 R
 /TT2 16 0 R
-/TT3 46 0 R
+/TT3 47 0 R
 /F1 20 0 R
+/F11d26b818-2f2d-452d-bd6d-c11b4d3d49aa <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F189969cb0-0e7e-438d-bb88-449b900f3274 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F11827d789-67d9-4b0a-a005-c67fc82b846d <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /Properties <<
-/MC0 47 0 R
-/MC1 49 0 R
+/MC0 48 0 R
+/MC1 50 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -3875,11 +4142,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-42 0 obj
+43 0 obj
 <<
-/Length 15690
+/Length 16312
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -4944,13 +5214,68 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F11d26b818-2f2d-452d-bd6d-c11b4d3d49aa 12 Tf
+14.4 TL
+ET
+BT
+/F11d26b818-2f2d-452d-bd6d-c11b4d3d49aa 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F189969cb0-0e7e-438d-bb88-449b900f3274 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F11827d789-67d9-4b0a-a005-c67fc82b846d 12 Tf
+14.4 TL
+ET
+BT
+/F11827d789-67d9-4b0a-a005-c67fc82b846d 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-43 0 obj
+44 0 obj
 <<
 /BaseFont /BTKGUF+ArialMT
-/Encoding 44 0 R
+/Encoding 45 0 R
 /FirstChar 30
 /FontDescriptor 10 0 R
 /LastChar 31
@@ -4959,23 +5284,11 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-44 0 obj
+45 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /zero /two ]
 /Type /Encoding
->>
-endobj
-45 0 obj
-<<
-/BaseFont /BTKGUF+ArialWGL
-/Encoding /WinAnsiEncoding
-/FirstChar 40
-/FontDescriptor 13 0 R
-/LastChar 121
-/Subtype /TrueType
-/Type /Font
-/Widths [ 333 333 0 584 0 0 0 0 0 0 556 556 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 722 0 0 0 0 722 0 0 0 0 0 722 778 0 0 0 0 0 0 0 0 0 0 0 278 0 278 0 0 0 0 0 500 0 556 0 0 0 0 0 0 222 0 556 0 0 0 0 0 0 556 0 0 0 500 ]
 >>
 endobj
 46 0 obj
@@ -4992,10 +5305,22 @@ endobj
 endobj
 47 0 obj
 <<
-/Metadata 48 0 R
+/BaseFont /BTKGUF+ArialWGL
+/Encoding /WinAnsiEncoding
+/FirstChar 40
+/FontDescriptor 13 0 R
+/LastChar 121
+/Subtype /TrueType
+/Type /Font
+/Widths [ 333 333 0 584 0 0 0 0 0 0 556 556 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 722 0 0 0 0 722 0 0 0 0 0 722 778 0 0 0 0 0 0 0 0 0 0 0 278 0 278 0 0 0 0 0 500 0 556 0 0 0 0 0 0 222 0 556 0 0 0 0 0 0 556 0 0 0 500 ]
 >>
 endobj
 48 0 obj
+<<
+/Metadata 49 0 R
+>>
+endobj
+49 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -5647,12 +5972,12 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-49 0 obj
+50 0 obj
 <<
-/Metadata 50 0 R
+/Metadata 51 0 R
 >>
 endobj
-50 0 obj
+51 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -6304,33 +6629,54 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-51 0 obj
+52 0 obj
 <<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 52 0 R
+/Contents 53 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /MediaBox [ 0 0 595.276 841.89 ]
 /Resources <<
 /ExtGState <<
 /GS0 6 0 R
 /GS1 7 0 R
-/GS2 53 0 R
+/GS2 54 0 R
 >>
 /Font <<
-/C2_0 54 0 R
-/T1_0 62 0 R
-/T1_1 25 0 R
+/C2_0 55 0 R
+/T1_0 63 0 R
+/T1_1 26 0 R
 /TT0 12 0 R
 /TT1 16 0 R
-/TT2 30 0 R
-/TT3 64 0 R
+/TT2 31 0 R
+/TT3 65 0 R
 /F1 20 0 R
+/F1c2a325a0-a9af-4799-af9b-67cfd49f06f5 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1c199c595-ab63-4c4b-b1e2-f3eca0ab89cf <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1a38be549-746e-4335-8211-6cbf6eaa4749 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /Properties <<
-/MC0 65 0 R
+/MC0 66 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -6356,11 +6702,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-52 0 obj
+53 0 obj
 <<
-/Length 18461
+/Length 19083
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -7793,10 +8142,65 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1c2a325a0-a9af-4799-af9b-67cfd49f06f5 12 Tf
+14.4 TL
+ET
+BT
+/F1c2a325a0-a9af-4799-af9b-67cfd49f06f5 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1c199c595-ab63-4c4b-b1e2-f3eca0ab89cf 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1a38be549-746e-4335-8211-6cbf6eaa4749 12 Tf
+14.4 TL
+ET
+BT
+/F1a38be549-746e-4335-8211-6cbf6eaa4749 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q10) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-53 0 obj
+54 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -7810,48 +8214,48 @@ endobj
 /op true
 >>
 endobj
-54 0 obj
+55 0 obj
 <<
 /BaseFont /BTKGUF+ArialWGL
-/DescendantFonts 55 0 R
+/DescendantFonts 56 0 R
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 61 0 R
+/ToUnicode 62 0 R
 /Type /Font
 >>
 endobj
-55 0 obj
-[ 56 0 R ]
-endobj
 56 0 obj
+[ 57 0 R ]
+endobj
+57 0 obj
 <<
 /BaseFont /BTKGUF+ArialWGL
-/CIDSystemInfo 57 0 R
+/CIDSystemInfo 58 0 R
 /CIDToGIDMap /Identity
 /DW 1000
-/FontDescriptor 58 0 R
+/FontDescriptor 59 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 3 [ 278 ] 11 12 333 17 [ 278 ] 36 [ 667 ] 38 39 722 43 [ 722 ] 48 [ 833 722 ] 62 [ 278 ] 68 69 556 70 [ 500 ] 71 72 556 73 [ 278 ] 74 75 556 76 [ 222 ] 79 [ 222 833 ] 81 83 556 85 [ 333 500 278 556 500 722 ] 191 [ 500 ] 326 [ 625 ] 536 [ 556 ] ]
 >>
 endobj
-57 0 obj
+58 0 obj
 <<
 /Ordering (Identity)
 /Registry (Adobe)
 /Supplement 0
 >>
 endobj
-58 0 obj
+59 0 obj
 <<
 /Ascent 1006
-/CIDSet 59 0 R
+/CIDSet 60 0 R
 /CapHeight 716
 /Descent -325
 /Flags 4
 /FontBBox [ -395 -325 1072 1006 ]
 /FontFamily (Arial\040WGL)
-/FontFile2 60 0 R
+/FontFile2 61 0 R
 /FontName /BTKGUF+ArialWGL
 /FontStretch /Normal
 /FontWeight 400
@@ -7861,7 +8265,7 @@ endobj
 /XHeight 519
 >>
 endobj
-59 0 obj
+60 0 obj
 <<
 /Filter /FlateDecode
 /Length 46
@@ -7870,7 +8274,7 @@ stream
 Hâö ·¿¿-pÄâˇÁ˜¿»Äò–†ÖÁ    ˇˇ   ˇˇ ch
 endstream
 endobj
-60 0 obj
+61 0 obj
 <<
 /Filter /FlateDecode
 /Length1 25554
@@ -7932,7 +8336,7 @@ oïÿ¿3¿¿h≥ä6´h≥º	¨í]Ä	 
 ö„øP˚¯c™LL‘GJ®ô!~HÊ—_N=∆Õ˙ú„iıﬂ_S›+⁄ÃÒ]òÇQsª0Ÿ™4ï˛4Â—„ÊŒ‡π`1ÿ¸I0‹åy∞=ÿ‹¶Dî∞≤Uπ]Ÿ¢(J@Ò+L! 6Ø∫n‚ìw[ ,(‡÷/˝0F˛ÆQÖëâÛ_Å≥¥‡\'ÖcöÛÔ¡∏G∑<4Ï‹œR'R Ö°¨≥«(x¡Í!'eú‡¿√≈2•g-Dˆ+èí°¢G´"t∫Õâ(ŒJõO?›&¯«ßü∂,“⁄r"›öéÙ6ÔΩ?w3V∑∆ç´ı&ø›9W,:/∂[NR8’v´‡¸nP)Œ”oË◊˘‹<Ω*»*Œ˚zÈ7˘C"ÓÎÕYV¡£á•éhÙ*t81W•NâMËà¶Dk∫Û5]Ì°Î]CIH]¢°AÍ¸TË •Œ|Æ‹Ÿ)5€Òô$5•Ì⁄w5+	h	©i±…ä‘¨¥ÿB„ÙJâ™BU•ÑﬁIT)QÈùRr¯Ü§ª.9s]rFé‰£74jM”¥æ©iZá∆¯Øâ¨a–Jè5>íüàÁ«‚˘	`Ã˘ıâ„≠é}L” „ñHhéO;6~\—	«äO‰úÒxN+˜å‹"="“=Ò\ôå‰áäÂs"Áˆò=˘¯—úUÈÿù∫i¨3◊«⁄=pãŒDgª≈X}©[§S"›'∆Jâ±Rb¨>≥OéE‰(ñíµå‘∏¬∑‡ºéµ≈¨lK¯…^yx{b≠'€BÚi4,Áˆx÷iDÍÆÃ]ë¬3%R[’S≠'{bmÙÖz*åps<Kå…©“iÕˇ,W˚+·BhrJlxÕ•ˇu!ówÃ£π“$!ßk∞‡§.ñÉAD«ƒíú}õ±∆∆ºWΩXﬁç‡>Ù˘ÆEløà54‘ÖﬂøˇSu> ûõ-V®•ì§d˘úhaà·ß`hk..‡uI¸{(YX`â¥¥Ÿáú6©˘D¨wìSuØæìuÆµBì“Êv\øƒ.˝  ˇˇ   ˇˇ *Q}
 endstream
 endobj
-61 0 obj
+62 0 obj
 <<
 /Filter /FlateDecode
 /Length 405
@@ -7943,10 +8347,10 @@ Hâ\ìÕéÇ@ÑÔ<≈ı`Äa~4!$Çöpÿü¨ªÄ–∏$À@<¯ˆ;L7YMæt7U›ñaQJ”Õ,|∑C}¶ôµùi,M√Õ÷ƒ.tÌL
 ó'P·IbÖ$vPÿAr–	Ñ[k‹Zbü;h‹L¬µÜk	◊Æ%\k∏ñp≠Ωkæ]j<ä—ô?|*xuqx¸ÓK0\~Ÿ3uıÕZ8rü¥%cù°Áˇ`FÊ¶ñO  ˇˇ   ˇˇ ÿ’ÕM
 endstream
 endobj
-62 0 obj
+63 0 obj
 <<
 /BaseFont /BTKGUF+ArialMT
-/Encoding 63 0 R
+/Encoding 64 0 R
 /FirstChar 30
 /FontDescriptor 10 0 R
 /LastChar 31
@@ -7955,14 +8359,14 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-63 0 obj
+64 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /one /two ]
 /Type /Encoding
 >>
 endobj
-64 0 obj
+65 0 obj
 <<
 /BaseFont /BTKGUF+ArialWGL
 /Encoding /WinAnsiEncoding
@@ -7974,12 +8378,12 @@ endobj
 /Widths [ 333 333 0 584 0 0 0 0 0 0 556 556 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 722 0 0 0 0 722 0 0 0 0 0 722 778 0 0 0 0 0 0 0 0 0 0 0 278 0 278 0 0 0 556 0 500 0 556 0 0 0 0 0 0 222 0 556 0 0 556 0 0 0 556 0 0 0 500 ]
 >>
 endobj
-65 0 obj
+66 0 obj
 <<
-/Metadata 66 0 R
+/Metadata 67 0 R
 >>
 endobj
-66 0 obj
+67 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -8643,80 +9047,81 @@ stream
 endstream
 endobj
 xref
-0 67
+0 68
 0000000000 65535 f 
 0000000015 00000 n 
 0000000102 00000 n 
 0000000142 00000 n 
 0000000191 00000 n 
-0000002333 00000 n 
-0000017115 00000 n 
-0000017235 00000 n 
-0000017357 00000 n 
-0000017518 00000 n 
-0000017616 00000 n 
-0000017986 00000 n 
-0000019878 00000 n 
-0000020510 00000 n 
-0000020787 00000 n 
-0000048098 00000 n 
-0000048736 00000 n 
-0000049301 00000 n 
-0000049584 00000 n 
-0000073590 00000 n 
-0000074197 00000 n 
-0000074305 00000 n 
-0000075097 00000 n 
-0000087845 00000 n 
-0000088008 00000 n 
-0000088109 00000 n 
-0000088662 00000 n 
-0000088758 00000 n 
-0000089081 00000 n 
-0000089615 00000 n 
-0000089941 00000 n 
-0000090282 00000 n 
-0000090566 00000 n 
-0000102664 00000 n 
-0000103075 00000 n 
-0000105430 00000 n 
-0000120279 00000 n 
-0000120442 00000 n 
-0000120543 00000 n 
-0000120955 00000 n 
-0000120994 00000 n 
-0000158391 00000 n 
-0000161462 00000 n 
-0000177206 00000 n 
-0000177369 00000 n 
-0000177469 00000 n 
-0000177839 00000 n 
-0000178209 00000 n 
-0000178248 00000 n 
-0000215636 00000 n 
-0000215675 00000 n 
-0000253063 00000 n 
-0000253922 00000 n 
-0000272437 00000 n 
-0000272559 00000 n 
-0000272700 00000 n 
-0000272727 00000 n 
-0000273139 00000 n 
-0000273214 00000 n 
-0000273505 00000 n 
-0000273623 00000 n 
-0000289088 00000 n 
-0000289566 00000 n 
-0000289729 00000 n 
-0000289828 00000 n 
-0000290202 00000 n 
-0000290241 00000 n 
+0000002729 00000 n 
+0000018133 00000 n 
+0000018253 00000 n 
+0000018375 00000 n 
+0000018536 00000 n 
+0000018634 00000 n 
+0000019004 00000 n 
+0000020896 00000 n 
+0000021528 00000 n 
+0000021805 00000 n 
+0000049116 00000 n 
+0000049754 00000 n 
+0000050319 00000 n 
+0000050602 00000 n 
+0000074608 00000 n 
+0000075215 00000 n 
+0000075323 00000 n 
+0000075431 00000 n 
+0000076619 00000 n 
+0000089989 00000 n 
+0000090152 00000 n 
+0000090253 00000 n 
+0000090806 00000 n 
+0000090902 00000 n 
+0000091225 00000 n 
+0000091759 00000 n 
+0000092085 00000 n 
+0000092426 00000 n 
+0000092710 00000 n 
+0000104808 00000 n 
+0000105219 00000 n 
+0000107970 00000 n 
+0000123441 00000 n 
+0000123604 00000 n 
+0000123705 00000 n 
+0000124117 00000 n 
+0000124156 00000 n 
+0000161553 00000 n 
+0000165020 00000 n 
+0000181386 00000 n 
+0000181549 00000 n 
+0000181649 00000 n 
+0000182019 00000 n 
+0000182389 00000 n 
+0000182428 00000 n 
+0000219816 00000 n 
+0000219855 00000 n 
+0000257243 00000 n 
+0000258498 00000 n 
+0000277635 00000 n 
+0000277757 00000 n 
+0000277898 00000 n 
+0000277925 00000 n 
+0000278337 00000 n 
+0000278412 00000 n 
+0000278703 00000 n 
+0000278821 00000 n 
+0000294286 00000 n 
+0000294764 00000 n 
+0000294927 00000 n 
+0000295026 00000 n 
+0000295400 00000 n 
+0000295439 00000 n 
 trailer
 <<
-/Size 67
+/Size 68
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-328535
+333733
 %%EOF

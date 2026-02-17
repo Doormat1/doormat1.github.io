@@ -37,8 +37,29 @@ endobj
 /TT1 17 0 R
 /TT2 21 0 R
 /F1 25 0 R
+/F1f4d48ddf-ac48-46dd-9f89-8abf007af4f2 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/F1416b9fff-7b9b-43f3-b30e-b40e89f76f6f <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1842239af-430e-4041-a71c-920245ecb95e <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -66,9 +87,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 15365
+/Length 15987
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -839,6 +863,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1f4d48ddf-ac48-46dd-9f89-8abf007af4f2 12 Tf
+14.4 TL
+ET
+BT
+/F1f4d48ddf-ac48-46dd-9f89-8abf007af4f2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0402\0402024\137Q88) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1416b9fff-7b9b-43f3-b30e-b40e89f76f6f 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1842239af-430e-4041-a71c-920245ecb95e 12 Tf
+14.4 TL
+ET
+BT
+/F1842239af-430e-4041-a71c-920245ecb95e 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0402\0402024\137Q88) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -1367,40 +1446,50 @@ endobj
 /Type /Font
 >>
 endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
 xref
-0 26
+0 27
 0000000000 65535 f 
 0000000015 00000 n 
 0000000074 00000 n 
 0000000114 00000 n 
 0000000163 00000 n 
-0000000950 00000 n 
-0000016368 00000 n 
-0000016488 00000 n 
-0000016610 00000 n 
-0000016731 00000 n 
-0000016893 00000 n 
-0000016995 00000 n 
-0000017365 00000 n 
-0000019258 00000 n 
-0000019891 00000 n 
-0000020168 00000 n 
-0000047089 00000 n 
-0000047727 00000 n 
-0000048292 00000 n 
-0000048575 00000 n 
-0000072478 00000 n 
-0000073080 00000 n 
-0000073477 00000 n 
-0000073761 00000 n 
-0000084435 00000 n 
-0000084812 00000 n 
+0000001346 00000 n 
+0000017386 00000 n 
+0000017506 00000 n 
+0000017628 00000 n 
+0000017749 00000 n 
+0000017911 00000 n 
+0000018013 00000 n 
+0000018383 00000 n 
+0000020276 00000 n 
+0000020909 00000 n 
+0000021186 00000 n 
+0000048107 00000 n 
+0000048745 00000 n 
+0000049310 00000 n 
+0000049593 00000 n 
+0000073496 00000 n 
+0000074098 00000 n 
+0000074495 00000 n 
+0000074779 00000 n 
+0000085453 00000 n 
+0000085830 00000 n 
+0000085938 00000 n 
 trailer
 <<
-/Size 26
+/Size 27
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-84920
+86046
 %%EOF

@@ -36,8 +36,29 @@ endobj
 /TT0 13 0 R
 /TT1 17 0 R
 /F1 21 0 R
+/F1c3793694-9732-4b22-9c4d-2764eb14d3c8 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/F1813f9089-55d3-4e50-bdbd-d7ce68c13d59 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1d9bb760a-426d-4db2-b2c7-1bc8cd4ee3f8 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -88,9 +109,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 17786
+/Length 18408
 >>
 stream
+q
+q
+q
 q
 /Artifact <<
 /BBox [ 53.6842 79.5362 541.5914 757.7985 ]
@@ -1569,6 +1593,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1c3793694-9732-4b22-9c4d-2764eb14d3c8 12 Tf
+14.4 TL
+ET
+BT
+/F1c3793694-9732-4b22-9c4d-2764eb14d3c8 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(SEP\040Year\04010\040HT\0402024\137Q4) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1813f9089-55d3-4e50-bdbd-d7ce68c13d59 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1d9bb760a-426d-4db2-b2c7-1bc8cd4ee3f8 12 Tf
+14.4 TL
+ET
+BT
+/F1d9bb760a-426d-4db2-b2c7-1bc8cd4ee3f8 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(SEP\040Year\04010\040HT\0402024\137Q4) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -1994,36 +2073,46 @@ endobj
 /Type /Font
 >>
 endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
 xref
-0 22
+0 23
 0000000000 65535 f 
 0000000015 00000 n 
 0000000074 00000 n 
 0000000114 00000 n 
 0000000163 00000 n 
-0000002473 00000 n 
-0000020312 00000 n 
-0000020432 00000 n 
-0000020554 00000 n 
-0000020675 00000 n 
-0000020837 00000 n 
-0000020939 00000 n 
-0000021314 00000 n 
-0000023265 00000 n 
-0000023891 00000 n 
-0000024168 00000 n 
-0000051357 00000 n 
-0000051986 00000 n 
-0000052555 00000 n 
-0000052838 00000 n 
-0000077919 00000 n 
-0000078533 00000 n 
+0000002869 00000 n 
+0000021330 00000 n 
+0000021450 00000 n 
+0000021572 00000 n 
+0000021693 00000 n 
+0000021855 00000 n 
+0000021957 00000 n 
+0000022332 00000 n 
+0000024283 00000 n 
+0000024909 00000 n 
+0000025186 00000 n 
+0000052375 00000 n 
+0000053004 00000 n 
+0000053573 00000 n 
+0000053856 00000 n 
+0000078937 00000 n 
+0000079551 00000 n 
+0000079659 00000 n 
 trailer
 <<
-/Size 22
+/Size 23
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-78641
+79767
 %%EOF

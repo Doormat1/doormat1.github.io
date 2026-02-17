@@ -36,11 +36,32 @@ endobj
 /TT1 16 0 R
 /TT2 20 0 R
 /F1 21 0 R
+/F195702f73-38a5-4c3e-a00d-d83fb33888cc <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F171f9057e-b748-40d1-aff1-a1e61d7207ca <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1bd3a4e40-120d-4c37-8099-aabaeb2af5a3 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /Properties <<
-/MC0 22 0 R
+/MC0 23 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -102,9 +123,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 13417
+/Length 14037
 >>
 stream
+q
+q
+q
 q
 0 0 0 1 K
 0.5 w
@@ -806,6 +830,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F195702f73-38a5-4c3e-a00d-d83fb33888cc 12 Tf
+14.4 TL
+ET
+BT
+/F195702f73-38a5-4c3e-a00d-d83fb33888cc 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q1) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F171f9057e-b748-40d1-aff1-a1e61d7207ca 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1bd3a4e40-120d-4c37-8099-aabaeb2af5a3 12 Tf
+14.4 TL
+ET
+BT
+/F1bd3a4e40-120d-4c37-8099-aabaeb2af5a3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Chemistry\040Unit\0403\0402024\137Q1) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -1204,10 +1283,19 @@ endobj
 endobj
 22 0 obj
 <<
-/Metadata 23 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 23 0 obj
+<<
+/Metadata 24 0 R
+>>
+endobj
+24 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -1860,37 +1948,38 @@ stream
 endstream
 endobj
 xref
-0 24
+0 25
 0000000000 65535 f 
 0000000015 00000 n 
 0000000074 00000 n 
 0000000114 00000 n 
 0000000163 00000 n 
-0000003368 00000 n 
-0000016838 00000 n 
-0000016958 00000 n 
-0000017080 00000 n 
-0000017241 00000 n 
-0000017340 00000 n 
-0000017710 00000 n 
-0000019602 00000 n 
-0000020234 00000 n 
-0000020511 00000 n 
-0000047822 00000 n 
-0000048460 00000 n 
-0000049025 00000 n 
-0000049308 00000 n 
-0000073314 00000 n 
-0000073921 00000 n 
-0000074263 00000 n 
-0000074371 00000 n 
-0000074410 00000 n 
+0000003764 00000 n 
+0000017854 00000 n 
+0000017974 00000 n 
+0000018096 00000 n 
+0000018257 00000 n 
+0000018356 00000 n 
+0000018726 00000 n 
+0000020618 00000 n 
+0000021250 00000 n 
+0000021527 00000 n 
+0000048838 00000 n 
+0000049476 00000 n 
+0000050041 00000 n 
+0000050324 00000 n 
+0000074330 00000 n 
+0000074937 00000 n 
+0000075279 00000 n 
+0000075387 00000 n 
+0000075495 00000 n 
+0000075534 00000 n 
 trailer
 <<
-/Size 24
+/Size 25
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-111810
+112934
 %%EOF
