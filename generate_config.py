@@ -92,6 +92,7 @@ def find_mark_scheme_folder(papers_path):
     category = None
     tier = None
     paper_year = None
+    paper_session = None
     
     for part in parts:
         if re.match(r'^Year \d+$', part):
@@ -106,6 +107,10 @@ def find_mark_scheme_folder(papers_path):
             year_match = re.search(r'(20\d{2})', part)
             if year_match:
                 paper_year = int(year_match.group(1))
+        if not paper_session:
+            session_match = re.search(r'\b([sSwW])(\d{2})\b', part)
+            if session_match:
+                paper_session = f"{session_match.group(1).upper()}{session_match.group(2)}"
     
     # Check folder type (Whole/Separated/By Topic)
     # Check all parts of the path to detect folder type
@@ -173,13 +178,13 @@ def find_mark_scheme_folder(papers_path):
     for candidate in mark_scheme_candidates:
         if os.path.exists(candidate):
             # Look for matching folder type
-            result = find_matching_ms_folder(candidate, folder_type, topic_name, paper_year)
+            result = find_matching_ms_folder(candidate, folder_type, topic_name, paper_year, paper_session)
             if result:
                 return result
     
     return None
 
-def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_year=None):
+def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_year=None, paper_session=None):
     """Find the specific mark scheme folder matching the paper type"""
     try:
         items = os.listdir(ms_base_path)
@@ -197,8 +202,8 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'separated' and 'separated' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
-            if paper_year:
-                year_match_path = find_year_subfolder(full_path, paper_year)
+            if paper_year or paper_session:
+                year_match_path = find_year_subfolder(full_path, paper_year, paper_session)
                 if year_match_path:
                     return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
             return {'path': format_path(full_path), 'files': list_files(full_path)}
@@ -220,8 +225,8 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
 
     # If base path is already a separated questions folder, try to match year subfolder
     if folder_type == 'separated' and 'separated' in os.path.basename(ms_base_path).lower():
-        if paper_year:
-            year_match_path = find_year_subfolder(ms_base_path, paper_year)
+        if paper_year or paper_session:
+            year_match_path = find_year_subfolder(ms_base_path, paper_year, paper_session)
             if year_match_path:
                 return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
         return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
@@ -233,31 +238,41 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
     
     return None
 
-def find_year_subfolder(base_path, year):
-    """Find a subfolder matching the given year (e.g., 2017 or S17)."""
+def find_year_subfolder(base_path, year, session=None):
+    """Find a subfolder matching the given year (e.g., 2017) or session (e.g., S24/W24)."""
     try:
         items = os.listdir(base_path)
     except:
         return None
 
     dirs = [item for item in items if os.path.isdir(os.path.join(base_path, item))]
-    year_str = str(year)
-    year_short = year_str[-2:]
+    year_str = str(year) if year else None
+    year_short = year_str[-2:] if year_str else None
+    session_upper = session.upper() if session else None
 
     # Prefer exact 4-digit year matches
-    for dir_name in dirs:
-        if year_str in dir_name:
-            return os.path.join(base_path, dir_name)
+    if year_str:
+        for dir_name in dirs:
+            if year_str in dir_name:
+                return os.path.join(base_path, dir_name)
+
+    # Match session code like S24/W24
+    if session_upper:
+        for dir_name in dirs:
+            if session_upper.lower() in dir_name.lower():
+                return os.path.join(base_path, dir_name)
 
     # Next, match Sxx style (e.g., S24)
-    for dir_name in dirs:
-        if f"s{year_short}" in dir_name.lower():
-            return os.path.join(base_path, dir_name)
+    if year_short:
+        for dir_name in dirs:
+            if f"s{year_short}" in dir_name.lower() or f"w{year_short}" in dir_name.lower():
+                return os.path.join(base_path, dir_name)
 
     # Final fallback: any occurrence of the 2-digit year
-    for dir_name in dirs:
-        if year_short in dir_name:
-            return os.path.join(base_path, dir_name)
+    if year_short:
+        for dir_name in dirs:
+            if year_short in dir_name:
+                return os.path.join(base_path, dir_name)
 
     return None
 
