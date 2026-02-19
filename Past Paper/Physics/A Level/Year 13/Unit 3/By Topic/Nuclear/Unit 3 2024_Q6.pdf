@@ -37,14 +37,35 @@ endobj
 /TT0 16 0 R
 /TT1 20 0 R
 /F1 24 0 R
+/F13287836f-8f8c-4563-942d-d15f3204603a <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F11499a1da-aa7b-4984-9687-721ce3aa001c <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F100a3e55a-3a39-4152-b473-659ab83598e6 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /Properties <<
-/MC0 25 0 R
-/MC1 27 0 R
-/MC2 29 0 R
-/MC3 31 0 R
+/MC0 26 0 R
+/MC1 28 0 R
+/MC2 30 0 R
+/MC3 32 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -72,9 +93,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 11050
+/Length 11644
 >>
 stream
+q
+q
+q
 q
 /P <<
 /Lang (en\055GB)
@@ -955,6 +979,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F13287836f-8f8c-4563-942d-d15f3204603a 12 Tf
+14.4 TL
+ET
+BT
+/F13287836f-8f8c-4563-942d-d15f3204603a 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0403\0402024\137Q6) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F11499a1da-aa7b-4984-9687-721ce3aa001c 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F100a3e55a-3a39-4152-b473-659ab83598e6 12 Tf
+14.4 TL
+ET
+BT
+/F100a3e55a-3a39-4152-b473-659ab83598e6 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0403\0402024\137Q6) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -1418,272 +1497,281 @@ endobj
 endobj
 25 0 obj
 <<
-/Metadata 26 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 26 0 obj
 <<
-/Subtype /XML
-/Type /Metadata
-/Length 6484
+/Metadata 27 0 R
 >>
-stream
-<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.a8d4753, 2023/03/23-08:56:37        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
-            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
-            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
-            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
-            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
-            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
-            xmlns:ExtensisFontSense="http://www.extensis.com/meta/FontSense/">
-         <xmp:CreateDate>2020-04-06T16:25:05+01:00</xmp:CreateDate>
-         <xmp:MetadataDate>2020-04-06T16:25:05+01:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2020-04-06T16:25:05+01:00</xmp:ModifyDate>
-         <xmp:CreatorTool>Adobe Illustrator CC 23.0 (Macintosh)</xmp:CreatorTool>
-         <xmpMM:InstanceID>uuid:5e10dc8d-6218-d04a-9acc-96d024cee3d8</xmpMM:InstanceID>
-         <xmpMM:OriginalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</xmpMM:OriginalDocumentID>
-         <xmpMM:DocumentID>xmp.did:9fe0b9ea-8058-4c65-a579-40900f44f8ec</xmpMM:DocumentID>
-         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
-         <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>uuid:89be586e-88ee-824c-8146-fb46430b318e</stRef:instanceID>
-            <stRef:documentID>xmp.did:2ff779e8-fc10-430f-a1e4-a755fc32d34c</stRef:documentID>
-            <stRef:originalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</stRef:originalDocumentID>
-            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
-         </xmpMM:DerivedFrom>
-         <xmpMM:History>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>converted</stEvt:action>
-                  <stEvt:parameters>from application/x-indesign to application/pdf</stEvt:parameters>
-                  <stEvt:softwareAgent>Adobe InDesign CC 13.1 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-                  <stEvt:when>2019-04-10T11:50:13+01:00</stEvt:when>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:112705f2-aaa8-4d0f-81f0-a2ca6e95340a</stEvt:instanceID>
-                  <stEvt:when>2019-07-29T11:22:55+01:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:9fe0b9ea-8058-4c65-a579-40900f44f8ec</stEvt:instanceID>
-                  <stEvt:when>2020-04-06T16:25:02+01:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-            </rdf:Seq>
-         </xmpMM:History>
-         <dc:format>application/pdf</dc:format>
-         <dc:title>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Fig 12</rdf:li>
-            </rdf:Alt>
-         </dc:title>
-         <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
-         <pdf:Trapped>False</pdf:Trapped>
-         <xmpTPg:NPages>1</xmpTPg:NPages>
-         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
-         <xmpTPg:HasVisibleOverprint>True</xmpTPg:HasVisibleOverprint>
-         <xmpTPg:MaxPageSize rdf:parseType="Resource">
-            <stDim:w>6.902210</stDim:w>
-            <stDim:h>5.989755</stDim:h>
-            <stDim:unit>Millimeters</stDim:unit>
-         </xmpTPg:MaxPageSize>
-         <xmpTPg:Fonts>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <stFnt:fontName>TimesNRMTPro</stFnt:fontName>
-                  <stFnt:fontFamily>Times NR MT Pro</stFnt:fontFamily>
-                  <stFnt:fontFace>Regular</stFnt:fontFace>
-                  <stFnt:fontType>Open Type</stFnt:fontType>
-                  <stFnt:versionString>Version 1.000</stFnt:versionString>
-                  <stFnt:composite>False</stFnt:composite>
-                  <stFnt:fontFileName>TimesNRMTPro.otf</stFnt:fontFileName>
-               </rdf:li>
-            </rdf:Bag>
-         </xmpTPg:Fonts>
-         <xmpTPg:PlateNames>
-            <rdf:Seq>
-               <rdf:li>Black</rdf:li>
-            </rdf:Seq>
-         </xmpTPg:PlateNames>
-         <xmpTPg:SwatchGroups>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
-                  <xmpG:groupType>0</xmpG:groupType>
-               </rdf:li>
-            </rdf:Seq>
-         </xmpTPg:SwatchGroups>
-         <illustrator:Type>Document</illustrator:Type>
-         <ExtensisFontSense:slug>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <ExtensisFontSense:Family>Times NR MT Pro</ExtensisFontSense:Family>
-                  <ExtensisFontSense:Version>1.000</ExtensisFontSense:Version>
-                  <ExtensisFontSense:OutlineFileSize>0</ExtensisFontSense:OutlineFileSize>
-                  <ExtensisFontSense:KerningChecksum>0</ExtensisFontSense:KerningChecksum>
-                  <ExtensisFontSense:Foundry>Monotype Typography</ExtensisFontSense:Foundry>
-                  <ExtensisFontSense:FontKind>OpenType - PS</ExtensisFontSense:FontKind>
-                  <ExtensisFontSense:Checksum>557505687</ExtensisFontSense:Checksum>
-                  <ExtensisFontSense:PostScriptName>TimesNRMTPro</ExtensisFontSense:PostScriptName>
-                  <ExtensisFontSense:FontSense_1.2_Checksum>557505687</ExtensisFontSense:FontSense_1.2_Checksum>
-               </rdf:li>
-            </rdf:Bag>
-         </ExtensisFontSense:slug>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-<?xpacket end="r"?>
-endstream
 endobj
 27 0 obj
 <<
-/Metadata 28 0 R
+/Subtype /XML
+/Type /Metadata
+/Length 6484
 >>
+stream
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.a8d4753, 2023/03/23-08:56:37        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:ExtensisFontSense="http://www.extensis.com/meta/FontSense/">
+         <xmp:CreateDate>2020-04-06T16:25:05+01:00</xmp:CreateDate>
+         <xmp:MetadataDate>2020-04-06T16:25:05+01:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-04-06T16:25:05+01:00</xmp:ModifyDate>
+         <xmp:CreatorTool>Adobe Illustrator CC 23.0 (Macintosh)</xmp:CreatorTool>
+         <xmpMM:InstanceID>uuid:5e10dc8d-6218-d04a-9acc-96d024cee3d8</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</xmpMM:OriginalDocumentID>
+         <xmpMM:DocumentID>xmp.did:9fe0b9ea-8058-4c65-a579-40900f44f8ec</xmpMM:DocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:89be586e-88ee-824c-8146-fb46430b318e</stRef:instanceID>
+            <stRef:documentID>xmp.did:2ff779e8-fc10-430f-a1e4-a755fc32d34c</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from application/x-indesign to application/pdf</stEvt:parameters>
+                  <stEvt:softwareAgent>Adobe InDesign CC 13.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+                  <stEvt:when>2019-04-10T11:50:13+01:00</stEvt:when>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:112705f2-aaa8-4d0f-81f0-a2ca6e95340a</stEvt:instanceID>
+                  <stEvt:when>2019-07-29T11:22:55+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9fe0b9ea-8058-4c65-a579-40900f44f8ec</stEvt:instanceID>
+                  <stEvt:when>2020-04-06T16:25:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Fig 12</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
+         <pdf:Trapped>False</pdf:Trapped>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>True</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>6.902210</stDim:w>
+            <stDim:h>5.989755</stDim:h>
+            <stDim:unit>Millimeters</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>TimesNRMTPro</stFnt:fontName>
+                  <stFnt:fontFamily>Times NR MT Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>Open Type</stFnt:fontType>
+                  <stFnt:versionString>Version 1.000</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>TimesNRMTPro.otf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <illustrator:Type>Document</illustrator:Type>
+         <ExtensisFontSense:slug>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <ExtensisFontSense:Family>Times NR MT Pro</ExtensisFontSense:Family>
+                  <ExtensisFontSense:Version>1.000</ExtensisFontSense:Version>
+                  <ExtensisFontSense:OutlineFileSize>0</ExtensisFontSense:OutlineFileSize>
+                  <ExtensisFontSense:KerningChecksum>0</ExtensisFontSense:KerningChecksum>
+                  <ExtensisFontSense:Foundry>Monotype Typography</ExtensisFontSense:Foundry>
+                  <ExtensisFontSense:FontKind>OpenType - PS</ExtensisFontSense:FontKind>
+                  <ExtensisFontSense:Checksum>557505687</ExtensisFontSense:Checksum>
+                  <ExtensisFontSense:PostScriptName>TimesNRMTPro</ExtensisFontSense:PostScriptName>
+                  <ExtensisFontSense:FontSense_1.2_Checksum>557505687</ExtensisFontSense:FontSense_1.2_Checksum>
+               </rdf:li>
+            </rdf:Bag>
+         </ExtensisFontSense:slug>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+endstream
 endobj
 28 0 obj
 <<
-/Subtype /XML
-/Type /Metadata
-/Length 6484
+/Metadata 29 0 R
 >>
-stream
-<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.a8d4753, 2023/03/23-08:56:37        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
-            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
-            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
-            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
-            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
-            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
-            xmlns:ExtensisFontSense="http://www.extensis.com/meta/FontSense/">
-         <xmp:CreateDate>2020-04-06T16:25:05+01:00</xmp:CreateDate>
-         <xmp:MetadataDate>2020-04-06T16:25:05+01:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2020-04-06T16:25:05+01:00</xmp:ModifyDate>
-         <xmp:CreatorTool>Adobe Illustrator CC 23.0 (Macintosh)</xmp:CreatorTool>
-         <xmpMM:InstanceID>uuid:5e10dc8d-6218-d04a-9acc-96d024cee3d8</xmpMM:InstanceID>
-         <xmpMM:OriginalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</xmpMM:OriginalDocumentID>
-         <xmpMM:DocumentID>xmp.did:9fe0b9ea-8058-4c65-a579-40900f44f8ec</xmpMM:DocumentID>
-         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
-         <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>uuid:89be586e-88ee-824c-8146-fb46430b318e</stRef:instanceID>
-            <stRef:documentID>xmp.did:2ff779e8-fc10-430f-a1e4-a755fc32d34c</stRef:documentID>
-            <stRef:originalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</stRef:originalDocumentID>
-            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
-         </xmpMM:DerivedFrom>
-         <xmpMM:History>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>converted</stEvt:action>
-                  <stEvt:parameters>from application/x-indesign to application/pdf</stEvt:parameters>
-                  <stEvt:softwareAgent>Adobe InDesign CC 13.1 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-                  <stEvt:when>2019-04-10T11:50:13+01:00</stEvt:when>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:112705f2-aaa8-4d0f-81f0-a2ca6e95340a</stEvt:instanceID>
-                  <stEvt:when>2019-07-29T11:22:55+01:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:9fe0b9ea-8058-4c65-a579-40900f44f8ec</stEvt:instanceID>
-                  <stEvt:when>2020-04-06T16:25:02+01:00</stEvt:when>
-                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
-                  <stEvt:changed>/</stEvt:changed>
-               </rdf:li>
-            </rdf:Seq>
-         </xmpMM:History>
-         <dc:format>application/pdf</dc:format>
-         <dc:title>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Fig 12</rdf:li>
-            </rdf:Alt>
-         </dc:title>
-         <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
-         <pdf:Trapped>False</pdf:Trapped>
-         <xmpTPg:NPages>1</xmpTPg:NPages>
-         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
-         <xmpTPg:HasVisibleOverprint>True</xmpTPg:HasVisibleOverprint>
-         <xmpTPg:MaxPageSize rdf:parseType="Resource">
-            <stDim:w>6.902210</stDim:w>
-            <stDim:h>5.989755</stDim:h>
-            <stDim:unit>Millimeters</stDim:unit>
-         </xmpTPg:MaxPageSize>
-         <xmpTPg:Fonts>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <stFnt:fontName>TimesNRMTPro</stFnt:fontName>
-                  <stFnt:fontFamily>Times NR MT Pro</stFnt:fontFamily>
-                  <stFnt:fontFace>Regular</stFnt:fontFace>
-                  <stFnt:fontType>Open Type</stFnt:fontType>
-                  <stFnt:versionString>Version 1.000</stFnt:versionString>
-                  <stFnt:composite>False</stFnt:composite>
-                  <stFnt:fontFileName>TimesNRMTPro.otf</stFnt:fontFileName>
-               </rdf:li>
-            </rdf:Bag>
-         </xmpTPg:Fonts>
-         <xmpTPg:PlateNames>
-            <rdf:Seq>
-               <rdf:li>Black</rdf:li>
-            </rdf:Seq>
-         </xmpTPg:PlateNames>
-         <xmpTPg:SwatchGroups>
-            <rdf:Seq>
-               <rdf:li rdf:parseType="Resource">
-                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
-                  <xmpG:groupType>0</xmpG:groupType>
-               </rdf:li>
-            </rdf:Seq>
-         </xmpTPg:SwatchGroups>
-         <illustrator:Type>Document</illustrator:Type>
-         <ExtensisFontSense:slug>
-            <rdf:Bag>
-               <rdf:li rdf:parseType="Resource">
-                  <ExtensisFontSense:Family>Times NR MT Pro</ExtensisFontSense:Family>
-                  <ExtensisFontSense:Version>1.000</ExtensisFontSense:Version>
-                  <ExtensisFontSense:OutlineFileSize>0</ExtensisFontSense:OutlineFileSize>
-                  <ExtensisFontSense:KerningChecksum>0</ExtensisFontSense:KerningChecksum>
-                  <ExtensisFontSense:Foundry>Monotype Typography</ExtensisFontSense:Foundry>
-                  <ExtensisFontSense:FontKind>OpenType - PS</ExtensisFontSense:FontKind>
-                  <ExtensisFontSense:Checksum>557505687</ExtensisFontSense:Checksum>
-                  <ExtensisFontSense:PostScriptName>TimesNRMTPro</ExtensisFontSense:PostScriptName>
-                  <ExtensisFontSense:FontSense_1.2_Checksum>557505687</ExtensisFontSense:FontSense_1.2_Checksum>
-               </rdf:li>
-            </rdf:Bag>
-         </ExtensisFontSense:slug>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-<?xpacket end="r"?>
-endstream
 endobj
 29 0 obj
 <<
-/Metadata 30 0 R
+/Subtype /XML
+/Type /Metadata
+/Length 6484
 >>
+stream
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c001 79.a8d4753, 2023/03/23-08:56:37        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:ExtensisFontSense="http://www.extensis.com/meta/FontSense/">
+         <xmp:CreateDate>2020-04-06T16:25:05+01:00</xmp:CreateDate>
+         <xmp:MetadataDate>2020-04-06T16:25:05+01:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2020-04-06T16:25:05+01:00</xmp:ModifyDate>
+         <xmp:CreatorTool>Adobe Illustrator CC 23.0 (Macintosh)</xmp:CreatorTool>
+         <xmpMM:InstanceID>uuid:5e10dc8d-6218-d04a-9acc-96d024cee3d8</xmpMM:InstanceID>
+         <xmpMM:OriginalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</xmpMM:OriginalDocumentID>
+         <xmpMM:DocumentID>xmp.did:9fe0b9ea-8058-4c65-a579-40900f44f8ec</xmpMM:DocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:89be586e-88ee-824c-8146-fb46430b318e</stRef:instanceID>
+            <stRef:documentID>xmp.did:2ff779e8-fc10-430f-a1e4-a755fc32d34c</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:F97F1174072068118083C257F05FC4BC</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>converted</stEvt:action>
+                  <stEvt:parameters>from application/x-indesign to application/pdf</stEvt:parameters>
+                  <stEvt:softwareAgent>Adobe InDesign CC 13.1 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+                  <stEvt:when>2019-04-10T11:50:13+01:00</stEvt:when>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:112705f2-aaa8-4d0f-81f0-a2ca6e95340a</stEvt:instanceID>
+                  <stEvt:when>2019-07-29T11:22:55+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:9fe0b9ea-8058-4c65-a579-40900f44f8ec</stEvt:instanceID>
+                  <stEvt:when>2020-04-06T16:25:02+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 23.0 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Fig 12</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <pdf:Producer>Adobe PDF library 15.00</pdf:Producer>
+         <pdf:Trapped>False</pdf:Trapped>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>True</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>6.902210</stDim:w>
+            <stDim:h>5.989755</stDim:h>
+            <stDim:unit>Millimeters</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>TimesNRMTPro</stFnt:fontName>
+                  <stFnt:fontFamily>Times NR MT Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>Open Type</stFnt:fontType>
+                  <stFnt:versionString>Version 1.000</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>TimesNRMTPro.otf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <illustrator:Type>Document</illustrator:Type>
+         <ExtensisFontSense:slug>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <ExtensisFontSense:Family>Times NR MT Pro</ExtensisFontSense:Family>
+                  <ExtensisFontSense:Version>1.000</ExtensisFontSense:Version>
+                  <ExtensisFontSense:OutlineFileSize>0</ExtensisFontSense:OutlineFileSize>
+                  <ExtensisFontSense:KerningChecksum>0</ExtensisFontSense:KerningChecksum>
+                  <ExtensisFontSense:Foundry>Monotype Typography</ExtensisFontSense:Foundry>
+                  <ExtensisFontSense:FontKind>OpenType - PS</ExtensisFontSense:FontKind>
+                  <ExtensisFontSense:Checksum>557505687</ExtensisFontSense:Checksum>
+                  <ExtensisFontSense:PostScriptName>TimesNRMTPro</ExtensisFontSense:PostScriptName>
+                  <ExtensisFontSense:FontSense_1.2_Checksum>557505687</ExtensisFontSense:FontSense_1.2_Checksum>
+               </rdf:li>
+            </rdf:Bag>
+         </ExtensisFontSense:slug>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>
+endstream
 endobj
 30 0 obj
+<<
+/Metadata 31 0 R
+>>
+endobj
+31 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -1809,12 +1897,12 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-31 0 obj
+32 0 obj
 <<
-/Metadata 32 0 R
+/Metadata 33 0 R
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -1941,46 +2029,47 @@ stream
 endstream
 endobj
 xref
-0 33
+0 34
 0000000000 65535 f 
 0000000015 00000 n 
 0000000074 00000 n 
 0000000114 00000 n 
 0000000163 00000 n 
-0000001017 00000 n 
-0000012120 00000 n 
-0000012240 00000 n 
-0000012362 00000 n 
-0000012483 00000 n 
-0000012645 00000 n 
-0000012746 00000 n 
-0000013116 00000 n 
-0000015008 00000 n 
-0000015224 00000 n 
-0000015655 00000 n 
-0000017892 00000 n 
-0000018674 00000 n 
-0000018951 00000 n 
-0000047113 00000 n 
-0000047770 00000 n 
-0000048333 00000 n 
-0000048616 00000 n 
-0000072618 00000 n 
-0000073219 00000 n 
-0000073327 00000 n 
-0000073366 00000 n 
-0000079933 00000 n 
-0000079972 00000 n 
-0000086539 00000 n 
-0000086578 00000 n 
-0000093145 00000 n 
-0000093184 00000 n 
+0000001413 00000 n 
+0000013110 00000 n 
+0000013230 00000 n 
+0000013352 00000 n 
+0000013473 00000 n 
+0000013635 00000 n 
+0000013736 00000 n 
+0000014106 00000 n 
+0000015998 00000 n 
+0000016214 00000 n 
+0000016645 00000 n 
+0000018882 00000 n 
+0000019664 00000 n 
+0000019941 00000 n 
+0000048103 00000 n 
+0000048760 00000 n 
+0000049323 00000 n 
+0000049606 00000 n 
+0000073608 00000 n 
+0000074209 00000 n 
+0000074317 00000 n 
+0000074425 00000 n 
+0000074464 00000 n 
+0000081031 00000 n 
+0000081070 00000 n 
+0000087637 00000 n 
+0000087676 00000 n 
+0000094243 00000 n 
+0000094282 00000 n 
 trailer
 <<
-/Size 33
+/Size 34
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-99751
+100849
 %%EOF

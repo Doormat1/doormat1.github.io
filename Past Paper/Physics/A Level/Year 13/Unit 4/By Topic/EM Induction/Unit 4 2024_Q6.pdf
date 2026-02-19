@@ -4,7 +4,7 @@
 <<
 /Type /Pages
 /Count 3
-/Kids [ 4 0 R 48 0 R 63 0 R ]
+/Kids [ 4 0 R 49 0 R 64 0 R ]
 >>
 endobj
 2 0 obj
@@ -110,15 +110,36 @@ endobj
 /TT1 28 0 R
 /TT2 32 0 R
 /F1 36 0 R
+/F18b785db4-5c76-400f-a403-32e5a22171bc <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F104edfc82-b839-4541-a558-29ebb06eb63c <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F12de96b36-00cd-40b8-a7ee-cc941187f646 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /XObject <<
-/Fm0 37 0 R
+/Fm0 38 0 R
 >>
 /Properties <<
-/MC0 44 0 R
-/MC1 46 0 R
+/MC0 45 0 R
+/MC1 47 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -129,9 +150,12 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 18891
+/Length 19485
 >>
 stream
+q
+q
+q
 q
 /Artifact <<
 /BBox [ 53.6842 79.5362 541.5914 757.7985 ]
@@ -1457,6 +1481,61 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F18b785db4-5c76-400f-a403-32e5a22171bc 12 Tf
+14.4 TL
+ET
+BT
+/F18b785db4-5c76-400f-a403-32e5a22171bc 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F104edfc82-b839-4541-a558-29ebb06eb63c 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F12de96b36-00cd-40b8-a7ee-cc941187f646 12 Tf
+14.4 TL
+ET
+BT
+/F12de96b36-00cd-40b8-a7ee-cc941187f646 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
 
 endstream
 endobj
@@ -2164,20 +2243,29 @@ endobj
 endobj
 37 0 obj
 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
 /BBox [ 0 -8 54.262 0.800049 ]
 /LastModified (D\07220260127183511Z)
 /Matrix [ 1 0 0 1 0 0 ]
-/OC 38 0 R
+/OC 39 0 R
 /PieceInfo <<
 /ADBE_CompoundType <<
-/DocSettings 40 0 R
+/DocSettings 41 0 R
 /LastModified (D\07220260127183511Z)
 /Private /Header
 >>
 >>
 /Resources <<
 /Font <<
-/TT0 41 0 R
+/TT0 42 0 R
 >>
 /ProcSet [ /PDF /Text ]
 >>
@@ -2198,13 +2286,13 @@ Q
 
 endstream
 endobj
-38 0 obj
+39 0 obj
 <<
-/OCGs 39 0 R
+/OCGs 40 0 R
 /Type /OCMD
 >>
 endobj
-39 0 obj
+40 0 obj
 <<
 /Name (Headers\057Footers)
 /Type /OCG
@@ -2215,7 +2303,7 @@ endobj
 >>
 >>
 endobj
-40 0 obj
+41 0 obj
 <<
 /Length 589
 >>
@@ -2223,19 +2311,19 @@ stream
 ï»¿<?xml version = "1.0" encoding = "UTF-8" ?><HeaderFooterSettings version = "8.0"><Font size="8.0" name="Arial" type="TrueType"/><Color r="0.0" b="0.0" g="0.0"/><Margin left="72.0" right="72.0" top="36.0" bottom="36.0"/><Appearance shrink="0" fixedprint="0"/><PageRange end="-1" start="-1" even="1" odd="1"/><Page offset = "0"><PageIndex format="1"/></Page><Date><Month format="1"/>/<Day format="1"/><Year format="0"/></Date><Header><Left>Unit 4 2024.pdf</Left><Center></Center><Right></Right></Header><Footer><Left></Left><Center></Center><Right></Right></Footer></HeaderFooterSettings>
 endstream
 endobj
-41 0 obj
+42 0 obj
 <<
 /BaseFont /Arial
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 42 0 R
+/FontDescriptor 43 0 R
 /LastChar 255
 /Subtype /TrueType
 /Type /Font
 /Widths [ 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 750 278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 350 556 350 222 556 333 1000 556 556 333 1000 667 333 1000 350 611 350 350 222 222 333 333 350 556 1000 333 1000 500 333 944 350 500 667 278 333 556 556 556 556 260 556 333 737 370 556 584 333 737 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 834 611 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 667 611 556 556 556 556 556 556 889 500 556 556 556 556 278 278 278 278 556 556 556 556 556 556 556 549 611 556 556 556 556 500 556 500 ]
 >>
 endobj
-42 0 obj
+43 0 obj
 <<
 /Ascent 1040
 /CapHeight 716
@@ -2243,7 +2331,7 @@ endobj
 /Flags 32
 /FontBBox [ -665 -325 2000 1040 ]
 /FontFamily (Arial)
-/FontFile2 43 0 R
+/FontFile2 44 0 R
 /FontName /Arial
 /FontStretch /Normal
 /FontWeight 400
@@ -2253,7 +2341,7 @@ endobj
 /XHeight 519
 >>
 endobj
-43 0 obj
+44 0 obj
 <<
 /Filter /FlateDecode
 /Length1 1047208
@@ -4491,12 +4579,12 @@ VÄü6ğ§ox™ËNi“ÚÏuF¹5ÎäùµÀºÅo¾’]bKü~Ùõ½ÄÓzTüy+c†^£W³İ(«mo™‘Õ7NEÖwnèUìÀõ*»
 tJ x¥’ÂÙ¹EVäxŒ‹H¾eR>3}5b¦¯€!ÿ[Z:!¸W MÇl©fC5[PìÓÁ~‚u÷ÅkRîP˜´ÜØkîs»ÛbTm¬©ŠWp&¸î.¨†‡³f{N©eœJSİ5h¯\YÓîÄ:ÇZ«L˜¬Â'[ã±ÊÚ·ÆİeKã±4«\*‹XHlõŠíEN·ßöBÑ)Ø¶äÕã³Šb–‡Éxu9EQBÙCUgÓP¹+¿™ßä.¸µ¸käG+qXXJ^àÓÀ5òœª#Òî¸”0ßşÏ…R»Ãî·ÄıWŸÉJ»†ÛFÈbOªÛx[·½pÔ_[iÑ¨ÙşğÅ§ ®sQ’Æ ×^sM–ğïëß	ì¿º¡ï=\Jã6r©ÄÒV-ÿµ:¬Õ©ÛğbÅŸ.…º˜`w4GpÚ„ ÿñ5j»ô‚\´ë„!î(%ãÂ“EÆk‹iE:‰coÎH/¤øPÈHÏÀæÁæÁ®‚]•VJ±åŒÒ2rDËD§ŒLø‘ÍJ	ú-À IVg
 endstream
 endobj
-44 0 obj
+45 0 obj
 <<
-/Metadata 45 0 R
+/Metadata 46 0 R
 >>
 endobj
-45 0 obj
+46 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -5141,12 +5229,12 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-46 0 obj
+47 0 obj
 <<
-/Metadata 47 0 R
+/Metadata 48 0 R
 >>
 endobj
-47 0 obj
+48 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -5791,11 +5879,11 @@ stream
 <?xpacket end="r"?>
 endstream
 endobj
-48 0 obj
+49 0 obj
 <<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 49 0 R
+/Contents 50 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /LastModified (D\07220260127183518Z)
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -5820,21 +5908,42 @@ endobj
 /ExtGState <<
 /GS0 6 0 R
 /GS1 7 0 R
-/GS2 50 0 R
+/GS2 51 0 R
 >>
 /Font <<
-/C2_0 51 0 R
-/T1_0 59 0 R
+/C2_0 52 0 R
+/T1_0 60 0 R
 /T1_1 19 0 R
 /T1_2 13 0 R
 /TT0 28 0 R
 /TT1 24 0 R
 /F1 36 0 R
+/F1d38ab237-2422-46b1-8500-e21ac64051cd <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F17ba1ac14-ed26-4b71-8ee0-096dc819284b <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1e8b2b20f-0d3d-47db-bcde-301a4b7301b4 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /XObject <<
-/Fm0 61 0 R
+/Fm0 62 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -5843,11 +5952,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-49 0 obj
+50 0 obj
 <<
-/Length 10808
+/Length 11402
 >>
 stream
+q
+q
+q
 q
 /Artifact <<
 /BBox [ 53.6842 79.5362 541.5914 757.7985 ]
@@ -6635,10 +6747,65 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1d38ab237-2422-46b1-8500-e21ac64051cd 12 Tf
+14.4 TL
+ET
+BT
+/F1d38ab237-2422-46b1-8500-e21ac64051cd 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F17ba1ac14-ed26-4b71-8ee0-096dc819284b 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1e8b2b20f-0d3d-47db-bcde-301a4b7301b4 12 Tf
+14.4 TL
+ET
+BT
+/F1e8b2b20f-0d3d-47db-bcde-301a4b7301b4 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-50 0 obj
+51 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -6652,48 +6819,48 @@ endobj
 /op false
 >>
 endobj
-51 0 obj
+52 0 obj
 <<
 /BaseFont /HPLZXO+ArialWGL
-/DescendantFonts 52 0 R
+/DescendantFonts 53 0 R
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 58 0 R
+/ToUnicode 59 0 R
 /Type /Font
 >>
 endobj
-52 0 obj
-[ 53 0 R ]
-endobj
 53 0 obj
+[ 54 0 R ]
+endobj
+54 0 obj
 <<
 /BaseFont /HPLZXO+ArialWGL
-/CIDSystemInfo 54 0 R
+/CIDSystemInfo 55 0 R
 /CIDToGIDMap /Identity
 /DW 1000
-/FontDescriptor 55 0 R
+/FontDescriptor 56 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 3 [ 278 ] 11 12 333 17 [ 278 ] 19 20 556 22 24 556 26 27 556 32 [ 584 ] 36 [ 667 ] 38 [ 722 ] 42 [ 778 ] 68 [ 556 ] 70 [ 500 ] 71 72 556 73 [ 278 ] 74 75 556 76 [ 222 ] 79 [ 222 833 ] 81 83 556 85 [ 333 500 278 556 500 722 500 ] 191 [ 500 ] 236 [ 584 ] ]
 >>
 endobj
-54 0 obj
+55 0 obj
 <<
 /Ordering (Identity)
 /Registry (Adobe)
 /Supplement 0
 >>
 endobj
-55 0 obj
+56 0 obj
 <<
 /Ascent 1006
-/CIDSet 56 0 R
+/CIDSet 57 0 R
 /CapHeight 716
 /Descent -325
 /Flags 4
 /FontBBox [ -395 -325 1072 1006 ]
 /FontFamily (Arial\040WGL)
-/FontFile2 57 0 R
+/FontFile2 58 0 R
 /FontName /HPLZXO+ArialWGL
 /FontStretch /Normal
 /FontWeight 400
@@ -6703,7 +6870,7 @@ endobj
 /XHeight 519
 >>
 endobj
-56 0 obj
+57 0 obj
 <<
 /Filter /FlateDecode
 /Length 38
@@ -6712,7 +6879,7 @@ stream
 H‰š ½¡Kûç÷À&9    ÿÿ   ÿÿ {èR
 endstream
 endobj
-57 0 obj
+58 0 obj
 <<
 /Filter /FlateDecode
 /Length1 26506
@@ -6787,7 +6954,7 @@ O[,ˆÿáO«ÔêÛö0,âC˜Ò¦4„)‘•É‹®[eo?È.Y‚‰x/ÑŒ3Ìx‰Ìx–:3`ÆAf¬dÆvfx™áb†›
 ˜§@R|@a~¨”Dµ¢ô.ÆP) ° ²ƒvIiq)ƒ„k¦P¨¤àR» Ê¹npHt).a`ğŞ ì½Á>0*b#;;P4ä¥V01nn×ÿ@õ€‚V Aff¸B˜HŒ“ª3şK¡´3(40íŞÌè ÇXÂPÉ¼AÎ;„	X„Dı±Ø\UÅ‘@3j3ÃÌ ;›Âf ù†KJ¡,h8”@iˆ. –bXpÀ(”    ÿÿ   ÿÿ ty·
 endstream
 endobj
-58 0 obj
+59 0 obj
 <<
 /Filter /FlateDecode
 /Length 404
@@ -6797,10 +6964,10 @@ H‰\“ËJÃ@@÷ùŠYêB’Læa¡´ZèÂV? M¦5`'aš.ú÷Nç”
 8Ì}œ\îä‹ÕÓÊ÷“ÈßÃĞ®İ$¶½ï‚;ÇĞ:±q»Şg¥]ßNJßvßŒY“×§Ãäö+¿²ù\äñğ0…“¸yè†»Íò·Ğ¹Ğû¸ùZ¬oE¾>ãÛ;?‰BÔµèÜ6ziÆ×fïDÒîV]<ï§Ó]Ìù‹ø<NÈÄ%2íĞ¹ÃØ´.4~ç²yŸZÌ—ñ©3ç»ç•%m³m¿›Â«^²¨=B÷Ğš%*Kè"¯"¯TP	¨‚,¤ {HC…è^Ñ]ĞDEIEIEE¤!RiˆT¸\.5ƒDMs©‰™ÁL1Ã\ÔZ$ÒX¬533ÌLKh	1AËµ†$„µÅZcm±ÖX[¬5ÖkµÅZcm±~¼xš«ëóù?¤,eZ•ËNœ—&î¶¸nd{!.cº iÏû×{w½#ã0Š˜u~³_   ÿÿ   ÿÿ À˜Ò
 endstream
 endobj
-59 0 obj
+60 0 obj
 <<
 /BaseFont /HPLZXO+ArialMT
-/Encoding 60 0 R
+/Encoding 61 0 R
 /FirstChar 30
 /FontDescriptor 11 0 R
 /LastChar 31
@@ -6809,29 +6976,29 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-60 0 obj
+61 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /seven /one ]
 /Type /Encoding
 >>
 endobj
-61 0 obj
+62 0 obj
 <<
 /BBox [ 0 -8 54.262 0.800049 ]
 /LastModified (D\07220260127183511Z)
 /Matrix [ 1 0 0 1 0 0 ]
-/OC 38 0 R
+/OC 39 0 R
 /PieceInfo <<
 /ADBE_CompoundType <<
-/DocSettings 62 0 R
+/DocSettings 63 0 R
 /LastModified (D\07220260127183511Z)
 /Private /Header
 >>
 >>
 /Resources <<
 /Font <<
-/TT0 41 0 R
+/TT0 42 0 R
 >>
 /ProcSet [ /PDF /Text ]
 >>
@@ -6852,7 +7019,7 @@ Q
 
 endstream
 endobj
-62 0 obj
+63 0 obj
 <<
 /Length 589
 >>
@@ -6860,11 +7027,11 @@ stream
 ï»¿<?xml version = "1.0" encoding = "UTF-8" ?><HeaderFooterSettings version = "8.0"><Font size="8.0" name="Arial" type="TrueType"/><Color r="0.0" b="0.0" g="0.0"/><Margin left="72.0" right="72.0" top="36.0" bottom="36.0"/><Appearance shrink="0" fixedprint="0"/><PageRange end="-1" start="-1" even="1" odd="1"/><Page offset = "0"><PageIndex format="1"/></Page><Date><Month format="1"/>/<Day format="1"/><Year format="0"/></Date><Header><Left>Unit 4 2024.pdf</Left><Center></Center><Right></Right></Header><Footer><Left></Left><Center></Center><Right></Right></Footer></HeaderFooterSettings>
 endstream
 endobj
-63 0 obj
+64 0 obj
 <<
 /ArtBox [ 0 0 595.276 841.89 ]
 /BleedBox [ 0 0 595.276 841.89 ]
-/Contents 64 0 R
+/Contents 65 0 R
 /CropBox [ 0 0 595.276 841.89 ]
 /LastModified (D\07220260127183511Z)
 /MediaBox [ 0 0 595.276 841.89 ]
@@ -6924,26 +7091,47 @@ endobj
 /ExtGState <<
 /GS0 6 0 R
 /GS1 7 0 R
-/GS2 65 0 R
-/GS3 66 0 R
+/GS2 66 0 R
+/GS3 67 0 R
 >>
 /Font <<
-/C2_0 51 0 R
-/C2_1 67 0 R
-/T1_0 75 0 R
+/C2_0 52 0 R
+/C2_1 68 0 R
+/T1_0 76 0 R
 /T1_1 19 0 R
 /TT0 24 0 R
-/TT1 77 0 R
+/TT1 78 0 R
 /TT2 28 0 R
 /F1 36 0 R
+/F198d2d659-84a6-4c16-8c33-5603f67f2a0c <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1a2e0910b-8b10-4802-ac97-3ab536e50f80 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+/F1bb5f2266-d795-4233-8426-d5e064b1ab82 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
 >>
 /XObject <<
-/Fm0 78 0 R
+/Fm0 79 0 R
 >>
 /Properties <<
-/MC0 82 0 R
+/MC0 83 0 R
 >>
-/ProcSet [ /ImageC /ImageB /PDF /ImageI /Text ]
+/ProcSet [ /ImageC /ImageI /Text /PDF /ImageB ]
 >>
 /Rotate 0
 /TrimBox [ 0 0 595.276 841.89 ]
@@ -6952,11 +7140,14 @@ endobj
 /Parent 1 0 R
 >>
 endobj
-64 0 obj
+65 0 obj
 <<
-/Length 10837
+/Length 11431
 >>
 stream
+q
+q
+q
 q
 /Artifact <<
 /BBox [ 53.6842 79.5362 541.5914 757.7985 ]
@@ -7910,10 +8101,65 @@ BT
 T*
 ET
 Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F198d2d659-84a6-4c16-8c33-5603f67f2a0c 12 Tf
+14.4 TL
+ET
+BT
+/F198d2d659-84a6-4c16-8c33-5603f67f2a0c 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1a2e0910b-8b10-4802-ac97-3ab536e50f80 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 801.89 200 40 re
+f*
+Q
+Q
+q
+0 0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1bb5f2266-d795-4233-8426-d5e064b1ab82 12 Tf
+14.4 TL
+ET
+BT
+/F1bb5f2266-d795-4233-8426-d5e064b1ab82 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 10 821.89 Tm
+(Unit\0404\0402024\137Q6) Tj
+T*
+ET
+Q
 
 endstream
 endobj
-65 0 obj
+66 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -7927,7 +8173,7 @@ endobj
 /op true
 >>
 endobj
-66 0 obj
+67 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -7941,48 +8187,48 @@ endobj
 /op false
 >>
 endobj
-67 0 obj
+68 0 obj
 <<
 /BaseFont /HPLZXO+TimesNewRomanPSMT
-/DescendantFonts 68 0 R
+/DescendantFonts 69 0 R
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 74 0 R
+/ToUnicode 75 0 R
 /Type /Font
 >>
 endobj
-68 0 obj
-[ 69 0 R ]
-endobj
 69 0 obj
+[ 70 0 R ]
+endobj
+70 0 obj
 <<
 /BaseFont /HPLZXO+TimesNewRomanPSMT
-/CIDSystemInfo 70 0 R
+/CIDSystemInfo 71 0 R
 /CIDToGIDMap /Identity
 /DW 1000
-/FontDescriptor 71 0 R
+/FontDescriptor 72 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 159 [ 768 ] 525 [ 743 ] 550 [ 658 ] ]
 >>
 endobj
-70 0 obj
+71 0 obj
 <<
 /Ordering (Identity)
 /Registry (Adobe)
 /Supplement 0
 >>
 endobj
-71 0 obj
+72 0 obj
 <<
 /Ascent 1007
-/CIDSet 72 0 R
+/CIDSet 73 0 R
 /CapHeight 662
 /Descent -307
 /Flags 6
 /FontBBox [ -568 -307 2000 1007 ]
 /FontFamily (Times\040New\040Roman)
-/FontFile2 73 0 R
+/FontFile2 74 0 R
 /FontName /HPLZXO+TimesNewRomanPSMT
 /FontStretch /Normal
 /FontWeight 400
@@ -7992,7 +8238,7 @@ endobj
 /XHeight 448
 >>
 endobj
-72 0 obj
+73 0 obj
 <<
 /Filter /FlateDecode
 /Length 29
@@ -8001,7 +8247,7 @@ stream
 H‰j`À Œ˜Bx    ÿÿ   ÿÿ #	
 endstream
 endobj
-73 0 obj
+74 0 obj
 <<
 /Filter /FlateDecode
 /Length1 37564
@@ -8062,7 +8308,7 @@ z·½XÌ/Æ±O!†Šúmc¿}$óÉ~ä¨‹Ñ|×Ö×ş-èı£#""’ıØq}k’uOÖ1Y—dŞ‰¿ÉøÉ{?íwü´ßå³šwG¾çÃ™
 ¸şËµÜ²qSÍÚD3-9>Ÿ¡’RĞ2å7œº;ÕR2MpŒ •üñ¼g\†®À€€ğP™Õôš!¾/$`+ş  ÿÿ   ÿÿ ÷ã½­
 endstream
 endobj
-74 0 obj
+75 0 obj
 <<
 /Filter /FlateDecode
 /Length 249
@@ -8071,10 +8317,10 @@ stream
 H‰\İjÄ …ï}Š¹Ü½XL,B ¤,ä¢?4í¤B£21yûî²…(Œç|Ãqd×?÷Ş%ïÌ€	&ç-á62#ÎÎ‹Zu&İºr›EG!ö5áÒû)ˆ¦ùÁâšh‡Ã“#…|#‹äü‡¯n8‚¶pAŸ ‚¶‹zÑñU/²`§Ş²îÒ~bæÏñ¹GUúúÆ‹kÔIûESqµĞ\¸ZŞşÓÕ•'ó­‰İJ=²»zèÎmfÏîTÍ™½¹òş,Ü#šˆÓ•”X9óx_Z˜ÊGü  ÿÿ   ÿÿ 8ßr~
 endstream
 endobj
-75 0 obj
+76 0 obj
 <<
 /BaseFont /HPLZXO+ArialMT
-/Encoding 76 0 R
+/Encoding 77 0 R
 /FirstChar 30
 /FontDescriptor 11 0 R
 /LastChar 31
@@ -8083,14 +8329,14 @@ endobj
 /Widths [ 556 556 ]
 >>
 endobj
-76 0 obj
+77 0 obj
 <<
 /BaseEncoding /WinAnsiEncoding
 /Differences [ 30 /eight /one ]
 /Type /Encoding
 >>
 endobj
-77 0 obj
+78 0 obj
 <<
 /BaseFont /HPLZXO+ArialWGL
 /Encoding /WinAnsiEncoding
@@ -8102,20 +8348,20 @@ endobj
 /Widths [ 278 0 0 0 0 0 0 0 0 0 0 0 0 0 278 0 556 0 556 556 0 0 0 0 556 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 833 ]
 >>
 endobj
-78 0 obj
+79 0 obj
 <<
 /BBox [ 0 -8 54.262 0.800049 ]
 /LastModified (D\07220260127183511Z)
 /Matrix [ 1 0 0 1 0 0 ]
-/OC 38 0 R
+/OC 39 0 R
 /PieceInfo <<
 /ADBE_CompoundType <<
-/DocSettings 79 0 R
+/DocSettings 80 0 R
 /LastModified (D\07220260127183511Z)
 /Private /Header
 >>
 >>
-/Resources 80 0 R
+/Resources 81 0 R
 /Subtype /Form
 /Length 157
 >>
@@ -8134,7 +8380,7 @@ ET
 
 endstream
 endobj
-79 0 obj
+80 0 obj
 <<
 /Length 589
 >>
@@ -8142,22 +8388,22 @@ stream
 ï»¿<?xml version = "1.0" encoding = "UTF-8" ?><HeaderFooterSettings version = "8.0"><Font size="8.0" name="Arial" type="TrueType"/><Color r="0.0" b="0.0" g="0.0"/><Margin left="72.0" right="72.0" top="36.0" bottom="36.0"/><Appearance shrink="0" fixedprint="0"/><PageRange end="-1" start="-1" even="1" odd="1"/><Page offset = "0"><PageIndex format="1"/></Page><Date><Month format="1"/>/<Day format="1"/><Year format="0"/></Date><Header><Left>Unit 4 2024.pdf</Left><Center></Center><Right></Right></Header><Footer><Left></Left><Center></Center><Right></Right></Footer></HeaderFooterSettings>
 endstream
 endobj
-80 0 obj
-<<
-/Font 81 0 R
->>
-endobj
 81 0 obj
 <<
-/Arial 41 0 R
+/Font 82 0 R
 >>
 endobj
 82 0 obj
 <<
-/Metadata 83 0 R
+/Arial 42 0 R
 >>
 endobj
 83 0 obj
+<<
+/Metadata 84 0 R
+>>
+endobj
+84 0 obj
 <<
 /Subtype /XML
 /Type /Metadata
@@ -8804,97 +9050,98 @@ stream
 endstream
 endobj
 xref
-0 84
+0 85
 0000000000 65535 f 
 0000000015 00000 n 
 0000000088 00000 n 
 0000000128 00000 n 
 0000000177 00000 n 
-0000004857 00000 n 
-0000023801 00000 n 
-0000023921 00000 n 
-0000024043 00000 n 
-0000024166 00000 n 
-0000024328 00000 n 
-0000024427 00000 n 
-0000024797 00000 n 
-0000026688 00000 n 
-0000027080 00000 n 
-0000027460 00000 n 
-0000029041 00000 n 
-0000029404 00000 n 
-0000029796 00000 n 
-0000030188 00000 n 
-0000030801 00000 n 
-0000030906 00000 n 
-0000031439 00000 n 
-0000034189 00000 n 
-0000034652 00000 n 
-0000035294 00000 n 
-0000035571 00000 n 
-0000064006 00000 n 
-0000064664 00000 n 
-0000065231 00000 n 
-0000065514 00000 n 
-0000089841 00000 n 
-0000090449 00000 n 
-0000090866 00000 n 
-0000091135 00000 n 
-0000113268 00000 n 
-0000113692 00000 n 
-0000113800 00000 n 
-0000114243 00000 n 
-0000114290 00000 n 
-0000114395 00000 n 
-0000115036 00000 n 
-0000116226 00000 n 
-0000116486 00000 n 
-0000696563 00000 n 
-0000696602 00000 n 
-0000733601 00000 n 
-0000733640 00000 n 
-0000770639 00000 n 
-0000771521 00000 n 
-0000782383 00000 n 
-0000782507 00000 n 
-0000782648 00000 n 
-0000782675 00000 n 
-0000783096 00000 n 
-0000783171 00000 n 
-0000783462 00000 n 
-0000783572 00000 n 
-0000799910 00000 n 
-0000800387 00000 n 
-0000800550 00000 n 
-0000800651 00000 n 
-0000801094 00000 n 
-0000801735 00000 n 
-0000805171 00000 n 
-0000816062 00000 n 
-0000816184 00000 n 
-0000816308 00000 n 
-0000816458 00000 n 
-0000816485 00000 n 
-0000816698 00000 n 
-0000816773 00000 n 
-0000817082 00000 n 
-0000817183 00000 n 
-0000829689 00000 n 
-0000830011 00000 n 
-0000830174 00000 n 
-0000830275 00000 n 
-0000830617 00000 n 
-0000831078 00000 n 
-0000831719 00000 n 
-0000831754 00000 n 
-0000831790 00000 n 
-0000831829 00000 n 
+0000005253 00000 n 
+0000024791 00000 n 
+0000024911 00000 n 
+0000025033 00000 n 
+0000025156 00000 n 
+0000025318 00000 n 
+0000025417 00000 n 
+0000025787 00000 n 
+0000027678 00000 n 
+0000028070 00000 n 
+0000028450 00000 n 
+0000030031 00000 n 
+0000030394 00000 n 
+0000030786 00000 n 
+0000031178 00000 n 
+0000031791 00000 n 
+0000031896 00000 n 
+0000032429 00000 n 
+0000035179 00000 n 
+0000035642 00000 n 
+0000036284 00000 n 
+0000036561 00000 n 
+0000064996 00000 n 
+0000065654 00000 n 
+0000066221 00000 n 
+0000066504 00000 n 
+0000090831 00000 n 
+0000091439 00000 n 
+0000091856 00000 n 
+0000092125 00000 n 
+0000114258 00000 n 
+0000114682 00000 n 
+0000114790 00000 n 
+0000114898 00000 n 
+0000115341 00000 n 
+0000115388 00000 n 
+0000115493 00000 n 
+0000116134 00000 n 
+0000117324 00000 n 
+0000117584 00000 n 
+0000697661 00000 n 
+0000697700 00000 n 
+0000734699 00000 n 
+0000734738 00000 n 
+0000771737 00000 n 
+0000773015 00000 n 
+0000784471 00000 n 
+0000784595 00000 n 
+0000784736 00000 n 
+0000784763 00000 n 
+0000785184 00000 n 
+0000785259 00000 n 
+0000785550 00000 n 
+0000785660 00000 n 
+0000801998 00000 n 
+0000802475 00000 n 
+0000802638 00000 n 
+0000802739 00000 n 
+0000803182 00000 n 
+0000803823 00000 n 
+0000807655 00000 n 
+0000819140 00000 n 
+0000819262 00000 n 
+0000819386 00000 n 
+0000819536 00000 n 
+0000819563 00000 n 
+0000819776 00000 n 
+0000819851 00000 n 
+0000820160 00000 n 
+0000820261 00000 n 
+0000832767 00000 n 
+0000833089 00000 n 
+0000833252 00000 n 
+0000833353 00000 n 
+0000833695 00000 n 
+0000834156 00000 n 
+0000834797 00000 n 
+0000834832 00000 n 
+0000834868 00000 n 
+0000834907 00000 n 
 trailer
 <<
-/Size 84
+/Size 85
 /Root 3 0 R
 /Info 2 0 R
 >>
 startxref
-868865
+871943
 %%EOF
