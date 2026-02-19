@@ -91,6 +91,7 @@ def find_mark_scheme_folder(papers_path):
     unit = None
     category = None
     tier = None
+    paper_year = None
     
     for part in parts:
         if re.match(r'^Year \d+$', part):
@@ -101,6 +102,10 @@ def find_mark_scheme_folder(papers_path):
             category = part
         if part in ['Higher', 'Foundation', 'FT', 'HT']:
             tier = part
+        if not paper_year:
+            year_match = re.search(r'(20\d{2})', part)
+            if year_match:
+                paper_year = int(year_match.group(1))
     
     # Check folder type (Whole/Separated/By Topic)
     # Check all parts of the path to detect folder type
@@ -168,13 +173,13 @@ def find_mark_scheme_folder(papers_path):
     for candidate in mark_scheme_candidates:
         if os.path.exists(candidate):
             # Look for matching folder type
-            result = find_matching_ms_folder(candidate, folder_type, topic_name)
+            result = find_matching_ms_folder(candidate, folder_type, topic_name, paper_year)
             if result:
                 return result
     
     return None
 
-def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None):
+def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_year=None):
     """Find the specific mark scheme folder matching the paper type"""
     try:
         items = os.listdir(ms_base_path)
@@ -192,6 +197,10 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None):
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'separated' and 'separated' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
+            if paper_year:
+                year_match_path = find_year_subfolder(full_path, paper_year)
+                if year_match_path:
+                    return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'by_topic' and 'by topic' in dir_lower:
             by_topic_path = os.path.join(ms_base_path, dir_name)
@@ -208,12 +217,48 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None):
             if os.path.exists(topic_path):
                 return {'path': format_path(topic_path), 'files': list_files(topic_path)}
         return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
+
+    # If base path is already a separated questions folder, try to match year subfolder
+    if folder_type == 'separated' and 'separated' in os.path.basename(ms_base_path).lower():
+        if paper_year:
+            year_match_path = find_year_subfolder(ms_base_path, paper_year)
+            if year_match_path:
+                return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
+        return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
     
     # Fallback: return first available mark scheme folder (only if no exact type match found)
     if dirs:
         full_path = os.path.join(ms_base_path, dirs[0])
         return {'path': format_path(full_path), 'files': list_files(full_path)}
     
+    return None
+
+def find_year_subfolder(base_path, year):
+    """Find a subfolder matching the given year (e.g., 2017 or S17)."""
+    try:
+        items = os.listdir(base_path)
+    except:
+        return None
+
+    dirs = [item for item in items if os.path.isdir(os.path.join(base_path, item))]
+    year_str = str(year)
+    year_short = year_str[-2:]
+
+    # Prefer exact 4-digit year matches
+    for dir_name in dirs:
+        if year_str in dir_name:
+            return os.path.join(base_path, dir_name)
+
+    # Next, match Sxx style (e.g., S24)
+    for dir_name in dirs:
+        if f"s{year_short}" in dir_name.lower():
+            return os.path.join(base_path, dir_name)
+
+    # Final fallback: any occurrence of the 2-digit year
+    for dir_name in dirs:
+        if year_short in dir_name:
+            return os.path.join(base_path, dir_name)
+
     return None
 
 def list_files(path):
