@@ -1,0 +1,187 @@
+{
+  "sessions": {
+    "N": "GCSE November",
+    "W": "Welsh Baccalaureate June",
+    "7": "Vocational Level 1/2 June",
+    "Z": "Project June",
+    "9": "HSCCC June",
+    "G": "GCSE June",
+    "D": "Entry Level June",
+    "3": "Applied Level 3 June",
+    "E": "GCE June",
+    "I": "Welsh Baccalaureate January",
+    "A": "Vocational Level 1/2 January",
+    "8": "HSCCC January",
+    "O": "GCSE January"
+  },
+  "gradeBoundaries": {
+    "2025": {
+      "N": {
+        "WJEC": {
+          "3700": {
+            "name": "ENGLISH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          },
+          "3300": {
+            "name": "MATHEMATICS",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          },
+          "3310": {
+            "name": "MATHEMATICS NUMERACY",
+            "QS": {
+              "raw_mark": 180,
+              "boundaries": {
+                "A": 144,
+                "B": 126,
+                "C": 108,
+                "D": 90,
+                "E": 72,
+                "F": 54,
+                "G": 36,
+                "U": 0
+              }
+            }
+          },
+          "3000": {
+            "name": "WELSH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          }
+        }
+      },
+      "G": {
+        "WJEC": {
+          "3700": {
+            "name": "ENGLISH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          },
+          "3300": {
+            "name": "MATHEMATICS",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          }
+        },
+        "EDUQAS": {
+          "3700": {
+            "name": "ENGLISH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "N": {
+        "WJEC": {
+          "3700": {
+            "name": "ENGLISH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          }
+        }
+      },
+      "G": {
+        "WJEC": {
+          "3700": {
+            "name": "ENGLISH LANGUAGE",
+            "QS": {
+              "raw_mark": 240,
+              "boundaries": {
+                "A": 192,
+                "B": 168,
+                "C": 144,
+                "D": 120,
+                "E": 96,
+                "F": 72,
+                "G": 48,
+                "U": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "generated": "2026-02-19T20:02:10.054740",
+  "note": "Add more subjects and grade boundaries as needed. Format: {year: {session: {brand: {subject_code: {name, option: {raw_mark, boundaries}}}}}}"
+}

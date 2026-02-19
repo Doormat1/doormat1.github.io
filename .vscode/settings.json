@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /workspaces/doormat1\\.github\\.io && python generate_mark_schemes\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

@@ -1,0 +1,615 @@
+---
+title: Mark to UMS Converter
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to UMS Converter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .filters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        .filter-group select {
+            padding: 10px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 1em;
+            background-color: white;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:hover,
+        .filter-group select:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+
+        .filter-group select:disabled {
+            background-color: #e9ecef;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+        .title-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 600;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: #f8f9fa;
+        }
+
+        th {
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 2px solid #e9ecef;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        td {
+            padding: 12px 15px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .note {
+            background: #e8f4f8;
+            border-left: 4px solid #0288d1;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            color: #01579b;
+        }
+
+        .input-row input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.95em;
+            text-align: center;
+        }
+
+        .input-row input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+        }
+
+        .result-row {
+            background: #f0f7ff;
+            font-weight: 600;
+        }
+
+        .result-row td {
+            padding: 15px;
+            color: #0052cc;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            border: none;
+            font-size: 1em;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #26c6da 0%, #00897b 100%);
+        }
+
+        .error {
+            background: #ffebee;
+            border-left: 4px solid #d32f2f;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            color: #b71c1c;
+            display: none;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: #999;
+            padding: 40px 20px;
+        }
+
+        .empty-state-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+
+        .empty-state-text {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .filters {
+                grid-template-columns: 1fr;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .filters, .button-group {
+                display: none;
+            }
+
+            .container {
+                box-shadow: none;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mark to UMS Converter</h1>
+            <p>WJEC/EDUQAS Grade Boundaries Calculator</p>
+        </header>
+
+        <div class="content">
+            <div class="note">
+                💡 <strong>How to use:</strong> Select your year, session, brand, subject and option. Enter your raw mark to see the equivalent grade.
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="year">Year:</label>
+                    <select id="year" onchange="updateData()">
+                        <option value="">Select Year...</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="session">Session:</label>
+                    <select id="session" onchange="updateData()">
+                        <option value="">Select Session...</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="brand">Brand:</label>
+                    <select id="brand" onchange="updateData()">
+                        <option value="">Select Brand...</option>
+                        <option value="WJEC">WJEC</option>
+                        <option value="EDUQAS">EDUQAS</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" onchange="updateData()">
+                        <option value="">Select Subject...</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="option">Option:</label>
+                    <select id="option" onchange="updateData()">
+                        <option value="">Select Option...</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="title" class="title-box">
+                Select filters to view grade boundaries
+            </div>
+
+            <div id="error" class="error"></div>
+
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th>Grade</th>
+                            <th>A</th>
+                            <th>B</th>
+                            <th>C</th>
+                            <th>D</th>
+                            <th>E</th>
+                            <th>F</th>
+                            <th>G</th>
+                            <th>U</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td colspan="9" style="text-align: center; padding: 40px;">
+                                <div class="empty-state">
+                                    <div class="empty-state-icon">📚</div>
+                                    <div class="empty-state-text">Select all filters to view grade boundaries</div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="button-group">
+                <button class="btn" onclick="downloadPDF()" id="downloadBtn" style="display: none;">
+                    📥 Download as PDF
+                </button>
+                <button class="btn btn-secondary" onclick="printPage()" id="printBtn" style="display: none;">
+                    🖨️ Print
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let gradeBoundariesData = null;
+        let sessionMap = {};
+
+        // Load data on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            loadDataFile();
+        });
+
+        function loadDataFile() {
+            fetch('mark_ums_data.json')
+                .then(response => {
+                    if (!response.ok) throw new Error('Failed to load data file');
+                    return response.json();
+                })
+                .then(data => {
+                    gradeBoundariesData = data.gradeBoundaries;
+                    sessionMap = data.sessions;
+                    populateYears();
+                    populateSessions();
+                })
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                    showError('Failed to load grade boundaries data. Please refresh the page.');
+                });
+        }
+
+        function populateYears() {
+            const yearSelect = document.getElementById('year');
+            
+            if (gradeBoundariesData) {
+                const years = Object.keys(gradeBoundariesData).sort((a, b) => b - a);
+                years.forEach(year => {
+                    const option = document.createElement('option');
+                    option.value = year;
+                    option.textContent = year;
+                    yearSelect.appendChild(option);
+                });
+            }
+        }
+
+        function populateSessions() {
+            const sessionSelect = document.getElementById('session');
+            
+            Object.entries(sessionMap).forEach(([code, name]) => {
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = name;
+                sessionSelect.appendChild(option);
+            });
+        }
+
+        function updateData() {
+            const year = document.getElementById('year').value;
+            const session = document.getElementById('session').value;
+            const brand = document.getElementById('brand').value;
+            const subject = document.getElementById('subject').value;
+            const option = document.getElementById('option').value;
+
+            // Update subjects based on year, session, and brand
+            if (year && session && brand) {
+                updateSubjects(year, session, brand);
+            }
+
+            // Update options based on subject
+            if (subject) {
+                updateOptions(year, session, brand, subject);
+            }
+
+            // Update the display
+            if (year && session && brand && subject && option) {
+                displayData(year, session, brand, subject, option);
+            } else {
+                clearDisplay();
+            }
+        }
+
+        function updateSubjects(year, session, brand) {
+            const subjectSelect = document.getElementById('subject');
+            const currentSubject = subjectSelect.value;
+            
+            subjectSelect.innerHTML = '<option value="">Select Subject...</option>';
+            
+            const data = gradeBoundariesData[year]?.[session]?.[brand];
+            if (data) {
+                Object.entries(data).forEach(([code, subjectData]) => {
+                    const option = document.createElement('option');
+                    option.value = code;
+                    option.textContent = `${subjectData.name} (${code})`;
+                    subjectSelect.appendChild(option);
+                });
+                
+                // Try to restore previous selection
+                if (currentSubject) {
+                    subjectSelect.value = currentSubject;
+                }
+            }
+            
+            // Reset option select
+            document.getElementById('option').innerHTML = '<option value="">Select Option...</option>';
+        }
+
+        function updateOptions(year, session, brand, subject) {
+            const optionSelect = document.getElementById('option');
+            const currentOption = optionSelect.value;
+            
+            optionSelect.innerHTML = '<option value="">Select Option...</option>';
+            
+            const subjectData = gradeBoundariesData[year]?.[session]?.[brand]?.[subject];
+            if (subjectData) {
+                Object.keys(subjectData).forEach(opt => {
+                    if (opt !== 'name') {
+                        const option = document.createElement('option');
+                        option.value = opt;
+                        option.textContent = opt === 'QS' ? 'QUALIFICATION' : opt;
+                        optionSelect.appendChild(option);
+                    }
+                });
+                
+                // Try to restore previous selection
+                if (currentOption) {
+                    optionSelect.value = currentOption;
+                }
+            }
+        }
+
+        function displayData(year, session, brand, subject, option) {
+            const data = gradeBoundariesData[year]?.[session]?.[brand]?.[subject]?.[option];
+            
+            if (!data) {
+                clearDisplay();
+                return;
+            }
+
+            const sessionName = sessionMap[session] || session;
+            const subjectName = gradeBoundariesData[year][session][brand][subject].name;
+            
+            document.getElementById('title').textContent = `${sessionName} ${year} ${subjectName} (${subject})`;
+            
+            const tableBody = document.getElementById('tableBody');
+            const downloadBtn = document.getElementById('downloadBtn');
+            const printBtn = document.getElementById('printBtn');
+            
+            const boundaries = data.boundaries;
+            
+            tableBody.innerHTML = `
+                <tr>
+                    <td style="font-weight: 600; background: #f8f9fa;">Mark</td>
+                    <td>${boundaries.A}</td>
+                    <td>${boundaries.B}</td>
+                    <td>${boundaries.C}</td>
+                    <td>${boundaries.D}</td>
+                    <td>${boundaries.E}</td>
+                    <td>${boundaries.F}</td>
+                    <td>${boundaries.G}</td>
+                    <td>${boundaries.U}</td>
+                </tr>
+                <tr class="input-row">
+                    <td style="font-weight: 600; background: #f8f9fa;">Your Mark</td>
+                    <td colspan="8">
+                        <input type="number" id="userMark" placeholder="Enter mark (0-${data.raw_mark})" min="0" max="${data.raw_mark}" onchange="calculateGrade('${year}', '${session}', '${brand}', '${subject}', '${option}')">
+                    </td>
+                </tr>
+                <tr class="result-row" id="resultRow" style="display: none;">
+                    <td style="font-weight: 600;">Your Grade</td>
+                    <td colspan="8"><span id="resultGrade">-</span></td>
+                </tr>
+            `;
+            
+            downloadBtn.style.display = 'inline-block';
+            printBtn.style.display = 'inline-block';
+        }
+
+        function calculateGrade(year, session, brand, subject, option) {
+            const userMark = parseInt(document.getElementById('userMark').value) || 0;
+            const data = gradeBoundariesData[year][session][brand][subject][option];
+            const boundaries = data.boundaries;
+            
+            let grade = 'U';
+            if (userMark >= boundaries.A) grade = 'A';
+            else if (userMark >= boundaries.B) grade = 'B';
+            else if (userMark >= boundaries.C) grade = 'C';
+            else if (userMark >= boundaries.D) grade = 'D';
+            else if (userMark >= boundaries.E) grade = 'E';
+            else if (userMark >= boundaries.F) grade = 'F';
+            else if (userMark >= boundaries.G) grade = 'G';
+            
+            const resultRow = document.getElementById('resultRow');
+            document.getElementById('resultGrade').textContent = grade;
+            resultRow.style.display = userMark > 0 ? 'table-row' : 'none';
+        }
+
+        function clearDisplay() {
+            document.getElementById('title').textContent = 'Select filters to view grade boundaries';
+            document.getElementById('tableBody').innerHTML = `
+                <tr>
+                    <td colspan="9" style="text-align: center; padding: 40px;">
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📚</div>
+                            <div class="empty-state-text">Select all filters to view grade boundaries</div>
+                        </div>
+                    </td>
+                </tr>
+            `;
+            document.getElementById('downloadBtn').style.display = 'none';
+            document.getElementById('printBtn').style.display = 'none';
+        }
+
+        function downloadPDF() {
+            const element = document.getElementById('dataTable');
+            const title = document.getElementById('title').textContent;
+            
+            const opt = {
+                margin: 10,
+                filename: `Mark-to-UMS-${title.replace(/\s+/g, '-')}.pdf`,
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { orientation: 'landscape', unit: 'mm', format: 'a4' }
+            };
+            
+            html2pdf().set(opt).from(element).save();
+        }
+
+        function printPage() {
+            window.print();
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
