@@ -90,6 +90,7 @@ def find_mark_scheme_folder(papers_path):
     year_level = None
     unit = None
     category = None
+    tier = None
     
     for part in parts:
         if re.match(r'^Year \d+$', part):
@@ -98,10 +99,13 @@ def find_mark_scheme_folder(papers_path):
             unit = part
         if part in ['Doubles', 'Separates', 'Singles', 'A Level', 'AS Level']:
             category = part
+        if part in ['Higher', 'Foundation', 'FT', 'HT']:
+            tier = part
     
     # Check folder type (Whole/Separated/By Topic)
     # Check all parts of the path to detect folder type
     folder_type = None
+    topic_name = None
     for part in parts:
         if 'whole' in part.lower():
             folder_type = 'whole'
@@ -111,6 +115,13 @@ def find_mark_scheme_folder(papers_path):
             break
         elif 'by topic' in part.lower():
             folder_type = 'by_topic'
+            break
+
+    # Capture topic name if this is a By Topic path (e.g., .../By Topic/Density)
+    for i, part in enumerate(parts):
+        if 'by topic' in part.lower():
+            if i + 1 < len(parts):
+                topic_name = parts[i + 1]
             break
     
     # Build mark scheme paths
@@ -127,6 +138,12 @@ def find_mark_scheme_folder(papers_path):
         else:
             # GCSE: Subject > Mark Schemes > Year X > Category > Type
             if category:
+                if tier:
+                    # Tier-specific paths (Foundation/Higher/FT/HT) including nested category variant
+                    mark_scheme_candidates.append(os.path.join(ms_base, category, year_level, tier))
+                    mark_scheme_candidates.append(os.path.join(ms_base, category, category, year_level, tier))
+                    mark_scheme_candidates.append(os.path.join(ms_base, year_level, category, tier))
+
                 ms_path = os.path.join(ms_base, year_level, category)
                 mark_scheme_candidates.append(ms_path)
                 # Some subjects use Category > Year X instead
@@ -151,13 +168,13 @@ def find_mark_scheme_folder(papers_path):
     for candidate in mark_scheme_candidates:
         if os.path.exists(candidate):
             # Look for matching folder type
-            result = find_matching_ms_folder(candidate, folder_type)
+            result = find_matching_ms_folder(candidate, folder_type, topic_name)
             if result:
                 return result
     
     return None
 
-def find_matching_ms_folder(ms_base_path, folder_type):
+def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None):
     """Find the specific mark scheme folder matching the paper type"""
     try:
         items = os.listdir(ms_base_path)
@@ -177,8 +194,20 @@ def find_matching_ms_folder(ms_base_path, folder_type):
             full_path = os.path.join(ms_base_path, dir_name)
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'by_topic' and 'by topic' in dir_lower:
-            full_path = os.path.join(ms_base_path, dir_name)
-            return {'path': format_path(full_path), 'files': list_files(full_path)}
+            by_topic_path = os.path.join(ms_base_path, dir_name)
+            if topic_name:
+                topic_path = os.path.join(by_topic_path, topic_name)
+                if os.path.exists(topic_path):
+                    return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+            return {'path': format_path(by_topic_path), 'files': list_files(by_topic_path)}
+
+    # If the base path itself is the By Topic folder, try to match the topic subfolder
+    if folder_type == 'by_topic' and 'by topic' in os.path.basename(ms_base_path).lower():
+        if topic_name:
+            topic_path = os.path.join(ms_base_path, topic_name)
+            if os.path.exists(topic_path):
+                return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+        return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
     
     # Fallback: return first available mark scheme folder (only if no exact type match found)
     if dirs:
