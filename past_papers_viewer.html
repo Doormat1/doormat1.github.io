@@ -765,13 +765,63 @@ layout: default
             mainTitle.textContent = label;
             
             // Check if this folder has a linked mark scheme folder
-            if (folderData.markSchemeFolder) {
+            let markSchemeFolder = folderData.markSchemeFolder;
+            if (!hasPdfFiles(markSchemeFolder)) {
+                const resolved = resolveAppliedMarkSchemeFolder(currentPath);
+                if (resolved) {
+                    markSchemeFolder = resolved;
+                }
+            }
+
+            if (markSchemeFolder) {
                 console.log('Mark scheme folder found in config!');
-                displaySplitView(folderData, folderData.markSchemeFolder, label);
+                displaySplitView(folderData, markSchemeFolder, label);
             } else {
                 console.log('No mark scheme folder linked');
                 displaySingleFolder(folderData, label);
             }
+        }
+
+        function hasPdfFiles(folderData) {
+            if (!folderData || typeof folderData !== 'object' || !Array.isArray(folderData.files)) {
+                return false;
+            }
+            return folderData.files.some(file => typeof file.name === 'string' && file.name.toLowerCase().endsWith('.pdf'));
+        }
+
+        function resolveAppliedMarkSchemeFolder(path) {
+            if (!Array.isArray(path) || path.length < 5) {
+                return null;
+            }
+
+            const subject = path[0];
+            if (subject !== 'Applied') {
+                return null;
+            }
+
+            const unit = path[1];
+            const tier = path[2];
+            const byTopic = path[3];
+            const topic = path[4];
+
+            if (byTopic !== 'By Topic' || !topic) {
+                return null;
+            }
+
+            const candidates = [];
+            if (tier) {
+                candidates.push([subject, 'Mark Schemes', unit, tier, 'By Topic', topic]);
+            }
+            candidates.push([subject, 'Mark Schemes', unit, 'By Topic', topic]);
+
+            for (const candidate of candidates) {
+                const data = getDataAtPath(candidate);
+                if (data && typeof data === 'object' && data.path) {
+                    return data;
+                }
+            }
+
+            return null;
         }
 
         function displaySplitView(papersFolder, markSchemesFolder, label) {
