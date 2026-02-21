@@ -801,23 +801,53 @@ layout: default
 
             const unit = path[1];
             const tier = path[2];
-            const byTopic = path[3];
-            const topic = path[4];
+            const section = path[3];
+            const selection = path[4];
 
-            if (byTopic !== 'By Topic' || !topic) {
+            if (section === 'By Topic' && selection) {
+                const candidates = [];
+                if (tier) {
+                    candidates.push([subject, 'Mark Schemes', unit, tier, 'By Topic', selection]);
+                }
+                candidates.push([subject, 'Mark Schemes', unit, 'By Topic', selection]);
+
+                for (const candidate of candidates) {
+                    const data = getDataAtPath(candidate);
+                    if (data && typeof data === 'object' && data.path) {
+                        return data;
+                    }
+                }
+
                 return null;
             }
 
-            const candidates = [];
-            if (tier) {
-                candidates.push([subject, 'Mark Schemes', unit, tier, 'By Topic', topic]);
-            }
-            candidates.push([subject, 'Mark Schemes', unit, 'By Topic', topic]);
+            if (section === 'Separated Papers' && selection) {
+                const separatedRoot = getDataAtPath([subject, 'Mark Schemes', unit, tier, 'Separated Questions']);
+                if (!separatedRoot || typeof separatedRoot !== 'object') {
+                    return null;
+                }
 
-            for (const candidate of candidates) {
-                const data = getDataAtPath(candidate);
-                if (data && typeof data === 'object' && data.path) {
-                    return data;
+                const yearMatch = selection.match(/(20\d{2})/);
+                const expectedLabel = yearMatch ? `${unit} ${tier} MS ${yearMatch[1]}` : '';
+
+                if (expectedLabel && separatedRoot[expectedLabel] && hasPdfFiles(separatedRoot[expectedLabel])) {
+                    return separatedRoot[expectedLabel];
+                }
+
+                const folderKeys = Object.keys(separatedRoot).filter(key => !['path', 'files', 'markSchemeFolder'].includes(key));
+                for (const key of folderKeys) {
+                    const candidate = separatedRoot[key];
+                    if (!hasPdfFiles(candidate)) {
+                        continue;
+                    }
+
+                    if (!yearMatch) {
+                        return candidate;
+                    }
+
+                    if (key.includes(yearMatch[1])) {
+                        return candidate;
+                    }
                 }
             }
 
