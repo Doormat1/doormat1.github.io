@@ -20326,48 +20326,43 @@ const configData = {
               }
             },
             "Separated Papers": {
-              "Chemistry Unit 1 2016_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions",
+              "Chemistry Unit 1 2016": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2016_Q1.pdf",
-                    "size": "520.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2016_Q10.pdf",
-                    "size": "546.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q10.pdf"
+                    "size": "548.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2016_Q11.pdf",
-                    "size": "568.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q11.pdf"
+                    "size": "570.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2016_Q12.pdf",
-                    "size": "543.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2016_Q5.pdf",
-                    "size": "562.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q5.pdf"
+                    "size": "545.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2016_Q8.pdf",
-                    "size": "574.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q8.pdf"
+                    "size": "576.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2016_Q9.pdf",
-                    "size": "571.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/Chemistry Unit 1 2016_Q9.pdf"
+                    "size": "573.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2016_Section A.pdf",
+                    "size": "583.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/Chemistry Unit 1 2016_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2016/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20411,43 +20406,38 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2017_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions",
+              "Chemistry Unit 1 2017": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2017_Q1.pdf",
-                    "size": "511.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q1.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2017_Q4.pdf",
-                    "size": "514.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q4.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2017_Q6.pdf",
-                    "size": "555.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q6.pdf"
+                    "size": "556.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/Chemistry Unit 1 2017_Q6.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2017_Q7.pdf",
-                    "size": "564.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q7.pdf"
+                    "size": "566.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/Chemistry Unit 1 2017_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2017_Q8.pdf",
-                    "size": "567.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q8.pdf"
+                    "size": "569.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/Chemistry Unit 1 2017_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2017_Q9.pdf",
-                    "size": "541.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/Chemistry Unit 1 2017_Q9.pdf"
+                    "size": "543.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/Chemistry Unit 1 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2017_Section A.pdf",
+                    "size": "534.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/Chemistry Unit 1 2017_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20486,53 +20476,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2018_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions",
+              "Chemistry Unit 1 2018": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2018_Q1.pdf",
-                    "size": "512.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2018_Q10.pdf",
-                    "size": "530.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q10.pdf"
+                    "size": "532.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2018_Q11.pdf",
-                    "size": "536.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2018_Q4.pdf",
-                    "size": "520.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2018_Q5.pdf",
-                    "size": "566.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q5.pdf"
+                    "size": "538.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2018_Q7.pdf",
-                    "size": "511.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q7.pdf"
+                    "size": "586.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2018_Q8.pdf",
-                    "size": "537.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q8.pdf"
+                    "size": "538.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2018_Q9.pdf",
-                    "size": "560.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/Chemistry Unit 1 2018_Q9.pdf"
+                    "size": "562.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2018_Section A.pdf",
+                    "size": "540.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/Chemistry Unit 1 2018_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20576,48 +20556,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2019_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions",
+              "Chemistry Unit 1 2019": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2019_Q1.pdf",
-                    "size": "548.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2019_Q10.pdf",
-                    "size": "544.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q10.pdf"
+                    "size": "545.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2019_Q11.pdf",
-                    "size": "570.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q11.pdf"
+                    "size": "572.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2019_Q12.pdf",
-                    "size": "589.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q12.pdf"
+                    "size": "591.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2019_Q13.pdf",
-                    "size": "560.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2019_Q5.pdf",
-                    "size": "503.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q5.pdf"
+                    "size": "561.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2019_Q9.pdf",
-                    "size": "566.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/Chemistry Unit 1 2019_Q9.pdf"
+                    "size": "568.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2019_Section A.pdf",
+                    "size": "573.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/Chemistry Unit 1 2019_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20661,48 +20636,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2022_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions",
+              "Chemistry Unit 1 2022": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2022_Q1.pdf",
-                    "size": "555.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2022_Q10.pdf",
-                    "size": "584.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q10.pdf"
+                    "size": "585.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2022_Q11.pdf",
-                    "size": "591.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q11.pdf"
+                    "size": "593.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2022_Q12.pdf",
-                    "size": "646.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2022_Q5.pdf",
-                    "size": "508.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q5.pdf"
+                    "size": "648.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2022_Q8.pdf",
-                    "size": "825.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q8.pdf"
+                    "size": "827.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2022_Q9.pdf",
-                    "size": "592.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/Chemistry Unit 1 2022_Q9.pdf"
+                    "size": "594.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2022_Section A.pdf",
+                    "size": "584.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/Chemistry Unit 1 2022_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20746,48 +20716,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2023_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions",
+              "Chemistry Unit 1 2023": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2023_Q1.pdf",
-                    "size": "516.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q1.pdf"
+                    "name": "Chemistry Unit 1 2023Section A.pdf",
+                    "size": "604.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023Section A.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2023_Q10.pdf",
-                    "size": "636.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q10.pdf"
+                    "size": "639.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2023_Q11.pdf",
-                    "size": "603.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2023_Q4.pdf",
-                    "size": "568.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q4.pdf"
+                    "size": "606.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2023_Q7.pdf",
-                    "size": "574.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q7.pdf"
+                    "size": "576.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2023_Q8.pdf",
-                    "size": "570.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q8.pdf"
+                    "size": "572.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2023_Q9.pdf",
-                    "size": "716.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/Chemistry Unit 1 2023_Q9.pdf"
+                    "size": "718.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/Chemistry Unit 1 2023_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20831,48 +20796,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 1 2024_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions",
+              "Chemistry Unit 1 2024": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024",
                 "files": [
                   {
-                    "name": "Chemistry Unit 1 2024_Q1.pdf",
-                    "size": "168.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 1 2024_Q10.pdf",
-                    "size": "209.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q10.pdf"
+                    "size": "211.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2024_Q11.pdf",
-                    "size": "255.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q11.pdf"
+                    "size": "257.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2024_Q12.pdf",
-                    "size": "226.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q12.pdf"
+                    "size": "229.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2024_Q13.pdf",
-                    "size": "204.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 1 2024_Q6.pdf",
-                    "size": "297.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q6.pdf"
+                    "size": "222.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 1 2024_Q9.pdf",
-                    "size": "141.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/Chemistry Unit 1 2024_Q9.pdf"
+                    "size": "142.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 1 2024_Section A.pdf",
+                    "size": "392.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/Chemistry Unit 1 2024_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Separated Papers/Chemistry Unit 1 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -20922,22 +20882,22 @@ const configData = {
               "files": [
                 {
                   "name": "Chemistry Unit 1 2016.pdf",
-                  "size": "938.2 KB",
+                  "size": "950.7 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Whole Papers/Chemistry Unit 1 2016.pdf"
                 },
                 {
                   "name": "Chemistry Unit 1 2017.pdf",
-                  "size": "803.5 KB",
+                  "size": "813.5 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Whole Papers/Chemistry Unit 1 2017.pdf"
                 },
                 {
                   "name": "Chemistry Unit 1 2018.pdf",
-                  "size": "883.3 KB",
+                  "size": "895.8 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Whole Papers/Chemistry Unit 1 2018.pdf"
                 },
                 {
                   "name": "Chemistry Unit 1 2019.pdf",
-                  "size": "929.2 KB",
+                  "size": "941.7 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 1/Whole Papers/Chemistry Unit 1 2019.pdf"
                 },
                 {
@@ -21030,58 +20990,48 @@ const configData = {
               }
             },
             "Separated Papers": {
-              "Chemistry Unit 2 2016_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions",
+              "Chemistry Unit 2 2016": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2016_Q1.pdf",
-                    "size": "599.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2016_Q10.pdf",
-                    "size": "523.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q10.pdf"
+                    "size": "524.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2016_Q11.pdf",
-                    "size": "533.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q11.pdf"
+                    "size": "535.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2016_Q12.pdf",
-                    "size": "539.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2016_Q3.pdf",
-                    "size": "511.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2016_Q5.pdf",
-                    "size": "507.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q5.pdf"
+                    "size": "540.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2016_Q7.pdf",
-                    "size": "544.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q7.pdf"
+                    "size": "546.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2016_Q8.pdf",
-                    "size": "542.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q8.pdf"
+                    "size": "543.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2016_Q9.pdf",
-                    "size": "507.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/Chemistry Unit 2 2016_Q9.pdf"
+                    "size": "508.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2016_Section A.pdf",
+                    "size": "633.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/Chemistry Unit 2 2016_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2016/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21130,53 +21080,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2017_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions",
+              "Chemistry Unit 2 2017": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2017_Q1.pdf",
-                    "size": "514.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2017_Q10.pdf",
-                    "size": "571.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q10.pdf"
+                    "size": "573.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2017_Q11.pdf",
-                    "size": "533.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2017_Q3.pdf",
-                    "size": "593.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2017_Q5.pdf",
-                    "size": "533.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q5.pdf"
+                    "size": "534.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2017_Q7.pdf",
-                    "size": "595.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q7.pdf"
+                    "size": "597.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2017_Q8.pdf",
-                    "size": "710.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q8.pdf"
+                    "size": "713.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2017_Q9.pdf",
-                    "size": "576.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/Chemistry Unit 2 2017_Q9.pdf"
+                    "size": "578.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2017_Section A.pdf",
+                    "size": "641.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/Chemistry Unit 2 2017_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21220,53 +21160,48 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2018_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions",
+              "Chemistry Unit 2 2018": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2018_Q1.pdf",
-                    "size": "777.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2018_Q10.pdf",
-                    "size": "559.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q10.pdf"
+                    "size": "561.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2018_Q11.pdf",
-                    "size": "617.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q11.pdf"
+                    "size": "619.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2018_Q12.pdf",
-                    "size": "587.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q12.pdf"
+                    "size": "589.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2018_Q13.pdf",
-                    "size": "554.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2018_Q5.pdf",
-                    "size": "522.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q5.pdf"
+                    "size": "554.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2018_Q8.pdf",
-                    "size": "523.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q8.pdf"
+                    "size": "524.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2018_Q9.pdf",
-                    "size": "668.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/Chemistry Unit 2 2018_Q9.pdf"
+                    "size": "670.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2018_Section A.pdf",
+                    "size": "807.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/Chemistry Unit 2 2018_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21315,48 +21250,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2019_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions",
+              "Chemistry Unit 2 2019": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2019_Q1.pdf",
-                    "size": "586.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2019_Q10.pdf",
-                    "size": "527.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q10.pdf"
+                    "size": "529.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2019_Q11.pdf",
-                    "size": "790.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2019_Q4.pdf",
-                    "size": "514.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q4.pdf"
+                    "size": "792.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2019_Q7.pdf",
-                    "size": "616.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q7.pdf"
+                    "size": "619.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2019_Q8.pdf",
-                    "size": "593.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q8.pdf"
+                    "size": "595.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2019_Q9.pdf",
-                    "size": "577.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/Chemistry Unit 2 2019_Q9.pdf"
+                    "size": "578.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2019_Section A.pdf",
+                    "size": "608.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/Chemistry Unit 2 2019_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21400,53 +21330,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2022_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions",
+              "Chemistry Unit 2 2022": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2022_Q1.pdf",
-                    "size": "547.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2022_Q10.pdf",
-                    "size": "665.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q10.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2022_Q3.pdf",
-                    "size": "534.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2022_Q52.pdf",
-                    "size": "549.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q52.pdf"
+                    "size": "667.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2022_Q6.pdf",
-                    "size": "656.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q6.pdf"
+                    "size": "658.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Q6.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2022_Q7.pdf",
-                    "size": "933.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q7.pdf"
+                    "size": "935.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2022_Q8.pdf",
-                    "size": "542.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q8.pdf"
+                    "size": "612.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2022_Q9.pdf",
-                    "size": "549.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/Chemistry Unit 2 2022_Q9.pdf"
+                    "size": "551.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2022_Section A.pdf",
+                    "size": "600.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/Chemistry Unit 2 2022_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21490,58 +21410,48 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2023_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions",
+              "Chemistry Unit 2 2023": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2023_Q1.pdf",
-                    "size": "560.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2023_Q10.pdf",
-                    "size": "630.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q10.pdf"
+                    "size": "632.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2023_Q11.pdf",
-                    "size": "624.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q11.pdf"
+                    "size": "626.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2023_Q12.pdf",
-                    "size": "522.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q12.pdf"
+                    "size": "523.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2023_Q13.pdf",
-                    "size": "605.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2023_Q4.pdf",
-                    "size": "571.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2023_Q6.pdf",
-                    "size": "547.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q6.pdf"
+                    "size": "608.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2023_Q8.pdf",
-                    "size": "507.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q8.pdf"
+                    "size": "508.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2023_Q9.pdf",
-                    "size": "619.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/Chemistry Unit 2 2023_Q9.pdf"
+                    "size": "621.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2023_Section A.pdf",
+                    "size": "710.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/Chemistry Unit 2 2023_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21590,58 +21500,48 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 2 2024_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions",
+              "Chemistry Unit 2 2024": {
+                "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024",
                 "files": [
                   {
-                    "name": "Chemistry Unit 2 2024_Q1.pdf",
-                    "size": "192.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 2 2024_Q10.pdf",
-                    "size": "301.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q10.pdf"
+                    "size": "304.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2024_Q11.pdf",
-                    "size": "223.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q11.pdf"
+                    "size": "225.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2024_Q12.pdf",
-                    "size": "412.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q12.pdf"
+                    "size": "415.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2024_Q13.pdf",
-                    "size": "193.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2024_Q4.pdf",
-                    "size": "116.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q4.pdf"
+                    "size": "195.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2024_Q8.pdf",
-                    "size": "171.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q8.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 2 2024_Q88.pdf",
-                    "size": "84.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q88.pdf"
+                    "size": "173.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 2 2024_Q9.pdf",
-                    "size": "121.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/Chemistry Unit 2 2024_Q9.pdf"
+                    "size": "143.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 2 2024_Section A.pdf",
+                    "size": "246.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/Chemistry Unit 2 2024_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Separated Papers/Chemistry Unit 2 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21696,7 +21596,7 @@ const configData = {
               "files": [
                 {
                   "name": "Chemistry Unit 2 2016.pdf",
-                  "size": "889.9 KB",
+                  "size": "904.9 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Whole Papers/Chemistry Unit 2 2016.pdf"
                 },
                 {
@@ -21706,7 +21606,7 @@ const configData = {
                 },
                 {
                   "name": "Chemistry Unit 2 2018.pdf",
-                  "size": "1.3 MB",
+                  "size": "1.4 MB",
                   "path": "/Past Paper/Chemistry/A Level/Year 12/Unit 2/Whole Papers/Chemistry Unit 2 2018.pdf"
                 },
                 {
@@ -21806,58 +21706,48 @@ const configData = {
               }
             },
             "Separated Papers": {
-              "Chemistry Unit 3 2017_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions",
+              "Chemistry Unit 3 2017": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2017_Q1.pdf",
-                    "size": "555.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 3 2017_Q10.pdf",
-                    "size": "561.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q10.pdf"
+                    "size": "562.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2017_Q11.pdf",
-                    "size": "555.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q11.pdf"
+                    "size": "556.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2017_Q12.pdf",
-                    "size": "635.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2017_Q4.pdf",
-                    "size": "560.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2017_Q6.pdf",
-                    "size": "510.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q6.pdf"
+                    "size": "638.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2017_Q7.pdf",
-                    "size": "598.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q7.pdf"
+                    "size": "600.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2017_Q8.pdf",
-                    "size": "528.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q8.pdf"
+                    "size": "530.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2017_Q9.pdf",
-                    "size": "575.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/Chemistry Unit 3 2017_Q9.pdf"
+                    "size": "599.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 3 2017_Section A.pdf",
+                    "size": "599.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/Chemistry Unit 3 2017_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21906,48 +21796,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 3 2018_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions",
+              "Chemistry Unit 3 2018": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2018_Q1.pdf",
-                    "size": "508.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 3 2018_Q10.pdf",
-                    "size": "545.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q10.pdf"
+                    "size": "546.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2018_Q11.pdf",
-                    "size": "651.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q11.pdf"
+                    "size": "654.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2018_Q12.pdf",
-                    "size": "538.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2018_Q5.pdf",
-                    "size": "497.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q5.pdf"
+                    "size": "540.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2018_Q8.pdf",
-                    "size": "525.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q8.pdf"
+                    "size": "526.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2018_Q9.pdf",
-                    "size": "582.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/Chemistry Unit 3 2018_Q9.pdf"
+                    "size": "585.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 3 2018_Section A.pdf",
+                    "size": "529.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/Chemistry Unit 3 2018_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -21991,48 +21876,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 3 2019_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions",
+              "Chemistry Unit 3 2019": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2019_Q1.pdf",
-                    "size": "555.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 3 2019_Q10.pdf",
-                    "size": "543.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q10.pdf"
+                    "size": "545.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2019_Q11.pdf",
-                    "size": "603.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q11.pdf"
+                    "size": "606.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2019_Q12.pdf",
-                    "size": "552.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q12.pdf"
+                    "size": "554.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2019_Q13.pdf",
-                    "size": "564.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2019_Q5.pdf",
-                    "size": "518.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q5.pdf"
+                    "size": "566.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2019_Q9.pdf",
-                    "size": "607.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/Chemistry Unit 3 2019_Q9.pdf"
+                    "size": "610.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 3 2019_Section A.pdf",
+                    "size": "579.2 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/Chemistry Unit 3 2019_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22076,48 +21956,38 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 3 2022_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions",
+              "Chemistry Unit 3 2022": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2022_Q1.pdf",
-                    "size": "515.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 3 2022_Q10.pdf",
-                    "size": "633.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q10.pdf"
+                    "size": "635.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/Chemistry Unit 3 2022_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2022_Q11.pdf",
-                    "size": "754.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2022_Q5.pdf",
-                    "size": "506.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q5.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2022_Q518.pdf",
-                    "size": "515.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q518.pdf"
+                    "size": "758.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/Chemistry Unit 3 2022_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2022_Q8.pdf",
-                    "size": "590.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q8.pdf"
+                    "size": "617.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/Chemistry Unit 3 2022_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2022_Q9.pdf",
-                    "size": "700.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/Chemistry Unit 3 2022_Q9.pdf"
+                    "size": "703.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/Chemistry Unit 3 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 3 2022_Section A.pdf",
+                    "size": "533.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/Chemistry Unit 3 2022_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22156,53 +22026,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 3 2023_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions",
+              "Chemistry Unit 3 2023": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2023_Q1.pdf",
-                    "size": "522.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q1.pdf"
+                    "name": "Chemistry Unit 3 2023 Section A.pdf",
+                    "size": "540.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023 Section A.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2023_Q10.pdf",
-                    "size": "831.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q10.pdf"
+                    "size": "834.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2023_Q11.pdf",
-                    "size": "637.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q11.pdf"
+                    "size": "638.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2023_Q12.pdf",
-                    "size": "515.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2023_Q3.pdf",
-                    "size": "543.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2023_Q5.pdf",
-                    "size": "497.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q5.pdf"
+                    "size": "578.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2023_Q8.pdf",
-                    "size": "637.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q8.pdf"
+                    "size": "639.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2023_Q9.pdf",
-                    "size": "577.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/Chemistry Unit 3 2023_Q9.pdf"
+                    "size": "580.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/Chemistry Unit 3 2023_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22246,48 +22106,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 3 2024_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions",
+              "Chemistry Unit 3 2024": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024",
                 "files": [
                   {
-                    "name": "Chemistry Unit 3 2024_Q1.pdf",
-                    "size": "110.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 3 2024_Q10.pdf",
-                    "size": "327.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q10.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 3 2024_Q3.pdf",
-                    "size": "85.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q3.pdf"
+                    "size": "330.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2024_Q6.pdf",
-                    "size": "101.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q6.pdf"
+                    "size": "103.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Q6.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2024_Q7.pdf",
-                    "size": "99.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q7.pdf"
+                    "size": "100.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2024_Q8.pdf",
-                    "size": "317.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q8.pdf"
+                    "size": "319.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 3 2024_Q9.pdf",
-                    "size": "325.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/Chemistry Unit 3 2024_Q9.pdf"
+                    "size": "326.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 3 2024_Section A.pdf",
+                    "size": "143.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/Chemistry Unit 3 2024_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Separated Papers/Chemistry Unit 3 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22337,12 +22192,12 @@ const configData = {
               "files": [
                 {
                   "name": "Chemistry Unit 3 2017.pdf",
-                  "size": "1004.3 KB",
+                  "size": "1019.2 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Whole Papers/Chemistry Unit 3 2017.pdf"
                 },
                 {
                   "name": "Chemistry Unit 3 2018.pdf",
-                  "size": "965.9 KB",
+                  "size": "978.4 KB",
                   "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 3/Whole Papers/Chemistry Unit 3 2018.pdf"
                 },
                 {
@@ -22435,53 +22290,43 @@ const configData = {
               }
             },
             "Separated Papers": {
-              "Chemistry Unit 4 2017_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions",
+              "Chemistry Unit 4 2017": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2017_Q1.pdf",
-                    "size": "864.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2017_Q10.pdf",
-                    "size": "999.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q10.pdf"
+                    "size": "1002.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2017_Q11.pdf",
                     "size": "1.0 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q11.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2017_Q12.pdf",
                     "size": "1.2 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q12.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2017_Q13.pdf",
                     "size": "1.9 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q13.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2017_Q4.pdf",
-                    "size": "546.0 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2017_Q7.pdf",
-                    "size": "498.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q7.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Q13.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2017_Q9.pdf",
                     "size": "1.4 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/Chemistry Unit 4 2017_Q9.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2017_Section A.pdf",
+                    "size": "943.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/Chemistry Unit 4 2017_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22525,63 +22370,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 4 2018_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions",
+              "Chemistry Unit 4 2018": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2018_Q1.pdf",
-                    "size": "791.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2018_Q10.pdf",
-                    "size": "799.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q10.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2018_Q3.pdf",
-                    "size": "518.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2018_Q4.pdf",
-                    "size": "547.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2018_Q43.pdf",
-                    "size": "549.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q43.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2018_Q5.pdf",
-                    "size": "507.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q5.pdf"
+                    "size": "802.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2018_Q6.pdf",
-                    "size": "547.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q6.pdf"
+                    "size": "630.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Q6.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2018_Q7.pdf",
                     "size": "1.1 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q7.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2018_Q8.pdf",
-                    "size": "641.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q8.pdf"
+                    "size": "645.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2018_Q9.pdf",
-                    "size": "809.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/Chemistry Unit 4 2018_Q9.pdf"
+                    "size": "812.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2018_Section A.pdf",
+                    "size": "860.7 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/Chemistry Unit 4 2018_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22625,53 +22450,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 4 2019_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions",
+              "Chemistry Unit 4 2019": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2019_Q1.pdf",
-                    "size": "597.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2019_Q10.pdf",
-                    "size": "645.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q10.pdf"
+                    "size": "647.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2019_Q11.pdf",
-                    "size": "661.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q11.pdf"
+                    "size": "663.3 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2019_Q12.pdf",
-                    "size": "710.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2019_Q4.pdf",
-                    "size": "631.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2019_Q6.pdf",
-                    "size": "637.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q6.pdf"
+                    "size": "713.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2019_Q8.pdf",
-                    "size": "546.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q8.pdf"
+                    "size": "548.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2019_Q9.pdf",
                     "size": "1.5 MB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/Chemistry Unit 4 2019_Q9.pdf"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2019_Section A.pdf",
+                    "size": "880.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/Chemistry Unit 4 2019_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22715,53 +22530,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 4 2022_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions",
+              "Chemistry Unit 4 2022": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2022_Q1.pdf",
-                    "size": "535.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2022_Q10.pdf",
-                    "size": "684.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q10.pdf"
+                    "size": "687.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2022_Q11.pdf",
-                    "size": "841.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q11.pdf"
+                    "size": "845.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2022_Q12.pdf",
-                    "size": "808.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2022_Q5.pdf",
-                    "size": "542.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q5.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2022_Q7.pdf",
-                    "size": "533.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q7.pdf"
+                    "size": "811.6 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2022_Q8.pdf",
-                    "size": "757.8 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q8.pdf"
+                    "size": "760.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2022_Q9.pdf",
-                    "size": "846.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/Chemistry Unit 4 2022_Q9.pdf"
+                    "size": "849.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2022_Section A.pdf",
+                    "size": "650.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/Chemistry Unit 4 2022_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22805,53 +22610,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 4 2023_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions",
+              "Chemistry Unit 4 2023": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2023_Q1.pdf",
-                    "size": "499.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2023_Q10.pdf",
-                    "size": "607.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q10.pdf"
+                    "size": "609.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2023_Q11.pdf",
-                    "size": "916.6 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q11.pdf"
+                    "size": "919.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2023_Q12.pdf",
-                    "size": "791.5 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q12.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2023_Q4.pdf",
-                    "size": "605.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q4.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2023_Q7.pdf",
-                    "size": "533.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q7.pdf"
+                    "size": "793.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Q12.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2023_Q8.pdf",
-                    "size": "613.1 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q8.pdf"
+                    "size": "615.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2023_Q9.pdf",
-                    "size": "732.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/Chemistry Unit 4 2023_Q9.pdf"
+                    "size": "734.8 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2023_Section A.pdf",
+                    "size": "678.0 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/Chemistry Unit 4 2023_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -22895,53 +22690,43 @@ const configData = {
                   ]
                 }
               },
-              "Chemistry Unit 4 2024_questions": {
-                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions",
+              "Chemistry Unit 4 2024": {
+                "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024",
                 "files": [
                   {
-                    "name": "Chemistry Unit 4 2024_Q1.pdf",
-                    "size": "107.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q1.pdf"
-                  },
-                  {
                     "name": "Chemistry Unit 4 2024_Q10.pdf",
-                    "size": "203.2 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q10.pdf"
+                    "size": "205.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Q10.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2024_Q11.pdf",
-                    "size": "470.3 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q11.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2024_Q3.pdf",
-                    "size": "122.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q3.pdf"
-                  },
-                  {
-                    "name": "Chemistry Unit 4 2024_Q5.pdf",
-                    "size": "145.7 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q5.pdf"
+                    "size": "474.1 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Q11.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2024_Q7.pdf",
-                    "size": "275.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q7.pdf"
+                    "size": "278.5 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Q7.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2024_Q8.pdf",
-                    "size": "425.4 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q8.pdf"
+                    "size": "427.9 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Q8.pdf"
                   },
                   {
                     "name": "Chemistry Unit 4 2024_Q9.pdf",
-                    "size": "331.9 KB",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/Chemistry Unit 4 2024_Q9.pdf"
+                    "size": "334.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "Chemistry Unit 4 2024_Section A.pdf",
+                    "size": "269.4 KB",
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/Chemistry Unit 4 2024_Section A.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/A Level/Year 13/Unit 4/Separated Papers/Chemistry Unit 4 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23155,73 +22940,255 @@ const configData = {
         "Year 10": {
           "FT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+              "Atomic Structure and Periodic Table": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Atomic Structure and Periodic Table",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Atomic Structure and Periodic Table/desktop.ini"
                   }
-                ]
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Ever Changing Earth": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Ever Changing Earth",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Ever Changing Earth/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Rate of Chemical Change": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Rate of Chemical Change",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Rate of Chemical Change/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "The Nature of Substances and Chemical Reactions": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Water": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Water",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/By Topic/Water/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
               }
             },
             "Separated Papers": {
-              "DA Year 10 FT  2018_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions",
+              "DA Year 10 FT 2017": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017",
                 "files": [
                   {
-                    "name": "DA Year 10 FT  2018_Q1.pdf",
-                    "size": "597.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q1.pdf"
+                    "name": "DA Year 10 FT 2017_Q1.pdf",
+                    "size": "882.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q1.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q2.pdf",
-                    "size": "523.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q2.pdf"
+                    "name": "DA Year 10 FT 2017_Q2.pdf",
+                    "size": "510.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q2.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q3.pdf",
-                    "size": "606.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q3.pdf"
+                    "name": "DA Year 10 FT 2017_Q3.pdf",
+                    "size": "867.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q3.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q4.pdf",
-                    "size": "517.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q4.pdf"
+                    "name": "DA Year 10 FT 2017_Q4.pdf",
+                    "size": "574.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q4.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q5.pdf",
-                    "size": "693.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q5.pdf"
+                    "name": "DA Year 10 FT 2017_Q5.pdf",
+                    "size": "570.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q5.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q6.pdf",
-                    "size": "492.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q6.pdf"
+                    "name": "DA Year 10 FT 2017_Q6.pdf",
+                    "size": "544.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q6.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q7.pdf",
-                    "size": "558.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q7.pdf"
+                    "name": "DA Year 10 FT 2017_Q7.pdf",
+                    "size": "589.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q7.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2018_Q8.pdf",
-                    "size": "655.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/DA Year 10 FT  2018_Q8.pdf"
+                    "name": "DA Year 10 FT 2017_Q8.pdf",
+                    "size": "793.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/DA Year 10 FT 2017_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017",
+                  "files": [
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q1.pdf",
+                      "size": "50.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q1.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q2.pdf",
+                      "size": "90.5 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q2.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q3.pdf",
+                      "size": "209.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q3.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q4.pdf",
+                      "size": "256.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q4.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q5.pdf",
+                      "size": "211.0 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q5.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q6.pdf",
+                      "size": "192.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q6.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q7.pdf",
+                      "size": "148.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q7.pdf"
+                    },
+                    {
+                      "name": "DA Year 10 FT Mark Scheme 2017  Q8.pdf",
+                      "size": "126.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q8.pdf"
+                    },
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "DA Year 10 FT 2018": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018",
+                "files": [
+                  {
+                    "name": "DA Year 10 FT 2018_Q1.pdf",
+                    "size": "598.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q1.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q2.pdf",
+                    "size": "525.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q2.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q3.pdf",
+                    "size": "607.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q3.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q4.pdf",
+                    "size": "517.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q4.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q5.pdf",
+                    "size": "697.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q5.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q6.pdf",
+                    "size": "493.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q6.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q7.pdf",
+                    "size": "560.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q7.pdf"
+                  },
+                  {
+                    "name": "DA Year 10 FT 2018_Q8.pdf",
+                    "size": "523.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/DA Year 10 FT 2018_Q8.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23275,58 +23242,58 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 FT  2019_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions",
+              "DA Year 10 FT 2019": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019",
                 "files": [
                   {
-                    "name": "DA Year 10 FT  2019_Q1.pdf",
-                    "size": "519.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q1.pdf"
+                    "name": "DA Year 10 FT 2019_Q1.pdf",
+                    "size": "519.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q1.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q2.pdf",
-                    "size": "823.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q2.pdf"
+                    "name": "DA Year 10 FT 2019_Q2.pdf",
+                    "size": "825.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q2.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q3.pdf",
-                    "size": "571.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q3.pdf"
+                    "name": "DA Year 10 FT 2019_Q3.pdf",
+                    "size": "572.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q3.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q4.pdf",
-                    "size": "571.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q4.pdf"
+                    "name": "DA Year 10 FT 2019_Q4.pdf",
+                    "size": "573.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q4.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q5.pdf",
-                    "size": "561.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q5.pdf"
+                    "name": "DA Year 10 FT 2019_Q5.pdf",
+                    "size": "562.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q5.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q6.pdf",
-                    "size": "497.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q6.pdf"
+                    "name": "DA Year 10 FT 2019_Q6.pdf",
+                    "size": "498.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q6.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q7.pdf",
-                    "size": "578.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q7.pdf"
+                    "name": "DA Year 10 FT 2019_Q7.pdf",
+                    "size": "580.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q7.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q8.pdf",
-                    "size": "530.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q8.pdf"
+                    "name": "DA Year 10 FT 2019_Q8.pdf",
+                    "size": "532.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q8.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2019_Q9.pdf",
-                    "size": "585.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/DA Year 10 FT  2019_Q9.pdf"
+                    "name": "DA Year 10 FT 2019_Q9.pdf",
+                    "size": "519.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/DA Year 10 FT 2019_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23385,58 +23352,58 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 FT  2022_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions",
+              "DA Year 10 FT 2022": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022",
                 "files": [
                   {
-                    "name": "DA Year 10 FT  2022_Q1.pdf",
-                    "size": "568.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q1.pdf"
+                    "name": "DA Year 10 FT 2022_Q1.pdf",
+                    "size": "569.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q1.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q2.pdf",
-                    "size": "573.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q2.pdf"
+                    "name": "DA Year 10 FT 2022_Q2.pdf",
+                    "size": "575.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q2.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q3.pdf",
-                    "size": "545.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q3.pdf"
+                    "name": "DA Year 10 FT 2022_Q3.pdf",
+                    "size": "545.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q3.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q4.pdf",
-                    "size": "570.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q4.pdf"
+                    "name": "DA Year 10 FT 2022_Q4.pdf",
+                    "size": "571.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q4.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q5.pdf",
-                    "size": "538.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q5.pdf"
+                    "name": "DA Year 10 FT 2022_Q5.pdf",
+                    "size": "539.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q5.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q6.pdf",
-                    "size": "572.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q6.pdf"
+                    "name": "DA Year 10 FT 2022_Q6.pdf",
+                    "size": "573.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q6.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q7.pdf",
-                    "size": "496.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q7.pdf"
+                    "name": "DA Year 10 FT 2022_Q7.pdf",
+                    "size": "497.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q7.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q8.pdf",
-                    "size": "610.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q8.pdf"
+                    "name": "DA Year 10 FT 2022_Q8.pdf",
+                    "size": "611.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q8.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2022_Q9.pdf",
-                    "size": "648.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/DA Year 10 FT  2022_Q9.pdf"
+                    "name": "DA Year 10 FT 2022_Q9.pdf",
+                    "size": "581.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/DA Year 10 FT 2022_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23495,58 +23462,53 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 FT  2023_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions",
+              "DA Year 10 FT 2023": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023",
                 "files": [
                   {
-                    "name": "DA Year 10 FT  2023_Q1.pdf",
-                    "size": "608.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q1.pdf"
+                    "name": "DA Year 10 FT 2023_Q1.pdf",
+                    "size": "609.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q1.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q2.pdf",
+                    "name": "DA Year 10 FT 2023_Q2.pdf",
                     "size": "1.7 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q2.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q2.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q2010.pdf",
-                    "size": "510.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q2010.pdf"
+                    "name": "DA Year 10 FT 2023_Q3.pdf",
+                    "size": "634.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q3.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q3.pdf",
-                    "size": "633.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q3.pdf"
+                    "name": "DA Year 10 FT 2023_Q4.pdf",
+                    "size": "645.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q4.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q4.pdf",
-                    "size": "643.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q4.pdf"
+                    "name": "DA Year 10 FT 2023_Q5.pdf",
+                    "size": "500.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q5.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q5.pdf",
-                    "size": "499.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q5.pdf"
+                    "name": "DA Year 10 FT 2023_Q6.pdf",
+                    "size": "547.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q6.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q6.pdf",
-                    "size": "545.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q6.pdf"
+                    "name": "DA Year 10 FT 2023_Q7.pdf",
+                    "size": "611.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q7.pdf"
                   },
                   {
-                    "name": "DA Year 10 FT  2023_Q7.pdf",
-                    "size": "609.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q7.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT  2023_Q8.pdf",
-                    "size": "627.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/DA Year 10 FT  2023_Q8.pdf"
+                    "name": "DA Year 10 FT 2023_Q8.pdf",
+                    "size": "559.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/DA Year 10 FT 2023_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT  2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23600,168 +23562,63 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 FT 2017_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions",
-                "files": [
-                  {
-                    "name": "DA Year 10 FT 2017_Q1.pdf",
-                    "size": "881.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q1.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q2.pdf",
-                    "size": "510.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q2.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q3.pdf",
-                    "size": "864.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q3.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q4.pdf",
-                    "size": "573.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q4.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q5.pdf",
-                    "size": "569.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q5.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q6.pdf",
-                    "size": "543.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q6.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q7.pdf",
-                    "size": "588.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q7.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2017_Q8.pdf",
-                    "size": "867.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/DA Year 10 FT 2017_Q8.pdf"
-                  },
-                  {
-                    "name": "desktop.ini",
-                    "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2017_questions/desktop.ini"
-                  }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017",
-                  "files": [
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q1.pdf",
-                      "size": "50.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q1.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q2.pdf",
-                      "size": "90.5 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q2.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q3.pdf",
-                      "size": "209.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q3.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q4.pdf",
-                      "size": "256.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q4.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q5.pdf",
-                      "size": "211.0 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q5.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q6.pdf",
-                      "size": "192.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q6.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q7.pdf",
-                      "size": "148.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q7.pdf"
-                    },
-                    {
-                      "name": "DA Year 10 FT Mark Scheme 2017  Q8.pdf",
-                      "size": "126.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/DA Year 10 FT Mark Scheme 2017  Q8.pdf"
-                    },
-                    {
-                      "name": "desktop.ini",
-                      "size": "246.0 B",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/FT/Separated Questions/DA Year 10 FT Mark Scheme 2017/desktop.ini"
-                    }
-                  ]
-                }
-              },
-              "DA Year 10 FT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions",
+              "DA Year 10 FT 2024": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024",
                 "files": [
                   {
                     "name": "DA Year 10 FT 2024_Q1.pdf",
-                    "size": "216.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q1.pdf"
+                    "size": "217.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q10.pdf",
-                    "size": "116.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q10.pdf"
+                    "size": "141.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q10.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q2.pdf",
-                    "size": "128.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q2.pdf"
+                    "size": "129.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q3.pdf",
-                    "size": "99.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q3.pdf"
+                    "size": "100.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q4.pdf",
-                    "size": "130.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q4.pdf"
+                    "size": "132.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q5.pdf",
-                    "size": "261.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q5.pdf"
+                    "size": "263.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q6.pdf",
-                    "size": "138.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q6.pdf"
+                    "size": "140.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q7.pdf",
-                    "size": "243.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q7.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 FT 2024_Q72.pdf",
-                    "size": "148.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q72.pdf"
+                    "size": "245.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q8.pdf",
-                    "size": "141.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q8.pdf"
+                    "size": "143.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q8.pdf"
                   },
                   {
                     "name": "DA Year 10 FT 2024_Q9.pdf",
-                    "size": "135.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/DA Year 10 FT 2024_Q9.pdf"
+                    "size": "135.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/DA Year 10 FT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Separated Papers/DA Year 10 FT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -23840,29 +23697,29 @@ const configData = {
               "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers",
               "files": [
                 {
-                  "name": "DA Year 10 FT  2018.pdf",
-                  "size": "1.3 MB",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT  2018.pdf"
-                },
-                {
-                  "name": "DA Year 10 FT  2019.pdf",
-                  "size": "1.3 MB",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT  2019.pdf"
-                },
-                {
-                  "name": "DA Year 10 FT  2022.pdf",
-                  "size": "1.3 MB",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT  2022.pdf"
-                },
-                {
-                  "name": "DA Year 10 FT  2023.pdf",
-                  "size": "2.5 MB",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT  2023.pdf"
-                },
-                {
                   "name": "DA Year 10 FT 2017.pdf",
                   "size": "2.0 MB",
                   "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT 2017.pdf"
+                },
+                {
+                  "name": "DA Year 10 FT 2018.pdf",
+                  "size": "1.3 MB",
+                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT 2018.pdf"
+                },
+                {
+                  "name": "DA Year 10 FT 2019.pdf",
+                  "size": "1.3 MB",
+                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT 2019.pdf"
+                },
+                {
+                  "name": "DA Year 10 FT 2022.pdf",
+                  "size": "1.3 MB",
+                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT 2022.pdf"
+                },
+                {
+                  "name": "DA Year 10 FT 2023.pdf",
+                  "size": "2.5 MB",
+                  "path": "/Past Paper/Chemistry/Doubles/Year 10/FT/Whole Papers/DA Year 10 FT 2023.pdf"
                 },
                 {
                   "name": "DA Year 10 FT 2024.pdf",
@@ -23919,68 +23776,150 @@ const configData = {
           },
           "HT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+              "Atomic Structure and Periodic Table": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Atomic Structure and Periodic Table",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Atomic Structure and Periodic Table/desktop.ini"
                   }
-                ]
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Ever Changing Earth": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Ever Changing Earth",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Ever Changing Earth/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Rate of Chemical Change": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Rate of Chemical Change",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Rate of Chemical Change/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "The Nature of Substances and Chemical Reactions": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/The Nature of Substances and Chemical Reactions",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/The Nature of Substances and Chemical Reactions/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Water": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Water",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/By Topic/Water/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
               }
             },
             "Separated Papers": {
-              "DA Year 10 HT 2017_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions",
+              "DA Year 10 HT 2017": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2017_Q1.pdf",
-                    "size": "587.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q1.pdf"
+                    "size": "589.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q2.pdf",
-                    "size": "790.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q2.pdf"
+                    "size": "792.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q3.pdf",
-                    "size": "663.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q3.pdf"
+                    "size": "665.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q4.pdf",
                     "size": "1.0 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q5.pdf",
-                    "size": "526.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q5.pdf"
+                    "size": "527.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q6.pdf",
-                    "size": "512.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q6.pdf"
+                    "size": "512.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2017_Q7.pdf",
-                    "size": "583.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/DA Year 10 HT 2017_Q7.pdf"
+                    "size": "496.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/DA Year 10 HT 2017_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24029,53 +23968,53 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 HT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions",
+              "DA Year 10 HT 2018": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2018_Q1.pdf",
-                    "size": "726.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q1.pdf"
+                    "size": "560.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q2.pdf",
-                    "size": "522.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q2.pdf"
+                    "size": "523.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q3.pdf",
-                    "size": "511.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q3.pdf"
+                    "size": "512.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q4.pdf",
-                    "size": "607.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q4.pdf"
+                    "size": "608.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q5.pdf",
-                    "size": "547.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q5.pdf"
+                    "size": "548.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q6.pdf",
-                    "size": "505.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q6.pdf"
+                    "size": "505.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q7.pdf",
-                    "size": "527.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q7.pdf"
+                    "size": "529.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2018_Q8.pdf",
-                    "size": "647.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/DA Year 10 HT 2018_Q8.pdf"
+                    "size": "683.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/DA Year 10 HT 2018_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24129,53 +24068,53 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 HT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions",
+              "DA Year 10 HT 2019": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2019_Q1.pdf",
-                    "size": "531.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q1.pdf"
+                    "size": "532.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q2.pdf",
-                    "size": "518.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q2.pdf"
+                    "size": "518.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q3.pdf",
-                    "size": "525.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q3.pdf"
+                    "size": "526.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q4.pdf",
-                    "size": "669.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q4.pdf"
+                    "size": "671.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q5.pdf",
-                    "size": "517.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q5.pdf"
+                    "size": "518.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q6.pdf",
-                    "size": "508.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q6.pdf"
+                    "size": "509.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q7.pdf",
-                    "size": "526.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q7.pdf"
+                    "size": "527.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2019_Q8.pdf",
-                    "size": "678.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/DA Year 10 HT 2019_Q8.pdf"
+                    "size": "614.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/DA Year 10 HT 2019_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24229,58 +24168,53 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 HT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions",
+              "DA Year 10 HT 2022": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2022_Q1.pdf",
-                    "size": "609.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q1.pdf"
+                    "size": "610.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q2.pdf",
-                    "size": "579.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q2.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 HT 2022_Q2015.pdf",
-                    "size": "564.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q2015.pdf"
+                    "size": "580.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q3.pdf",
-                    "size": "579.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q3.pdf"
+                    "size": "505.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q4.pdf",
-                    "size": "594.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q4.pdf"
+                    "size": "596.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q5.pdf",
-                    "size": "512.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q5.pdf"
+                    "size": "512.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q6.pdf",
-                    "size": "503.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q6.pdf"
+                    "size": "580.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q7.pdf",
-                    "size": "507.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q7.pdf"
+                    "size": "589.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2022_Q8.pdf",
-                    "size": "662.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/DA Year 10 HT 2022_Q8.pdf"
+                    "size": "596.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/DA Year 10 HT 2022_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24334,58 +24268,53 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 HT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions",
+              "DA Year 10 HT 2023": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2023_Q1.pdf",
-                    "size": "611.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q1.pdf"
+                    "size": "612.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q2.pdf",
-                    "size": "559.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q2.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 HT 2023_Q2000.pdf",
-                    "size": "540.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q2000.pdf"
+                    "size": "561.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q3.pdf",
-                    "size": "560.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q3.pdf"
+                    "size": "561.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q4.pdf",
-                    "size": "890.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q4.pdf"
+                    "size": "891.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q5.pdf",
-                    "size": "605.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q5.pdf"
+                    "size": "607.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q6.pdf",
-                    "size": "529.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q6.pdf"
+                    "size": "531.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q7.pdf",
-                    "size": "513.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q7.pdf"
+                    "size": "574.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2023_Q8.pdf",
-                    "size": "597.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/DA Year 10 HT 2023_Q8.pdf"
+                    "size": "529.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/DA Year 10 HT 2023_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24439,63 +24368,58 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 10 HT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions",
+              "DA Year 10 HT 2024": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024",
                 "files": [
                   {
                     "name": "DA Year 10 HT 2024_Q1.pdf",
-                    "size": "134.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q1.pdf"
+                    "size": "135.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q1.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q2.pdf",
-                    "size": "123.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q2.pdf"
+                    "size": "123.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q2.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q3.pdf",
-                    "size": "117.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q3.pdf"
+                    "size": "141.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q3.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q4.pdf",
-                    "size": "156.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q4.pdf"
+                    "size": "158.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q4.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q5.pdf",
-                    "size": "406.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q5.pdf"
+                    "size": "407.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q5.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q6.pdf",
-                    "size": "69.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q6.pdf"
+                    "size": "70.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q6.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q7.pdf",
-                    "size": "141.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q7.pdf"
-                  },
-                  {
-                    "name": "DA Year 10 HT 2024_Q72.pdf",
-                    "size": "79.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q72.pdf"
+                    "size": "143.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q7.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q8.pdf",
-                    "size": "171.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q8.pdf"
+                    "size": "173.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q8.pdf"
                   },
                   {
                     "name": "DA Year 10 HT 2024_Q9.pdf",
-                    "size": "168.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/DA Year 10 HT 2024_Q9.pdf"
+                    "size": "100.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/DA Year 10 HT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Separated Papers/DA Year 10 HT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24570,7 +24494,7 @@ const configData = {
               "files": [
                 {
                   "name": "DA Year 10 HT 2017.pdf",
-                  "size": "1.7 MB",
+                  "size": "1.8 MB",
                   "path": "/Past Paper/Chemistry/Doubles/Year 10/HT/Whole Papers/DA Year 10 HT 2017.pdf"
                 },
                 {
@@ -24650,73 +24574,155 @@ const configData = {
         "Year 11": {
           "FT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+              "Acids and Bases": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Acids and Bases",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Acids and Bases/desktop.ini"
                   }
-                ]
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Bonding and Structure": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Bonding and Structure",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Bonding and Structure/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Chemical Reactions and Energy": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Chemical Reactions and Energy",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Chemical Reactions and Energy/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Crude Oil, Fuels and Organic": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Crude Oil, Fuels and Organic",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Metals and Their Extraction": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Metals and Their Extraction",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/By Topic/Metals and Their Extraction/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
               }
             },
             "Separated Papers": {
-              "DA Year 11 FT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions",
+              "DA Year 11 FT 2018": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2018_Q1.pdf",
-                    "size": "560.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q1.pdf"
+                    "size": "561.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q2.pdf",
-                    "size": "667.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q2.pdf"
+                    "size": "669.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q3.pdf",
-                    "size": "564.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q3.pdf"
+                    "size": "565.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q4.pdf",
-                    "size": "821.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q4.pdf"
+                    "size": "824.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q5.pdf",
-                    "size": "554.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q5.pdf"
+                    "size": "556.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q6.pdf",
-                    "size": "538.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q6.pdf"
+                    "size": "538.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q7.pdf",
-                    "size": "772.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q7.pdf"
+                    "size": "775.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q7.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2018_Q8.pdf",
-                    "size": "596.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/DA Year 11 FT 2018_Q8.pdf"
+                    "size": "531.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/DA Year 11 FT 2018_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24770,43 +24776,43 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 FT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions",
+              "DA Year 11 FT 2019": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2019_Q1.pdf",
-                    "size": "577.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q1.pdf"
+                    "size": "578.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2019_Q2.pdf",
-                    "size": "654.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q2.pdf"
+                    "size": "657.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2019_Q3.pdf",
-                    "size": "697.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q3.pdf"
+                    "size": "699.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2019_Q4.pdf",
-                    "size": "540.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q4.pdf"
+                    "size": "541.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2019_Q5.pdf",
                     "size": "3.5 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q5.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2019_Q6.pdf",
-                    "size": "807.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/DA Year 11 FT 2019_Q6.pdf"
+                    "size": "744.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/DA Year 11 FT 2019_Q6.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24850,48 +24856,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 FT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions",
+              "DA Year 11 FT 2022": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2022_Q1.pdf",
-                    "size": "843.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q1.pdf"
+                    "size": "846.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q2.pdf",
-                    "size": "726.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q2.pdf"
+                    "size": "728.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q3.pdf",
-                    "size": "747.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q3.pdf"
+                    "size": "749.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q4.pdf",
-                    "size": "763.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q4.pdf"
+                    "size": "764.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q5.pdf",
-                    "size": "507.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q5.pdf"
+                    "size": "507.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q6.pdf",
-                    "size": "554.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q6.pdf"
+                    "size": "555.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q7.pdf",
-                    "size": "877.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/DA Year 11 FT 2022_Q7.pdf"
+                    "size": "810.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/DA Year 11 FT 2022_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -24940,58 +24946,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 FT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions",
+              "DA Year 11 FT 2023": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2023_Q1.pdf",
                     "size": "1.3 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q1.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q2.pdf",
                     "size": "1.2 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q2.pdf"
-                  },
-                  {
-                    "name": "DA Year 11 FT 2023_Q2000.pdf",
-                    "size": "577.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q2000.pdf"
-                  },
-                  {
-                    "name": "DA Year 11 FT 2023_Q2018.pdf",
-                    "size": "518.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q2018.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q3.pdf",
-                    "size": "680.0 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q3.pdf"
+                    "size": "682.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q4.pdf",
-                    "size": "603.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q4.pdf"
+                    "size": "605.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q5.pdf",
-                    "size": "693.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q5.pdf"
+                    "size": "694.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q6.pdf",
-                    "size": "506.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q6.pdf"
+                    "size": "506.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q7.pdf",
-                    "size": "767.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/DA Year 11 FT 2023_Q7.pdf"
+                    "size": "824.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/DA Year 11 FT 2023_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25040,53 +25036,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 FT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions",
+              "DA Year 11 FT 2024": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2024_Q1.pdf",
-                    "size": "127.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q1.pdf"
-                  },
-                  {
-                    "name": "DA Year 11 FT 2024_Q114.pdf",
-                    "size": "943.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q114.pdf"
+                    "size": "1018.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q2.pdf",
-                    "size": "664.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q2.pdf"
+                    "size": "666.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q3.pdf",
-                    "size": "373.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q3.pdf"
+                    "size": "375.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q4.pdf",
-                    "size": "162.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q4.pdf"
+                    "size": "163.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q5.pdf",
-                    "size": "200.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q5.pdf"
+                    "size": "201.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q6.pdf",
                     "size": "1.6 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q6.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q7.pdf",
-                    "size": "302.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/DA Year 11 FT 2024_Q7.pdf"
+                    "size": "228.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/DA Year 11 FT 2024_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/FT/Separated Papers/DA Year 11 FT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25209,68 +25200,150 @@ const configData = {
           },
           "HT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+              "Acids and Bases": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Acids and Bases",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Acids and Bases/desktop.ini"
                   }
-                ]
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Bonding and Structure": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Bonding and Structure",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Bonding and Structure/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Chemical Reactions and Energy": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Chemical Reactions and Energy",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Chemical Reactions and Energy/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Crude Oil, Fuels and Organic": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Crude Oil, Fuels and Organic",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Metals and Their Extraction": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Metals and Their Extraction",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/By Topic/Metals and Their Extraction/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
               }
             },
             "Separated Papers": {
-              "DA Year 11 HT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions",
+              "DA Year 11 HT 2018": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2018_Q1.pdf",
-                    "size": "773.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q1.pdf"
+                    "size": "776.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q2.pdf",
-                    "size": "529.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q2.pdf"
+                    "size": "530.7 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q3.pdf",
-                    "size": "616.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q3.pdf"
+                    "size": "618.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q4.pdf",
-                    "size": "574.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q4.pdf"
+                    "size": "576.5 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q5.pdf",
-                    "size": "646.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q5.pdf"
+                    "size": "648.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q6.pdf",
-                    "size": "641.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q6.pdf"
+                    "size": "643.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2018_Q7.pdf",
-                    "size": "577.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/DA Year 11 HT 2018_Q7.pdf"
+                    "size": "499.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/DA Year 11 HT 2018_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25319,43 +25392,43 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 HT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions",
+              "DA Year 11 HT 2019": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2019_Q1.pdf",
-                    "size": "724.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q1.pdf"
+                    "size": "727.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2019_Q2.pdf",
-                    "size": "517.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q2.pdf"
+                    "size": "518.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2019_Q3.pdf",
-                    "size": "593.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q3.pdf"
+                    "size": "595.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2019_Q4.pdf",
-                    "size": "635.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q4.pdf"
+                    "size": "637.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2019_Q5.pdf",
-                    "size": "899.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q5.pdf"
+                    "size": "901.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2019_Q6.pdf",
-                    "size": "577.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/DA Year 11 HT 2019_Q6.pdf"
+                    "size": "498.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/DA Year 11 HT 2019_Q6.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25399,48 +25472,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 HT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions",
+              "DA Year 11 HT 2022": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2022_Q1.pdf",
-                    "size": "587.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q1.pdf"
+                    "size": "588.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q2.pdf",
-                    "size": "824.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q2.pdf"
+                    "size": "825.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q3.pdf",
                     "size": "1.4 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q3.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q4.pdf",
                     "size": "1.4 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q5.pdf",
-                    "size": "667.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q5.pdf"
+                    "size": "669.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q6.pdf",
-                    "size": "1.0 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q6.pdf"
+                    "size": "1.1 MB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q7.pdf",
-                    "size": "638.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/DA Year 11 HT 2022_Q7.pdf"
+                    "size": "571.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/DA Year 11 HT 2022_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25489,58 +25562,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 HT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions",
+              "DA Year 11 HT 2023": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2023_Q1.pdf",
-                    "size": "752.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q1.pdf"
+                    "size": "809.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q2.pdf",
-                    "size": "663.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q2.pdf"
-                  },
-                  {
-                    "name": "DA Year 11 HT 2023_Q2000.pdf",
-                    "size": "500.4 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q2000.pdf"
-                  },
-                  {
-                    "name": "DA Year 11 HT 2023_Q2018.pdf",
-                    "size": "517.8 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q2018.pdf"
+                    "size": "665.1 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q3.pdf",
-                    "size": "1005.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q3.pdf"
+                    "size": "1008.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q4.pdf",
                     "size": "1.2 MB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q5.pdf",
-                    "size": "532.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q5.pdf"
+                    "size": "533.4 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q6.pdf",
-                    "size": "702.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q6.pdf"
+                    "size": "704.2 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q7.pdf",
-                    "size": "633.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/DA Year 11 HT 2023_Q7.pdf"
+                    "size": "559.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/DA Year 11 HT 2023_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25589,48 +25652,48 @@ const configData = {
                   ]
                 }
               },
-              "DA Year 11 HT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions",
+              "DA Year 11 HT 2024": {
+                "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2024_Q1.pdf",
-                    "size": "220.7 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q1.pdf"
+                    "size": "223.3 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q2.pdf",
-                    "size": "274.5 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q2.pdf"
+                    "size": "275.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q3.pdf",
-                    "size": "402.1 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q3.pdf"
+                    "size": "404.0 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q3.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q4.pdf",
-                    "size": "177.3 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q4.pdf"
+                    "size": "178.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q5.pdf",
-                    "size": "427.6 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q5.pdf"
+                    "size": "428.9 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q6.pdf",
-                    "size": "586.9 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q6.pdf"
+                    "size": "588.8 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q6.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2024_Q7.pdf",
-                    "size": "564.2 KB",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/DA Year 11 HT 2024_Q7.pdf"
+                    "size": "488.6 KB",
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/DA Year 11 HT 2024_Q7.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Separated Papers/DA Year 11 HT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -25705,7 +25768,7 @@ const configData = {
                 },
                 {
                   "name": "DA Year 11 HT 2024.pdf",
-                  "size": "2.3 MB",
+                  "size": "2.4 MB",
                   "path": "/Past Paper/Chemistry/Doubles/Year 11/HT/Whole Papers/DA Year 11 HT 2024.pdf"
                 },
                 {
@@ -32355,78 +32418,500 @@ const configData = {
         "Year 10": {
           "FT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+              "Atomic Structure and Periodic Table": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table",
                 "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
-            },
-            "Separated Papers": {
-              "SEP Year 10 FT 2017_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions",
-                "files": [
-                  {
-                    "name": "SEP Year 10 FT 2017_Q1.pdf",
-                    "size": "624.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q1.pdf"
-                  },
                   {
                     "name": "SEP Year 10 FT 2017_Q2.pdf",
-                    "size": "943.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q2.pdf"
+                    "size": "945.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2017_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2017_Q3.pdf",
-                    "size": "844.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q3.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2017_Q4.pdf",
-                    "size": "963.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q4.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2017_Q5.pdf",
-                    "size": "561.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q5.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2017_Q6.pdf",
-                    "size": "597.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q6.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2017_Q7.pdf",
-                    "size": "903.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q7.pdf"
+                    "size": "843.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2017_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2017_Q8.pdf",
-                    "size": "780.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q8.pdf"
+                    "size": "782.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2017_Q8.pdf"
                   },
                   {
-                    "name": "SEP Year 10 FT 2017_Q9.pdf",
-                    "size": "802.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/SEP Year 10 FT 2017_Q9.pdf"
+                    "name": "SEP Year 10 FT 2018_Q1.pdf",
+                    "size": "775.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2018_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q1.pdf",
+                    "size": "719.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2019_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q3.pdf",
+                    "size": "846.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2019_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q5.pdf",
+                    "size": "603.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2019_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q6.pdf",
+                    "size": "618.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2019_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q9.pdf",
+                    "size": "587.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q1.pdf",
+                    "size": "679.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2022_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q2.pdf",
+                    "size": "644.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2022_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q3.pdf",
+                    "size": "555.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2022_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q6.pdf",
+                    "size": "556.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2022_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q10.pdf",
+                    "size": "663.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2023_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q2.pdf",
+                    "size": "695.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2023_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q9.pdf",
+                    "size": "615.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2023_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q10.pdf",
+                    "size": "130.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2024_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q2.pdf",
+                    "size": "179.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2024_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q4.pdf",
+                    "size": "110.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2024_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q5.pdf",
+                    "size": "162.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/SEP Year 10 FT 2024_Q5.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Atomic Structure and Periodic Table/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Ever Changing Earth": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2018_Q11.pdf",
+                    "size": "2.4 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2018_Q11.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q4.pdf",
+                    "size": "643.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2018_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q7.pdf",
+                    "size": "668.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2018_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q4.pdf",
+                    "size": "562.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2019_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q11.pdf",
+                    "size": "537.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2022_Q11.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q4.pdf",
+                    "size": "641.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2022_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q8.pdf",
+                    "size": "522.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2022_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q3.pdf",
+                    "size": "1.6 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2023_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q7.pdf",
+                    "size": "789.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2023_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q12.pdf",
+                    "size": "203.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2024_Q12.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q6.pdf",
+                    "size": "674.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/SEP Year 10 FT 2024_Q6.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Ever Changing Earth/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Limestone": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2017_Q7.pdf",
+                    "size": "902.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2017_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q6.pdf",
+                    "size": "547.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2018_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q10.pdf",
+                    "size": "517.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2019_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q9.pdf",
+                    "size": "540.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q5.pdf",
+                    "size": "893.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2023_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q6.pdf",
+                    "size": "599.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2023_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q3.pdf",
+                    "size": "198.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/SEP Year 10 FT 2024_Q3.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Limestone/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Rate of Chemical Change": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2017_Q9.pdf",
+                    "size": "717.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q5.pdf",
+                    "size": "710.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2018_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q11.pdf",
+                    "size": "566.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2019_Q11.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q8.pdf",
+                    "size": "759.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2019_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q7.pdf",
+                    "size": "603.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2022_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q4.pdf",
+                    "size": "644.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2023_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q8.pdf",
+                    "size": "245.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/SEP Year 10 FT 2024_Q8.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Rate of Chemical Change/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "The Nature of Substances and Chemical Reactions": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2017_Q1.pdf",
+                    "size": "696.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2017_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q2.pdf",
+                    "size": "579.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2018_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q3.pdf",
+                    "size": "639.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2018_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q2.pdf",
+                    "size": "598.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2019_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q10.pdf",
+                    "size": "591.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2022_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q1.pdf",
+                    "size": "643.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2023_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q1.pdf",
+                    "size": "132.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2024_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q11.pdf",
+                    "size": "184.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/SEP Year 10 FT 2024_Q11.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/The Nature of Substances and Chemical Reactions/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Water": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2017_Q4.pdf",
+                    "size": "903.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2017_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q5.pdf",
+                    "size": "562.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2017_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q6.pdf",
+                    "size": "598.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2017_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q10.pdf",
+                    "size": "598.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2018_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q8.pdf",
+                    "size": "543.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2018_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2018_Q9.pdf",
+                    "size": "556.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2019_Q7.pdf",
+                    "size": "579.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2019_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2022_Q5.pdf",
+                    "size": "921.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2022_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2023_Q8.pdf",
+                    "size": "589.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2023_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q7.pdf",
+                    "size": "143.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2024_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2024_Q9.pdf",
+                    "size": "175.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/SEP Year 10 FT 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/By Topic/Water/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              }
+            },
+            "Separated Papers": {
+              "SEP Year 10 FT 2017": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017",
+                "files": [
+                  {
+                    "name": "SEP Year 10 FT 2017_Q1.pdf",
+                    "size": "696.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q2.pdf",
+                    "size": "945.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q3.pdf",
+                    "size": "843.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q4.pdf",
+                    "size": "903.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q5.pdf",
+                    "size": "562.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q6.pdf",
+                    "size": "598.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q7.pdf",
+                    "size": "902.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q8.pdf",
+                    "size": "782.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 FT 2017_Q9.pdf",
+                    "size": "717.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/SEP Year 10 FT 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -32545,68 +33030,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 FT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions",
+              "SEP Year 10 FT 2018": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018",
                 "files": [
                   {
                     "name": "SEP Year 10 FT 2018_Q1.pdf",
-                    "size": "842.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q1.pdf"
+                    "size": "775.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q10.pdf",
-                    "size": "597.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q10.pdf"
+                    "size": "598.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q11.pdf",
-                    "size": "2.5 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q11.pdf"
+                    "size": "2.4 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q2.pdf",
-                    "size": "578.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q2.pdf"
+                    "size": "579.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q3.pdf",
-                    "size": "638.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q3.pdf"
+                    "size": "639.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q4.pdf",
-                    "size": "641.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q4.pdf"
+                    "size": "643.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q5.pdf",
-                    "size": "708.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q5.pdf"
+                    "size": "710.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q6.pdf",
-                    "size": "546.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q6.pdf"
+                    "size": "547.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q7.pdf",
-                    "size": "581.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q7.pdf"
+                    "size": "668.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q8.pdf",
-                    "size": "543.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q8.pdf"
+                    "size": "543.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2018_Q9.pdf",
-                    "size": "555.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/SEP Year 10 FT 2018_Q9.pdf"
+                    "size": "556.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/SEP Year 10 FT 2018_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -32740,68 +33225,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 FT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions",
+              "SEP Year 10 FT 2019": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019",
                 "files": [
                   {
                     "name": "SEP Year 10 FT 2019_Q1.pdf",
-                    "size": "718.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q1.pdf"
+                    "size": "719.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q10.pdf",
-                    "size": "516.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q10.pdf"
+                    "size": "517.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q11.pdf",
-                    "size": "633.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q11.pdf"
+                    "size": "566.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q2.pdf",
-                    "size": "597.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q2.pdf"
+                    "size": "598.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q3.pdf",
-                    "size": "846.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q3.pdf"
+                    "size": "846.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q4.pdf",
-                    "size": "561.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q4.pdf"
+                    "size": "562.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q5.pdf",
-                    "size": "601.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q5.pdf"
+                    "size": "603.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q6.pdf",
-                    "size": "616.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q6.pdf"
+                    "size": "618.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q7.pdf",
-                    "size": "578.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q7.pdf"
+                    "size": "579.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q8.pdf",
-                    "size": "756.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q8.pdf"
+                    "size": "759.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2019_Q9.pdf",
-                    "size": "586.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/SEP Year 10 FT 2019_Q9.pdf"
+                    "size": "587.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/SEP Year 10 FT 2019_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -32965,68 +33450,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 FT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions",
+              "SEP Year 10 FT 2022": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022",
                 "files": [
                   {
                     "name": "SEP Year 10 FT 2022_Q1.pdf",
-                    "size": "678.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q1.pdf"
+                    "size": "679.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q10.pdf",
-                    "size": "590.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q10.pdf"
+                    "size": "591.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q11.pdf",
-                    "size": "605.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q11.pdf"
+                    "size": "537.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q2.pdf",
-                    "size": "643.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q2.pdf"
+                    "size": "644.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q3.pdf",
-                    "size": "554.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q3.pdf"
+                    "size": "555.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q4.pdf",
-                    "size": "639.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q4.pdf"
+                    "size": "641.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q5.pdf",
-                    "size": "918.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q5.pdf"
+                    "size": "921.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q6.pdf",
-                    "size": "555.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q6.pdf"
+                    "size": "556.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q7.pdf",
-                    "size": "601.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q7.pdf"
+                    "size": "603.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q8.pdf",
-                    "size": "521.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q8.pdf"
+                    "size": "522.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2022_Q9.pdf",
-                    "size": "539.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/SEP Year 10 FT 2022_Q9.pdf"
+                    "size": "540.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/SEP Year 10 FT 2022_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -33165,73 +33650,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 FT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions",
+              "SEP Year 10 FT 2023": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023",
                 "files": [
                   {
                     "name": "SEP Year 10 FT 2023_Q1.pdf",
-                    "size": "641.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q1.pdf"
+                    "size": "643.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q10.pdf",
-                    "size": "630.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q10.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2023_Q188.pdf",
-                    "size": "583.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q188.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2023_Q1930.pdf",
-                    "size": "1.4 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q1930.pdf"
+                    "size": "663.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q2.pdf",
-                    "size": "694.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q2.pdf"
+                    "size": "695.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q3.pdf",
-                    "size": "665.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q3.pdf"
+                    "size": "1.6 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q4.pdf",
-                    "size": "642.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q4.pdf"
+                    "size": "644.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q5.pdf",
-                    "size": "892.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q5.pdf"
+                    "size": "893.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q6.pdf",
-                    "size": "597.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q6.pdf"
+                    "size": "599.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q7.pdf",
-                    "size": "787.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q7.pdf"
+                    "size": "789.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q8.pdf",
-                    "size": "587.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q8.pdf"
+                    "size": "589.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2023_Q9.pdf",
-                    "size": "614.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/SEP Year 10 FT 2023_Q9.pdf"
+                    "size": "615.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/SEP Year 10 FT 2023_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -33390,78 +33865,73 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 FT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions",
+              "SEP Year 10 FT 2024": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024",
                 "files": [
                   {
                     "name": "SEP Year 10 FT 2024_Q1.pdf",
-                    "size": "131.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q1.pdf"
+                    "size": "132.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q10.pdf",
-                    "size": "129.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q10.pdf"
+                    "size": "130.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q11.pdf",
-                    "size": "183.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q11.pdf"
+                    "size": "184.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q12.pdf",
-                    "size": "279.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q12.pdf"
+                    "size": "203.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q12.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q2.pdf",
-                    "size": "177.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 FT 2024_Q2015.pdf",
-                    "size": "102.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q2015.pdf"
+                    "size": "179.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q3.pdf",
-                    "size": "197.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q3.pdf"
+                    "size": "198.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q4.pdf",
-                    "size": "109.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q4.pdf"
+                    "size": "110.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q5.pdf",
-                    "size": "161.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q5.pdf"
+                    "size": "162.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q6.pdf",
-                    "size": "655.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q6.pdf"
+                    "size": "674.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q7.pdf",
-                    "size": "142.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q7.pdf"
+                    "size": "143.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q8.pdf",
-                    "size": "243.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q8.pdf"
+                    "size": "245.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 FT 2024_Q9.pdf",
-                    "size": "174.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/SEP Year 10 FT 2024_Q9.pdf"
+                    "size": "175.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/SEP Year 10 FT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Separated Papers/SEP Year 10 FT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -33621,7 +34091,7 @@ const configData = {
               "files": [
                 {
                   "name": "SEP Year 10 FT 2017.pdf",
-                  "size": "3.0 MB",
+                  "size": "3.1 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 10/FT/Whole Papers/SEP Year 10 FT 2017.pdf"
                 },
                 {
@@ -33699,78 +34169,215 @@ const configData = {
           },
           "HT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+              "Atomic Structure and Periodic Table": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Atomic Structure and Periodic Table",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Atomic Structure and Periodic Table/desktop.ini"
                   }
-                ]
-              }
-            },
-            "Separated Papers": {
-              "SEP Year 10 HT 2017_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions",
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Ever Changing Earth": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Ever Changing Earth",
                 "files": [
                   {
-                    "name": "SEP Year 10 HT 2017_Q1.pdf",
-                    "size": "783.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q1.pdf"
-                  },
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Ever Changing Earth/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Limestone": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone",
+                "files": [
                   {
-                    "name": "SEP Year 10 HT 2017_Q2.pdf",
-                    "size": "716.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 HT 2017_Q3.pdf",
-                    "size": "782.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q3.pdf"
+                    "name": "Limestone combined.pdf",
+                    "size": "2.7 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/Limestone combined.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2017_Q4.pdf",
-                    "size": "513.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q4.pdf"
+                    "size": "513.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2017_Q4.pdf"
                   },
                   {
-                    "name": "SEP Year 10 HT 2017_Q5.pdf",
-                    "size": "528.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q5.pdf"
+                    "name": "SEP Year 10 HT 2018_Q6.pdf",
+                    "size": "499.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2018_Q6.pdf"
                   },
                   {
-                    "name": "SEP Year 10 HT 2017_Q6.pdf",
-                    "size": "565.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q6.pdf"
+                    "name": "SEP Year 10 HT 2019_Q2.pdf",
+                    "size": "515.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2019_Q2.pdf"
                   },
                   {
-                    "name": "SEP Year 10 HT 2017_Q7.pdf",
-                    "size": "575.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q7.pdf"
+                    "name": "SEP Year 10 HT 2022_Q1.pdf",
+                    "size": "541.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2022_Q1.pdf"
                   },
                   {
-                    "name": "SEP Year 10 HT 2017_Q8.pdf",
-                    "size": "542.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q8.pdf"
+                    "name": "SEP Year 10 HT 2023_Q4.pdf",
+                    "size": "655.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2023_Q4.pdf"
                   },
                   {
-                    "name": "SEP Year 10 HT 2017_Q9.pdf",
-                    "size": "1.7 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/SEP Year 10 HT 2017_Q9.pdf"
+                    "name": "SEP Year 10 HT 2024_Q9.pdf",
+                    "size": "88.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/SEP Year 10 HT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Limestone/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Rate of Chemical Change": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Rate of Chemical Change",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Rate of Chemical Change/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "The Nature of Substances and Chemical Reactions": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/The Nature of Substances and Chemical Reactions",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/The Nature of Substances and Chemical Reactions/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Water": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Water",
+                "files": [
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/By Topic/Water/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              }
+            },
+            "Separated Papers": {
+              "SEP Year 10 HT 2017": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017",
+                "files": [
+                  {
+                    "name": "SEP Year 10 HT 2017_Q1.pdf",
+                    "size": "784.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q2.pdf",
+                    "size": "718.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q3.pdf",
+                    "size": "784.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q4.pdf",
+                    "size": "513.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q5.pdf",
+                    "size": "530.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q6.pdf",
+                    "size": "567.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q7.pdf",
+                    "size": "577.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q8.pdf",
+                    "size": "544.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 10 HT 2017_Q9.pdf",
+                    "size": "1.6 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/SEP Year 10 HT 2017_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2017/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -33889,63 +34496,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 HT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions",
+              "SEP Year 10 HT 2018": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018",
                 "files": [
                   {
                     "name": "SEP Year 10 HT 2018_Q1.pdf",
-                    "size": "557.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q1.pdf"
+                    "size": "558.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q10.pdf",
-                    "size": "616.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q10.pdf"
+                    "size": "650.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q2.pdf",
-                    "size": "680.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q2.pdf"
+                    "size": "585.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q3.pdf",
                     "size": "2.4 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q3.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q4.pdf",
-                    "size": "602.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q4.pdf"
+                    "size": "603.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q5.pdf",
-                    "size": "663.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q5.pdf"
+                    "size": "665.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q6.pdf",
-                    "size": "499.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q6.pdf"
+                    "size": "499.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q7.pdf",
-                    "size": "527.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q7.pdf"
+                    "size": "528.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q8.pdf",
-                    "size": "528.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q8.pdf"
+                    "size": "529.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2018_Q9.pdf",
-                    "size": "518.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/SEP Year 10 HT 2018_Q9.pdf"
+                    "size": "519.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/SEP Year 10 HT 2018_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -34079,63 +34686,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 HT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions",
+              "SEP Year 10 HT 2019": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019",
                 "files": [
                   {
                     "name": "SEP Year 10 HT 2019_Q1.pdf",
-                    "size": "570.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q1.pdf"
+                    "size": "572.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q10.pdf",
-                    "size": "591.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q10.pdf"
+                    "size": "524.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q2.pdf",
-                    "size": "515.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q2.pdf"
+                    "size": "515.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q3.pdf",
-                    "size": "618.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q3.pdf"
+                    "size": "619.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q4.pdf",
-                    "size": "555.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q4.pdf"
+                    "size": "555.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q5.pdf",
-                    "size": "572.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q5.pdf"
+                    "size": "573.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q6.pdf",
-                    "size": "641.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q6.pdf"
+                    "size": "642.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q7.pdf",
-                    "size": "528.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q7.pdf"
+                    "size": "529.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q8.pdf",
-                    "size": "651.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q8.pdf"
+                    "size": "653.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2019_Q9.pdf",
-                    "size": "498.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/SEP Year 10 HT 2019_Q9.pdf"
+                    "size": "499.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/SEP Year 10 HT 2019_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -34299,68 +34906,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 HT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions",
+              "SEP Year 10 HT 2022": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022",
                 "files": [
                   {
                     "name": "SEP Year 10 HT 2022_Q1.pdf",
-                    "size": "541.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q1.pdf"
+                    "size": "541.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q10.pdf",
-                    "size": "564.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q10.pdf"
+                    "size": "565.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q11.pdf",
-                    "size": "643.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q11.pdf"
+                    "size": "568.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q2.pdf",
-                    "size": "577.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q2.pdf"
+                    "size": "578.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q3.pdf",
-                    "size": "529.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q3.pdf"
+                    "size": "529.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q4.pdf",
-                    "size": "624.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q4.pdf"
+                    "size": "625.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q5.pdf",
-                    "size": "575.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q5.pdf"
+                    "size": "576.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q6.pdf",
-                    "size": "542.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q6.pdf"
+                    "size": "543.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q7.pdf",
-                    "size": "598.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q7.pdf"
+                    "size": "600.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q8.pdf",
-                    "size": "583.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q8.pdf"
+                    "size": "585.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2022_Q9.pdf",
-                    "size": "584.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/SEP Year 10 HT 2022_Q9.pdf"
+                    "size": "585.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/SEP Year 10 HT 2022_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -34499,63 +35106,58 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 HT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions",
+              "SEP Year 10 HT 2023": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023",
                 "files": [
                   {
                     "name": "SEP Year 10 HT 2023_Q1.pdf",
-                    "size": "616.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q1.pdf"
-                  },
-                  {
-                    "name": "SEP Year 10 HT 2023_Q188.pdf",
-                    "size": "513.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q188.pdf"
+                    "size": "617.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q2.pdf",
-                    "size": "627.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q2.pdf"
+                    "size": "732.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q3.pdf",
-                    "size": "655.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q3.pdf"
+                    "size": "657.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q4.pdf",
-                    "size": "653.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q4.pdf"
+                    "size": "655.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q5.pdf",
-                    "size": "552.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q5.pdf"
+                    "size": "552.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q6.pdf",
-                    "size": "619.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q6.pdf"
+                    "size": "621.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q7.pdf",
-                    "size": "792.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q7.pdf"
+                    "size": "794.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q8.pdf",
-                    "size": "567.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q8.pdf"
+                    "size": "568.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2023_Q9.pdf",
-                    "size": "750.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/SEP Year 10 HT 2023_Q9.pdf"
+                    "size": "683.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/SEP Year 10 HT 2023_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -34714,68 +35316,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 10 HT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions",
+              "SEP Year 10 HT 2024": {
+                "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024",
                 "files": [
                   {
                     "name": "SEP Year 10 HT 2024_Q1.pdf",
-                    "size": "139.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q1.pdf"
+                    "size": "141.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q10.pdf",
-                    "size": "120.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q10.pdf"
+                    "size": "122.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q11.pdf",
-                    "size": "151.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q11.pdf"
+                    "size": "83.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q2.pdf",
-                    "size": "171.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q2.pdf"
+                    "size": "172.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q3.pdf",
-                    "size": "201.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q3.pdf"
+                    "size": "203.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q4.pdf",
-                    "size": "78.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q4.pdf"
+                    "size": "79.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q5.pdf",
-                    "size": "140.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q5.pdf"
+                    "size": "142.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q6.pdf",
-                    "size": "121.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q6.pdf"
+                    "size": "121.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q7.pdf",
-                    "size": "110.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q7.pdf"
+                    "size": "111.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q8.pdf",
-                    "size": "75.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q8.pdf"
+                    "size": "76.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 10 HT 2024_Q9.pdf",
-                    "size": "88.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/SEP Year 10 HT 2024_Q9.pdf"
+                    "size": "88.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/SEP Year 10 HT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Separated Papers/SEP Year 10 HT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -34935,12 +35537,12 @@ const configData = {
               "files": [
                 {
                   "name": "SEP Year 10 HT 2017.pdf",
-                  "size": "2.7 MB",
+                  "size": "2.8 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Whole Papers/SEP Year 10 HT 2017.pdf"
                 },
                 {
                   "name": "SEP Year 10 HT 2018.pdf",
-                  "size": "3.1 MB",
+                  "size": "3.2 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Whole Papers/SEP Year 10 HT 2018.pdf"
                 },
                 {
@@ -34950,7 +35552,7 @@ const configData = {
                 },
                 {
                   "name": "SEP Year 10 HT 2022.pdf",
-                  "size": "1.2 MB",
+                  "size": "1.3 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Whole Papers/SEP Year 10 HT 2022.pdf"
                 },
                 {
@@ -34960,7 +35562,7 @@ const configData = {
                 },
                 {
                   "name": "SEP Year 10 HT 2024.pdf",
-                  "size": "839.0 KB",
+                  "size": "854.0 KB",
                   "path": "/Past Paper/Chemistry/Separates/Year 10/HT/Whole Papers/SEP Year 10 HT 2024.pdf"
                 },
                 {
@@ -35015,78 +35617,455 @@ const configData = {
         "Year 11": {
           "FT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/desktop.ini"
+              "Acids and Bases": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2018_Q7.pdf",
+                    "size": "581.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2018_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q5.pdf",
+                    "size": "550.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2019_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q8.pdf",
+                    "size": "642.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2019_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q9.pdf",
+                    "size": "551.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q2.pdf",
+                    "size": "616.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2022 Contingency_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q1.pdf",
+                    "size": "850.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2022_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q5.pdf",
+                    "size": "656.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2022_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q6.pdf",
+                    "size": "1.5 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2022_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q1.pdf",
+                    "size": "535.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2023_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q7.pdf",
+                    "size": "618.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2023_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q1.pdf",
+                    "size": "144.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2024_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q4.pdf",
+                    "size": "1.3 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/SEP Year 11 FT 2024_Q4.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Acids and Bases/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+              },
+              "Bonding and Structure": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2018_Q4.pdf",
+                    "size": "1.1 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2018_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q1.pdf",
+                    "size": "1.6 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2019_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q4.pdf",
+                    "size": "1.1 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2019_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q1.pdf",
+                    "size": "2.7 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2022 Contingency_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q7.pdf",
+                    "size": "894.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2022 Contingency_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q8.pdf",
+                    "size": "953.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2022_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q6.pdf",
+                    "size": "612.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2023_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q11.pdf",
+                    "size": "160.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2024_Q11.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q6.pdf",
+                    "size": "244.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/SEP Year 11 FT 2024_Q6.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Bonding and Structure/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Chemical Reactions and Energy": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Chemical Reactions and Energy",
                 "files": [
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Chemical Reactions and Energy/desktop.ini"
                   }
-                ]
-              }
-            },
-            "Separated Papers": {
-              "SEP Year 11 FT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions",
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Crude Oil, Fuels and Organic": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic",
                 "files": [
                   {
-                    "name": "SEP Year 11 FT 2018_Q1.pdf",
-                    "size": "639.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q1.pdf"
-                  },
-                  {
                     "name": "SEP Year 11 FT 2018_Q2.pdf",
-                    "size": "692.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2018_Q2013.pdf",
-                    "size": "531.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q2013.pdf"
+                    "size": "694.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2018_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q3.pdf",
-                    "size": "573.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q3.pdf"
+                    "size": "613.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2018_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2018_Q5.pdf",
+                    "size": "619.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2018_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q10.pdf",
+                    "size": "518.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2019_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q6.pdf",
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2019_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q7.pdf",
+                    "size": "660.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2019_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q5.pdf",
+                    "size": "1.4 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022 Contingency_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q6.pdf",
+                    "size": "715.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022 Contingency_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q8.pdf",
+                    "size": "957.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022 Contingency_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q2.pdf",
+                    "size": "529.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q3.pdf",
+                    "size": "794.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q9.pdf",
+                    "size": "753.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q2.pdf",
+                    "size": "665.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2023_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q3.pdf",
+                    "size": "603.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2023_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q8.pdf",
+                    "size": "630.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2023_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q7.pdf",
+                    "size": "235.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2024_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q8.pdf",
+                    "size": "5.8 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 FT 2024_Q8.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Crude Oil, Fuels and Organic/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Metals and Their Extraction": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2018_Q1.pdf",
+                    "size": "641.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2018_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2018_Q8.pdf",
+                    "size": "851.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2018_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q2.pdf",
+                    "size": "624.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2019_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q3.pdf",
+                    "size": "615.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2022 Contingency_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q4.pdf",
+                    "size": "610.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2022 Contingency_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q10.pdf",
+                    "size": "610.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2022_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q4.pdf",
+                    "size": "945.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2022_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022_Q7.pdf",
+                    "size": "1.0 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2022_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q4.pdf",
+                    "size": "711.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2023_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q10.pdf",
+                    "size": "144.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2024_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q2.pdf",
+                    "size": "167.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2024_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q3.pdf",
+                    "size": "157.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2024_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q9.pdf",
+                    "size": "227.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/SEP Year 11 FT 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Metals and Their Extraction/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Reversible Reactions and Industrial Processes": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2018_Q6.pdf",
+                    "size": "602.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 FT 2018_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2019_Q3.pdf",
+                    "size": "598.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 FT 2019_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q9.pdf",
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 FT 2022 Contingency_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q5.pdf",
+                    "size": "752.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 FT 2023_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2024_Q5.pdf",
+                    "size": "235.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 FT 2024_Q5.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/By Topic/Reversible Reactions and Industrial Processes/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              }
+            },
+            "Separated Papers": {
+              "SEP Year 11 FT 2018": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2018_Q1.pdf",
+                    "size": "641.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2018_Q2.pdf",
+                    "size": "694.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2018_Q3.pdf",
+                    "size": "613.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q4.pdf",
                     "size": "1.1 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q5.pdf",
-                    "size": "618.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q5.pdf"
+                    "size": "619.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q6.pdf",
-                    "size": "600.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q6.pdf"
+                    "size": "602.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q7.pdf",
-                    "size": "580.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q7.pdf"
+                    "size": "581.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2018_Q8.pdf",
-                    "size": "916.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/SEP Year 11 FT 2018_Q8.pdf"
+                    "size": "851.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/SEP Year 11 FT 2018_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -35225,73 +36204,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 FT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions",
+              "SEP Year 11 FT 2019": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019",
                 "files": [
                   {
                     "name": "SEP Year 11 FT 2019_Q1.pdf",
                     "size": "1.6 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q1.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q10.pdf",
-                    "size": "586.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q10.pdf"
+                    "size": "518.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q2.pdf",
-                    "size": "622.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2019_Q2002.pdf",
-                    "size": "509.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q2002.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2019_Q2013.pdf",
-                    "size": "1.0 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q2013.pdf"
+                    "size": "624.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q3.pdf",
-                    "size": "597.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q3.pdf"
+                    "size": "598.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q4.pdf",
                     "size": "1.1 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q5.pdf",
-                    "size": "549.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q5.pdf"
+                    "size": "550.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q6.pdf",
-                    "size": "669.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q6.pdf"
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q7.pdf",
-                    "size": "658.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q7.pdf"
+                    "size": "660.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q8.pdf",
-                    "size": "640.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q8.pdf"
+                    "size": "642.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2019_Q9.pdf",
-                    "size": "550.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/SEP Year 11 FT 2019_Q9.pdf"
+                    "size": "551.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/SEP Year 11 FT 2019_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -35445,273 +36414,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 FT 2022 Contingency_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions",
-                "files": [
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q1.pdf",
-                    "size": "2.7 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q1.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q2.pdf",
-                    "size": "613.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q3.pdf",
-                    "size": "614.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q3.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q4.pdf",
-                    "size": "608.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q4.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q5.pdf",
-                    "size": "1.4 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q5.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q6.pdf",
-                    "size": "713.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q6.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q7.pdf",
-                    "size": "892.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q7.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q8.pdf",
-                    "size": "954.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q8.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 FT 2022 Contingency_Q9.pdf",
-                    "size": "1.2 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/SEP Year 11 FT 2022 Contingency_Q9.pdf"
-                  },
-                  {
-                    "name": "desktop.ini",
-                    "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency_questions/desktop.ini"
-                  }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency",
-                  "files": [
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q10.pdf",
-                      "size": "486.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q10.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q11.pdf",
-                      "size": "523.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q11.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q12.pdf",
-                      "size": "462.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q12.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q13.pdf",
-                      "size": "518.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q13.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q14.pdf",
-                      "size": "505.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q14.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q15.pdf",
-                      "size": "505.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q15.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q16.pdf",
-                      "size": "477.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q16.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q17.pdf",
-                      "size": "537.0 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q17.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q18.pdf",
-                      "size": "452.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q18.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q19.pdf",
-                      "size": "514.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q19.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q2.pdf",
-                      "size": "440.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q2.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q20.pdf",
-                      "size": "475.8 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q20.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q21.pdf",
-                      "size": "516.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q21.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q22.pdf",
-                      "size": "480.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q22.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q23.pdf",
-                      "size": "456.8 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q23.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q24.pdf",
-                      "size": "524.4 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q24.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q25.pdf",
-                      "size": "452.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q25.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q26.pdf",
-                      "size": "515.4 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q26.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q27.pdf",
-                      "size": "481.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q27.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q28.pdf",
-                      "size": "454.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q28.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q29.pdf",
-                      "size": "453.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q29.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q3.pdf",
-                      "size": "559.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q3.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q30.pdf",
-                      "size": "461.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q30.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q4.pdf",
-                      "size": "491.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q4.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q5.pdf",
-                      "size": "515.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q5.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q6.pdf",
-                      "size": "462.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q6.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q7.pdf",
-                      "size": "463.8 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q7.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q8.pdf",
-                      "size": "515.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q8.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q9.pdf",
-                      "size": "535.4 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q9.pdf"
-                    },
-                    {
-                      "name": "desktop.ini",
-                      "size": "246.0 B",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/desktop.ini"
-                    }
-                  ]
-                }
-              },
-              "SEP Year 11 FT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions",
+              "SEP Year 11 FT 2022": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022",
                 "files": [
                   {
                     "name": "SEP Year 11 FT 2022_Q1.pdf",
-                    "size": "848.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q1.pdf"
+                    "size": "850.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q10.pdf",
-                    "size": "677.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q10.pdf"
+                    "size": "610.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q2.pdf",
-                    "size": "528.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q2.pdf"
+                    "size": "529.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q3.pdf",
-                    "size": "793.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q3.pdf"
+                    "size": "794.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q4.pdf",
-                    "size": "942.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q4.pdf"
+                    "size": "945.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q5.pdf",
-                    "size": "653.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q5.pdf"
+                    "size": "656.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q6.pdf",
                     "size": "1.5 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q6.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q7.pdf",
                     "size": "1.0 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q7.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q8.pdf",
-                    "size": "952.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q8.pdf"
+                    "size": "953.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2022_Q9.pdf",
-                    "size": "752.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/SEP Year 11 FT 2022_Q9.pdf"
+                    "size": "753.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/SEP Year 11 FT 2022_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -35870,53 +36629,263 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 FT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions",
+              "SEP Year 11 FT 2022 Contingency": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency",
                 "files": [
                   {
-                    "name": "SEP Year 11 FT 2023_Q1.pdf",
-                    "size": "533.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q1.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q1.pdf",
+                    "size": "2.7 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q1.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q2.pdf",
-                    "size": "663.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q2.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q2.pdf",
+                    "size": "616.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q2.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q3.pdf",
-                    "size": "601.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q3.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q3.pdf",
+                    "size": "615.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q3.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q4.pdf",
-                    "size": "709.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q4.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q4.pdf",
+                    "size": "610.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q4.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q5.pdf",
-                    "size": "750.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q5.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q5.pdf",
+                    "size": "1.4 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q5.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q6.pdf",
-                    "size": "611.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q6.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q6.pdf",
+                    "size": "715.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q6.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q7.pdf",
-                    "size": "617.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q7.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q7.pdf",
+                    "size": "894.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q7.pdf"
                   },
                   {
-                    "name": "SEP Year 11 FT 2023_Q8.pdf",
-                    "size": "689.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/SEP Year 11 FT 2023_Q8.pdf"
+                    "name": "SEP Year 11 FT 2022 Contingency_Q8.pdf",
+                    "size": "957.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2022 Contingency_Q9.pdf",
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/SEP Year 11 FT 2022 Contingency_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2022 Contingency/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency",
+                  "files": [
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q10.pdf",
+                      "size": "486.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q10.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q11.pdf",
+                      "size": "523.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q11.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q12.pdf",
+                      "size": "462.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q12.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q13.pdf",
+                      "size": "518.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q13.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q14.pdf",
+                      "size": "505.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q14.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q15.pdf",
+                      "size": "505.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q15.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q16.pdf",
+                      "size": "477.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q16.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q17.pdf",
+                      "size": "537.0 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q17.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q18.pdf",
+                      "size": "452.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q18.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q19.pdf",
+                      "size": "514.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q19.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q2.pdf",
+                      "size": "440.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q2.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q20.pdf",
+                      "size": "475.8 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q20.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q21.pdf",
+                      "size": "516.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q21.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q22.pdf",
+                      "size": "480.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q22.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q23.pdf",
+                      "size": "456.8 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q23.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q24.pdf",
+                      "size": "524.4 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q24.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q25.pdf",
+                      "size": "452.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q25.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q26.pdf",
+                      "size": "515.4 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q26.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q27.pdf",
+                      "size": "481.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q27.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q28.pdf",
+                      "size": "454.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q28.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q29.pdf",
+                      "size": "453.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q29.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q3.pdf",
+                      "size": "559.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q3.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q30.pdf",
+                      "size": "461.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q30.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q4.pdf",
+                      "size": "491.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q4.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q5.pdf",
+                      "size": "515.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q5.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q6.pdf",
+                      "size": "462.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q6.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q7.pdf",
+                      "size": "463.8 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q7.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q8.pdf",
+                      "size": "515.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q8.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 FT Mark Scheme 2022 Contingency Q9.pdf",
+                      "size": "535.4 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/SEP Year 11 FT Mark Scheme 2022 Contingency Q9.pdf"
+                    },
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/FT/Separated Questions/SEP Year 11 FT Mark Scheme 2022 Contingency/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "SEP Year 11 FT 2023": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023",
+                "files": [
+                  {
+                    "name": "SEP Year 11 FT 2023_Q1.pdf",
+                    "size": "535.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q2.pdf",
+                    "size": "665.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q3.pdf",
+                    "size": "603.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q4.pdf",
+                    "size": "711.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q5.pdf",
+                    "size": "752.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q6.pdf",
+                    "size": "612.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q7.pdf",
+                    "size": "618.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 FT 2023_Q8.pdf",
+                    "size": "630.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/SEP Year 11 FT 2023_Q8.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -36080,68 +37049,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 FT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions",
+              "SEP Year 11 FT 2024": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024",
                 "files": [
                   {
                     "name": "SEP Year 11 FT 2024_Q1.pdf",
-                    "size": "143.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q1.pdf"
+                    "size": "144.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q10.pdf",
-                    "size": "143.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q10.pdf"
+                    "size": "144.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q11.pdf",
-                    "size": "236.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q11.pdf"
+                    "size": "160.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q2.pdf",
-                    "size": "166.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q2.pdf"
+                    "size": "167.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q3.pdf",
-                    "size": "156.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q3.pdf"
+                    "size": "157.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q4.pdf",
                     "size": "1.3 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q4.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q5.pdf",
-                    "size": "233.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q5.pdf"
+                    "size": "235.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q6.pdf",
-                    "size": "243.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q6.pdf"
+                    "size": "244.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q7.pdf",
-                    "size": "232.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q7.pdf"
+                    "size": "235.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q8.pdf",
                     "size": "5.8 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q8.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 FT 2024_Q9.pdf",
-                    "size": "225.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/SEP Year 11 FT 2024_Q9.pdf"
+                    "size": "227.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/SEP Year 11 FT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/FT/Separated Papers/SEP Year 11 FT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -36404,78 +37373,460 @@ const configData = {
           },
           "HT": {
             "By Topic": {
-              "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic",
-              "files": [
-                {
-                  "name": "desktop.ini",
-                  "size": "246.0 B",
-                  "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/desktop.ini"
-                }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
-            },
-            "Separated Papers": {
-              "SEP Year 11 HT 2018_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions",
+              "Acids and Bases": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases",
                 "files": [
                   {
                     "name": "SEP Year 11 HT 2018_Q1.pdf",
-                    "size": "569.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q1.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q2.pdf",
-                    "size": "849.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q3.pdf",
-                    "size": "637.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q3.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q4.pdf",
-                    "size": "984.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q4.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q5.pdf",
-                    "size": "568.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q5.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q6.pdf",
-                    "size": "543.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q6.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q7.pdf",
-                    "size": "976.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q7.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2018_Q8.pdf",
-                    "size": "569.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q8.pdf"
+                    "size": "570.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2018_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2018_Q9.pdf",
-                    "size": "856.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/SEP Year 11 HT 2018_Q9.pdf"
+                    "size": "790.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q2.pdf",
+                    "size": "551.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2019_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q3.pdf",
+                    "size": "629.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2022 Contingency_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q7.pdf",
+                    "size": "608.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2022 Contingency_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q1.pdf",
+                    "size": "604.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2023_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q6.pdf",
+                    "size": "513.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2023_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q8.pdf",
+                    "size": "605.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2023_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q10.pdf",
+                    "size": "86.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2024_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q5.pdf",
+                    "size": "227.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/SEP Year 11 HT 2024_Q5.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Acids and Bases/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Bonding and Structure": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2018_Q4.pdf",
+                    "size": "986.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2018_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q5.pdf",
+                    "size": "598.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2019_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q4.pdf",
+                    "size": "575.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2022 Contingency_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q1.pdf",
+                    "size": "990.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2022_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q7.pdf",
+                    "size": "741.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2022_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q5.pdf",
+                    "size": "562.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2023_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q3.pdf",
+                    "size": "145.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2024_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q4.pdf",
+                    "size": "260.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/SEP Year 11 HT 2024_Q4.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Bonding and Structure/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Chemical Reactions and Energy": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Chemical Reactions and Energy",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2019_Q1.pdf",
+                    "size": "643.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Chemical Reactions and Energy/SEP Year 11 HT 2019_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q4.pdf",
+                    "size": "734.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Chemical Reactions and Energy/SEP Year 11 HT 2022_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q4.pdf",
+                    "size": "558.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Chemical Reactions and Energy/SEP Year 11 HT 2023_Q4.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Chemical Reactions and Energy/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Crude Oil, Fuels and Organic": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2018_Q3.pdf",
+                    "size": "639.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2018_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q7.pdf",
+                    "size": "979.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2018_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q3.pdf",
+                    "size": "518.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2019_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q8.pdf",
+                    "size": "808.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2019_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q1.pdf",
+                    "size": "957.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2022 Contingency_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q6.pdf",
+                    "size": "605.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2022 Contingency_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q5.pdf",
+                    "size": "949.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2022_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q6.pdf",
+                    "size": "1.1 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2022_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q8.pdf",
+                    "size": "656.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2022_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q2.pdf",
+                    "size": "630.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2023_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q3.pdf",
+                    "size": "758.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2023_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q7.pdf",
+                    "size": "453.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2024_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q8.pdf",
+                    "size": "173.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/SEP Year 11 HT 2024_Q8.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Crude Oil, Fuels and Organic/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Metals and Their Extraction": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2018_Q2.pdf",
+                    "size": "852.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2018_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q8.pdf",
+                    "size": "571.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2018_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q4.pdf",
+                    "size": "574.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2019_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q6.pdf",
+                    "size": "782.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2019_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q9.pdf",
+                    "size": "537.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2019_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q5.pdf",
+                    "size": "715.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2022 Contingency_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q11.pdf",
+                    "size": "553.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2022_Q11.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q3.pdf",
+                    "size": "611.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2022_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q9.pdf",
+                    "size": "611.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2022_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q9.pdf",
+                    "size": "553.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2023_Q9.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q1.pdf",
+                    "size": "239.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2024_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q2.pdf",
+                    "size": "144.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2024_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q9.pdf",
+                    "size": "181.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/SEP Year 11 HT 2024_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Metals and Their Extraction/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "Reversible Reactions and Industrial Processes": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2018_Q5.pdf",
+                    "size": "569.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2018_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q6.pdf",
+                    "size": "544.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2018_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2019_Q7.pdf",
+                    "size": "559.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2019_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q2.pdf",
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2022 Contingency_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022 Contingency_Q8.pdf",
+                    "size": "652.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2022 Contingency_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q10.pdf",
+                    "size": "931.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2022_Q10.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2022_Q2.pdf",
+                    "size": "755.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2022_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q7.pdf",
+                    "size": "601.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2023_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2024_Q6.pdf",
+                    "size": "189.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/SEP Year 11 HT 2024_Q6.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/By Topic/Reversible Reactions and Industrial Processes/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic",
+                  "files": [
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
+                    }
+                  ]
+                }
+              }
+            },
+            "Separated Papers": {
+              "SEP Year 11 HT 2018": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2018_Q1.pdf",
+                    "size": "570.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q2.pdf",
+                    "size": "852.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q3.pdf",
+                    "size": "639.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q4.pdf",
+                    "size": "986.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q5.pdf",
+                    "size": "569.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q6.pdf",
+                    "size": "544.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q7.pdf",
+                    "size": "979.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q8.pdf",
+                    "size": "571.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2018_Q9.pdf",
+                    "size": "790.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/SEP Year 11 HT 2018_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2018/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -36614,58 +37965,58 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 HT 2019_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions",
+              "SEP Year 11 HT 2019": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019",
                 "files": [
                   {
                     "name": "SEP Year 11 HT 2019_Q1.pdf",
-                    "size": "641.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q1.pdf"
+                    "size": "643.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q2.pdf",
-                    "size": "551.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q2.pdf"
+                    "size": "551.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q3.pdf",
-                    "size": "517.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q3.pdf"
+                    "size": "518.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q4.pdf",
-                    "size": "573.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q4.pdf"
+                    "size": "574.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q5.pdf",
-                    "size": "597.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q5.pdf"
+                    "size": "598.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q6.pdf",
-                    "size": "779.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q6.pdf"
+                    "size": "782.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q7.pdf",
-                    "size": "558.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q7.pdf"
+                    "size": "559.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q8.pdf",
-                    "size": "805.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q8.pdf"
+                    "size": "808.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2019_Q9.pdf",
-                    "size": "604.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/SEP Year 11 HT 2019_Q9.pdf"
+                    "size": "537.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/SEP Year 11 HT 2019_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2019/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -36819,278 +38170,68 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 HT 2022 Contingency_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions",
-                "files": [
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q1.pdf",
-                    "size": "955.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q1.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q2.pdf",
-                    "size": "1.2 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q2.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q3.pdf",
-                    "size": "627.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q3.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q4.pdf",
-                    "size": "574.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q4.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q5.pdf",
-                    "size": "713.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q5.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q6.pdf",
-                    "size": "604.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q6.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q7.pdf",
-                    "size": "606.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q7.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2022 Contingency_Q8.pdf",
-                    "size": "719.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/SEP Year 11 HT 2022 Contingency_Q8.pdf"
-                  },
-                  {
-                    "name": "desktop.ini",
-                    "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency_questions/desktop.ini"
-                  }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022",
-                  "files": [
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q10.pdf",
-                      "size": "449.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q10.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q11.pdf",
-                      "size": "497.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q11.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q12.pdf",
-                      "size": "516.8 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q12.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q13.pdf",
-                      "size": "528.0 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q13.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q14.pdf",
-                      "size": "480.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q14.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q15.pdf",
-                      "size": "459.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q15.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q16.pdf",
-                      "size": "452.5 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q16.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q17.pdf",
-                      "size": "471.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q17.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q18.pdf",
-                      "size": "549.0 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q18.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q19.pdf",
-                      "size": "469.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q19.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q2.pdf",
-                      "size": "440.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q2.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q20.pdf",
-                      "size": "470.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q20.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q21.pdf",
-                      "size": "470.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q21.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q22.pdf",
-                      "size": "456.5 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q22.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q23.pdf",
-                      "size": "478.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q23.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q24.pdf",
-                      "size": "490.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q24.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q25.pdf",
-                      "size": "453.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q25.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q26.pdf",
-                      "size": "522.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q26.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q27.pdf",
-                      "size": "451.1 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q27.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q28.pdf",
-                      "size": "496.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q28.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q29.pdf",
-                      "size": "450.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q29.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q3.pdf",
-                      "size": "551.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q3.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q30.pdf",
-                      "size": "550.6 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q30.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q31.pdf",
-                      "size": "464.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q31.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q4.pdf",
-                      "size": "470.8 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q4.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q5.pdf",
-                      "size": "476.7 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q5.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q6.pdf",
-                      "size": "464.2 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q6.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q7.pdf",
-                      "size": "468.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q7.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q8.pdf",
-                      "size": "469.9 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q8.pdf"
-                    },
-                    {
-                      "name": "SEP Year 11 HT Mark Scheme 2022 Q9.pdf",
-                      "size": "523.3 KB",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q9.pdf"
-                    },
-                    {
-                      "name": "desktop.ini",
-                      "size": "246.0 B",
-                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/desktop.ini"
-                    }
-                  ]
-                }
-              },
-              "SEP Year 11 HT 2022_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions",
+              "SEP Year 11 HT 2022": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022",
                 "files": [
                   {
                     "name": "SEP Year 11 HT 2022_Q1.pdf",
-                    "size": "989.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q1.pdf"
+                    "size": "990.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q10.pdf",
-                    "size": "930.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q10.pdf"
+                    "size": "931.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q11.pdf",
-                    "size": "630.8 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q11.pdf"
+                    "size": "553.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q11.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q2.pdf",
-                    "size": "754.0 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q2.pdf"
+                    "size": "755.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q3.pdf",
-                    "size": "610.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q3.pdf"
+                    "size": "611.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q4.pdf",
-                    "size": "732.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q4.pdf"
+                    "size": "734.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q5.pdf",
-                    "size": "946.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q5.pdf"
+                    "size": "949.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q6.pdf",
                     "size": "1.1 MB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q6.pdf"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q7.pdf",
-                    "size": "739.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q7.pdf"
+                    "size": "741.4 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q8.pdf",
-                    "size": "654.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q8.pdf"
+                    "size": "656.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2022_Q9.pdf",
-                    "size": "610.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/SEP Year 11 HT 2022_Q9.pdf"
+                    "size": "611.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/SEP Year 11 HT 2022_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -37254,58 +38395,268 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 HT 2023_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions",
+              "SEP Year 11 HT 2022 Contingency": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency",
                 "files": [
                   {
-                    "name": "SEP Year 11 HT 2023_Q1.pdf",
-                    "size": "603.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q1.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q1.pdf",
+                    "size": "957.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q1.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q2.pdf",
-                    "size": "628.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q2.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q2.pdf",
+                    "size": "1.2 MB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q2.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q3.pdf",
-                    "size": "756.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q3.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q3.pdf",
+                    "size": "629.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q3.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q4.pdf",
-                    "size": "556.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q4.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q4.pdf",
+                    "size": "575.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q4.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q5.pdf",
-                    "size": "560.2 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q5.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q5.pdf",
+                    "size": "715.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q5.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q6.pdf",
-                    "size": "512.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q6.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q6.pdf",
+                    "size": "605.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q6.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q7.pdf",
-                    "size": "600.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q7.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q7.pdf",
+                    "size": "608.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q7.pdf"
                   },
                   {
-                    "name": "SEP Year 11 HT 2023_Q8.pdf",
-                    "size": "603.3 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q8.pdf"
-                  },
-                  {
-                    "name": "SEP Year 11 HT 2023_Q9.pdf",
-                    "size": "621.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/SEP Year 11 HT 2023_Q9.pdf"
+                    "name": "SEP Year 11 HT 2022 Contingency_Q8.pdf",
+                    "size": "652.5 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/SEP Year 11 HT 2022 Contingency_Q8.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2022 Contingency/desktop.ini"
+                  }
+                ],
+                "markSchemeFolder": {
+                  "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022",
+                  "files": [
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q10.pdf",
+                      "size": "449.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q10.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q11.pdf",
+                      "size": "497.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q11.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q12.pdf",
+                      "size": "516.8 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q12.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q13.pdf",
+                      "size": "528.0 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q13.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q14.pdf",
+                      "size": "480.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q14.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q15.pdf",
+                      "size": "459.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q15.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q16.pdf",
+                      "size": "452.5 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q16.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q17.pdf",
+                      "size": "471.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q17.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q18.pdf",
+                      "size": "549.0 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q18.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q19.pdf",
+                      "size": "469.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q19.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q2.pdf",
+                      "size": "440.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q2.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q20.pdf",
+                      "size": "470.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q20.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q21.pdf",
+                      "size": "470.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q21.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q22.pdf",
+                      "size": "456.5 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q22.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q23.pdf",
+                      "size": "478.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q23.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q24.pdf",
+                      "size": "490.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q24.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q25.pdf",
+                      "size": "453.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q25.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q26.pdf",
+                      "size": "522.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q26.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q27.pdf",
+                      "size": "451.1 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q27.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q28.pdf",
+                      "size": "496.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q28.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q29.pdf",
+                      "size": "450.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q29.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q3.pdf",
+                      "size": "551.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q3.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q30.pdf",
+                      "size": "550.6 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q30.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q31.pdf",
+                      "size": "464.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q31.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q4.pdf",
+                      "size": "470.8 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q4.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q5.pdf",
+                      "size": "476.7 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q5.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q6.pdf",
+                      "size": "464.2 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q6.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q7.pdf",
+                      "size": "468.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q7.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q8.pdf",
+                      "size": "469.9 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q8.pdf"
+                    },
+                    {
+                      "name": "SEP Year 11 HT Mark Scheme 2022 Q9.pdf",
+                      "size": "523.3 KB",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/SEP Year 11 HT Mark Scheme 2022 Q9.pdf"
+                    },
+                    {
+                      "name": "desktop.ini",
+                      "size": "246.0 B",
+                      "path": "/Past Paper/Chemistry/Mark Schemes/Separates/Year 11/HT/Separated Questions/SEP Year 11 HT Mark Scheme 2022/desktop.ini"
+                    }
+                  ]
+                }
+              },
+              "SEP Year 11 HT 2023": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023",
+                "files": [
+                  {
+                    "name": "SEP Year 11 HT 2023_Q1.pdf",
+                    "size": "604.6 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q1.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q2.pdf",
+                    "size": "630.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q2.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q3.pdf",
+                    "size": "758.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q3.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q4.pdf",
+                    "size": "558.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q4.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q5.pdf",
+                    "size": "562.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q5.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q6.pdf",
+                    "size": "513.3 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q6.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q7.pdf",
+                    "size": "601.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q7.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q8.pdf",
+                    "size": "605.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q8.pdf"
+                  },
+                  {
+                    "name": "SEP Year 11 HT 2023_Q9.pdf",
+                    "size": "553.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/SEP Year 11 HT 2023_Q9.pdf"
+                  },
+                  {
+                    "name": "desktop.ini",
+                    "size": "246.0 B",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2023/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -37469,63 +38820,63 @@ const configData = {
                   ]
                 }
               },
-              "SEP Year 11 HT 2024_questions": {
-                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions",
+              "SEP Year 11 HT 2024": {
+                "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024",
                 "files": [
                   {
                     "name": "SEP Year 11 HT 2024_Q1.pdf",
-                    "size": "237.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q1.pdf"
+                    "size": "239.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q1.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q10.pdf",
-                    "size": "155.1 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q10.pdf"
+                    "size": "86.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q10.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q2.pdf",
-                    "size": "143.4 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q2.pdf"
+                    "size": "144.7 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q2.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q3.pdf",
-                    "size": "144.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q3.pdf"
+                    "size": "145.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q3.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q4.pdf",
-                    "size": "259.7 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q4.pdf"
+                    "size": "260.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q4.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q5.pdf",
-                    "size": "225.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q5.pdf"
+                    "size": "227.8 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q5.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q6.pdf",
-                    "size": "187.9 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q6.pdf"
+                    "size": "189.2 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q6.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q7.pdf",
-                    "size": "450.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q7.pdf"
+                    "size": "453.1 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q7.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q8.pdf",
-                    "size": "170.5 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q8.pdf"
+                    "size": "173.0 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q8.pdf"
                   },
                   {
                     "name": "SEP Year 11 HT 2024_Q9.pdf",
-                    "size": "180.6 KB",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/SEP Year 11 HT 2024_Q9.pdf"
+                    "size": "181.9 KB",
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/SEP Year 11 HT 2024_Q9.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024_questions/desktop.ini"
+                    "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Separated Papers/SEP Year 11 HT 2024/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
@@ -37715,7 +39066,7 @@ const configData = {
                 },
                 {
                   "name": "SEP Year 11 HT 2022 Contingency.pdf",
-                  "size": "2.5 MB",
+                  "size": "2.6 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Whole Papers/SEP Year 11 HT 2022 Contingency.pdf"
                 },
                 {
@@ -37725,12 +39076,12 @@ const configData = {
                 },
                 {
                   "name": "SEP Year 11 HT 2023.pdf",
-                  "size": "1.5 MB",
+                  "size": "1.6 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Whole Papers/SEP Year 11 HT 2023.pdf"
                 },
                 {
                   "name": "SEP Year 11 HT 2024.pdf",
-                  "size": "1.6 MB",
+                  "size": "1.7 MB",
                   "path": "/Past Paper/Chemistry/Separates/Year 11/HT/Whole Papers/SEP Year 11 HT 2024.pdf"
                 },
                 {
