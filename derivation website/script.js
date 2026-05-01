@@ -241,6 +241,30 @@ function submitQuiz() {
 
     document.getElementById('scoreMessage').textContent = scoreMessage + ` (${correctAnswers}/${questions.length} correct)`;
 
+    // Build question breakdown
+    const breakdown = document.getElementById('questionsBreakdown');
+    breakdown.innerHTML = '<h4>Question Breakdown</h4>';
+    questions.forEach((question, index) => {
+        const answered = userAnswers[index] !== null;
+        const isCorrect = answered && question.options[userAnswers[index]].isCorrect;
+        const correctOption = question.options.find(o => o.isCorrect);
+        const selectedOption = answered ? question.options[userAnswers[index]] : null;
+
+        const item = document.createElement('div');
+        item.className = `breakdown-item ${isCorrect ? 'breakdown-correct' : 'breakdown-incorrect'}`;
+        item.innerHTML = `
+            <div class="breakdown-question">
+                <span class="breakdown-icon">${isCorrect ? '✓' : '✗'}</span>
+                <strong>Q${index + 1}:</strong> ${question.question}
+            </div>
+            <div class="breakdown-answer">
+                <span>Your answer: <em>${answered ? selectedOption.text : 'Not answered'}</em></span>
+                ${!isCorrect ? `<span class="breakdown-correct-answer">Correct answer: <em>${correctOption.text}</em></span>` : ''}
+            </div>
+        `;
+        breakdown.appendChild(item);
+    });
+
     document.getElementById('resultsContainer').style.display = 'block';
 }
 
