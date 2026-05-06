@@ -48269,62 +48269,62 @@ const configData = {
                   ]
                 }
               },
-              "Topic 2 - Newton's Laws": {
-                "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+              "Topic 2 - Newtons Laws": {
+                "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                 "files": [
                   {
                     "name": "DA Year 11 FT 2018_Q5.pdf",
                     "size": "630.1 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT 2018_Q5.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT 2018_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2022_Q1.pdf",
                     "size": "609.9 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT 2022_Q1.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT 2022_Q1.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2023_Q5.pdf",
                     "size": "603.7 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT 2023_Q5.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT 2023_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 FT 2024_Q4.pdf",
                     "size": "169.9 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT 2024_Q4.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT 2024_Q4.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "DA Year 11 FT MS 2018 Q5.pdf",
                       "size": "727.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2018 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2018 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2022 Q1.pdf",
                       "size": "544.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2022 Q1.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2022 Q1.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2023 Q5.pdf",
                       "size": "525.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2023 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2023 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2024 Q4.pdf",
                       "size": "169.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2024 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2024 Q4.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 }
@@ -49150,62 +49150,62 @@ const configData = {
                   ]
                 }
               },
-              "Topic 2 - Newton's Laws": {
-                "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+              "Topic 2 - Newtons Laws": {
+                "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                 "files": [
                   {
                     "name": "DA Year 11 HT 2018_Q2.pdf",
                     "size": "646.5 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT 2018_Q2.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT 2018_Q2.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q4.pdf",
                     "size": "851.5 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT 2022_Q4.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT 2022_Q4.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2022_Q5.pdf",
                     "size": "626.0 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT 2022_Q5.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT 2022_Q5.pdf"
                   },
                   {
                     "name": "DA Year 11 HT 2023_Q3.pdf",
                     "size": "606.8 KB",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT 2023_Q3.pdf"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT 2023_Q3.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                    "path": "/Past Paper/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "DA Year 11 HT MS 2018 Q2.pdf",
                       "size": "663.3 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2018 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2018 Q2.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2022 Q4.pdf",
                       "size": "614.2 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2022 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2022 Q4.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2022 Q5.pdf",
                       "size": "588.7 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2022 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2022 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2023 Q3.pdf",
                       "size": "489.9 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2023 Q3.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2023 Q3.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 }
@@ -53765,33 +53765,33 @@ const configData = {
                     }
                   ]
                 },
-                "Topic 2 - Newton's Laws": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+                "Topic 2 - Newtons Laws": {
+                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "DA Year 11 FT MS 2018 Q5.pdf",
                       "size": "727.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2018 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2018 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2022 Q1.pdf",
                       "size": "544.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2022 Q1.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2022 Q1.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2023 Q5.pdf",
                       "size": "525.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2023 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2023 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 FT MS 2024 Q4.pdf",
                       "size": "169.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/DA Year 11 FT MS 2024 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/DA Year 11 FT MS 2024 Q4.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 },
@@ -54206,33 +54206,33 @@ const configData = {
                     }
                   ]
                 },
-                "Topic 2 - Newton's Laws": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+                "Topic 2 - Newtons Laws": {
+                  "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "DA Year 11 HT MS 2018 Q2.pdf",
                       "size": "663.3 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2018 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2018 Q2.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2022 Q4.pdf",
                       "size": "614.2 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2022 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2022 Q4.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2022 Q5.pdf",
                       "size": "588.7 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2022 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2022 Q5.pdf"
                     },
                     {
                       "name": "DA Year 11 HT MS 2023 Q3.pdf",
                       "size": "489.9 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/DA Year 11 HT MS 2023 Q3.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/DA Year 11 HT MS 2023 Q3.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 },
@@ -56050,38 +56050,38 @@ const configData = {
                     }
                   ]
                 },
-                "Topic 2 - Newton's Laws": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+                "Topic 2 - Newtons Laws": {
+                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "Sep Year 11 FT Contingency MS 2022 Q11.pdf",
                       "size": "530.7 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT Contingency MS 2022 Q11.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT Contingency MS 2022 Q11.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT Contingency MS 2022 Q4.pdf",
                       "size": "529.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT Contingency MS 2022 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT Contingency MS 2022 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2018 Q4.pdf",
                       "size": "571.0 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2018 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2018 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2019 Q8.pdf",
                       "size": "580.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2019 Q8.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2019 Q8.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2022 Q5.pdf",
                       "size": "533.3 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2022 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2022 Q5.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 },
@@ -56656,43 +56656,43 @@ const configData = {
                     }
                   ]
                 },
-                "Topic 2 - Newton's Laws": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+                "Topic 2 - Newtons Laws": {
+                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "Sep Year 11 HT Contingency MS 2022 Q2.pdf",
                       "size": "531.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT Contingency MS 2022 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT Contingency MS 2022 Q2.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2018 Q4.pdf",
                       "size": "680.0 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2018 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2018 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2019 Q4.pdf",
                       "size": "607.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2019 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2019 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2022 Q7.pdf",
                       "size": "589.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2022 Q7.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2022 Q7.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2023 Q2.pdf",
                       "size": "531.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2023 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2023 Q2.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2024 Q8.pdf",
                       "size": "87.9 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2024 Q8.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2024 Q8.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 },
@@ -60121,72 +60121,72 @@ const configData = {
                   ]
                 }
               },
-              "Topic 2 - Newton's Laws": {
-                "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+              "Topic 2 - Newtons Laws": {
+                "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                 "files": [
                   {
                     "name": "Sep Year 11 FT 2018_Q4.pdf",
                     "size": "605.5 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT 2018_Q4.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT 2018_Q4.pdf"
                   },
                   {
                     "name": "Sep Year 11 FT 2019_Q8.pdf",
                     "size": "631.5 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT 2019_Q8.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT 2019_Q8.pdf"
                   },
                   {
                     "name": "Sep Year 11 FT 2022 Contingency_Q11.pdf",
                     "size": "611.1 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT 2022 Contingency_Q11.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT 2022 Contingency_Q11.pdf"
                   },
                   {
                     "name": "Sep Year 11 FT 2022 Contingency_Q4.pdf",
                     "size": "572.6 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT 2022 Contingency_Q4.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT 2022 Contingency_Q4.pdf"
                   },
                   {
                     "name": "Sep Year 11 FT 2022_Q5.pdf",
                     "size": "569.0 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT 2022_Q5.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT 2022_Q5.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
+                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "Sep Year 11 FT Contingency MS 2022 Q11.pdf",
                       "size": "530.7 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT Contingency MS 2022 Q11.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT Contingency MS 2022 Q11.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT Contingency MS 2022 Q4.pdf",
                       "size": "529.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT Contingency MS 2022 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT Contingency MS 2022 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2018 Q4.pdf",
                       "size": "571.0 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2018 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2018 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2019 Q8.pdf",
                       "size": "580.5 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2019 Q8.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2019 Q8.pdf"
                     },
                     {
                       "name": "Sep Year 11 FT MS 2022 Q5.pdf",
                       "size": "533.3 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/Sep Year 11 FT MS 2022 Q5.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/Sep Year 11 FT MS 2022 Q5.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 }
@@ -61506,87 +61506,87 @@ const configData = {
                   ]
                 }
               },
-              "Topic 2 - Newton's Laws": {
-                "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+              "Topic 2 - Newtons Laws": {
+                "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                 "files": [
                   {
                     "name": "Sep Year 11 HT 2018_Q4.pdf",
                     "size": "564.8 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2018_Q4.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2018_Q4.pdf"
                   },
                   {
                     "name": "Sep Year 11 HT 2019_Q4.pdf",
                     "size": "608.0 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2019_Q4.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2019_Q4.pdf"
                   },
                   {
                     "name": "Sep Year 11 HT 2022 Contingency_Q2.pdf",
                     "size": "596.7 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2022 Contingency_Q2.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2022 Contingency_Q2.pdf"
                   },
                   {
                     "name": "Sep Year 11 HT 2022_Q7.pdf",
                     "size": "1.3 MB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2022_Q7.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2022_Q7.pdf"
                   },
                   {
                     "name": "Sep Year 11 HT 2023_Q2.pdf",
                     "size": "610.0 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2023_Q2.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2023_Q2.pdf"
                   },
                   {
                     "name": "Sep Year 11 HT 2024_Q8.pdf",
                     "size": "225.1 KB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT 2024_Q8.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT 2024_Q8.pdf"
                   },
                   {
                     "name": "Topic 2 Newton's Laws - Combined.pdf",
                     "size": "1.9 MB",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Topic 2 Newton's Laws - Combined.pdf"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Topic 2 Newton's Laws - Combined.pdf"
                   },
                   {
                     "name": "desktop.ini",
                     "size": "246.0 B",
-                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                    "path": "/Past Paper/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                   }
                 ],
                 "markSchemeFolder": {
-                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
+                  "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws",
                   "files": [
                     {
                       "name": "Sep Year 11 HT Contingency MS 2022 Q2.pdf",
                       "size": "531.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT Contingency MS 2022 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT Contingency MS 2022 Q2.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2018 Q4.pdf",
                       "size": "680.0 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2018 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2018 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2019 Q4.pdf",
                       "size": "607.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2019 Q4.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2019 Q4.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2022 Q7.pdf",
                       "size": "589.1 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2022 Q7.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2022 Q7.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2023 Q2.pdf",
                       "size": "531.4 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2023 Q2.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2023 Q2.pdf"
                     },
                     {
                       "name": "Sep Year 11 HT MS 2024 Q8.pdf",
                       "size": "87.9 KB",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/Sep Year 11 HT MS 2024 Q8.pdf"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/Sep Year 11 HT MS 2024 Q8.pdf"
                     },
                     {
                       "name": "desktop.ini",
                       "size": "246.0 B",
-                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
+                      "path": "/Past Paper/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newtons Laws/desktop.ini"
                     }
                   ]
                 }
