@@ -704,6 +704,10 @@ layout: default
                 if (data && typeof data === 'object' && key in data) {
                     data = data[key];
                 } else {
+                    // Debug: show what keys are available
+                    if (data && typeof data === 'object') {
+                        console.warn(`Key '${key}' not found. Available keys: ${Object.keys(data).join(', ')}`);
+                    }
                     return null;
                 }
             }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apostrophe Test</title>
+</head>
+<body>
+    <h1>Testing Apostrophe Handling</h1>
+    <div id="result"></div>
+
+    <script src="folder_config.js"></script>
+    <script>
+        const resultDiv = document.getElementById('result');
+        
+        // Check if Physics exists
+        if (configData && configData.folderStructure && configData.folderStructure.Physics) {
+            resultDiv.innerHTML += '<p>✓ Physics found in config</p>';
+            
+            const physics = configData.folderStructure.Physics;
+            
+            // Check if Separates exists
+            if (physics.Separates) {
+                resultDiv.innerHTML += '<p>✓ Separates found in Physics</p>';
+                
+                // Check if Year 11 exists
+                if (physics.Separates['Year 11']) {
+                    resultDiv.innerHTML += '<p>✓ Year 11 found in Separates</p>';
+                    
+                    // Check if Higher exists
+                    if (physics.Separates['Year 11'].Higher) {
+                        resultDiv.innerHTML += '<p>✓ Higher found in Year 11</p>';
+                        
+                        const higher = physics.Separates['Year 11'].Higher;
+                        
+                        // List all keys in Higher to see what's there
+                        resultDiv.innerHTML += '<p>Keys in Higher:</p><ul>';
+                        for (const key in higher) {
+                            if (key !== 'path' && key !== 'files' && key !== 'markSchemeFolder') {
+                                resultDiv.innerHTML += `<li>${key}</li>`;
+                            }
+                        }
+                        resultDiv.innerHTML += '</ul>';
+                        
+                        // Check specifically for By Topic
+                        if (higher['By Topic']) {
+                            resultDiv.innerHTML += '<p>✓ By Topic found in Higher</p>';
+                            
+                            const byTopic = higher['By Topic'];
+                            resultDiv.innerHTML += '<p>Keys in By Topic:</p><ul>';
+                            for (const key in byTopic) {
+                                resultDiv.innerHTML += `<li>${key}</li>`;
+                            }
+                            resultDiv.innerHTML += '</ul>';
+                            
+                            // Check for Newton's Laws specifically
+                            if (byTopic["Topic 2 - Newton's Laws"]) {
+                                resultDiv.innerHTML += '<p style="color: green; font-weight: bold;">✓✓✓ Topic 2 - Newton\'s Laws FOUND!</p>';
+                                resultDiv.innerHTML += `<p>Path: ${byTopic["Topic 2 - Newton's Laws"].path}</p>`;
+                                resultDiv.innerHTML += `<p>Files count: ${byTopic["Topic 2 - Newton's Laws"].files ? byTopic["Topic 2 - Newton's Laws"].files.length : 0}</p>`;
+                            } else {
+                                resultDiv.innerHTML += '<p style="color: red; font-weight: bold;">✗✗✗ Topic 2 - Newton\'s Laws NOT FOUND!</p>';
+                                resultDiv.innerHTML += '<p>Available keys:</p>';
+                                resultDiv.innerHTML += '<pre>' + Object.keys(byTopic).join('\n') + '</pre>';
+                            }
+                        } else {
+                            resultDiv.innerHTML += '<p style="color: red;">✗ By Topic NOT found in Higher</p>';
+                        }
+                    } else {
+                        resultDiv.innerHTML += '<p style="color: red;">✗ Higher NOT found in Year 11</p>';
+                    }
+                } else {
+                    resultDiv.innerHTML += '<p style="color: red;">✗ Year 11 NOT found in Separates</p>';
+                }
+            } else {
+                resultDiv.innerHTML += '<p style="color: red;">✗ Separates NOT found in Physics</p>';
+            }
+        } else {
+            resultDiv.innerHTML += '<p style="color: red;">✗ Physics NOT found in config</p>';
+        }
+    </script>
+</body>
+</html>

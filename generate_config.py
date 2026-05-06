@@ -23,7 +23,10 @@ def format_path(path):
         return f"/{rel}"
     return path.replace('\\', '/')
 
-def build_structure(path, max_depth=7, current_depth=0):
+def build_structure(path, max_depth=7, current_depth=0, debug=False):
+    if debug:
+        print(f"['{'  '*current_depth}] depth={current_depth}, path={os.path.basename(path)}")
+    
     if current_depth >= max_depth:
         result = {'path': format_path(path), 'files': list_files(path)}
         # Try to find mark scheme folder for this papers folder
@@ -58,7 +61,14 @@ def build_structure(path, max_depth=7, current_depth=0):
     result = {}
     for dir_name in sorted(dirs):
         subdir = os.path.join(path, dir_name)
-        result[dir_name] = build_structure(subdir, max_depth, current_depth + 1)
+        try:
+            result[dir_name] = build_structure(subdir, max_depth, current_depth + 1)
+        except Exception as e:
+            print(f"ERROR processing {subdir}: {e}", file=__import__('sys').stderr)
+            import traceback
+            traceback.print_exc()
+            # Still add it to result so we don't lose it
+            result[dir_name] = {'path': format_path(subdir), 'files': list_files(subdir), 'error': str(e)}
     
     return result
 
@@ -294,7 +304,9 @@ def list_files(path):
                     'path': format_path(full_path)
                 })
         return files
-    except:
+    except Exception as e:
+        import sys
+        print(f"Error listing files in {path}: {e}", file=sys.stderr)
         return []
 
 def format_file_size(size):
@@ -305,8 +317,11 @@ def format_file_size(size):
         size /= 1024.0
     return f"{size:.1f} TB"
 
+print(f"Building structure for: {base_path}")
 config = build_structure(base_path)
+print(f"Top-level subjects: {list(config.keys())}")
 config_str = json.dumps({'folderStructure': config}, indent=2)
+print(f"Generated JSON size: {len(config_str)} bytes")
 
 with open('folder_config.js', 'w') as f:
     f.write('const configData = ' + config_str + ';\n\n')
