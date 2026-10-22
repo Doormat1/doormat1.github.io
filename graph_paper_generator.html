@@ -538,7 +538,9 @@ layout: null
                     const x = gridLeft + i * actualSquareSize;
                     let labelText;
                     if (useCustomAxisValues) {
-                        labelText = (xStartValue + i * xIncrement).toString();
+                        const value = xStartValue + i * xIncrement;
+                        // Round to avoid floating point precision issues
+                        labelText = (Math.round(value * 1000000) / 1000000).toString();
                     } else {
                         labelText = i.toString();
                     }
@@ -552,7 +554,9 @@ layout: null
                     const y = gridBottom - i * actualSquareSize;
                     let labelText;
                     if (useCustomAxisValues) {
-                        labelText = (yStartValue + i * yIncrement).toString();
+                        const value = yStartValue + i * yIncrement;
+                        // Round to avoid floating point precision issues
+                        labelText = (Math.round(value * 1000000) / 1000000).toString();
                     } else {
                         labelText = i.toString();
                     }
@@ -691,7 +695,9 @@ layout: null
                     const x = gridLeft + i * actualSquareSize;
                     let labelText;
                     if (p.useCustomAxisValues) {
-                        labelText = (p.xStartValue + i * p.xIncrement).toString();
+                        const value = p.xStartValue + i * p.xIncrement;
+                        // Round to avoid floating point precision issues
+                        labelText = (Math.round(value * 1000000) / 1000000).toString();
                     } else {
                         labelText = i.toString();
                     }
@@ -701,7 +707,9 @@ layout: null
                     const y = gridBottom - i * actualSquareSize;
                     let labelText;
                     if (p.useCustomAxisValues) {
-                        labelText = (p.yStartValue + i * p.yIncrement).toString();
+                        const value = p.yStartValue + i * p.yIncrement;
+                        // Round to avoid floating point precision issues
+                        labelText = (Math.round(value * 1000000) / 1000000).toString();
                     } else {
                         labelText = i.toString();
                     }
