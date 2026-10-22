@@ -1,0 +1,798 @@
+---
+title: Circuit Bingo
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sine Wave Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 1400px;
+            width: 100%;
+        }
+
+        .generators-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .generator {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            border: 2px solid #e9ecef;
+        }
+
+        .generator h2 {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #999;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        .control-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .control-section h3 {
+            color: #667eea;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .control-section h3::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: #667eea;
+            border-radius: 50%;
+        }
+
+        .control-group {
+            margin-bottom: 18px;
+        }
+
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .input-row {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: center;
+        }
+
+        input[type="number"] {
+            padding: 8px 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #333;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: #e9ecef;
+            outline: none;
+            appearance: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        input[type="range"]::-moz-range-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .value-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+            background: white;
+            padding: 10px 12px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+        }
+
+        .value-number {
+            font-weight: 700;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .value-unit {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        .wave-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .wave-btn {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+        }
+
+        .wave-btn.active {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .wave-btn:hover:not(.active) {
+            border-color: #667eea;
+            background: #f0f2ff;
+        }
+
+        .panning-indicator {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 8px;
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .pan-left {
+            color: #667eea;
+            flex: 1;
+            text-align: left;
+        }
+
+        .pan-center {
+            color: #764ba2;
+            flex: 1;
+            text-align: center;
+        }
+
+        .pan-right {
+            color: #667eea;
+            flex: 1;
+            text-align: right;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            flex: 1;
+            padding: 16px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-play {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-play:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-play:active {
+            transform: translateY(-1px);
+        }
+
+        .btn-stop {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-stop:hover {
+            background: #c82333;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(220, 53, 69, 0.3);
+        }
+
+        .btn-stop:active {
+            transform: translateY(-1px);
+        }
+
+        .btn-stop:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .status {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95em;
+            background: #e3f2fd;
+            color: #1976d2;
+            display: none;
+        }
+
+        .status.playing {
+            display: block;
+            background: #c8e6c9;
+            color: #2e7d32;
+        }
+
+        .status.error {
+            display: block;
+            background: #ffcdd2;
+            color: #c62828;
+        }
+
+        .info-box {
+            background: #f0f2ff;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 25px;
+            color: #333;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .info-box strong {
+            color: #667eea;
+        }
+
+        @media (max-width: 1000px) {
+            .generators-wrapper {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .generator {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.4em;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .control-section {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔊 Dual Sine Wave Generator</h1>
+        <p class="subtitle">Generate and control two independent sine wave generators</p>
+
+        <div class="generators-wrapper">
+            <!-- GENERATOR 1 -->
+            <div class="generator">
+                <h2>Generator 1</h2>
+
+                <!-- Frequency Control -->
+                <div class="control-section">
+                    <h3>Frequency</h3>
+                    <div class="control-group">
+                        <label for="frequency1">Frequency (Hz):</label>
+                        <div class="input-row">
+                            <input type="range" id="frequency1" min="20" max="20000" value="440" step="1">
+                            <input type="number" id="frequency1Input" min="20" max="20000" value="440" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panning Control -->
+                <div class="control-section">
+                    <h3>Panning</h3>
+                    <div class="control-group">
+                        <label for="panning1">Pan Position:</label>
+                        <div class="input-row">
+                            <input type="range" id="panning1" min="-1" max="1" value="0" step="0.01">
+                            <input type="number" id="panning1Input" min="-1" max="1" value="0" step="0.01" style="width: 80px;">
+                        </div>
+                        <div class="panning-indicator">
+                            <span class="pan-left">🔴 L</span>
+                            <span class="pan-center">⚪ C</span>
+                            <span class="pan-right">🔵 R</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase Control -->
+                <div class="control-section">
+                    <h3>Phase</h3>
+                    <div class="control-group">
+                        <label for="phase1">Phase Offset (°):</label>
+                        <div class="input-row">
+                            <input type="range" id="phase1" min="0" max="360" value="0" step="1">
+                            <input type="number" id="phase1Input" min="0" max="360" value="0" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Volume Control -->
+                <div class="control-section">
+                    <h3>Volume</h3>
+                    <div class="control-group">
+                        <label for="volume1">Volume:</label>
+                        <div class="input-row">
+                            <input type="range" id="volume1" min="0" max="100" value="30" step="1">
+                            <input type="number" id="volume1Input" min="0" max="100" value="30" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GENERATOR 2 -->
+            <div class="generator">
+                <h2>Generator 2</h2>
+
+                <!-- Frequency Control -->
+                <div class="control-section">
+                    <h3>Frequency</h3>
+                    <div class="control-group">
+                        <label for="frequency2">Frequency (Hz):</label>
+                        <div class="input-row">
+                            <input type="range" id="frequency2" min="20" max="20000" value="440" step="1">
+                            <input type="number" id="frequency2Input" min="20" max="20000" value="440" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panning Control -->
+                <div class="control-section">
+                    <h3>Panning</h3>
+                    <div class="control-group">
+                        <label for="panning2">Pan Position:</label>
+                        <div class="input-row">
+                            <input type="range" id="panning2" min="-1" max="1" value="0" step="0.01">
+                            <input type="number" id="panning2Input" min="-1" max="1" value="0" step="0.01" style="width: 80px;">
+                        </div>
+                        <div class="panning-indicator">
+                            <span class="pan-left">🔴 L</span>
+                            <span class="pan-center">⚪ C</span>
+                            <span class="pan-right">🔵 R</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase Control -->
+                <div class="control-section">
+                    <h3>Phase</h3>
+                    <div class="control-group">
+                        <label for="phase2">Phase Offset (°):</label>
+                        <div class="input-row">
+                            <input type="range" id="phase2" min="0" max="360" value="0" step="1">
+                            <input type="number" id="phase2Input" min="0" max="360" value="0" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Volume Control -->
+                <div class="control-section">
+                    <h3>Volume</h3>
+                    <div class="control-group">
+                        <label for="volume2">Volume:</label>
+                        <div class="input-row">
+                            <input type="range" id="volume2" min="0" max="100" value="30" step="1">
+                            <input type="number" id="volume2Input" min="0" max="100" value="30" step="1" style="width: 80px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Control Buttons -->
+        <div class="button-group">
+            <button class="btn-play" onclick="startAudio()">▶ Play</button>
+            <button class="btn-stop" id="stopBtn" onclick="stopAudio()" disabled>⏹ Stop</button>
+        </div>
+
+        <!-- Status -->
+        <div class="status" id="status">🎵 Audio Playing</div>
+
+        <!-- Info Box -->
+        <div class="info-box">
+            <strong>💡 Tips:</strong>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li><strong>Frequency:</strong> Standard A4 note = 440 Hz. Range: 20 Hz - 20,000 Hz</li>
+                <li><strong>Panning:</strong> Position each generator in left/center/right stereo field</li>
+                <li><strong>Phase:</strong> Adjust phase offset between 0° and 360°</li>
+                <li><strong>Volume:</strong> Control individual levels of each generator. Start low!</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Audio context
+        let audioContext = null;
+        let generators = {
+            gen1: {
+                oscillator: null,
+                gainNode: null,
+                pannerNode: null,
+                delayNode: null,
+                volume: 0.3,
+                isPlaying: false
+            },
+            gen2: {
+                oscillator: null,
+                gainNode: null,
+                pannerNode: null,
+                delayNode: null,
+                volume: 0.3,
+                isPlaying: false
+            }
+        };
+        let masterGain = null;
+        let isPlaying = false;
+
+        // Get DOM elements for both generators
+        const controls = {
+            gen1: {
+                frequency: document.getElementById('frequency1'),
+                frequencyInput: document.getElementById('frequency1Input'),
+                panning: document.getElementById('panning1'),
+                panningInput: document.getElementById('panning1Input'),
+                phase: document.getElementById('phase1'),
+                phaseInput: document.getElementById('phase1Input'),
+                volume: document.getElementById('volume1'),
+                volumeInput: document.getElementById('volume1Input')
+            },
+            gen2: {
+                frequency: document.getElementById('frequency2'),
+                frequencyInput: document.getElementById('frequency2Input'),
+                panning: document.getElementById('panning2'),
+                panningInput: document.getElementById('panning2Input'),
+                phase: document.getElementById('phase2'),
+                phaseInput: document.getElementById('phase2Input'),
+                volume: document.getElementById('volume2'),
+                volumeInput: document.getElementById('volume2Input')
+            }
+        };
+
+        const stopBtn = document.getElementById('stopBtn');
+        const statusDiv = document.getElementById('status');
+
+        // Function to calculate delay time needed for phase shift
+        function getDelayForPhase(frequency, phaseInDegrees) {
+            if (frequency === 0) return 0;
+            const periodInSeconds = 1 / frequency;
+            const phaseRatio = phaseInDegrees / 360;
+            return periodInSeconds * phaseRatio;
+        }
+
+        // Setup event listeners for both generators
+        ['gen1', 'gen2'].forEach(gen => {
+            // Frequency slider to input sync
+            controls[gen].frequency.addEventListener('input', function() {
+                controls[gen].frequencyInput.value = this.value;
+                if (isPlaying && generators[gen].oscillator) {
+                    generators[gen].oscillator.frequency.setTargetAtTime(
+                        parseFloat(this.value), 
+                        audioContext.currentTime, 
+                        0.01
+                    );
+                }
+            });
+
+            // Frequency input to slider sync
+            controls[gen].frequencyInput.addEventListener('input', function() {
+                const value = Math.max(20, Math.min(20000, parseFloat(this.value) || 0));
+                controls[gen].frequency.value = value;
+                this.value = value;
+                if (isPlaying && generators[gen].oscillator) {
+                    generators[gen].oscillator.frequency.setTargetAtTime(
+                        value, 
+                        audioContext.currentTime, 
+                        0.01
+                    );
+                }
+            });
+
+            // Panning slider to input sync
+            controls[gen].panning.addEventListener('input', function() {
+                controls[gen].panningInput.value = this.value;
+                if (isPlaying && generators[gen].pannerNode) {
+                    generators[gen].pannerNode.pan.value = parseFloat(this.value);
+                }
+            });
+
+            // Panning input to slider sync
+            controls[gen].panningInput.addEventListener('input', function() {
+                const value = Math.max(-1, Math.min(1, parseFloat(this.value) || 0));
+                controls[gen].panning.value = value;
+                this.value = value;
+                if (isPlaying && generators[gen].pannerNode) {
+                    generators[gen].pannerNode.pan.value = value;
+                }
+            });
+
+            // Phase slider to input sync
+            controls[gen].phase.addEventListener('input', function() {
+                controls[gen].phaseInput.value = this.value;
+                if (isPlaying && generators[gen].delayNode) {
+                    const frequency = parseFloat(controls[gen].frequency.value);
+                    const phase = parseFloat(this.value);
+                    const delayTime = getDelayForPhase(frequency, phase);
+                    generators[gen].delayNode.delayTime.setTargetAtTime(
+                        delayTime,
+                        audioContext.currentTime,
+                        0.01
+                    );
+                }
+            });
+
+            // Phase input to slider sync
+            controls[gen].phaseInput.addEventListener('input', function() {
+                const value = Math.max(0, Math.min(360, parseInt(this.value) || 0));
+                controls[gen].phase.value = value;
+                this.value = value;
+                if (isPlaying && generators[gen].delayNode) {
+                    const frequency = parseFloat(controls[gen].frequency.value);
+                    const delayTime = getDelayForPhase(frequency, value);
+                    generators[gen].delayNode.delayTime.setTargetAtTime(
+                        delayTime,
+                        audioContext.currentTime,
+                        0.01
+                    );
+                }
+            });
+
+            // Volume slider to input sync
+            controls[gen].volume.addEventListener('input', function() {
+                controls[gen].volumeInput.value = this.value;
+                if (isPlaying && generators[gen].gainNode) {
+                    generators[gen].gainNode.gain.value = parseFloat(this.value) / 100;
+                }
+            });
+
+            // Volume input to slider sync
+            controls[gen].volumeInput.addEventListener('input', function() {
+                const value = Math.max(0, Math.min(100, parseInt(this.value) || 0));
+                controls[gen].volume.value = value;
+                this.value = value;
+                if (isPlaying && generators[gen].gainNode) {
+                    generators[gen].gainNode.gain.value = value / 100;
+                }
+            });
+        });
+
+        function initAudioContext() {
+            if (!audioContext) {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            return audioContext;
+        }
+
+        function startAudio() {
+            try {
+                initAudioContext();
+
+                // Resume audio context if suspended
+                if (audioContext.state === 'suspended') {
+                    audioContext.resume();
+                }
+
+                // Create master gain node
+                masterGain = audioContext.createGain();
+                masterGain.gain.value = 1.0;
+                masterGain.connect(audioContext.destination);
+
+                // Create both generators
+                ['gen1', 'gen2'].forEach(gen => {
+                    const frequency = parseFloat(controls[gen].frequency.value);
+                    const panValue = parseFloat(controls[gen].panning.value);
+                    const volumeValue = parseFloat(controls[gen].volume.value) / 100;
+                    const phase = parseFloat(controls[gen].phase.value);
+
+                    // Create oscillator
+                    const oscillator = audioContext.createOscillator();
+                    oscillator.type = 'sine';
+                    oscillator.frequency.value = frequency;
+
+                    // Create gain node for individual volume
+                    const gainNode = audioContext.createGain();
+                    gainNode.gain.value = volumeValue;
+
+                    // Create delay node for phase shifting
+                    const delayNode = audioContext.createDelay();
+                    const delayTime = getDelayForPhase(frequency, phase);
+                    delayNode.delayTime.value = delayTime;
+
+                    // Create panner for stereo positioning
+                    const pannerNode = audioContext.createStereoPanner();
+                    pannerNode.pan.value = panValue;
+
+                    // Connect the signal chain: oscillator -> gain -> delay -> panner -> master
+                    oscillator.connect(gainNode);
+                    gainNode.connect(delayNode);
+                    delayNode.connect(pannerNode);
+                    pannerNode.connect(masterGain);
+
+                    // Start the oscillator
+                    oscillator.start(audioContext.currentTime);
+
+                    // Store references
+                    generators[gen].oscillator = oscillator;
+                    generators[gen].gainNode = gainNode;
+                    generators[gen].delayNode = delayNode;
+                    generators[gen].pannerNode = pannerNode;
+                    generators[gen].isPlaying = true;
+                });
+
+                isPlaying = true;
+                stopBtn.disabled = false;
+                statusDiv.classList.add('playing');
+                statusDiv.textContent = '🎵 Audio Playing - Click Stop to end';
+
+            } catch (error) {
+                statusDiv.classList.add('error');
+                statusDiv.textContent = '❌ Error: ' + error.message;
+                console.error('Audio error:', error);
+            }
+        }
+
+        function stopAudio() {
+            ['gen1', 'gen2'].forEach(gen => {
+                if (generators[gen].oscillator) {
+                    try {
+                        generators[gen].oscillator.stop();
+                        generators[gen].oscillator = null;
+                        generators[gen].gainNode = null;
+                        generators[gen].delayNode = null;
+                        generators[gen].pannerNode = null;
+                        generators[gen].isPlaying = false;
+                    } catch (e) {
+                        console.error('Error stopping oscillator:', e);
+                    }
+                }
+            });
+
+            isPlaying = false;
+            stopBtn.disabled = true;
+            statusDiv.classList.remove('playing');
+            statusDiv.textContent = '';
+        }
+
+        // Handle page unload
+        window.addEventListener('beforeunload', function() {
+            if (isPlaying) {
+                stopAudio();
+            }
+        });
+
+        // Initialize display values
+        ['gen1', 'gen2'].forEach(gen => {
+            controls[gen].frequencyInput.value = controls[gen].frequency.value;
+            controls[gen].panningInput.value = controls[gen].panning.value;
+            controls[gen].phaseInput.value = controls[gen].phase.value;
+            controls[gen].volumeInput.value = controls[gen].volume.value;
+        });
+    </script>
+</body>
+</html>
