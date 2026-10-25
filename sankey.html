@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sankey Diagram Generator</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 960px; margin: 20px auto; padding: 0 12px; color: #222; }
+  h1 { font-size: 1.5em; }
+  fieldset { margin: 14px 0; border: 1px solid #bbb; border-radius: 6px; }
+  legend { font-weight: bold; }
+  label { margin-right: 10px; }
+  input, select { padding: 4px; margin: 2px 0; }
+  .row { margin: 4px 0; }
+  .row input[type=text] { width: 160px; }
+  .row input[type=number] { width: 90px; }
+  button { padding: 5px 12px; cursor: pointer; }
+  #status { font-weight: bold; margin: 10px 0; }
+  .ok { color: #0a7a2f; }
+  .bad { color: #c00; }
+  #preview { overflow-x: auto; border: 1px solid #ddd; margin-top: 10px; }
+</style>
+</head>
+<body>
+<h1>Sankey Diagram Generator (WJEC style)</h1>
+
+<fieldset>
+  <legend>Input</legend>
+  <label>Title <input type="text" id="title" value="Lamp"></label>
+  <label>Unit <input type="text" id="unit" value="J" size="4"></label><br>
+  <label>Input energy name <input type="text" id="inName" value="Electrical"></label>
+  <label>Value <input type="number" id="inVal" value="100" min="0" step="any"></label>
+</fieldset>
+
+<fieldset>
+  <legend>Useful energy</legend>
+  <div id="useful"></div>
+  <button type="button" id="addUseful">+ Add useful</button>
+</fieldset>
+
+<fieldset>
+  <legend>Wasted energy</legend>
+  <div id="wasted"></div>
+  <button type="button" id="addWasted">+ Add wasted</button>
+</fieldset>
+
+<div id="status"></div>
+<button type="button" id="download">Download SVG</button>
+<div id="preview"></div>
+
+<script>
+const HEIGHT_FOR_INPUT = 240;
+const TOLERANCE = 1e-6;
+
+const $ = id => document.getElementById(id);
+const fmt = v => String(parseFloat(v.toPrecision(6)));
+const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+function textEl(x, y, lines, anchor = "middle", size = 16, weight = "normal") {
+  return lines.map((line, i) =>
+    `<text x="${x.toFixed(1)}" y="${(y + i * (size + 3)).toFixed(1)}" text-anchor="${anchor}" ` +
+    `font-family="Arial, sans-serif" font-size="${size}" font-weight="${weight}">${esc(line)}</text>`
+  ).join("\n");
+}
+
+function buildSvg(title, inName, inVal, useful, wasted, unit) {
+  const s = HEIGHT_FOR_INPUT / inVal;
+  const ups = wasted.filter(w => w.dir === "up");
+  const downs = wasted.filter(w => w.dir === "down");
+
+  const flare = w => Math.max(12, 0.3 * w);
+  const headH = 25, headLen = 60;
+  const lenOf = w => (w.len > 0 ? w.len : 30);
+  const maxLen = list => Math.max(0, ...list.map(lenOf));
+
+  const footprint = item => {
+    if (!item) return 0;
+    const w = item.value * s;
+    const labelW = 8.5 * Math.max(item.name.length, `${fmt(item.value)} ${unit}`.length);
+    return Math.max(w + 2 * flare(w), labelW);
+  };
+
+  const pairs = [];
+  for (let i = 0; i < Math.max(ups.length, downs.length); i++) pairs.push([ups[i], downs[i]]);
+  const colGap = 15;
+  const colWidths = pairs.map(([u, d]) => Math.max(footprint(u), footprint(d)) + colGap);
+
+  const left = 190, rightPad = 260;
+  const x0 = left;
+  const firstSlot = x0 + 20;
+  const xe = firstSlot + colWidths.reduce((a, b) => a + b, 0) + 20;
+
+  const T0 = 70 +   (ups.length ? maxLen(ups) + headH : 0);
+  const B0 = T0 + inVal * s;
+
+  const topPts = [[x0, T0]], botPts = [[x0, B0]], labels = [];
+  let curTop = T0, curBot = B0, colX = firstSlot;
+
+  pairs.forEach(([u, d], i) => {
+    const cw = colWidths[i];
+    if (u) {
+      const w = u.value * s, f = flare(w);
+      const x = colX + (cw - colGap - w) / 2;
+      const yBase = curTop - lenOf(u), yTip = yBase - headH;
+      topPts.push([x, curTop], [x, yBase], [x - f, yBase], [x + w / 2, yTip],
+                  [x + w + f, yBase], [x + w, yBase], [x + w, curTop + w]);
+      curTop += w;
+      labels.push(textEl(x + w / 2, yTip - 24, [u.name, `${fmt(u.value)} ${unit}`]));
+    }
+    if (d) {
+      const w = d.value * s, f = flare(w);
+      const x = colX + (cw - colGap - w) / 2;
+      const yBase = curBot + lenOf(d), yTip = yBase + headH;
+      botPts.push([x, curBot], [x, yBase], [x - f, yBase], [x + w / 2, yTip],
+                  [x + w + f, yBase], [x + w, yBase], [x + w, curBot - w]);
+      curBot -= w;
+      labels.push(textEl(x + w / 2, yTip + 22, [d.name, `${fmt(d.value)} ${unit}`]));
+    }
+    colX += cw;
+  });
+
+  const fh = Math.max(14, 0.25 * (curBot - curTop));
+  const outline = topPts.concat(
+    [[xe, curTop], [xe, curTop - fh], [xe + headLen, (curTop + curBot) / 2], [xe, curBot + fh], [xe, curBot]],
+    botPts.slice().reverse());
+  const dAttr = "M " + outline.map(([x, y]) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" L ") + " Z";
+
+  const parts = [`<path d="${dAttr}" fill="#dfe9f5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>`];
+
+  let y = curTop;
+  useful.forEach((u, i) => {
+    const h = u.value * s;
+    if (i) parts.push(`<line x1="${(xe - 60).toFixed(1)}" y1="${y.toFixed(1)}" x2="${xe.toFixed(1)}" y2="${y.toFixed(1)}" stroke="black" stroke-width="1.5"/>`);
+    parts.push(textEl(xe + headLen + 15, y + h / 2 - 6, [u.name, `${fmt(u.value)} ${unit}`], "start"));
+    y += h;
+  });
+
+  parts.push(textEl(x0 - 15, (T0 + B0) / 2 - 6, [inName, `${fmt(inVal)} ${unit}`], "end"));
+  parts.push(...labels);
+
+  const width = xe + headLen + rightPad;
+  const height = B0 + 70 + (downs.length ? maxLen(downs) + headH : 0);
+  parts.push(textEl(20, height - 15, [`Drawn to scale: ${HEIGHT_FOR_INPUT} px of arrow width = ${fmt(inVal)} ${unit}`], "start", 12));
+  parts.push(textEl(width / 2, 35, [title], "middle", 22, "bold"));
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${Math.round(width)}" height="${Math.round(height)}" viewBox="0 0 ${Math.round(width)} ${Math.round(height)}">\n` +
+         `<rect width="100%" height="100%" fill="white"/>\n${parts.join("\n")}\n</svg>\n`;
+}
+
+function addRow(containerId, isWasted, name = "", value = "", dir = "up", len = 30) {
+  const row = document.createElement("div");
+  row.className = "row";
+  row.innerHTML =
+    `<input type="text" class="n" placeholder="Name" value="${esc(name)}"> ` +
+    `<input type="number" class="v" placeholder="Value" min="0" step="any" value="${value}"> ` +
+    (isWasted ? `<select class="d"><option value="up">Up</option><option value="down">Down</option></select> ` +
+      `<label>Arrow length <input type="number" class="l" min="0" step="any" value="${len}"></label> ` : "") +
+    `<button type="button" class="rm">Remove</button>`;
+  if (isWasted) row.querySelector(".d").value = dir;
+  row.querySelector(".rm").onclick = () => { row.remove(); update(); };
+  row.addEventListener("input", update);
+  $(containerId).appendChild(row);
+}
+
+function readRows(containerId, isWasted) {
+  return [...$(containerId).children].map(r => ({
+    name: r.querySelector(".n").value.trim(),
+    value: parseFloat(r.querySelector(".v").value),
+    dir: isWasted ? r.querySelector(".d").value : "right",
+    len: isWasted ? parseFloat(r.querySelector(".l").value) : 0,
+  })).filter(r => r.name || !isNaN(r.value));
+}
+
+let currentSvg = "";
+
+function update() {
+  const status = $("status"), dl = $("download");
+  currentSvg = "";
+  dl.disabled = true;
+  $("preview").innerHTML = "";
+
+  const unit = $("unit").value.trim() || "J";
+  const inName = $("inName").value.trim() || "Input";
+  const inVal = parseFloat($("inVal").value);
+  const useful = readRows("useful", false);
+  const wasted = readRows("wasted", true);
+  const all = useful.concat(wasted);
+
+  const problem = (msg) => { status.className = "bad"; status.textContent = msg; };
+
+  if (!(inVal > 0)) return problem("Enter an input energy value greater than 0.");
+  if (!useful.length) return problem("Add at least one useful energy type.");
+  if (!wasted.length) return problem("Add at least one wasted energy type.");
+  if (all.some(r => !r.name || !(r.value > 0))) return problem("Every row needs a name and a value greater than 0.");
+
+  const total = all.reduce((a, r) => a + r.value, 0);
+  if (Math.abs(total - inVal) > TOLERANCE * Math.max(1, inVal)) {
+    return problem(`Sanity check FAILED: outputs total ${fmt(total)} ${unit} but input is ${fmt(inVal)} ${unit} (difference ${fmt(total - inVal)}).`);
+  }
+
+  status.className = "ok";
+  status.textContent = `Check passed: outputs total ${fmt(total)} ${unit} = input.`;
+  currentSvg = buildSvg($("title").value.trim() || "Sankey diagram", inName, inVal, useful, wasted, unit);
+  $("preview").innerHTML = currentSvg;
+  dl.disabled = false;
+}
+
+$("download").onclick = () => {
+  if (!currentSvg) return;
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([currentSvg], { type: "image/svg+xml" }));
+  a.download = "sankey.svg";
+  a.click();
+  URL.revokeObjectURL(a.href);
+};
+
+$("addUseful").onclick = () => addRow("useful", false);
+$("addWasted").onclick = () => addRow("wasted", true);
+["title", "unit", "inName", "inVal"].forEach(id => $(id).addEventListener("input", update));
+
+addRow("useful", false, "Light", 30);
+addRow("wasted", true, "Heat", 50, "up");
+addRow("wasted", true, "Sound", 20, "down");
+update();
+</script>
+</body>
+</html>
