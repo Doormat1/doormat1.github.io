@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Energy Escape Room – Year 7</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0f1830; --panel:#18233f; --panel2:#1f2c4f; --line:#2f3f68;
+  --text:#eef2ff; --muted:#a9b5d6; --accent:#ffcc33; --good:#3ddc84; --bad:#ff5c6c;
+  --r1:#ff8a3d; --r2:#38bdf8; --r3:#a78bfa; --r4:#3ddc84; --r5:#f472b6;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;background:radial-gradient(circle at 20% 0%,#1d2b55 0,#0f1830 60%);color:var(--text);min-height:100vh}
+h1,h2,h3{font-family:Fredoka,sans-serif;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+header h1{font-size:clamp(1.5rem,4vw,2.2rem)}
+header h1 span{color:var(--accent)}
+.timer{font-family:'Share Tech Mono',monospace;font-size:1.4rem;background:#000a;border:2px solid var(--line);padding:6px 14px;border-radius:10px;color:var(--good)}
+.tracker{display:flex;gap:10px;align-items:center;background:var(--panel);border:2px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:16px;flex-wrap:wrap}
+.tracker .lbl{font-weight:700;color:var(--muted);margin-right:6px}
+.slot{width:46px;height:56px;border-radius:10px;display:grid;place-items:center;font-family:'Share Tech Mono',monospace;font-size:1.8rem;background:#0008;border:2px dashed var(--line);color:var(--muted);position:relative}
+.slot small{position:absolute;top:-9px;left:50%;transform:translateX(-50%);font:700 .65rem Nunito;background:var(--panel);padding:0 4px;color:var(--muted)}
+.slot.got{border-style:solid;color:#111;background:var(--accent);border-color:var(--accent)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tab{flex:1 1 150px;border:2px solid var(--line);background:var(--panel);color:var(--text);border-radius:12px;padding:10px;font:600 .95rem Fredoka,sans-serif;cursor:pointer;text-align:left;display:flex;gap:8px;align-items:center;line-height:1.2}
+.tab .ic{font-size:1.3rem}
+button.main[disabled]{opacity:.5;cursor:not-allowed}
+.tab[disabled]{opacity:.45;cursor:not-allowed}
+.tab.active{border-color:var(--c);box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 35%,transparent)}
+.tab.done::after{content:"✎";margin-left:auto;color:var(--accent)}
+.tab small{font-family:Nunito,sans-serif;font-weight:600;color:var(--muted)}
+.room{background:var(--panel);border:2px solid var(--line);border-top:6px solid var(--c);border-radius:16px;padding:20px}
+.room h2{font-size:1.6rem;color:var(--c);margin-bottom:6px}
+.story{color:var(--muted);margin:0 0 14px;font-size:1.05rem;line-height:1.55}
+.task{background:#0e1630;border-left:5px solid var(--c);border-radius:8px;padding:12px 14px;margin-bottom:16px;line-height:1.55}
+.part{background:var(--panel2);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+.part h3{font-size:1.1rem;margin-bottom:10px}
+input[type=text],textarea{font:700 1rem Nunito,sans-serif;padding:8px 10px;border-radius:8px;border:2px solid var(--line);background:#0e1630;color:var(--text)}
+input[type=text]:focus,textarea:focus{outline:none;border-color:var(--c)}
+textarea{width:100%;min-height:70px;font-weight:600}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;align-items:center}
+button.main{background:var(--c);color:#111;border:0;border-radius:12px;padding:12px 20px;font:700 1.05rem Fredoka,sans-serif;cursor:pointer}
+button.ghost{background:transparent;color:var(--text);border:2px solid var(--line);border-radius:12px;padding:10px 16px;font:600 1rem Fredoka,sans-serif;cursor:pointer}
+.hint{display:none;margin-top:12px;background:#0e1630;border-left:5px solid var(--accent);border-radius:8px;padding:12px 14px;line-height:1.5}
+.hint.show{display:block}
+.digitbox{margin-top:18px;padding:16px;border-radius:14px;border:2px dashed var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+.digitbox label{font:700 1.15rem Fredoka,sans-serif}
+.digitbox input{width:70px;text-align:center;font-family:'Share Tech Mono',monospace;font-size:2rem;padding:6px}
+.saved{color:var(--accent);font-weight:700}
+/* crossword */
+.cwwrap{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+.cw{display:grid;gap:2px;--s:min(32px,calc((100vw - 80px)/16))}
+.cell{width:var(--s);height:var(--s);position:relative}
+.cell.on{background:#f4f6ff;border-radius:3px}
+.cell.on input{width:100%;height:100%;border:0;background:transparent;text-align:center;font:700 calc(var(--s)*.55) 'Share Tech Mono',monospace;color:#111;text-transform:uppercase;padding:0;caret-color:#e11}
+.cell.on input:focus{outline:3px solid var(--r1);outline-offset:-2px;border-radius:3px}
+.cell.word{background:#ffe7c2}
+.cell.shade{background:#ffb02e}
+.cell.shade::after{content:"";position:absolute;inset:3px;border:2px solid #b45309;border-radius:50%;pointer-events:none}
+.cell .num{position:absolute;top:0;left:2px;font:700 calc(var(--s)*.27) Nunito;color:#334;pointer-events:none}
+.clues{flex:1 1 300px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.clues h3{color:var(--r1);margin-bottom:6px}
+.clues ol{margin:0;padding:0;list-style:none}
+.clues li{padding:4px 6px;border-radius:6px;line-height:1.35;cursor:pointer}
+.clues li:hover,.clues li.cur{background:#ffffff14}
+.clues li b{color:var(--r1);margin-right:4px}
+.shadebank{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.shadebank span{width:38px;height:38px;border-radius:50%;background:#ffb02e;color:#111;display:grid;place-items:center;font:700 1.3rem 'Share Tech Mono',monospace}
+/* spot the difference */
+.sdgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.pic{position:relative;border-radius:12px;overflow:hidden;border:3px solid var(--line);cursor:crosshair;user-select:none}
+.pic svg{display:block;width:100%;height:auto}
+.pic .cap{position:absolute;top:6px;left:8px;background:#000b;padding:2px 10px;border-radius:999px;font:700 .9rem Fredoka,sans-serif;pointer-events:none}
+.mk{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;border:4px solid var(--r2);border-radius:50%;display:grid;place-items:start end;pointer-events:auto;cursor:pointer;box-shadow:0 0 0 2px #0008}
+.mk b{background:var(--r2);color:#111;border-radius:50%;width:20px;height:20px;display:grid;place-items:center;font:700 .75rem Nunito;margin:-10px -10px 0 0}
+.sdrows .r{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.sdrows .r b{min-width:28px;height:28px;border-radius:50%;background:var(--r2);color:#111;display:grid;place-items:center}
+.sdrows input{flex:1}
+/* transfer diagrams */
+.keytbl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:16px}
+.key{display:flex;gap:8px;align-items:center;background:#0e1630;border:2px solid var(--line);border-radius:10px;padding:8px 10px;cursor:pointer;font-weight:700}
+.key .k{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;font:700 1.1rem 'Share Tech Mono',monospace;color:#111;flex:none}
+.key.store .k{background:var(--r3)} .key.path .k{background:var(--accent)}
+.key input{width:18px;height:18px;accent-color:var(--r3);margin-left:auto}
+.key.used{opacity:.55;text-decoration:line-through}
+.etd{background:var(--panel2);border-radius:12px;padding:14px;margin-bottom:12px}
+.etd h3{font-size:1.05rem;margin-bottom:10px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.sbox{background:#0e1630;border:2px solid var(--r3);border-radius:10px;padding:8px 10px;min-width:150px;text-align:center;font-weight:700;line-height:1.3}
+.sbox.given{border-style:dashed;color:var(--muted)}
+.arrow{display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 4px;color:var(--accent);font-weight:700;font-size:.85rem;text-align:center}
+.arrow .shaft{font-size:1.6rem;line-height:1}
+.nb{width:46px;text-align:center;font:700 1.3rem 'Share Tech Mono',monospace!important;padding:4px!important}
+.sbox .nb{border-color:var(--r3)} .arrow .nb{border-color:var(--accent)}
+/* maze */
+.mazecard{max-width:560px;margin:0 auto;background:var(--panel2);border:3px solid var(--r4);border-radius:16px;padding:22px;text-align:center}
+.mazecard .lt{display:inline-block;background:var(--r4);color:#111;border-radius:8px;padding:2px 12px;font:700 1rem Fredoka,sans-serif;margin-bottom:10px}
+.mazecard p{font-size:1.25rem;line-height:1.45;margin:6px 0 18px;font-weight:700}
+.doors{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.door{width:150px;padding:16px 10px;border-radius:14px 14px 4px 4px;border:0;font:700 1.15rem Fredoka,sans-serif;cursor:pointer;color:#111}
+.door.t{background:#7dd3fc} .door.f{background:#fda4af}
+.trail{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:14px;color:var(--muted);font-weight:700}
+.trail span{background:#0e1630;border:1px solid var(--line);border-radius:999px;padding:2px 10px}
+.exit{font:700 4rem 'Share Tech Mono',monospace;color:var(--r4);line-height:1}
+/* calc */
+.calc .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:8px}
+.calc input{width:120px;font-family:'Share Tech Mono',monospace;font-size:1.2rem}
+.lettertag{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--r5);color:#111;font:700 1.1rem Fredoka,sans-serif;margin-right:8px}
+.formula{font:700 1.4rem 'Share Tech Mono',monospace;text-align:center;background:#0e1630;border-radius:12px;padding:14px;margin:6px 0 4px}
+.working{width:100%;min-height:60px;margin-top:8px}
+/* padlock */
+.lockbox{text-align:center}
+.lock{display:inline-block;margin:10px auto 6px;position:relative}
+.shackle{width:200px;height:110px;border:22px solid #b8c2dc;border-bottom:0;border-radius:110px 110px 0 0;margin:0 auto -6px;transition:transform .8s}
+.lock.open .shackle{transform:translateY(-34px) translateX(-40px) rotate(-12deg)}
+.body{background:linear-gradient(#ffd75e,#e0a800);border-radius:22px;padding:22px 20px;box-shadow:0 10px 0 #a77d00;display:flex;gap:8px;justify-content:center}
+.wheel{display:flex;flex-direction:column;align-items:center;gap:4px}
+.wheel button{width:52px;height:30px;border:0;border-radius:8px;background:#5a4300;color:#ffd75e;font-size:1rem;cursor:pointer}
+.wheel .d{width:52px;height:64px;border-radius:10px;background:#111;color:#fff;font-family:'Share Tech Mono',monospace;font-size:2.4rem;display:grid;place-items:center;box-shadow:inset 0 0 12px #000}
+.lock.shake{animation:shake .45s}
+@keyframes shake{20%,60%{transform:translateX(-10px)}40%,80%{transform:translateX(10px)}}
+.msg{margin-top:12px;font-weight:700;min-height:1.4em;font-size:1.1rem}
+.msg.good{color:var(--good)} .msg.bad{color:var(--bad)}
+.win{display:none;margin-top:18px} .win.show{display:block}
+.win h2{font-size:2rem;color:var(--good)}
+.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.confetti i{position:absolute;top:-20px;width:10px;height:16px;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+.modal{position:fixed;inset:0;background:#000b;display:none;place-items:center;z-index:5}
+.modal.show{display:grid}
+.modal .card{background:var(--panel);border:2px solid var(--line);border-radius:16px;padding:22px;max-width:380px;text-align:center}
+.intro{background:var(--panel);border:2px solid var(--line);border-radius:16px;padding:22px;line-height:1.6}
+.intro ul{margin:8px 0 14px}
+footer{margin-top:22px;color:var(--muted);font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>⚡ Energy <span>Escape Room</span> <small id="verBadge" style="font-size:.5em;color:var(--muted);vertical-align:middle"></small></h1>
+    <div style="display:flex;gap:10px;align-items:center">
+      <div class="timer" id="timer">00:00</div>
+      <button class="ghost" id="resetBtn" style="padding:8px 12px">↺ Restart</button>
+    </div>
+  </header>
+
+  <div class="tracker" aria-label="Your padlock code so far">
+    <span class="lbl">🔐 Your code so far:</span>
+    <div id="slots" style="display:flex;gap:8px"></div>
+  </div>
+
+  <div id="introView" class="intro">
+    <h2 style="color:var(--accent);margin-bottom:8px">🚨 LAB LOCKDOWN!</h2>
+    <p>Professor Joule has locked your team inside the science lab. The only way out is through a <strong>digital padlock</strong> on the door. To find the 5-digit code you must solve the puzzles in <strong>five rooms</strong> using what you know about <strong>energy stores</strong> and <strong>energy pathways</strong>.</p>
+    <ul>
+      <li>Each room gives you <strong>one digit</strong>. Write it in the box at the bottom of the room, then move on.</li>
+      <li><strong>Nobody will tell you if you are right!</strong> You only find out when you try the padlock at the end, so check your work carefully as a team.</li>
+      <li>Keep a note of your digits on paper too, just in case.</li>
+      <li>Stuck? Each room has a <strong>💡 Hint</strong>, but talk it through with your team first.</li>
+    </ul>
+    <div class="part" style="max-width:560px"><h3>Choose your version</h3><p style="margin:0 0 10px;color:var(--muted)">Your teacher will tell you which version to pick. Each version has a different code!</p>
+     <div class="btns" id="verPick"><button class="ghost vp" data-v="A">Version A</button><button class="ghost vp" data-v="B">Version B</button><button class="ghost vp" data-v="C">Version C</button><button class="ghost vp" data-v="D">Version D</button></div></div>
+    <button class="main" style="--c:var(--accent)" id="startBtn" disabled>Choose a version first</button>
+  </div>
+
+  <div id="gameView" style="display:none">
+    <div class="tabs" id="tabs"></div>
+    <div id="roomHost"></div>
+  </div>
+
+  <footer>Year 7 · Energy stores &amp; pathways escape room</footer>
+</div>
+
+<div class="modal" id="resetModal">
+  <div class="card">
+    <h3 style="margin-bottom:10px">Restart the escape room?</h3>
+    <p style="color:var(--muted)">All answers, digits and the timer will be wiped.</p>
+    <div class="btns" style="justify-content:center">
+      <button class="main" style="--c:var(--bad)" id="confirmReset">Yes, restart</button>
+      <button class="ghost" id="cancelReset">Cancel</button>
+    </div>
+  </div>
+</div>
+<div class="confetti" id="confetti"></div>
+
+<script>
+/* ===================== DATA ===================== */
+const ROOMS=[
+ {title:"The Word Lab",icon:"🔤",color:"var(--r1)"},
+ {title:"Spot the Difference",icon:"🔍",color:"var(--r2)"},
+ {title:"Transfer Diagrams",icon:"➡️",color:"var(--r3)"},
+ {title:"The True/False Maze",icon:"🌀",color:"var(--r4)"},
+ {title:"The Calculation Chain",icon:"🧮",color:"var(--r5)"}
+];
+const _D=JSON.parse(atob("eyJ2IjogeyJBIjogeyJzaGFkZSI6IFtbMiwgMTRdLCBbMTEsIDBdLCBbOCwgOF0sIFsxNCwgN10sIFswLCAxMF1dLCAiZGlmZnMiOiBbInN1biIsICJyYWRpbyIsICJiYWxsIiwgImxhbXAiLCAia2V0dGxlIiwgImNhbmRsZSIsICJzcHJpbmciXSwgImtleSI6IHsiVGhlcm1hbCI6IDEsICJLaW5ldGljIjogMiwgIkJ5IHJhZGlhdGlvbiI6IDMsICJDaGVtaWNhbCI6IDQsICJFbGVjdHJpY2FsbHkiOiA1LCAiR3Jhdml0YXRpb25hbCBwb3RlbnRpYWwiOiA2LCAiRWxhc3RpYyBwb3RlbnRpYWwiOiA3LCAiTWVjaGFuaWNhbGx5IjogOCwgIkJ5IGhlYXRpbmciOiA5fSwgImV4aXRzIjogeyJ4MSI6IDQsICJ4MiI6IDksICJ4MyI6IDIsICJ4NCI6IDgsICJ4NSI6IDEsICJ4NiI6IDYsICJ4NyI6IDMsICJ4OCI6IDYsICJ4OSI6IDl9LCAiY2FsYyI6IHsiYSI6IFs2MDAsIDQ1MF0sICJiIjogWzIwMDAsIDE3MDBdLCAiYyI6IFsxMDAsIDI1XSwgImQiOiA0MH19LCAiQiI6IHsic2hhZGUiOiBbWzIsIDhdLCBbMTQsIDddLCBbMTEsIDVdLCBbOSwgMTRdXSwgImRpZmZzIjogWyJzdW4iLCAiYmFsbCIsICJrZXR0bGUiLCAic3ByaW5nIiwgImNsb2NrIl0sICJrZXkiOiB7IlRoZXJtYWwiOiA3LCAiS2luZXRpYyI6IDQsICJCeSByYWRpYXRpb24iOiA5LCAiQ2hlbWljYWwiOiAxLCAiRWxlY3RyaWNhbGx5IjogMiwgIkdyYXZpdGF0aW9uYWwgcG90ZW50aWFsIjogNSwgIkVsYXN0aWMgcG90ZW50aWFsIjogOCwgIk1lY2hhbmljYWxseSI6IDMsICJCeSBoZWF0aW5nIjogNn0sICJleGl0cyI6IHsieDEiOiA3LCAieDIiOiAzLCAieDMiOiA1LCAieDQiOiAxLCAieDUiOiA5LCAieDYiOiAyLCAieDciOiA4LCAieDgiOiA0LCAieDkiOiAzfSwgImNhbGMiOiB7ImEiOiBbNTAwLCAzNTBdLCAiYiI6IFsxNTAwLCAxMzUwXSwgImMiOiBbMjAwLCAxMDBdLCAiZCI6IDYwfX0sICJDIjogeyJzaGFkZSI6IFtbMSwgOV0sIFs4LCAxNF0sIFsyLCA3XSwgWzExLCA2XSwgWzAsIDEwXV0sICJkaWZmcyI6IFsic3VuIiwgInJhZGlvIiwgImJhbGwiLCAibGFtcCIsICJjYW5kbGUiLCAic3ByaW5nIiwgImNsb2NrIiwgImNhciJdLCAia2V5IjogeyJUaGVybWFsIjogMywgIktpbmV0aWMiOiA4LCAiQnkgcmFkaWF0aW9uIjogMSwgIkNoZW1pY2FsIjogNiwgIkVsZWN0cmljYWxseSI6IDksICJHcmF2aXRhdGlvbmFsIHBvdGVudGlhbCI6IDIsICJFbGFzdGljIHBvdGVudGlhbCI6IDUsICJNZWNoYW5pY2FsbHkiOiA3LCAiQnkgaGVhdGluZyI6IDR9LCAiZXhpdHMiOiB7IngxIjogMSwgIngyIjogNiwgIngzIjogOSwgIng0IjogNCwgIng1IjogMiwgIng2IjogNywgIng3IjogNSwgIng4IjogMywgIng5IjogOH0sICJjYWxjIjogeyJhIjogWzgwMCwgNjAwXSwgImIiOiBbMzAwMCwgMjQwMF0sICJjIjogWzI1MCwgNTBdLCAiZCI6IDI1fX0sICJEIjogeyJzaGFkZSI6IFtbNCwgMTRdLCBbMCwgMTBdLCBbMTAsIDEzXSwgWzE0LCAzXV0sICJkaWZmcyI6IFsicmFkaW8iLCAiYmFsbCIsICJsYW1wIiwgImtldHRsZSIsICJjbG9jayIsICJjYXIiXSwgImtleSI6IHsiVGhlcm1hbCI6IDksICJLaW5ldGljIjogMSwgIkJ5IHJhZGlhdGlvbiI6IDYsICJDaGVtaWNhbCI6IDgsICJFbGVjdHJpY2FsbHkiOiA0LCAiR3Jhdml0YXRpb25hbCBwb3RlbnRpYWwiOiA3LCAiRWxhc3RpYyBwb3RlbnRpYWwiOiAyLCAiTWVjaGFuaWNhbGx5IjogNSwgIkJ5IGhlYXRpbmciOiAzfSwgImV4aXRzIjogeyJ4MSI6IDgsICJ4MiI6IDUsICJ4MyI6IDIsICJ4NCI6IDcsICJ4NSI6IDQsICJ4NiI6IDksICJ4NyI6IDEsICJ4OCI6IDYsICJ4OSI6IDN9LCAiY2FsYyI6IHsiYSI6IFs0MDAsIDMwMF0sICJiIjogWzI1MDAsIDIyMDBdLCAiYyI6IFszMDAsIDEwMF0sICJkIjogODB9fX0sICJoIjogeyJBIjogWzQyNjkyMTc2MTA5NTY2OTIsIDQ3MjAxNTA4MTMxNzk2ODAsIDY1OTUyNTc5MTAzNjg4MzQsIDIxMzc4NzAwMDI4Mjc3ODEsIDcxMDI0MTMxNTU4MjI1NTJdLCAiQiI6IFszNzI1NTQ0MjMzNjQwMTQ3LCA0OTY5MjM0MzQ1MDA0NTMyLCAyNzA0ODA0MTQ4ODY2ODMxLCA4MDUwNTU5Njk0MTg2OTAxLCA1MzgxMzI0ODQ3MjgzODg5XSwgIkMiOiBbNzAzNzkyNzg3NDkyNjI4OSwgMTc4MDE3MDc2NjIzMDA2LCA1NjA5MTQ5OTcwMjUyNDYyLCA4MDIzOTkzNDUzNDgyMjQ0LCA2MzA5MjYxNzQ5MzYyODA1XSwgIkQiOiBbNTU1MDU3NjM0Mzk2Mjk3OSwgMTg4OTUxNTU3NDkxOTgxMywgNjYxMzUxMTU4OTk2OTk2MCwgNDIwNzY0MTY0ODYxODcwMCwgODYxNTE0MTEyMzQ5MTk5OV19fQ=="));
+const VERSIONS=_D.v, _H=_D.h;
+function _c(str,seed=0){let h1=0xdeadbeef^seed,h2=0x41c6ce57^seed;for(let i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677);}h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);return 4294967296*(2097151&h2)+(h1>>>0);}
+function _ok(v,i,d){return _c("pj-lab-77|"+v+"|"+i+"|"+d)===_H[v][i];}
+let V=VERSIONS.A, CW_SHADE=V.shade, KEY=[];
+function setVersion(v){
+  V=VERSIONS[v]||VERSIONS.A; CW_SHADE=V.shade;
+  KEY=Object.entries(V.key).map(([w,n])=>[n,w,["Thermal","Kinetic","Chemical","Gravitational potential","Elastic potential"].includes(w)?"store":"path"]).sort((a,b)=>a[0]-b[0]);
+}
+
+/* crossword: [word,row,col,dir] */
+const CW_WORDS=[["KINETIC",2,6,"A"],["THERMAL",0,9,"D"],["CHEMICAL",6,2,"A"],["ELASTIC",6,4,"D"],["NUCLEAR",4,7,"D"],["HEATING",11,0,"A"],["RADIATION",10,7,"A"],["DISSIPATED",0,2,"A"],["CONSERVED",7,1,"D"],["FRICTION",4,0,"A"],["GRAVITATIONAL",1,14,"D"],["MAGNETIC",8,3,"A"],["EFFICIENT",14,1,"A"]];
+const CW_CLUES={
+ KINETIC:"The energy store of any moving object",
+ THERMAL:"The energy store that increases when an object gets hotter",
+ CHEMICAL:"The energy store in food, fuels and batteries",
+ ELASTIC:"_______ potential: the store of a stretched or squashed spring",
+ NUCLEAR:"The energy store in the centre of atoms – it powers the Sun",
+ HEATING:"The pathway when energy moves from a hotter object to a cooler one",
+ RADIATION:"The pathway for energy carried by light or sound waves",
+ DISSIPATED:"Wasted energy spreads out into the surroundings – it has been ______",
+ CONSERVED:"Energy can’t be created or destroyed – it is always ______",
+ FRICTION:"A force between rubbing surfaces that wastes energy by heating",
+ GRAVITATIONAL:"______ potential: the store of an object lifted up high",
+ MAGNETIC:"The energy store of two magnets that are pulled apart",
+ EFFICIENT:"A device that wastes very little energy is very ______"
+};
+const CW_N=16;
+/* each flow: s=store box, p=pathway arrow; n=blank, g=given text */
+const ETD=[
+ {t:"🪂 A bungee jumper falls from a bridge and the cord stretches",f:[["s","store of the jumper at the top"],["p",""],["s","store of the falling jumper"],["p",""],["s","store of the stretched cord"]]},
+ {t:"🔥 Light from a campfire warms your hands",f:[["s","store of the burning wood"],["p","(light)"],["s","store of your hands"]]},
+ {t:"🚗 A wind-up toy car is let go",f:[["s","store of the wound-up spring"],["p","(a force)"],["s","store of the moving car"]]},
+ {t:"🏃 You run up a flight of stairs",f:[["s","store of your muscles (from food)"],["p",""],["s","store of you at the top"]]},
+ {t:"☕ A hot cup of tea cools down",f:[["s","store of the tea"],["p",""],["s","store of the room"]]},
+ {t:"☀️ The Sun warms the water in a pond",f:[["g","Nuclear store of the Sun"],["p",""],["s","store of the pond water"]]},
+ {t:"🪃 A catapult fires a stone up into the air",f:[["s","store of the stretched band"],["p",""],["s","store of the flying stone"],["p",""],["s","store of the stone at its highest point"]]}
+];
+
+/* maze */
+const MAZE={
+ START:{q:"Energy is measured in joules (J).",T:"B",F:"K"},
+ B:{q:"Light is an energy store.",T:"H",F:"F"},
+ F:{q:"A stretched spring has energy in its elastic potential store.",T:"D",F:"K"},
+ D:{q:"When a ball falls, energy is transferred from its kinetic store to its gravitational potential store.",T:"E",F:"J"},
+ J:{q:"Energy is destroyed when it is wasted.",T:"H",F:"C"},
+ C:{q:"A hot cup of tea transfers energy to the surroundings by heating.",T:"#x1",F:"#x2"},
+ K:{q:"The Sun’s energy comes from its nuclear store.",T:"#x3",F:"#x4"},
+ H:{q:"Food has energy in its chemical store.",T:"#x5",F:"#x6"},
+ E:{q:"A moving car has energy in its kinetic store.",T:"G",F:"#x7"},
+ G:{q:"Sound is a way that energy is transferred.",T:"#x8",F:"#x9"}
+};
+
+/* ===================== STATE ===================== */
+const blank=()=>({won:"",version:"",started:false,current:0,digits:["","","","",""],f:{},marks:[[],[]],maze:{at:"START",trail:[]},seconds:0,escaped:false,tries:0});
+let S=blank();
+try{const s=JSON.parse(localStorage.getItem("energyEscape3"));if(s&&s.digits)S=Object.assign(blank(),s);}catch(e){}
+const save=()=>{try{localStorage.setItem("energyEscape3",JSON.stringify(S));}catch(e){}};
+const $=id=>document.getElementById(id);
+const fmt=s=>String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");
+let tick=null;
+function startTimer(){if(tick)return;tick=setInterval(()=>{if(S.escaped)return;S.seconds++;$("timer").textContent=fmt(S.seconds);if(S.seconds%5===0)save();},1000);}
+
+/* generic saved fields: any element with data-k */
+function bindFields(root){
+  root.querySelectorAll("[data-k]").forEach(el=>{
+    const k=el.dataset.k;
+    if(el.type==="checkbox"){el.checked=!!S.f[k];el.addEventListener("change",()=>{S.f[k]=el.checked;save();if(el.onsaved)el.onsaved();});}
+    else{ if(S.f[k]!=null) el.value=S.f[k]; el.addEventListener("input",()=>{S.f[k]=el.value;save();}); }
+  });
+}
+
+/* ===================== SHELL ===================== */
+function renderSlots(){
+  $("slots").innerHTML=S.digits.map((d,i)=>`<div class="slot ${d!==""?"got":""}"><small>R${i+1}</small>${d!==""?d:"?"}</div>`).join("");
+}
+function maxRoom(){let n=0;while(n<5&&S.digits[n]!=="")n++;return n;}
+function renderTabs(){
+  const m=maxRoom();
+  let h=ROOMS.map((r,i)=>`<button class="tab ${i===S.current?"active":""} ${S.digits[i]!==""?"done":""}" style="--c:${r.color}" ${i>m?"disabled":""} data-i="${i}"><span class="ic">${i>m?"🔒":r.icon}</span><span>Room ${i+1}<br><small>${i>m?"Locked":r.title}</small></span></button>`).join("");
+  const all=m===5;
+  h+=`<button class="tab ${S.current===5?"active":""}" style="--c:var(--accent)" ${all?"":"disabled"} data-i="5"><span class="ic">${all?"🚪":"🔒"}</span><span>The Door<br><small>${all?"Padlock":"Locked"}</small></span></button>`;
+  $("tabs").innerHTML=h;
+  $("tabs").querySelectorAll(".tab").forEach(b=>b.onclick=()=>{if(b.disabled)return;S.current=+b.dataset.i;save();render();window.scrollTo({top:0,behavior:"smooth"});});
+}
+function shell(i,inner,hint,digitPrompt){
+  const r=ROOMS[i];
+  return `<div class="room" style="--c:${r.color}"><h2>${r.icon} Room ${i+1}: ${r.title}</h2>${inner}
+   <div class="btns"><button class="ghost" id="hintBtn">💡 Hint</button></div>
+   <div class="hint" id="hint">${hint}</div>
+   <div class="digitbox"><label for="dig">🔐 ${digitPrompt}</label>
+     <div class="btns" style="margin:0"><input type="text" id="dig" inputmode="numeric" maxlength="1" value="${S.digits[i]}" aria-label="Digit for room ${i+1}">
+     <button class="main" id="saveDig">${i<4?"Save digit &amp; go to Room "+(i+2)+" ▶":"Save digit &amp; go to the door 🚪"}</button></div>
+     <div style="flex-basis:100%;color:var(--muted);font-size:.95rem">You won’t find out if it’s right until you try the padlock. You can come back and change it at any time.</div>
+   </div></div>`;
+}
+function bindShell(i){
+  $("hintBtn").onclick=()=>$("hint").classList.toggle("show");
+  $("saveDig").onclick=()=>{
+    const v=$("dig").value.trim();
+    if(!/^[0-9]$/.test(v)){$("dig").focus();$("dig").style.borderColor="var(--bad)";return;}
+    S.digits[i]=v;S.current=i+1;save();render();window.scrollTo({top:0,behavior:"smooth"});
+  };
+}
+
+/* ===================== ROOM 1: CROSSWORD ===================== */
+let cwDir="A",cwCur=null;
+function cwModel(){
+  const cells={},starts={};
+  CW_WORDS.forEach(([w,r,c,d])=>{
+    for(let k=0;k<w.length;k++){const rr=r+(d==="D"?k:0),cc=c+(d==="A"?k:0);const key=rr+","+cc;cells[key]=cells[key]||{r:rr,c:cc,words:{}};cells[key].words[d]=w;}
+    starts[r+","+c]=1;
+  });
+  const order=Object.keys(starts).map(k=>k.split(",").map(Number)).sort((a,b)=>a[0]-b[0]||a[1]-b[1]);
+  const num={};order.forEach((p,i)=>num[p[0]+","+p[1]]=i+1);
+  return {cells,num};
+}
+function room1(){
+  const {cells,num}=cwModel();
+  let g=`<div class="cw" id="cw" style="grid-template-columns:repeat(${CW_N},var(--s))">`;
+  for(let r=0;r<CW_N;r++)for(let c=0;c<CW_N;c++){
+    const k=r+","+c,cell=cells[k];
+    if(!cell){g+=`<div class="cell"></div>`;continue;}
+    const sh=CW_SHADE.some(p=>p[0]===r&&p[1]===c);
+    g+=`<div class="cell on ${sh?"shade":""}" data-rc="${k}">${num[k]?`<span class="num">${num[k]}</span>`:""}<input maxlength="1" data-k="cw${k}" aria-label="Crossword square row ${r+1} column ${c+1}"></div>`;
+  }
+  g+=`</div>`;
+  const clue=d=>CW_WORDS.filter(w=>w[3]===d).map(w=>({n:num[w[1]+","+w[2]],w})).sort((a,b)=>a.n-b.n)
+    .map(o=>`<li data-w="${o.w[0]}" data-d="${d}"><b>${o.n}</b>${CW_CLUES[o.w[0]]} (${o.w[0].length})</li>`).join("");
+  const inner=`<p class="story">The first door is covered in a giant crossword. Professor Joule has hidden a number in it…</p>
+   <div class="task"><strong>Your task:</strong> complete the crossword. When you have finished, look at the letters in the <span style="background:#ffb02e;color:#111;padding:0 6px;border-radius:4px;font-weight:800">orange circled squares</span>. Unscramble them to spell a <strong>number word</strong>. That number is your digit.</div>
+   <div class="cwwrap">${g}<div class="clues"><div><h3>Across ➡</h3><ol>${clue("A")}</ol></div><div><h3>Down ⬇</h3><ol>${clue("D")}</ol></div></div></div>
+   <div class="part" style="margin-top:16px"><h3>Letters in the orange squares:</h3><div class="shadebank" id="shadebank"></div>
+   <p style="margin:10px 0 4px;color:var(--muted)">Unscramble them to spell a number:</p><input type="text" data-k="cwnum" placeholder="number word" style="width:200px;text-transform:uppercase"></div>`;
+  return shell(0,inner,`Click a square to type. Click the same square again to switch between across and down. Click a clue to jump to it.<br>Remember: there are 8 energy <strong>stores</strong> and 4 energy <strong>pathways</strong>. Some clues are about wasted energy.`,"Our digit from the crossword is:");
+}
+function bindRoom1(){
+  const {cells}=cwModel();
+  const inputs={};document.querySelectorAll("#cw .cell.on").forEach(d=>inputs[d.dataset.rc]=d.querySelector("input"));
+  const updShade=()=>{$("shadebank").innerHTML=CW_SHADE.map(p=>`<span>${(inputs[p[0]+","+p[1]].value||"?").toUpperCase()}</span>`).join("");};
+  const hl=()=>{
+    document.querySelectorAll("#cw .cell").forEach(c=>c.classList.remove("word"));
+    document.querySelectorAll(".clues li").forEach(l=>l.classList.remove("cur"));
+    if(!cwCur)return;const w=cells[cwCur].words[cwDir];if(!w)return;
+    const W=CW_WORDS.find(x=>x[0]===w);
+    for(let k=0;k<w.length;k++){const rr=W[1]+(W[3]==="D"?k:0),cc=W[2]+(W[3]==="A"?k:0);document.querySelector(`[data-rc="${rr},${cc}"]`).classList.add("word");}
+    const li=document.querySelector(`.clues li[data-w="${w}"]`);if(li)li.classList.add("cur");
+  };
+  Object.entries(inputs).forEach(([k,inp])=>{
+    inp.addEventListener("mousedown",()=>{ if(cwCur===k&&cells[k].words.A&&cells[k].words.D){cwDir=cwDir==="A"?"D":"A";setTimeout(hl,0);} });
+    inp.addEventListener("focus",()=>{cwCur=k;if(!cells[k].words[cwDir])cwDir=cwDir==="A"?"D":"A";hl();});
+    inp.addEventListener("input",()=>{
+      inp.value=inp.value.replace(/[^a-z]/gi,"").slice(-1).toUpperCase();S.f["cw"+k]=inp.value;save();updShade();
+      if(inp.value){const [r,c]=k.split(",").map(Number);const nk=cwDir==="A"?r+","+(c+1):(r+1)+","+c;if(inputs[nk])inputs[nk].focus();}
+    });
+    inp.addEventListener("keydown",e=>{
+      const [r,c]=k.split(",").map(Number);let nk=null;
+      if(e.key==="Backspace"&&!inp.value){nk=cwDir==="A"?r+","+(c-1):(r-1)+","+c;}
+      if(e.key==="ArrowRight"){nk=r+","+(c+1);cwDir="A";} if(e.key==="ArrowLeft"){nk=r+","+(c-1);cwDir="A";}
+      if(e.key==="ArrowDown"){nk=(r+1)+","+c;cwDir="D";} if(e.key==="ArrowUp"){nk=(r-1)+","+c;cwDir="D";}
+      if(nk&&inputs[nk]){e.preventDefault();inputs[nk].focus();}
+    });
+  });
+  document.querySelectorAll(".clues li").forEach(li=>li.onclick=()=>{const W=CW_WORDS.find(x=>x[0]===li.dataset.w);cwDir=W[3];inputs[W[1]+","+W[2]].focus();});
+  setTimeout(updShade,0);
+}
+
+/* ===================== ROOM 2: SPOT THE DIFFERENCE ===================== */
+function scene(b){
+  const ch=k=>b&&V.diffs.includes(k);
+  return `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#2b3a6b"/>
+  <rect y="232" width="400" height="68" fill="#5b4636"/><rect y="232" width="400" height="4" fill="#3e2f24"/>
+  <rect x="24" y="26" width="110" height="86" rx="4" fill="#7cc4f2" stroke="#e8e8e8" stroke-width="6"/>
+  <line x1="79" y1="26" x2="79" y2="112" stroke="#e8e8e8" stroke-width="4"/><line x1="24" y1="69" x2="134" y2="69" stroke="#e8e8e8" stroke-width="4"/>
+  <circle cx="108" cy="48" r="13" fill="#ffd23f"/>
+  ${ch("sun")?`<g fill="#f7f9ff"><ellipse cx="104" cy="52" rx="20" ry="11"/><ellipse cx="117" cy="46" rx="12" ry="9"/><ellipse cx="94" cy="47" rx="11" ry="8"/></g>`:""}
+  <rect x="146" y="12" width="30" height="58" rx="6" fill="#7c4a2d"/><circle cx="161" cy="27" r="10" fill="#f8fafc"/><line x1="161" y1="27" x2="161" y2="21" stroke="#111" stroke-width="2"/><line x1="161" y1="27" x2="166" y2="29" stroke="#111" stroke-width="2"/>
+  ${ch("clock")?`<line x1="161" y1="40" x2="161" y2="60" stroke="#fbbf24" stroke-width="2"/><circle cx="161" cy="62" r="4.5" fill="#fbbf24"/>`
+    :`<line x1="161" y1="40" x2="167" y2="59" stroke="#fbbf24" stroke-width="2"/><circle cx="168" cy="61" r="4.5" fill="#fbbf24"/><path d="M152 65 q9 5 19 0" stroke="#fff" stroke-width="1.5" fill="none" opacity=".8"/>`}
+  <rect x="160" y="104" width="120" height="7" fill="#8a5a3b"/><rect x="172" y="111" width="5" height="12" fill="#6b4329"/><rect x="263" y="111" width="5" height="12" fill="#6b4329"/>
+  <rect x="232" y="78" width="40" height="26" rx="4" fill="#d9534f"/><circle cx="244" cy="91" r="7" fill="#333"/><rect x="255" y="84" width="12" height="3" fill="#fff"/><rect x="255" y="90" width="12" height="3" fill="#fff"/><line x1="266" y1="78" x2="276" y2="62" stroke="#ccc" stroke-width="2"/>
+  ${ch("radio")?"":`<g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="M280 84 q6 7 0 14"/><path d="M287 79 q10 12 0 24"/></g>`}
+  ${ch("ball")?`<circle cx="120" cy="268" r="12" fill="#ff5c6c"/><path d="M110 262 q10 6 20 0" stroke="#fff" stroke-width="2" fill="none"/>`:`<circle cx="190" cy="92" r="12" fill="#ff5c6c"/><path d="M180 86 q10 6 20 0" stroke="#fff" stroke-width="2" fill="none"/>`}
+  <rect x="208" y="82" width="7" height="22" fill="#4ade80"/><rect x="216" y="86" width="7" height="18" fill="#60a5fa"/>
+  ${ch("lamp")?"":`<circle cx="345" cy="98" r="34" fill="#ffe066" opacity=".35"/><circle cx="345" cy="98" r="20" fill="#ffe066" opacity=".45"/>`}
+  <rect x="342" y="112" width="6" height="160" fill="#999"/><ellipse cx="345" cy="274" rx="22" ry="6" fill="#777"/>
+  <path d="M322 100 L332 70 L358 70 L368 100 Z" fill="#f59e0b"/>
+  <circle cx="345" cy="104" r="7" fill="${ch("lamp")?"#8a8f9c":"#fff7b0"}"/>
+  <rect x="150" y="200" width="150" height="9" fill="#a16d45"/><rect x="160" y="209" width="7" height="58" fill="#7a4f31"/><rect x="283" y="209" width="7" height="58" fill="#7a4f31"/>
+  <path d="M168 200 L172 170 Q185 162 198 170 L202 200 Z" fill="#cbd5e1"/><path d="M200 176 q14 2 10 18" stroke="#94a3b8" stroke-width="4" fill="none"/><path d="M170 178 l-12 -8" stroke="#cbd5e1" stroke-width="5"/><rect x="180" y="163" width="10" height="5" rx="2" fill="#475569"/>
+  ${ch("kettle")?"":`<g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".85"><path d="M156 166 q-6 -8 0 -14 q6 -7 0 -14"/><path d="M147 164 q-6 -8 0 -14"/></g>`}
+  <rect x="246" y="174" width="12" height="26" fill="#fef3c7"/><line x1="252" y1="174" x2="252" y2="168" stroke="#333" stroke-width="2"/>
+  ${ch("candle")?"":`<path d="M252 150 q8 10 0 18 q-8 -8 0 -18z" fill="#ff9f1c"/><path d="M252 158 q3 5 0 9 q-3 -4 0 -9z" fill="#ffe066"/>`}
+  <rect x="215" y="186" width="16" height="14" fill="#c2410c"/><path d="M223 186 q-10 -14 -4 -22 M223 186 q8 -14 4 -22 M223 186 v-20" stroke="#22c55e" stroke-width="4" fill="none"/>
+  <rect x="32" y="244" width="44" height="34" fill="#8b5cf6"/><rect x="32" y="244" width="44" height="6" fill="#6d28d9"/>
+  ${ch("spring")?`<path d="M54 244 l-8 -4 l16 -4 l-16 -4 l16 -4 l-8 -4" stroke="#e5e7eb" stroke-width="3" fill="none"/><circle cx="54" cy="214" r="12" fill="#fbbf24"/><circle cx="50" cy="212" r="2" fill="#111"/><circle cx="58" cy="212" r="2" fill="#111"/>`
+     :`<path d="M54 244 l-8 -8 l16 -8 l-16 -8 l16 -8 l-16 -8 l16 -8 l-8 -6" stroke="#e5e7eb" stroke-width="3" fill="none"/><circle cx="54" cy="180" r="12" fill="#fbbf24"/><circle cx="50" cy="178" r="2" fill="#111"/><circle cx="58" cy="178" r="2" fill="#111"/>`}
+  <ellipse cx="225" cy="282" rx="60" ry="10" fill="#be185d" opacity=".7"/>
+  <rect x="282" y="252" width="34" height="13" rx="4" fill="#0ea5e9"/><rect x="290" y="244" width="16" height="10" rx="3" fill="#7dd3fc"/><circle cx="290" cy="267" r="5" fill="#111"/><circle cx="309" cy="267" r="5" fill="#111"/>
+  ${ch("car")?"":`<g stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity=".85"><line x1="262" y1="250" x2="276" y2="250"/><line x1="258" y1="257" x2="276" y2="257"/><line x1="264" y1="264" x2="278" y2="264"/></g>`}
+  </svg>`;
+}
+function room2(){
+  const inner=`<p class="story">Professor Joule has two photos of the lab. One was taken this morning (A), and one was taken this afternoon (B). Some things have changed, and every change has something to do with <strong>energy</strong>!</p>
+   <div class="task"><strong>Your task:</strong> find all of the differences between picture A and picture B. Click on a picture to circle a difference (click a circle to remove it). <strong>The number of differences is your digit.</strong><br>For each difference, write what has changed about the energy. Which store has more or less energy, or which pathway has stopped?</div>
+   <div class="sdgrid"><div class="pic" data-p="0"><span class="cap">A · Morning</span>${scene(false)}</div><div class="pic" data-p="1"><span class="cap">B · Afternoon</span>${scene(true)}</div></div>
+   <div class="part" style="margin-top:14px"><h3>What changed? (one row for each circle on picture B)</h3><div class="sdrows" id="sdrows"></div></div>`;
+  return shell(1,inner,`Look carefully at things that give out <strong>light</strong> or <strong>sound</strong>, things that are <strong>hot</strong>, things that are <strong>high up</strong>, things that are <strong>moving</strong>, and things that are <strong>stretched or squashed</strong>. Check the walls, the window and the floor too!<br>Use picture B for your circles so that the rows below match up.`,"Number of differences we found:");
+}
+function bindRoom2(){
+  const draw=()=>{
+    document.querySelectorAll(".pic").forEach(pic=>{
+      const p=+pic.dataset.p;pic.querySelectorAll(".mk").forEach(m=>m.remove());
+      S.marks[p].forEach((m,i)=>{const d=document.createElement("div");d.className="mk";d.style.left=m[0]+"%";d.style.top=m[1]+"%";d.innerHTML=`<b>${i+1}</b>`;
+        d.onclick=e=>{e.stopPropagation();S.marks[p].splice(i,1);save();draw();};pic.appendChild(d);});
+    });
+    const n=S.marks[1].length;
+    $("sdrows").innerHTML=n?S.marks[1].map((_,i)=>`<div class="r"><b>${i+1}</b><input type="text" data-k="sd${i}" placeholder="e.g. The … has less energy in its … store"></div>`).join(""):`<p style="color:var(--muted);margin:0">Circle differences on picture B and a row will appear here for each one.</p>`;
+    bindFields($("sdrows"));
+  };
+  document.querySelectorAll(".pic").forEach(pic=>pic.addEventListener("click",e=>{
+    const r=pic.getBoundingClientRect();S.marks[+pic.dataset.p].push([((e.clientX-r.left)/r.width*100).toFixed(1),((e.clientY-r.top)/r.height*100).toFixed(1)]);save();draw();
+  }));
+  draw();
+}
+
+/* ===================== ROOM 3: TRANSFER DIAGRAMS ===================== */
+function room3(){
+  const keys=KEY.map(([n,w,t])=>`<label class="key ${t}" id="key${n}"><span class="k">${n}</span>${w}<input type="checkbox" data-k="key${n}" aria-label="Tick off ${w}"></label>`).join("");
+  let di=0;
+  const dias=ETD.map((d,i)=>`<div class="etd"><h3>Diagram ${i+1}: ${d.t}</h3><div class="flow">${d.f.map(([type,txt])=>{
+     if(type==="g")return `<div class="sbox given">${txt}</div>`;
+     if(type==="s")return `<div class="sbox"><input type="text" class="nb" maxlength="1" inputmode="numeric" data-k="etd${i}_${di++}" aria-label="Store number"><br>${txt}</div>`;
+     return `<div class="arrow"><input type="text" class="nb" maxlength="1" inputmode="numeric" data-k="etd${i}_${di++}" aria-label="Pathway number"><span class="shaft">⟶</span>${txt}</div>`;
+  }).join("")}</div></div>`).join("");
+  const inner=`<p class="story">The third door has seven energy transfer diagrams on it, but all of the labels have fallen off! Each label has a number on it.</p>
+   <div class="task"><strong>Your task:</strong> fill in every empty box with the <strong>number</strong> of the correct word from the key. <span style="color:var(--r3);font-weight:800">Purple</span> boxes are <strong>stores</strong>. <span style="color:var(--accent);font-weight:800">Yellow</span> arrows are <strong>pathways</strong>. You can use a word more than once.<br>Tick off each word in the key once you have used it. <strong>One word is never used. Its number is your digit.</strong></div>
+   <div class="keytbl">${keys}</div>${dias}`;
+  return shell(2,inner,`Think about where the energy <em>starts</em> and where it <em>ends up</em>.<br>• Something moving → <strong>kinetic</strong>. High up → <strong>gravitational potential</strong>. Stretched → <strong>elastic potential</strong>. Hot → <strong>thermal</strong>. Food or fuel → <strong>chemical</strong>.<br>• A push or pull → <strong>mechanically</strong>. Hot to cold → <strong>by heating</strong>. Light or sound → <strong>by radiation</strong>.`,"The number of the word we never used is:");
+}
+function bindRoom3(){
+  KEY.forEach(([n])=>{const cb=document.querySelector(`[data-k="key${n}"]`);const upd=()=>$("key"+n).classList.toggle("used",cb.checked);cb.onsaved=upd;setTimeout(upd,0);});
+}
+
+/* ===================== ROOM 4: MAZE ===================== */
+function room4(){
+  const inner=`<p class="story">You’ve walked into Professor Joule’s maze of doors. Every room in the maze has a statement on the wall. If it’s <strong>true</strong>, go through the blue door. If it’s <strong>false</strong>, go through the red door.</p>
+   <div class="task"><strong>Your task:</strong> make your way through the maze. Agree as a team before you pick a door, because you won’t be told if you’re wrong! At the end you’ll reach an exit with a number on it. <strong>That number is your digit.</strong><br>If you think you’ve gone the wrong way, press <em>Start the maze again</em>.</div>
+   <div id="maze"></div>`;
+  return shell(3,inner,`Watch out for these tricky ones:<br>• Light and sound are <strong>pathways</strong> (ways energy is transferred), not stores.<br>• A falling object goes <em>from</em> gravitational potential <em>to</em> kinetic.<br>• Energy is never created or destroyed. Wasted energy is spread out (dissipated), not destroyed.`,"Our maze exit number is:");
+}
+function drawMaze(){
+  const m=S.maze,host=$("maze");
+  const trail=m.trail.length?`<div class="trail">${["START",...m.trail].map(x=>`<span>${x.startsWith("#")?"EXIT":"Room "+x}</span>`).join("→")}</div>`:"";
+  if(m.at.startsWith("#")){
+    host.innerHTML=`<div class="mazecard"><span class="lt">You found an exit!</span><p>The sign above the exit door says:</p><div class="exit">EXIT ${V.exits[m.at.slice(1)]}</div><div class="btns" style="justify-content:center;margin-top:16px"><button class="ghost" id="mazeReset">↺ Start the maze again</button></div>${trail}</div>`;
+  } else {
+    const c=MAZE[m.at];
+    host.innerHTML=`<div class="mazecard"><span class="lt">${m.at==="START"?"START":"Room "+m.at}</span><p>“${c.q}”</p><div class="doors"><button class="door t" data-g="T">🚪 TRUE</button><button class="door f" data-g="F">🚪 FALSE</button></div>
+      ${m.trail.length?`<div class="btns" style="justify-content:center;margin-top:16px"><button class="ghost" id="mazeReset">↺ Start the maze again</button></div>`:""}${trail}</div>`;
+    host.querySelectorAll(".door").forEach(b=>b.onclick=()=>{const nx=c[b.dataset.g];m.trail.push(nx);m.at=nx;save();drawMaze();});
+  }
+  const rb=$("mazeReset");if(rb)rb.onclick=()=>{S.maze={at:"START",trail:[]};save();drawMaze();};
+}
+
+/* ===================== ROOM 5: CALCULATIONS ===================== */
+function sankey(){
+  return `<svg viewBox="0 0 420 170" width="100%" style="max-width:440px;display:block;margin:6px auto" role="img" aria-label="Sankey diagram: ${V.calc.a[0]} J in, ${V.calc.a[1]} J useful, unknown wasted">
+   <rect x="10" y="30" width="200" height="60" fill="#f472b6"/>
+   <polygon points="210,30 330,30 330,75 210,75" fill="#f472b6"/><polygon points="330,18 395,52 330,87" fill="#f472b6"/>
+   <path d="M210 75 L210 90 Q240 90 240 120 L240 135 L225 135 L250 162 L275 135 L260 135 L260 120 Q260 75 230 75 Z" fill="#a78bfa"/>
+   <text x="20" y="66" font-family="Fredoka, sans-serif" font-size="15" fill="#111">${V.calc.a[0]} J chemical</text>
+   <text x="232" y="57" font-family="Fredoka, sans-serif" font-size="14" fill="#111">${V.calc.a[1]} J useful</text>
+   <text x="282" y="150" font-family="Fredoka, sans-serif" font-size="15" fill="#eef2ff">? J wasted</text>
+  </svg>`;
+}
+function room5(){
+  const q=(L,body,unit,extra="")=>`<div class="part calc"><h3><span class="lettertag">${L}</span>${body}</h3>${extra}<div class="row"><strong>${L} =</strong><input type="text" inputmode="decimal" data-k="calc${L}"><span style="color:var(--muted);font-weight:700">${unit}</span></div><textarea class="working" data-k="work${L}" placeholder="Show your working here…"></textarea></div>`;
+  const inner=`<p class="story">The last room is the Professor’s computer. It will only show the final digit if you can work through his chain of calculations. Each answer is a letter that you need at the end.</p>
+   <div class="task"><strong>Remember:</strong> energy is never created or destroyed.<br><strong>Energy in = useful energy out + wasted energy out</strong></div>
+   ${q("A",`A mobile phone battery has ${V.calc.a[0]} J in its chemical store. The Sankey diagram shows what happens to it. How much energy is wasted?`,"J",sankey())}
+   ${q("B",`A rollercoaster car has ${V.calc.b[0]} J in its gravitational potential store at the top of a hill. At the bottom it has ${V.calc.b[1]} J in its kinetic store. How much energy was dissipated by friction and air resistance?`,"J")}
+   ${q("C",`A runner uses ${V.calc.c[0]} J from their chemical store. Only ${V.calc.c[1]} J ends up in their kinetic store. How much energy is wasted (dissipated) by heating?`,"J")}
+   ${q("D",`A ball is dropped and has ${V.calc.d} J in its gravitational potential store. If there were no air resistance, how much energy would be in its kinetic store just before it hits the ground?`,"J")}
+   <div class="part"><h3>🔓 The final calculation</h3><div class="formula">( A + B ) ÷ C</div><p style="color:var(--muted);margin:6px 0 0;text-align:center">Not every answer is needed in the final calculation. The answer is your digit.</p><textarea class="working" data-k="workF" placeholder="Show your working here…"></textarea></div>`;
+  return shell(4,inner,`For each question: <strong>wasted = energy in − useful energy out</strong>.<br>For question D there is nothing to slow the ball down, so no energy is wasted.<br>In the final calculation, do the bracket first: add A and B, then divide by C.`,"The answer to the final calculation is:");
+}
+
+/* ===================== DOOR ===================== */
+let wheels=[0,0,0,0,0];
+function door(){
+  return `<div class="room lockbox" style="--c:var(--accent)"><h2>🚪 The Lab Door</h2>
+   <p class="story">Set the padlock to your five digits in room order (Room 1 → Room 5) and press <strong>Unlock</strong>. This is the only place you’ll find out if you got them right!</p>
+   <div class="lock ${S.escaped?"open":""}" id="lock"><div class="shackle"></div><div class="body">${wheels.map((d,i)=>`<div class="wheel"><button data-w="${i}" data-d="1" aria-label="Digit ${i+1} up">▲</button><div class="d" id="w${i}">${S.escaped?S.won[i]:d}</div><button data-w="${i}" data-d="-1" aria-label="Digit ${i+1} down">▼</button></div>`).join("")}</div></div>
+   <div class="btns" style="justify-content:center;margin-top:18px"><button class="main" id="unlockBtn">🔓 Unlock</button></div>
+   <div class="msg" id="msg"></div>
+   <div class="win ${S.escaped?"show":""}" id="win"><h2>🎉 YOU ESCAPED!</h2>
+    <p style="font-size:1.2rem">Escape time: <strong id="finalTime" style="font-family:'Share Tech Mono',monospace;color:var(--accent)">${fmt(S.seconds)}</strong> · Attempts at the padlock: <strong id="tries" style="color:var(--accent)">${S.tries}</strong></p>
+    <p class="story" style="max-width:600px;margin:0 auto">Professor Joule is impressed! Before you leave, explain to your partner: <em>what is the difference between an energy <strong>store</strong> and an energy <strong>pathway</strong>? Give an example of each.</em></p></div></div>`;
+}
+function bindDoor(){
+  document.querySelectorAll(".wheel button").forEach(b=>b.onclick=()=>{if(S.escaped)return;const i=+b.dataset.w;wheels[i]=(wheels[i]+ +b.dataset.d+10)%10;$("w"+i).textContent=wheels[i];});
+  $("unlockBtn").onclick=()=>{
+    if(S.escaped)return;S.tries++;const m=$("msg"),code=wheels.join("");
+    const right=[...code].filter((d,i)=>_ok(S.version||"A",i,d)).length;
+    if(right===5){S.escaped=true;S.won=code;save();$("lock").classList.add("open");m.className="msg good";m.textContent="✅ Click! The padlock springs open…";$("finalTime").textContent=fmt(S.seconds);$("tries").textContent=S.tries;$("win").classList.add("show");confetti();}
+    else{
+      save();
+      const l=$("lock");l.classList.remove("shake");void l.offsetWidth;l.classList.add("shake");
+      m.className="msg bad";m.textContent=`❌ The padlock won’t open. ${right} of the 5 digits ${right===1?"is":"are"} correct. Go back to the rooms and check your answers carefully.`;
+    }
+  };
+}
+function confetti(){const c=$("confetti"),cols=["#ffcc33","#3ddc84","#38bdf8","#f472b6","#a78bfa","#ff8a3d"];for(let i=0;i<140;i++){const e=document.createElement("i");e.style.left=Math.random()*100+"vw";e.style.background=cols[i%cols.length];e.style.animationDuration=(2+Math.random()*2.5)+"s";e.style.animationDelay=Math.random()*.8+"s";c.appendChild(e);}setTimeout(()=>c.innerHTML="",5500);}
+
+/* ===================== RENDER ===================== */
+function render(){
+  setVersion(S.version||"A");$("verBadge").textContent=S.started&&S.version?"Version "+S.version:"";
+  $("introView").style.display=S.started?"none":"block";
+  $("gameView").style.display=S.started?"block":"none";
+  $("timer").textContent=fmt(S.seconds);renderSlots();
+  if(!S.started)return;
+  if(S.current>maxRoom())S.current=maxRoom();
+  renderTabs();startTimer();
+  const host=$("roomHost"),i=S.current;
+  if(i===5){host.innerHTML=door();bindDoor();return;}
+  host.innerHTML=[room1,room2,room3,room4,room5][i]();
+  bindFields(host);bindShell(i);
+  if(i===0)bindRoom1(); if(i===1)bindRoom2(); if(i===2)bindRoom3(); if(i===3)drawMaze();
+}
+let picked="";
+document.querySelectorAll(".vp").forEach(b=>b.onclick=()=>{picked=b.dataset.v;document.querySelectorAll(".vp").forEach(x=>{x.style.borderColor=x===b?"var(--accent)":"";x.style.background=x===b?"#ffcc3322":"";});const sb=$("startBtn");sb.disabled=false;sb.textContent="Start the escape (Version "+picked+") ▶";});
+$("startBtn").onclick=()=>{if(!picked)return;S.version=picked;S.started=true;save();render();};
+$("resetBtn").onclick=()=>$("resetModal").classList.add("show");
+$("cancelReset").onclick=()=>$("resetModal").classList.remove("show");
+$("confirmReset").onclick=()=>{S=blank();picked="";wheels=[0,0,0,0,0];document.querySelectorAll(".vp").forEach(x=>{x.style.borderColor="";x.style.background="";});$("startBtn").disabled=true;$("startBtn").textContent="Choose a version first";save();clearInterval(tick);tick=null;$("resetModal").classList.remove("show");render();window.scrollTo({top:0});};
+render();
+</script>
+</body>
+</html>
