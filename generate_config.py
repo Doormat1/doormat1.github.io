@@ -2,11 +2,12 @@ import os
 import json
 import re
 
-base_path = '/workspaces/doormat1.github.io/Past Paper'
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+base_path = os.path.join(SCRIPT_DIR, 'Past Papers')
 # Output modes: 'local' for file:// paths, 'github' for repo-relative URLs
 OUTPUT_MODE = 'github'
 # Repo subfolder for GitHub Pages output (no leading slash needed)
-REPO_ROOT = 'Past Paper'
+REPO_ROOT = 'Past Papers'
 IGNORE_DIR_KEYWORDS = ['front covers']
 
 def is_ignored_dir(name):
@@ -35,14 +36,7 @@ def build_structure(path, max_depth=7, current_depth=0, debug=False):
             result['markSchemeFolder'] = mark_scheme_path
         return result
     
-    try:
-        items = os.listdir(path)
-    except:
-        result = {'path': format_path(path), 'files': list_files(path)}
-        mark_scheme_path = find_mark_scheme_folder(path)
-        if mark_scheme_path:
-            result['markSchemeFolder'] = mark_scheme_path
-        return result
+    items = os.listdir(path)
     
     dirs = [item for item in items if os.path.isdir(os.path.join(path, item))]
     dirs = [item for item in dirs if not is_ignored_dir(item)]
@@ -54,21 +48,25 @@ def build_structure(path, max_depth=7, current_depth=0, debug=False):
             result['markSchemeFolder'] = mark_scheme_path
         return result
     
-    if len(dirs) == 1 and current_depth < max_depth - 1:
+    files = list_files(path)
+    has_pdf_files = any(file['name'].lower().endswith('.pdf') for file in files)
+
+    if len(dirs) == 1 and not has_pdf_files and current_depth < max_depth - 1:
         subdir = os.path.join(path, dirs[0])
         return build_structure(subdir, max_depth, current_depth + 1)
     
     result = {}
+    if has_pdf_files:
+        label = 'Files in this folder'
+        if label in dirs:
+            raise ValueError(f"Folder name conflicts with generated menu item: {path}/{label}")
+        result[label] = {'path': format_path(path), 'files': files}
+        mark_scheme_path = find_mark_scheme_folder(path)
+        if mark_scheme_path:
+            result[label]['markSchemeFolder'] = mark_scheme_path
     for dir_name in sorted(dirs):
         subdir = os.path.join(path, dir_name)
-        try:
-            result[dir_name] = build_structure(subdir, max_depth, current_depth + 1)
-        except Exception as e:
-            print(f"ERROR processing {subdir}: {e}", file=__import__('sys').stderr)
-            import traceback
-            traceback.print_exc()
-            # Still add it to result so we don't lose it
-            result[dir_name] = {'path': format_path(subdir), 'files': list_files(subdir), 'error': str(e)}
+        result[dir_name] = build_structure(subdir, max_depth, current_depth + 1)
     
     return result
 
@@ -91,6 +89,35 @@ def find_mark_scheme_folder(papers_path):
         return None
     
     subject = parts[0]
+
+    if subject == 'Applied' and len(parts) > 2 and parts[1] in ('Single Award', 'Double Award'):
+        award = parts[1]
+        unit = next((part for part in parts[2:] if re.fullmatch(r'Unit \d+', part)), None)
+        tier = next((part for part in parts[2:] if part in ('FT', 'HT')), None)
+        if not unit or not tier:
+            return None
+        ms_base = os.path.join(base_path, subject, award, 'Mark Schemes', unit, tier)
+        if not os.path.isdir(ms_base):
+            return None
+        folder_type = None
+        topic_name = None
+        for i, part in enumerate(parts):
+            if 'whole' in part.lower():
+                folder_type = 'whole'
+                break
+            if 'separated' in part.lower():
+                folder_type = 'separated'
+                break
+            if 'by topic' in part.lower():
+                folder_type = 'by_topic'
+                if i + 1 < len(parts):
+                    topic_name = parts[i + 1]
+                break
+        if not folder_type:
+            return None
+        year_match = re.search(r'20\d{2}', '/'.join(parts[2:]))
+        year = int(year_match.group()) if year_match else None
+        return find_matching_ms_folder(ms_base, folder_type, topic_name, year)
     
     # Build potential mark scheme paths based on common patterns
     mark_scheme_candidates = []
@@ -196,10 +223,7 @@ def find_mark_scheme_folder(papers_path):
 
 def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_year=None, paper_session=None):
     """Find the specific mark scheme folder matching the paper type"""
-    try:
-        items = os.listdir(ms_base_path)
-    except:
-        return None
+    items = os.listdir(ms_base_path)
     
     dirs = [item for item in items if os.path.isdir(os.path.join(ms_base_path, item))]
     
@@ -216,6 +240,7 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
                 year_match_path = find_year_subfolder(full_path, paper_year, paper_session)
                 if year_match_path:
                     return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
+                return None
             return {'path': format_path(full_path), 'files': list_files(full_path)}
         elif folder_type == 'by_topic' and 'by topic' in dir_lower:
             by_topic_path = os.path.join(ms_base_path, dir_name)
@@ -223,6 +248,7 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
                 topic_path = os.path.join(by_topic_path, topic_name)
                 if os.path.exists(topic_path):
                     return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+                return None
             return {'path': format_path(by_topic_path), 'files': list_files(by_topic_path)}
 
     # If the base path itself is the By Topic folder, try to match the topic subfolder
@@ -231,6 +257,7 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
             topic_path = os.path.join(ms_base_path, topic_name)
             if os.path.exists(topic_path):
                 return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+            return None
         return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
 
     # If base path is already a separated questions folder, try to match year subfolder
@@ -239,21 +266,14 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
             year_match_path = find_year_subfolder(ms_base_path, paper_year, paper_session)
             if year_match_path:
                 return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
+            return None
         return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
-    
-    # Fallback: return first available mark scheme folder (only if no exact type match found)
-    if dirs:
-        full_path = os.path.join(ms_base_path, dirs[0])
-        return {'path': format_path(full_path), 'files': list_files(full_path)}
     
     return None
 
 def find_year_subfolder(base_path, year, session=None):
     """Find a subfolder matching the given year (e.g., 2017) or session (e.g., S24/W24)."""
-    try:
-        items = os.listdir(base_path)
-    except:
-        return None
+    items = os.listdir(base_path)
 
     dirs = [item for item in items if os.path.isdir(os.path.join(base_path, item))]
     year_str = str(year) if year else None
@@ -288,26 +308,18 @@ def find_year_subfolder(base_path, year, session=None):
 
 def list_files(path):
     """List all files in a directory with their names and extensions"""
-    try:
-        items = os.listdir(path)
-        files = []
-        for item in sorted(items):
-            full_path = os.path.join(path, item)
-            if os.path.isfile(full_path):
-                # Get file size
-                size = os.path.getsize(full_path)
-                size_str = format_file_size(size)
-                
-                files.append({
-                    'name': item,
-                    'size': size_str,
-                    'path': format_path(full_path)
-                })
-        return files
-    except Exception as e:
-        import sys
-        print(f"Error listing files in {path}: {e}", file=sys.stderr)
-        return []
+    items = os.listdir(path)
+    files = []
+    for item in sorted(items):
+        full_path = os.path.join(path, item)
+        if os.path.isfile(full_path):
+            size = os.path.getsize(full_path)
+            files.append({
+                'name': item,
+                'size': format_file_size(size),
+                'path': format_path(full_path)
+            })
+    return files
 
 def format_file_size(size):
     """Format file size in human readable format"""
@@ -317,19 +329,24 @@ def format_file_size(size):
         size /= 1024.0
     return f"{size:.1f} TB"
 
-print(f"Building structure for: {base_path}")
-config = build_structure(base_path)
-print(f"Top-level subjects: {list(config.keys())}")
-config_str = json.dumps({'folderStructure': config}, indent=2)
-print(f"Generated JSON size: {len(config_str)} bytes")
+def main():
+    print(f"Building structure for: {base_path}")
+    config = build_structure(base_path)
+    print(f"Top-level subjects: {list(config.keys())}")
+    config_str = json.dumps({'folderStructure': config}, indent=2)
+    print(f"Generated JSON size: {len(config_str)} bytes")
 
-with open('folder_config.js', 'w') as f:
-    f.write('const configData = ' + config_str + ';\n\n')
-    f.write('if (typeof window !== "undefined") {\n')
-    f.write('  window.configData = configData;\n')
-    f.write('}\n\n')
-    f.write('if (typeof module !== "undefined" && module.exports) {\n')
-    f.write('  module.exports = configData;\n')
-    f.write('}\n')
+    with open(os.path.join(SCRIPT_DIR, 'folder_config.js'), 'w', encoding='utf-8') as f:
+        f.write('const configData = ' + config_str + ';\n\n')
+        f.write('if (typeof window !== "undefined") {\n')
+        f.write('  window.configData = configData;\n')
+        f.write('}\n\n')
+        f.write('if (typeof module !== "undefined" && module.exports) {\n')
+        f.write('  module.exports = configData;\n')
+        f.write('}\n')
 
-print('Generated folder_config.js successfully')
+    print('Generated folder_config.js successfully')
+
+
+if __name__ == '__main__':
+    main()

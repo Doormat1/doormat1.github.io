@@ -4,3 +4,8 @@ This is a collection of webpages I am creating for my teaching. So far there are
 - Quiz Builder - built on a spreadsheet shared with along time ago via the IOP Cymru with questions for GCSE Physics. 
 - Youngs Modulus On Screen Experiment - A simple web app to simulate the WJEC Specified Practical on Young's Modulus
 - Past Paper Viewer - This is still being completed but it has all the publicly available WJEC Science Past Papers and mark schemes in one place. 
+
+After adding, removing, or reorganising files in `Past Papers`, run
+`python3 generate_config.py` from the repository to rebuild `folder_config.js`.
+Commit the regenerated file with the paper changes so the viewer's menus and
+links are updated on the site.
