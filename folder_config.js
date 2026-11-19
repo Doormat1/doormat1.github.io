@@ -758,11 +758,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Cells/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Cells",
-                  "files": []
-                }
+                ]
               },
               "Electrical Circuits": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Electrical Circuits",
@@ -807,11 +803,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Electrical Circuits/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Electrical Circuits",
-                  "files": []
-                }
+                ]
               },
               "Energy Concepts": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Energy Concepts",
@@ -851,11 +843,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Energy Concepts/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Energy Concepts",
-                  "files": []
-                }
+                ]
               },
               "Making Use of Energy": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Making Use of Energy",
@@ -895,11 +883,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Making Use of Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Making Use of Energy",
-                  "files": []
-                }
+                ]
               },
               "Making Useful Compounds": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Making Useful Compounds",
@@ -934,11 +918,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Making Useful Compounds/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Making Useful Compounds",
-                  "files": []
-                }
+                ]
               },
               "Our Planet": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Our Planet",
@@ -968,11 +948,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Our Planet/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Our Planet",
-                  "files": []
-                }
+                ]
               },
               "Respiration": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Respiration",
@@ -1022,11 +998,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Respiration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Respiration",
-                  "files": []
-                }
+                ]
               },
               "Water": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Water",
@@ -1081,11 +1053,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/By Topic/Water/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/By Topic/Water",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -1127,11 +1095,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2018": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2018",
@@ -1176,11 +1140,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2019",
@@ -1225,11 +1185,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2022",
@@ -1274,11 +1230,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2023",
@@ -1323,11 +1275,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2024",
@@ -1367,11 +1315,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2025",
@@ -1431,11 +1375,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/FT/Separated Papers/Unit 1 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/FT/Separated Questions/Unit 1 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -1579,11 +1519,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Cells/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Cells",
-                  "files": []
-                }
+                ]
               },
               "Electrical Circuits": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Electrical Circuits",
@@ -1628,11 +1564,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Electrical Circuits/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Electrical Circuits",
-                  "files": []
-                }
+                ]
               },
               "Energy Concepts": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Energy Concepts",
@@ -1662,11 +1594,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Energy Concepts/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Energy Concepts",
-                  "files": []
-                }
+                ]
               },
               "Making Use of Energy": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Making Use of Energy",
@@ -1701,11 +1629,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Making Use of Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Making Use of Energy",
-                  "files": []
-                }
+                ]
               },
               "Making Useful Compounds": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Making Useful Compounds",
@@ -1745,11 +1669,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Making Useful Compounds/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Making Useful Compounds",
-                  "files": []
-                }
+                ]
               },
               "Our Planet": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Our Planet",
@@ -1779,11 +1699,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Our Planet/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Our Planet",
-                  "files": []
-                }
+                ]
               },
               "Respiration": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Respiration",
@@ -1838,11 +1754,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Respiration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Respiration",
-                  "files": []
-                }
+                ]
               },
               "Water": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Water",
@@ -1877,11 +1789,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/By Topic/Water/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/By Topic/Water",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -1923,11 +1831,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2018": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2018",
@@ -1972,11 +1876,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2019",
@@ -2021,11 +1921,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2022",
@@ -2065,11 +1961,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2023",
@@ -2114,11 +2006,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2024",
@@ -2158,11 +2046,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2025",
@@ -2212,11 +2096,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 1/HT/Separated Papers/Unit 1 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 1/HT/Separated Questions/Unit 1 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -2417,11 +2297,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Diagnosis and Treatment/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Diagnosis and Treatment",
-                  "files": []
-                }
+                ]
               },
               "Exercise and Fitness In Humans": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Exercise and Fitness In Humans",
@@ -2466,11 +2342,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Exercise and Fitness In Humans/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Exercise and Fitness In Humans",
-                  "files": []
-                }
+                ]
               },
               "Factors Affecting Human Health": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Factors Affecting Human Health",
@@ -2505,11 +2377,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Factors Affecting Human Health/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Factors Affecting Human Health",
-                  "files": []
-                }
+                ]
               },
               "Fighting Disease": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Fighting Disease",
@@ -2534,11 +2402,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Fighting Disease/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Fighting Disease",
-                  "files": []
-                }
+                ]
               },
               "Our Place In The Universe": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Our Place In The Universe",
@@ -2583,11 +2447,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Our Place In The Universe/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Our Place In The Universe",
-                  "files": []
-                }
+                ]
               },
               "Protecting our Environment": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Protecting our Environment",
@@ -2632,11 +2492,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Protecting our Environment/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Protecting our Environment",
-                  "files": []
-                }
+                ]
               },
               "Section B": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Section B",
@@ -2716,11 +2572,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Section B/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Section B",
-                  "files": []
-                }
+                ]
               },
               "Transfer and Recycling of Nutrients": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Transfer and Recycling of Nutrients",
@@ -2745,11 +2597,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/Transfer and Recycling of Nutrients/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/Transfer and Recycling of Nutrients",
-                  "files": []
-                }
+                ]
               },
               "World of Life": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/World of Life",
@@ -2784,11 +2632,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/By Topic/World of Life/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/By Topic/World of Life",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -2835,11 +2679,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2018": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2018",
@@ -2879,11 +2719,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2019",
@@ -2933,11 +2769,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2022",
@@ -2987,11 +2819,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2023",
@@ -3046,11 +2874,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2024",
@@ -3110,11 +2934,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2025",
@@ -3169,11 +2989,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/FT/Separated Papers/Unit 2 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/FT/Separated Questions/Unit 2 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -3317,11 +3133,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Diagnosis and Treatment/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Diagnosis and Treatment",
-                  "files": []
-                }
+                ]
               },
               "Exercise and Fitness In Humans": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Exercise and Fitness In Humans",
@@ -3356,11 +3168,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Exercise and Fitness In Humans/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Exercise and Fitness In Humans",
-                  "files": []
-                }
+                ]
               },
               "Factors Affecting Human Health": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Factors Affecting Human Health",
@@ -3395,11 +3203,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Factors Affecting Human Health/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Factors Affecting Human Health",
-                  "files": []
-                }
+                ]
               },
               "Fighting Disease": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Fighting Disease",
@@ -3419,11 +3223,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Fighting Disease/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Fighting Disease",
-                  "files": []
-                }
+                ]
               },
               "Our Place In The Universe": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Our Place In The Universe",
@@ -3453,11 +3253,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Our Place In The Universe/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Our Place In The Universe",
-                  "files": []
-                }
+                ]
               },
               "Protecting our Environment": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Protecting our Environment",
@@ -3497,11 +3293,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Protecting our Environment/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Protecting our Environment",
-                  "files": []
-                }
+                ]
               },
               "Section A": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Section A",
@@ -3576,11 +3368,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Section A/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Section A",
-                  "files": []
-                }
+                ]
               },
               "Transfer and Recycling of Nutrients": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Transfer and Recycling of Nutrients",
@@ -3615,11 +3403,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/Transfer and Recycling of Nutrients/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/Transfer and Recycling of Nutrients",
-                  "files": []
-                }
+                ]
               },
               "World of Life": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/World of Life",
@@ -3649,11 +3433,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/By Topic/World of Life/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/By Topic/World of Life",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -3695,11 +3475,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2018": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2018",
@@ -3734,11 +3510,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2019",
@@ -3783,11 +3555,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2022",
@@ -3827,11 +3595,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2023",
@@ -3881,11 +3645,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2024",
@@ -3940,11 +3700,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2025",
@@ -3994,11 +3750,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 2/HT/Separated Papers/Unit 2 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 2/HT/Separated Questions/Unit 2 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -4169,11 +3921,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Controlling Reactions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/By Topic/Controlling Reactions",
-                  "files": []
-                }
+                ]
               },
               "Food": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Food",
@@ -4268,11 +4016,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Food/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/By Topic/Food",
-                  "files": []
-                }
+                ]
               },
               "Materials": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Materials",
@@ -4332,11 +4076,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Materials/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/By Topic/Materials",
-                  "files": []
-                }
+                ]
               },
               "Nuclear": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Nuclear",
@@ -4366,11 +4106,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Nuclear/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/By Topic/Nuclear",
-                  "files": []
-                }
+                ]
               },
               "Scientific Detection": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Scientific Detection",
@@ -4420,11 +4156,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/By Topic/Scientific Detection/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/By Topic/Scientific Detection",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -4471,11 +4203,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 FT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2019",
@@ -4530,11 +4258,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 FT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2022",
@@ -4579,11 +4303,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 FT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2023",
@@ -4628,11 +4348,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 FT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2024",
@@ -4682,11 +4398,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 FT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2025",
@@ -4736,11 +4448,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/FT/Separated Papers/Unit 3 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/FT/Separated Questions/Unit 3 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -4879,11 +4587,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Controlling Reactions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/By Topic/Controlling Reactions",
-                  "files": []
-                }
+                ]
               },
               "Food": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Food",
@@ -4963,11 +4667,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Food/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/By Topic/Food",
-                  "files": []
-                }
+                ]
               },
               "Materials": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Materials",
@@ -5027,11 +4727,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Materials/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/By Topic/Materials",
-                  "files": []
-                }
+                ]
               },
               "Nuclear": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Nuclear",
@@ -5066,11 +4762,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Nuclear/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/By Topic/Nuclear",
-                  "files": []
-                }
+                ]
               },
               "Scientific Detection": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Scientific Detection",
@@ -5115,11 +4807,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/By Topic/Scientific Detection/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/By Topic/Scientific Detection",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -5166,11 +4854,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 HT 2019": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2019",
@@ -5215,11 +4899,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 HT 2022": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2022",
@@ -5259,11 +4939,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 HT 2023": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2023",
@@ -5308,11 +4984,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 HT 2024": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2024",
@@ -5362,11 +5034,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 3 HT 2025": {
                 "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2025",
@@ -5411,11 +5079,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Double Award/Unit 3/HT/Separated Papers/Unit 3 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Double Award/Mark Schemes/Unit 3/HT/Separated Questions/Unit 3 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -5824,17 +5488,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Applied/Single Award/Unit 1/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Unit 1 FT 2019_questions": {
@@ -5890,11 +5544,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2019_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/Separated Papers/Unit 1 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2022_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2022_questions",
@@ -5934,11 +5584,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2022_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/Separated Papers/Unit 1 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2023_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2023_questions",
@@ -5983,11 +5629,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2023_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/Separated Papers/Unit 1 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2024_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2024_questions",
@@ -6037,11 +5679,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2024_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/Separated Papers/Unit 1 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 FT 2025_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2025_questions",
@@ -6101,11 +5739,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/FT/Separated Papers/Unit 1 FT 2025_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/FT/Separated Papers/Unit 1 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -6203,17 +5837,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Applied/Single Award/Unit 1/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Unit 1 HT 2019_questions": {
@@ -6264,11 +5888,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2019_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/Separated Papers/Unit 1 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2022_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2022_questions",
@@ -6308,11 +5928,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2022_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/Separated Papers/Unit 1 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2023_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2023_questions",
@@ -6357,11 +5973,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2023_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/Separated Papers/Unit 1 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2024_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2024_questions",
@@ -6406,11 +6018,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2024_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/Separated Papers/Unit 1 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 HT 2025_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2025_questions",
@@ -6460,11 +6068,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 1/HT/Separated Papers/Unit 1 HT 2025_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 1/HT/Separated Papers/Unit 1 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -6564,17 +6168,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Applied/Single Award/Unit 2/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Unit 2 FT 2019_questions": {
@@ -6630,11 +6224,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2019_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/Separated Papers/Unit 2 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2022_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2022_questions",
@@ -6694,11 +6284,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2022_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/Separated Papers/Unit 2 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2023_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2023_questions",
@@ -6753,11 +6339,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2023_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/Separated Papers/Unit 2 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2024_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2024_questions",
@@ -6812,11 +6394,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2024_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/Separated Papers/Unit 2 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 FT 2025_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2025_questions",
@@ -6866,11 +6444,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/FT/Separated Papers/Unit 2 FT 2025_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/FT/Separated Papers/Unit 2 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -6968,17 +6542,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Applied/Single Award/Unit 2/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Unit 2 HT 2019_questions": {
@@ -7029,11 +6593,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2019_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/Separated Papers/Unit 2 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2022_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2022_questions",
@@ -7083,11 +6643,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2022_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/Separated Papers/Unit 2 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2023_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2023_questions",
@@ -7137,11 +6693,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2023_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/Separated Papers/Unit 2 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2024_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2024_questions",
@@ -7196,11 +6748,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2024_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/Separated Papers/Unit 2 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Unit 2 HT 2025_questions": {
                 "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2025_questions",
@@ -7250,11 +6798,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Applied/Single Award/Unit 2/HT/Separated Papers/Unit 2 HT 2025_questions/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Applied/Single Award/Mark Schemes/Unit 2/HT/Separated Papers/Unit 2 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -7358,17 +6902,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/A Level/Year 12/Unit 1/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 12/Unit 1/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 12/Unit 1/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Biology Unit 1 2016": {
@@ -8182,17 +7716,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/A Level/Year 12/Unit 2/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 12/Unit 2/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 12/Unit 2/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Biology Unit 2 2016": {
@@ -8928,17 +8452,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/A Level/Year 13/Unit 3/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 13/Unit 3/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 13/Unit 3/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Biology Unit 3 2017": {
@@ -9687,17 +9201,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/A Level/Year 13/Unit 4/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 13/Unit 4/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/A Level/Year 13/Unit 4/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Biology Unit 4 2017": {
@@ -10647,17 +10151,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Doubles/Year 10/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 10/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 10/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "DA Year 10 FT 2017": {
@@ -12078,17 +11572,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Doubles/Year 10/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 10/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 10/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "DA Year 10 HT 2017": {
@@ -12844,17 +12328,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Doubles/Year 11/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 11/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 11/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "DA Year 11 FT 2018": {
@@ -14170,17 +13644,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Doubles/Year 11/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 11/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Doubles/Year 11/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "DA Year 11 HT 2018": {
@@ -20313,17 +19777,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Separates/Year 10/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 10/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 10/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Sep Year 10 FT 2017": {
@@ -21869,17 +21323,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Separates/Year 10/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 10/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 10/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Sep Year 10 HT 2017": {
@@ -23447,17 +22891,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Separates/Year 11/FT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 11/FT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 11/FT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Sep Year 11 FT 2018": {
@@ -24281,17 +23715,7 @@ const configData = {
                   "size": "352.0 B",
                   "path": "/Past Papers/Biology/Separates/Year 11/HT/By Topic/desktop.ini"
                 }
-              ],
-              "markSchemeFolder": {
-                "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 11/HT/By Topic",
-                "files": [
-                  {
-                    "name": "desktop.ini",
-                    "size": "352.0 B",
-                    "path": "/Past Papers/Biology/Mark Schemes/Separates/Year 11/HT/By Topic/desktop.ini"
-                  }
-                ]
-              }
+              ]
             },
             "Separated Papers": {
               "Sep Year 11 HT 2018": {
@@ -49697,11 +49121,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2016/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 12/Unit 1/Separated Questions/Unit 1 MS 2016",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 2017": {
                 "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2017",
@@ -49746,11 +49166,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 12/Unit 1/Separated Questions/Unit 1 MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 2018": {
                 "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2018",
@@ -49885,11 +49301,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 12/Unit 1/Separated Questions/Unit 1 MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 2022": {
                 "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2022",
@@ -49934,11 +49346,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 12/Unit 1/Separated Questions/Unit 1 MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Unit 1 2023": {
                 "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2023",
@@ -50143,11 +49551,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 12/Unit 1/Separated Papers/Unit 1 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 12/Unit 1/Separated Questions/Unit 1 MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -53086,11 +52490,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 13/Unit 3/Separated Papers/Unit 3 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 3/Separated Questions/Unit 3 MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -53635,17 +53035,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options",
-                    "files": [
-                      {
-                        "name": "desktop.ini",
-                        "size": "0.0 B",
-                        "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
-                      }
-                    ]
-                  }
+                  ]
                 },
                 "A": {
                   "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/A",
@@ -53680,17 +53070,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/A/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options",
-                    "files": [
-                      {
-                        "name": "desktop.ini",
-                        "size": "0.0 B",
-                        "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
-                      }
-                    ]
-                  }
+                  ]
                 },
                 "B": {
                   "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/B",
@@ -53725,17 +53105,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/B/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options",
-                    "files": [
-                      {
-                        "name": "desktop.ini",
-                        "size": "0.0 B",
-                        "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
-                      }
-                    ]
-                  }
+                  ]
                 },
                 "C": {
                   "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/C",
@@ -53775,17 +53145,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/C/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options",
-                    "files": [
-                      {
-                        "name": "desktop.ini",
-                        "size": "0.0 B",
-                        "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
-                      }
-                    ]
-                  }
+                  ]
                 },
                 "D": {
                   "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/D",
@@ -53825,17 +53185,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/By Topic/Options/D/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options",
-                    "files": [
-                      {
-                        "name": "desktop.ini",
-                        "size": "0.0 B",
-                        "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/By Topic/Options/desktop.ini"
-                      }
-                    ]
-                  }
+                  ]
                 }
               },
               "Space": {
@@ -54633,11 +53983,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/A Level/Year 13/Unit 4/Separated Papers/Unit 4 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/A Level/Year 13/Unit 4/Separated Questions/Unit 4 MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -54862,11 +54208,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Density/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Density",
-                  "files": []
-                }
+                ]
               },
               "Domestic Electricity": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Domestic Electricity",
@@ -54911,11 +54253,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Domestic Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Domestic Electricity",
-                  "files": []
-                }
+                ]
               },
               "Electrical Circuits": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Electrical Circuits",
@@ -54960,11 +54298,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Electrical Circuits/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Electrical Circuits",
-                  "files": []
-                }
+                ]
               },
               "Generating Electricity": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Generating Electricity",
@@ -55009,11 +54343,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Generating Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Generating Electricity",
-                  "files": []
-                }
+                ]
               },
               "Making Use of Energy": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Making Use of Energy",
@@ -55068,11 +54398,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Making Use of Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Making Use of Energy",
-                  "files": []
-                }
+                ]
               },
               "Waves": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Waves",
@@ -55142,11 +54468,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/By Topic/Waves/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/By Topic/Waves",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -55188,11 +54510,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2018": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2018",
@@ -55232,11 +54550,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2019": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2019",
@@ -55281,11 +54595,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2022": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2022",
@@ -55325,11 +54635,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2023": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2023",
@@ -55374,11 +54680,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2024": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2024",
@@ -55423,11 +54725,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "DA Year 10 FT 2025": {
                 "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2025",
@@ -55467,11 +54765,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Foundation/Separated Papers/DA Year 10 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Foundation/Separated Questions/DA Year 10 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -56652,11 +55946,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 10/Higher/Separated Papers/DA Year 10 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 10/Higher/Separated Questions/DA Year 10 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -56812,11 +56102,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 1 - Speed, Distance, Acceleration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 1 - Speed, Distance, Acceleration",
-                  "files": []
-                }
+                ]
               },
               "Topic 2 - Newton's Laws": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
@@ -56851,11 +56137,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
-                  "files": []
-                }
+                ]
               },
               "Topic 3 - Energy": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 3 - Energy",
@@ -56900,11 +56182,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 3 - Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 3 - Energy",
-                  "files": []
-                }
+                ]
               },
               "Topic 4 - Stars and Planets": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 4 - Stars and Planets",
@@ -56949,11 +56227,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 4 - Stars and Planets/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 4 - Stars and Planets",
-                  "files": []
-                }
+                ]
               },
               "Topic 5 and 6 - Radioactivity": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 5 and 6 - Radioactivity",
@@ -57013,11 +56287,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/By Topic/Topic 5 and 6 - Radioactivity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/By Topic/Topic 5 and 6 - Radioactivity",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -57059,11 +56329,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 FT 2019": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2019",
@@ -57103,11 +56369,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 FT 2022": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2022",
@@ -57152,11 +56414,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 FT 2023": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2023",
@@ -57206,11 +56464,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 FT 2024": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2024",
@@ -57255,11 +56509,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 FT 2025": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2025",
@@ -57299,11 +56549,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Foundation/Separated Papers/DA Year 11 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Foundation/Separated Questions/DA Year 11 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -57417,11 +56663,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 1 - Speed, Distance, Acceleration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 1 - Speed, Distance, Acceleration",
-                  "files": []
-                }
+                ]
               },
               "Topic 2 - Newton's Laws": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
@@ -57451,11 +56693,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
-                  "files": []
-                }
+                ]
               },
               "Topic 3 - Energy": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 3 - Energy",
@@ -57505,11 +56743,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 3 - Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 3 - Energy",
-                  "files": []
-                }
+                ]
               },
               "Topic 4 - Stars and Planets": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 4 - Stars and Planets",
@@ -57549,11 +56783,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 4 - Stars and Planets/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 4 - Stars and Planets",
-                  "files": []
-                }
+                ]
               },
               "Topic 5 and 6 - Radioactivity": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 5 and 6 - Radioactivity",
@@ -57618,11 +56848,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/By Topic/Topic 5 and 6 - Radioactivity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/By Topic/Topic 5 and 6 - Radioactivity",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -57659,11 +56885,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 HT 2019": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2019",
@@ -57698,11 +56920,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 HT 2022": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2022",
@@ -57742,11 +56960,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 HT 2023": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2023",
@@ -57786,11 +57000,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 HT 2024": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2024",
@@ -57830,11 +57040,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "DA Year 11 HT 2025": {
                 "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2025",
@@ -57869,11 +57075,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Doubles/Year 11/Higher/Separated Papers/DA Year 11 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Doubles/Year 11/Higher/Separated Questions/DA Year 11 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -61855,11 +61057,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Density/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Density",
-                  "files": []
-                }
+                ]
               },
               "Domestic Electricity": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Domestic Electricity",
@@ -61904,11 +61102,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Domestic Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Domestic Electricity",
-                  "files": []
-                }
+                ]
               },
               "Electrical Circuits": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Electrical Circuits",
@@ -61948,11 +61142,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Electrical Circuits/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Electrical Circuits",
-                  "files": []
-                }
+                ]
               },
               "Electromagnetism": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Electromagnetism",
@@ -62002,11 +61192,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Electromagnetism/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Electromagnetism",
-                  "files": []
-                }
+                ]
               },
               "Generating Electricity": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Generating Electricity",
@@ -62046,11 +61232,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Generating Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Generating Electricity",
-                  "files": []
-                }
+                ]
               },
               "Kinetic Theory": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Kinetic Theory",
@@ -62100,11 +61282,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Kinetic Theory/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Kinetic Theory",
-                  "files": []
-                }
+                ]
               },
               "Making Use of Energy": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Making Use of Energy",
@@ -62134,11 +61312,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Making Use of Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Making Use of Energy",
-                  "files": []
-                }
+                ]
               },
               "Sesismic Waves": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Sesismic Waves",
@@ -62178,11 +61352,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Sesismic Waves/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Sesismic Waves",
-                  "files": []
-                }
+                ]
               },
               "Waves and TIR": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Waves and TIR",
@@ -62247,11 +61417,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/By Topic/Waves and TIR/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/By Topic/Waves and TIR",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -62303,11 +61469,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2018": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2018",
@@ -62357,11 +61519,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2019": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2019",
@@ -62411,11 +61569,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2022": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2022",
@@ -62465,11 +61619,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2023": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2023",
@@ -62524,11 +61674,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep year 10 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2024": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2024",
@@ -62588,11 +61734,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 FT 2025": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2025",
@@ -62652,11 +61794,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Foundation/Separated Papers/Sep Year 10 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Foundation/Separated Questions/Sep Year 10 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -62775,11 +61913,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Density/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Density",
-                  "files": []
-                }
+                ]
               },
               "Domestic Electricity": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Domestic Electricity",
@@ -62824,11 +61958,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Domestic Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Domestic Electricity",
-                  "files": []
-                }
+                ]
               },
               "Electrical Circuits": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Electrical Circuits",
@@ -62878,11 +62008,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Electrical Circuits/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Electrical Circuits",
-                  "files": []
-                }
+                ]
               },
               "Electromagnetism": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Electromagnetism",
@@ -62927,11 +62053,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Electromagnetism/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Electromagnetism",
-                  "files": []
-                }
+                ]
               },
               "Generating Electricity": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Generating Electricity",
@@ -62971,11 +62093,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Generating Electricity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Generating Electricity",
-                  "files": []
-                }
+                ]
               },
               "Kinetic Theory": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Kinetic Theory",
@@ -63030,11 +62148,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Kinetic Theory/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Kinetic Theory",
-                  "files": []
-                }
+                ]
               },
               "Making Use of Energy": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Making Use of Energy",
@@ -63064,11 +62178,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Making Use of Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Making Use of Energy",
-                  "files": []
-                }
+                ]
               },
               "Sesismic Waves": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Sesismic Waves",
@@ -63113,11 +62223,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Sesismic Waves/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Sesismic Waves",
-                  "files": []
-                }
+                ]
               },
               "Waves and TIR": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Waves and TIR",
@@ -63167,11 +62273,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/By Topic/Waves and TIR/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/By Topic/Waves and TIR",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -63218,11 +62320,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2017/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2017",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2018": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2018",
@@ -63267,11 +62365,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2019": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2019",
@@ -63326,11 +62420,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2022": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2022",
@@ -63380,11 +62470,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2023": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2023",
@@ -63434,11 +62520,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2024": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2024",
@@ -63498,11 +62580,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 10 HT 2025": {
                 "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2025",
@@ -63557,11 +62635,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 10/Higher/Separated Papers/Sep Year 10 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 10/Higher/Separated Questions/Sep Year 10 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -63702,11 +62776,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 1 - Speed, Distance, Acceleration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 1 - Speed, Distance, Acceleration",
-                  "files": []
-                }
+                ]
               },
               "Topic 2 - Newton's Laws": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
@@ -63741,11 +62811,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 2 - Newton's Laws",
-                  "files": []
-                }
+                ]
               },
               "Topic 3 - Energy": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 3 - Energy",
@@ -63800,11 +62866,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 3 - Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 3 - Energy",
-                  "files": []
-                }
+                ]
               },
               "Topic 4 - Further Motion Concepts": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 4 - Further Motion Concepts",
@@ -63889,11 +62951,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 4 - Further Motion Concepts/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 4 - Further Motion Concepts",
-                  "files": []
-                }
+                ]
               },
               "Topic 5 and 6 - Space": {
                 "Files in this folder": {
@@ -63914,11 +62972,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space",
-                    "files": []
-                  }
+                  ]
                 },
                 "Topic 5 - Stars and Planets": {
                   "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space/Topic 5 - Stars and Planets",
@@ -63958,11 +63012,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space/Topic 5 - Stars and Planets/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space",
-                    "files": []
-                  }
+                  ]
                 },
                 "Topic 6 - The Universe": {
                   "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space/Topic 6 - The Universe",
@@ -63997,11 +63047,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space/Topic 6 - The Universe/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topic 5 and 6 - Space",
-                    "files": []
-                  }
+                  ]
                 }
               },
               "Topics 7-9 - Radioactivity": {
@@ -64023,11 +63069,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity",
-                    "files": []
-                  }
+                  ]
                 },
                 "Topic 7 and 8 - Radioactivity": {
                   "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity/Topic 7 and 8 - Radioactivity",
@@ -64092,11 +63134,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity/Topic 7 and 8 - Radioactivity/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity",
-                    "files": []
-                  }
+                  ]
                 },
                 "Topic 9 - Fission and Fusion": {
                   "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity/Topic 9 - Fission and Fusion",
@@ -64131,11 +63169,7 @@ const configData = {
                       "size": "352.0 B",
                       "path": "/Past Papers/Physics/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity/Topic 9 - Fission and Fusion/desktop.ini"
                     }
-                  ],
-                  "markSchemeFolder": {
-                    "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/By Topic/Topics 7-9 - Radioactivity",
-                    "files": []
-                  }
+                  ]
                 }
               }
             },
@@ -64193,11 +63227,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2019": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2019",
@@ -64257,11 +63287,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2022": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2022",
@@ -64321,11 +63347,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2022 Contingency": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2022 Contingency",
@@ -64390,11 +63412,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2022 Contingency/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2023": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2023",
@@ -64449,11 +63467,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2024": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2024",
@@ -64513,11 +63527,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 FT 2025": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2025",
@@ -64567,11 +63577,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Foundation/Separated Papers/Sep Year 11 FT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Foundation/Separated Questions/Sep Year 11 FT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {
@@ -64715,11 +63721,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 1 - Speed, Distance, Acceleration/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 1 - Speed, Distance, Acceleration",
-                  "files": []
-                }
+                ]
               },
               "Topic 2 - Newton's Laws": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
@@ -64764,11 +63766,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 2 - Newton's Laws",
-                  "files": []
-                }
+                ]
               },
               "Topic 3 - Energy": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 3 - Energy",
@@ -64823,11 +63821,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 3 - Energy/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 3 - Energy",
-                  "files": []
-                }
+                ]
               },
               "Topic 4 - Further Motion Concepts": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 4 - Further Motion Concepts",
@@ -64872,11 +63866,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 4 - Further Motion Concepts/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 4 - Further Motion Concepts",
-                  "files": []
-                }
+                ]
               },
               "Topic 5 - Stars and Planets": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 5 - Stars and Planets",
@@ -64931,11 +63921,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 5 - Stars and Planets/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 5 - Stars and Planets",
-                  "files": []
-                }
+                ]
               },
               "Topic 6 - The Universe": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 6 - The Universe",
@@ -64980,11 +63966,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 6 - The Universe/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 6 - The Universe",
-                  "files": []
-                }
+                ]
               },
               "Topic 7 and 8 - Radioactivity": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 7 and 8 - Radioactivity",
@@ -65049,11 +64031,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 7 and 8 - Radioactivity/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 7 and 8 - Radioactivity",
-                  "files": []
-                }
+                ]
               },
               "Topic 9 - Fission and Fusion": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 9 - Fission and Fusion",
@@ -65098,11 +64076,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/By Topic/Topic 9 - Fission and Fusion/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/By Topic/Topic 9 - Fission and Fusion",
-                  "files": []
-                }
+                ]
               }
             },
             "Separated Papers": {
@@ -65149,11 +64123,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2018/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2018",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2019": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2019",
@@ -65198,11 +64168,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2019/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2019",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2022": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2022",
@@ -65252,11 +64218,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2022/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2022 Contingency": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2022 Contingency",
@@ -65306,11 +64268,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2022 Contingency/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2022",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2023": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2023",
@@ -65355,11 +64313,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2023/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2023",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2024": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2024",
@@ -65409,11 +64363,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2024/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2024",
-                  "files": []
-                }
+                ]
               },
               "Sep Year 11 HT 2025": {
                 "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2025",
@@ -65473,11 +64423,7 @@ const configData = {
                     "size": "352.0 B",
                     "path": "/Past Papers/Physics/Separates/Year 11/Higher/Separated Papers/Sep Year 11 HT 2025/desktop.ini"
                   }
-                ],
-                "markSchemeFolder": {
-                  "path": "/Past Papers/Physics/Mark Schemes/Separates/Year 11/Higher/Separated Questions/Sep Year 11 HT MS 2025",
-                  "files": []
-                }
+                ]
               }
             },
             "Whole Papers": {

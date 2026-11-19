@@ -72,18 +72,13 @@ def build_structure(path, max_depth=7, current_depth=0, debug=False):
 
 def find_mark_scheme_folder(papers_path):
     """Find the corresponding mark scheme folder for a papers folder"""
-    # Only look for mark schemes if this is a papers/questions folder
-    path_lower = papers_path.lower()
-    if not ('paper' in path_lower or 'question' in path_lower):
-        return None
-    
-    # Don't link mark schemes to other mark schemes
-    if 'mark scheme' in path_lower:
-        return None
-    
     # Parse the path
-    rel_path = papers_path.replace(base_path, '').replace('\\', '/').strip('/')
+    rel_path = os.path.relpath(papers_path, base_path).replace('\\', '/')
     parts = rel_path.split('/')
+
+    # Don't link mark schemes to other mark schemes.
+    if any('mark scheme' in part.lower() for part in parts):
+        return None
     
     if len(parts) < 2:
         return None
@@ -233,43 +228,49 @@ def find_matching_ms_folder(ms_base_path, folder_type, topic_name=None, paper_ye
         
         if folder_type == 'whole' and 'whole' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
-            return {'path': format_path(full_path), 'files': list_files(full_path)}
+            return mark_scheme_data(full_path)
         elif folder_type == 'separated' and 'separated' in dir_lower:
             full_path = os.path.join(ms_base_path, dir_name)
             if paper_year or paper_session:
                 year_match_path = find_year_subfolder(full_path, paper_year, paper_session)
                 if year_match_path:
-                    return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
+                    return mark_scheme_data(year_match_path)
                 return None
-            return {'path': format_path(full_path), 'files': list_files(full_path)}
+            return mark_scheme_data(full_path)
         elif folder_type == 'by_topic' and 'by topic' in dir_lower:
             by_topic_path = os.path.join(ms_base_path, dir_name)
             if topic_name:
                 topic_path = os.path.join(by_topic_path, topic_name)
                 if os.path.exists(topic_path):
-                    return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+                    return mark_scheme_data(topic_path)
                 return None
-            return {'path': format_path(by_topic_path), 'files': list_files(by_topic_path)}
+            return mark_scheme_data(by_topic_path)
 
     # If the base path itself is the By Topic folder, try to match the topic subfolder
     if folder_type == 'by_topic' and 'by topic' in os.path.basename(ms_base_path).lower():
         if topic_name:
             topic_path = os.path.join(ms_base_path, topic_name)
             if os.path.exists(topic_path):
-                return {'path': format_path(topic_path), 'files': list_files(topic_path)}
+                return mark_scheme_data(topic_path)
             return None
-        return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
+        return mark_scheme_data(ms_base_path)
 
     # If base path is already a separated questions folder, try to match year subfolder
     if folder_type == 'separated' and 'separated' in os.path.basename(ms_base_path).lower():
         if paper_year or paper_session:
             year_match_path = find_year_subfolder(ms_base_path, paper_year, paper_session)
             if year_match_path:
-                return {'path': format_path(year_match_path), 'files': list_files(year_match_path)}
+                return mark_scheme_data(year_match_path)
             return None
-        return {'path': format_path(ms_base_path), 'files': list_files(ms_base_path)}
+        return mark_scheme_data(ms_base_path)
     
     return None
+
+def mark_scheme_data(path):
+    files = list_files(path)
+    if not any(file['name'].lower().endswith('.pdf') for file in files):
+        return None
+    return {'path': format_path(path), 'files': files}
 
 def find_year_subfolder(base_path, year, session=None):
     """Find a subfolder matching the given year (e.g., 2017) or session (e.g., S24/W24)."""

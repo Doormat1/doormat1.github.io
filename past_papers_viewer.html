@@ -978,8 +978,9 @@ layout: default
                 return path;
             }
             if (path.startsWith('/') || path.startsWith('./') || path.startsWith('../')) {
-                // URL encode the path to handle spaces and special characters
-                return encodeURI(path);
+                return path.split('/').map(segment =>
+                    encodeURIComponent(segment).replace(/'/g, '%27')
+                ).join('/');
             }
             return 'file:///' + path.replace(/\\/g, '/');
         }
