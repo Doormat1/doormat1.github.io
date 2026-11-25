@@ -353,6 +353,92 @@ layout: null
             color: #667eea;
         }
 
+        /* ---------- Waveform plots ---------- */
+        .scope {
+            margin-top: 30px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            border: 2px solid #e9ecef;
+        }
+
+        .scope h2 {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .scope-controls {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 15px;
+            align-items: center;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+        }
+
+        .scope-controls label {
+            margin-bottom: 6px;
+        }
+
+        .scope-controls .inline {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin: 0;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        .scope-controls select {
+            padding: 7px 8px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .plot {
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            margin-bottom: 12px;
+            padding: 8px 10px 4px;
+        }
+
+        .plot:last-child {
+            margin-bottom: 0;
+        }
+
+        .plot-title {
+            font-weight: 700;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .plot-title .meta {
+            color: #888;
+            font-weight: 600;
+        }
+
+        .plot canvas {
+            display: block;
+            width: 100%;
+            height: 150px;
+        }
+
+        .plot.mix canvas {
+            height: 200px;
+        }
+
         @media (max-width: 1000px) {
             .generators-wrapper {
                 grid-template-columns: 1fr;
@@ -379,6 +465,14 @@ layout: null
 
             .control-section {
                 padding: 12px;
+            }
+
+            .scope {
+                padding: 15px;
+            }
+
+            .scope-controls {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -515,6 +609,38 @@ layout: null
         <!-- Status -->
         <div class="status" id="status">🎵 Audio Playing</div>
 
+        <!-- Waveform Plots -->
+        <div class="scope">
+            <h2>📈 Waveforms</h2>
+            <div class="scope-controls">
+                <div>
+                    <label for="timebase">Time shown: <span id="timebaseLabel" class="value-number">–</span></label>
+                    <input type="range" id="timebase" min="0" max="1000" value="500" step="1">
+                </div>
+                <label class="inline"><input type="checkbox" id="timebaseAuto" checked> Auto</label>
+                <label class="inline">Mix:
+                    <select id="mixMode">
+                        <option value="sum">Sum (Gen 1 + Gen 2)</option>
+                        <option value="left">Left speaker</option>
+                        <option value="right">Right speaker</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="plot">
+                <div class="plot-title"><span style="color:#667eea">Generator 1</span><span class="meta" id="meta1"></span></div>
+                <canvas id="plot1"></canvas>
+            </div>
+            <div class="plot">
+                <div class="plot-title"><span style="color:#e8590c">Generator 2</span><span class="meta" id="meta2"></span></div>
+                <canvas id="plot2"></canvas>
+            </div>
+            <div class="plot mix">
+                <div class="plot-title"><span style="color:#764ba2" id="mixTitle">Mix</span><span class="meta" id="metaMix"></span></div>
+                <canvas id="plotMix"></canvas>
+            </div>
+        </div>
+
         <!-- Info Box -->
         <div class="info-box">
             <strong>💡 Tips:</strong>
@@ -523,6 +649,7 @@ layout: null
                 <li><strong>Panning:</strong> Position each generator in left/center/right stereo field</li>
                 <li><strong>Phase:</strong> Adjust phase offset between 0° and 360°</li>
                 <li><strong>Volume:</strong> Control individual levels of each generator. Start low!</li>
+                <li><strong>Waveforms:</strong> The graphs update as you move the controls, even when stopped. Set two close frequencies (e.g. 440 Hz and 444 Hz) to see beats, or the same frequency 180° apart to see cancellation.</li>
             </ul>
         </div>
     </div>
@@ -586,6 +713,18 @@ layout: null
             return periodInSeconds * phaseRatio;
         }
 
+        // Keep the phase delay correct when the frequency changes while playing
+        function updatePhaseDelay(gen) {
+            if (!isPlaying || !generators[gen].delayNode) return;
+            const frequency = parseFloat(controls[gen].frequency.value);
+            const phase = parseFloat(controls[gen].phase.value);
+            generators[gen].delayNode.delayTime.setTargetAtTime(
+                getDelayForPhase(frequency, phase),
+                audioContext.currentTime,
+                0.01
+            );
+        }
+
         // Setup event listeners for both generators
         ['gen1', 'gen2'].forEach(gen => {
             // Frequency slider to input sync
@@ -597,6 +736,7 @@ layout: null
                         audioContext.currentTime, 
                         0.01
                     );
+                    updatePhaseDelay(gen);
                 }
             });
 
@@ -611,6 +751,7 @@ layout: null
                         audioContext.currentTime, 
                         0.01
                     );
+                    updatePhaseDelay(gen);
                 }
             });
 
@@ -793,6 +934,226 @@ layout: null
             controls[gen].phaseInput.value = controls[gen].phase.value;
             controls[gen].volumeInput.value = controls[gen].volume.value;
         });
+
+        // =====================================================
+        // WAVEFORM PLOTS
+        // Calculated from the control values, so they work whether
+        // or not audio is playing. Each generator outputs
+        //   y(t) = A · sin(2πft − φ)
+        // (the phase is applied as a delay, i.e. a lag).
+        // =====================================================
+        const COLOURS = { gen1: '#667eea', gen2: '#e8590c', mix: '#764ba2' };
+        const plot1 = document.getElementById('plot1');
+        const plot2 = document.getElementById('plot2');
+        const plotMix = document.getElementById('plotMix');
+        const timebase = document.getElementById('timebase');
+        const timebaseAuto = document.getElementById('timebaseAuto');
+        const timebaseLabel = document.getElementById('timebaseLabel');
+        const mixMode = document.getElementById('mixMode');
+
+        // Time-base slider: logarithmic, 0.1 ms to 2 s
+        const T_MIN = 1e-4, T_MAX = 2;
+        const sliderToTime = v => T_MIN * Math.pow(T_MAX / T_MIN, v / 1000);
+        const timeToSlider = t => 1000 * Math.log(t / T_MIN) / Math.log(T_MAX / T_MIN);
+
+        function getParams(gen) {
+            const pan = parseFloat(controls[gen].panning.value) || 0;
+            const x = (pan + 1) / 2; // equal-power pan law used by StereoPannerNode
+            return {
+                f: parseFloat(controls[gen].frequency.value) || 0,
+                A: (parseFloat(controls[gen].volume.value) || 0) / 100,
+                phiDeg: parseFloat(controls[gen].phase.value) || 0,
+                phi: (parseFloat(controls[gen].phase.value) || 0) * Math.PI / 180,
+                pan: pan,
+                gL: Math.cos(x * Math.PI / 2),
+                gR: Math.sin(x * Math.PI / 2)
+            };
+        }
+
+        function autoTime(p1, p2) {
+            const fLo = Math.min(p1.f, p2.f);
+            const df = Math.abs(p1.f - p2.f);
+            // Close frequencies: show two beats. Otherwise: four cycles of the lower frequency.
+            if (df > 0 && df < 0.25 * fLo) return Math.min(2 / df, T_MAX);
+            return Math.max(T_MIN, Math.min(4 / fLo, T_MAX));
+        }
+
+        function fmtTime(s) {
+            if (s === 0) return '0';
+            if (s < 1e-3) return +(s * 1e6).toPrecision(3) + ' µs';
+            if (s < 1) return +(s * 1e3).toPrecision(3) + ' ms';
+            return +s.toPrecision(3) + ' s';
+        }
+
+        function panText(p) {
+            if (Math.abs(p) < 0.005) return 'C';
+            return (p < 0 ? 'L ' : 'R ') + Math.round(Math.abs(p) * 100) + '%';
+        }
+
+        // Prepare a canvas for crisp drawing at the screen's pixel density
+        function setupCanvas(canvas) {
+            const dpr = window.devicePixelRatio || 1;
+            const w = canvas.clientWidth, h = canvas.clientHeight;
+            if (canvas.width !== Math.round(w * dpr) || canvas.height !== Math.round(h * dpr)) {
+                canvas.width = Math.round(w * dpr);
+                canvas.height = Math.round(h * dpr);
+            }
+            const ctx = canvas.getContext('2d');
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+            ctx.clearRect(0, 0, w, h);
+            return { ctx, w, h };
+        }
+
+        // comps: [{f, A, phi}] summed to make the trace; yMax: axis limit; T: time window (s)
+        function drawPlot(canvas, comps, yMax, T, colour, overlays) {
+            const { ctx, w, h } = setupCanvas(canvas);
+            const L = 38, R = 8, Tp = 6, B = 18; // margins
+            const pw = w - L - R, ph = h - Tp - B;
+            if (pw <= 0 || ph <= 0) return;
+            const X = i => L + i;
+            const Y = v => Tp + ph / 2 - (v / yMax) * (ph / 2);
+
+            // Grid
+            ctx.font = '10px Segoe UI, sans-serif';
+            ctx.lineWidth = 1;
+            for (let k = -2; k <= 2; k++) {
+                const v = yMax * k / 2, y = Math.round(Y(v)) + 0.5;
+                ctx.strokeStyle = k === 0 ? '#bbb' : '#eee';
+                ctx.beginPath(); ctx.moveTo(L, y); ctx.lineTo(L + pw, y); ctx.stroke();
+                ctx.fillStyle = '#999'; ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+                ctx.fillText(+v.toFixed(2), L - 5, y);
+            }
+            for (let k = 0; k <= 10; k++) {
+                const x = Math.round(L + pw * k / 10) + 0.5;
+                ctx.strokeStyle = '#eee';
+                ctx.beginPath(); ctx.moveTo(x, Tp); ctx.lineTo(x, Tp + ph); ctx.stroke();
+                if (k % 2 === 0) {
+                    ctx.fillStyle = '#999'; ctx.textBaseline = 'top';
+                    ctx.textAlign = k === 0 ? 'left' : (k === 10 ? 'right' : 'center');
+                    ctx.fillText(fmtTime(T * k / 10), x, Tp + ph + 4);
+                }
+            }
+
+            ctx.save();
+            ctx.beginPath(); ctx.rect(L, Tp - 1, pw, ph + 2); ctx.clip();
+
+            const dt = T / pw; // seconds per pixel
+            const isDense = c => c.f * dt >= 0.1; // fewer than ~10 px per cycle
+            const yAt = (cs, t) => cs.reduce((s, c) => s + c.A * Math.sin(2 * Math.PI * c.f * t - c.phi), 0);
+            const anyDense = comps.some(isDense);
+
+            if (!anyDense) {
+                // Faint individual components behind the main trace
+                const showOverlays = comps.every(c => c.f * dt < 0.02);
+                (showOverlays ? overlays || [] : []).forEach(o => {
+                    ctx.strokeStyle = o.colour; ctx.globalAlpha = 0.35; ctx.lineWidth = 1.5;
+                    ctx.beginPath();
+                    for (let i = 0; i <= pw * 4; i++) {
+                        const t = (i / 4) * dt, y = Y(yAt([o], t));
+                        i ? ctx.lineTo(X(i / 4), y) : ctx.moveTo(X(0), y);
+                    }
+                    ctx.stroke();
+                });
+                ctx.globalAlpha = 1;
+                ctx.strokeStyle = colour; ctx.lineWidth = 2.2;
+                ctx.beginPath();
+                for (let i = 0; i <= pw * 4; i++) {
+                    const t = (i / 4) * dt, y = Y(yAt(comps, t));
+                    i ? ctx.lineTo(X(i / 4), y) : ctx.moveTo(X(0), y);
+                }
+                ctx.stroke();
+            } else {
+                // Too many cycles to draw individually: shade the min–max envelope per pixel column
+                const dense = comps.filter(isDense), sparse = comps.filter(c => !isDense(c));
+                const tops = [], bots = [];
+                for (let i = 0; i < pw; i++) {
+                    const t0 = i * dt, tm = t0 + dt / 2;
+                    let lo = Infinity, hi = -Infinity;
+                    for (let s = 0; s <= 4; s++) {
+                        const v = yAt(sparse, t0 + dt * s / 4);
+                        lo = Math.min(lo, v); hi = Math.max(hi, v);
+                    }
+                    let env;
+                    if (dense.length === 1) {
+                        env = dense[0].A;
+                    } else {
+                        const [a, b] = dense;
+                        if (Math.abs(a.f - b.f) * dt < 0.1) {
+                            // Beat envelope of two close frequencies
+                            const d = 2 * Math.PI * (a.f - b.f) * tm - (a.phi - b.phi);
+                            env = Math.sqrt(Math.max(0, a.A * a.A + b.A * b.A + 2 * a.A * b.A * Math.cos(d)));
+                        } else {
+                            env = a.A + b.A;
+                        }
+                    }
+                    tops.push(Y(hi + env)); bots.push(Y(lo - env));
+                }
+                ctx.fillStyle = colour; ctx.globalAlpha = 0.55;
+                ctx.beginPath();
+                tops.forEach((y, i) => i ? ctx.lineTo(X(i), y) : ctx.moveTo(X(0), y));
+                for (let i = bots.length - 1; i >= 0; i--) ctx.lineTo(X(i + 1), bots[i]);
+                ctx.closePath(); ctx.fill();
+                ctx.globalAlpha = 1; ctx.strokeStyle = colour; ctx.lineWidth = 1.2;
+                ctx.beginPath(); tops.forEach((y, i) => i ? ctx.lineTo(X(i), y) : ctx.moveTo(X(0), y)); ctx.stroke();
+                ctx.beginPath(); bots.forEach((y, i) => i ? ctx.lineTo(X(i), y) : ctx.moveTo(X(0), y)); ctx.stroke();
+            }
+            ctx.restore();
+        }
+
+        function drawAll() {
+            const p1 = getParams('gen1'), p2 = getParams('gen2');
+
+            let T;
+            if (timebaseAuto.checked) {
+                T = autoTime(p1, p2);
+                timebase.value = Math.round(timeToSlider(T));
+            } else {
+                T = sliderToTime(parseFloat(timebase.value));
+            }
+            timebaseLabel.textContent = fmtTime(T);
+
+            const meta = p => `${p.f} Hz · vol ${Math.round(p.A * 100)}% · ${p.phiDeg}° · pan ${panText(p.pan)}`;
+            document.getElementById('meta1').textContent = meta(p1);
+            document.getElementById('meta2').textContent = meta(p2);
+
+            drawPlot(plot1, [p1], 1, T, COLOURS.gen1);
+            drawPlot(plot2, [p2], 1, T, COLOURS.gen2);
+
+            // Mix: plain sum, or what each speaker receives after panning
+            const mode = mixMode.value;
+            const g = p => mode === 'left' ? p.gL : (mode === 'right' ? p.gR : 1);
+            const c1 = { f: p1.f, A: p1.A * g(p1), phi: p1.phi, colour: COLOURS.gen1 };
+            const c2 = { f: p2.f, A: p2.A * g(p2), phi: p2.phi, colour: COLOURS.gen2 };
+            document.getElementById('mixTitle').textContent =
+                mode === 'sum' ? 'Mix (Gen 1 + Gen 2)' : (mode === 'left' ? 'Mix – left speaker' : 'Mix – right speaker');
+
+            const df = Math.abs(p1.f - p2.f);
+            let mixMeta = '';
+            if (df === 0) {
+                const amp = Math.sqrt(Math.max(0, c1.A ** 2 + c2.A ** 2 + 2 * c1.A * c2.A * Math.cos(c1.phi - c2.phi)));
+                mixMeta = `Amplitude ${amp.toFixed(2)} · phase difference ${Math.abs(p1.phiDeg - p2.phiDeg)}°`;
+            } else if (df <= 20) {
+                mixMeta = `Beat frequency ${+df.toFixed(2)} Hz`;
+            }
+            document.getElementById('metaMix').textContent = mixMeta;
+
+            drawPlot(plotMix, [c1, c2], 2, T, COLOURS.mix, [c1, c2]);
+        }
+
+        let drawPending = false;
+        function requestDraw() {
+            if (drawPending) return;
+            drawPending = true;
+            requestAnimationFrame(() => { drawPending = false; drawAll(); });
+        }
+
+        // Redraw whenever any control changes
+        document.addEventListener('input', requestDraw);
+        mixMode.addEventListener('change', requestDraw);
+        timebase.addEventListener('input', () => { timebaseAuto.checked = false; });
+        timebaseAuto.addEventListener('change', requestDraw);
+        window.addEventListener('resize', requestDraw);
+        drawAll();
     </script>
 </body>
 </html>
