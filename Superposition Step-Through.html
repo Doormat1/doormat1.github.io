@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Superposition Step-Through</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Red+Hat+Text:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: clear, calm physics-lab explainer for AS students
+   IDEA: a lab bench oscilloscope: the string on top, P's trace below
+   PICTURE: two linked live graphs (snapshot + displacement–time) at the top
+   COLOUR and TYPE: oxford blue band, white panels, magenta for P; Red Hat Display + Text
+   LAYOUT: title band, graphs left / step-by-step reasoning right, stack under 900px */
+:root{color-scheme:light dark;
+--bg:light-dark(#eef1f7,#070f26);--panel:light-dark(#ffffff,#0e1a3d);--ink:light-dark(#101828,#e8ecf6);
+--muted:light-dark(#5a6680,#9aa6c4);--band:#0b1f4b;--line:light-dark(#d9e0ec,#22305a);--grid:light-dark(#eef2f8,#16234a);
+--axis:light-dark(#4a5570,#8f9bbb);--a:#2f7de1;--b:#e07b00;--p:#e0115f;--res:light-dark(#101828,#ffffff)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Red Hat Text",system-ui,sans-serif;overflow-x:clip}
+header{background:var(--band);color:#fff;padding:clamp(20px,3vw,36px) max(4vw,16px) clamp(18px,2.5vw,28px)}
+h1{font:700 clamp(28px,4vw,44px)/1.05 "Red Hat Display",sans-serif;margin:0 0 8px;text-wrap:balance}
+header p{margin:0;max-width:70ch;color:#c9d3ea}
+main{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:18px;padding:18px max(4vw,16px) 32px;max-width:1320px;margin:0 auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.cap{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 6px}
+.cap h2{font:700 17px/1.2 "Red Hat Display",sans-serif;margin:0}
+.cap span{font-size:14px;color:var(--muted)}
+.fig{position:relative;height:230px}.fig.dt{height:210px}
+.fig>canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted);margin-top:6px}
+.legend i{display:inline-block;width:22px;height:0;border-top:3px solid;vertical-align:middle;margin-right:6px}
+.controls{display:grid;grid-template-columns:auto auto auto minmax(0,1fr) auto;gap:10px;align-items:center;margin-top:14px}
+button{font:600 15px "Red Hat Text",sans-serif;min-height:44px;min-width:44px;padding:0 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--axis)}button:focus-visible,input:focus-visible{outline:3px solid var(--p);outline-offset:2px}
+button.primary{background:var(--band);color:#fff;border-color:var(--band)}
+input[type=range]{width:100%;height:44px;accent-color:var(--p)}
+.tval{font:700 22px "Red Hat Display",sans-serif;white-space:nowrap;min-width:5.2ch;text-align:right}
+.moments{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.moments button{min-width:64px;font-size:14px}
+.moments button.on{background:var(--p);border-color:var(--p);color:#fff}
+.toggles{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:15px}
+.toggles label{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer}
+.toggles input{width:20px;height:20px;accent-color:var(--p)}
+aside{display:flex;flex-direction:column;gap:18px}
+.sum{display:grid;grid-template-columns:repeat(5,auto);justify-content:start;align-items:center;gap:6px 10px;font:700 clamp(22px,2.6vw,30px) "Red Hat Display",sans-serif}
+.sum small{display:block;font:600 13px "Red Hat Text",sans-serif;color:var(--muted)}
+.sum .op{color:var(--muted);font-weight:400}
+#phaseTitle{font:700 19px/1.25 "Red Hat Display",sans-serif;margin:0 0 6px;color:var(--p)}
+#phaseText{margin:0}
+ol{margin:0;padding-left:1.2em}ol li{margin:0 0 8px}ol li.now{font-weight:600}ol li.now::marker{color:var(--p)}
+.note{font-size:14px;color:var(--muted);margin:10px 0 0}
+@media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}section,aside{display:contents}
+#cSnap{order:1}#cSum{order:2}#cPhase{order:3}#cDt{order:4;margin-top:0!important}#cStory{order:5}}
+@media(max-width:600px){.controls{grid-template-columns:auto auto auto minmax(0,1fr)}.controls .tval{grid-column:1/-1;text-align:left;order:-1}.fig{height:200px}.fig.dt{height:190px}}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+nav a{font:600 15px "Red Hat Text",sans-serif;color:#fff;text-decoration:none;min-height:44px;display:flex;align-items:center;padding:0 16px;border-radius:10px;border:1px solid #3a4f80}
+nav a.on{background:#e0115f;border-color:#e0115f}nav a:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.prow{display:none;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;margin-top:10px;font-size:15px}
+.prow.show{display:grid}.prow b{color:var(--p);white-space:nowrap}
+#pAuto{margin:10px 0 0;font-size:15px}
+table.vals{border-collapse:collapse;font-size:14px;margin-top:4px}
+.vals th,.vals td{border:1px solid var(--line);padding:6px 8px;text-align:right;white-space:nowrap}
+.vals th{text-align:left;background:var(--grid)}.vals td.cur{outline:2px solid var(--p);outline-offset:-2px}
+.hide{display:none!important}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<h1 id="h1">Superposition, step by step</h1>
+<p id="intro"></p>
+<nav id="tabs" aria-label="Choose a question"></nav>
+</header>
+<main>
+<section>
+<div class="card" id="cSnap">
+<div class="cap"><h2>Snapshot of the string</h2><span id="snapSub">displacement–position</span></div>
+<div class="fig"><canvas id="snap" aria-label="Displacement against position"></canvas></div>
+<div class="legend"><span><i style="border-color:var(--a);border-top-style:dashed"></i><span id="lgA">wave A →</span></span><span><i style="border-color:var(--b);border-top-style:dashed"></i><span id="lgB">wave B ←</span></span><span><i style="border-color:var(--res)"></i>resultant</span><span><i style="border-color:var(--p)"></i><span id="lgP">point P</span></span></div>
+<div class="controls">
+<button id="back" aria-label="Step back">◀</button>
+<button id="play" class="primary" aria-label="Play">Play</button>
+<button id="fwd" aria-label="Step forward">▶</button>
+<input id="slider" type="range" min="0" max="300" value="0" aria-label="Time">
+<div class="tval" id="tval">0.00 s</div>
+</div>
+<div class="prow" id="prow"><span>Move P</span><input id="pslider" type="range" aria-label="Position of P"><b id="pval"></b></div>
+<div class="moments" id="moments" aria-label="Key moments"></div>
+</div>
+<div class="card" id="cDt" style="margin-top:18px">
+<div class="cap"><h2 id="dtTitle">What P does over time</h2><span id="dtSub">displacement–time for P · click or drag to set time</span></div>
+<div class="fig dt" id="dtFig"><canvas id="dt" aria-label="Displacement of P against time"></canvas></div>
+<div class="scroll hide" id="tblWrap"></div>
+<div class="toggles">
+<label id="lParts"><input type="checkbox" id="showParts" checked>Show A and B contributions</label>
+<label id="lGhost"><input type="checkbox" id="showGhost">Show the full answer</label>
+<label><input type="checkbox" id="showComps" checked>Show the separate waves on the snapshot</label>
+</div>
+</div>
+</section>
+<aside>
+<div class="card" id="cSum">
+<div class="cap"><h2 id="sumTitle">At point P right now</h2></div>
+<div class="sum">
+<div><small id="sA">wave A</small><span id="vA" style="color:var(--a)">0</span></div><div class="op">+</div>
+<div><small id="sB">wave B</small><span id="vB" style="color:var(--b)">0</span></div><div class="op">=</div>
+<div><small id="sP">P / cm</small><span id="vP" style="color:var(--p)">0</span></div>
+</div>
+<p id="pAuto"></p>
+</div>
+<div class="card" id="cPhase" aria-live="polite">
+<h3 id="phaseTitle"></h3>
+<p id="phaseText"></p>
+</div>
+<div class="card" id="cStory">
+<div class="cap"><h2>The whole story</h2></div>
+<ol id="story"></ol>
+<p class="note" id="tip"></p>
+</div>
+</aside>
+</main>
+<script>
+{
+const $=id=>document.getElementById(id);
+const fmt=x=>{const v=Math.abs(x)<0.005?0:x;return (Math.round(v*100)/100).toString().replace("-","−")};
+const sgn=x=>{const v=fmt(x);return (x>0.005?"+":"")+v};
+const f1=x=>(Math.round(x*10)/10).toString().replace("-","−");
+const pw=V=>u=>{if(u<=V[0][0]||u>=V[V.length-1][0])return 0;for(let i=0;i<V.length-1;i++){const[a,ya]=V[i],[b,yb]=V[i+1];if(u>=a&&u<=b)return b===a?yb:ya+(yb-ya)*(u-a)/(b-a)}return 0};
+const rect=(a,b,h)=>u=>(u>=a&&u<b)?h:0;
+const trap=pw([[-4,0],[-3,1],[-2,1],[-1,0]]);
+const sqw=u=>(u>=2&&u<3)?1:(u>=3&&u<4)?-1:0;
+const tri=(a,b,h)=>pw([[a,0],[(a+b)/2,h],[b,0]]);
+const R1=rect(-4,-2,1),R2=rect(2,4,1),T1=tri(-4,-2,2),T2=tri(2,4,-2);
+const S=[
+{id:"a2",tab:"A2",intro:"Task A2. Two waves travel through each other at 2 m s⁻¹. Step through time and watch how the snapshot of the string (top) builds the displacement–time graph for P (bottom).",
+ xr:[-6,8],yr:[-2,2.5],T:3,rate:0.4,P0:0,pMove:false,jumps:[1,1.5,2],
+ A:(x,t)=>trap(x-2*t),B:(x,t)=>sqw(x+2*t),arrows:t=>[[-2.5+2*t,1],[3-2*t,-1]],
+ moments:[0,0.5,0.75,1,1.25,1.5,1.75,2,3],
+ phases:[
+ {a:0,b:0.5,s:0,title:"Nothing has reached P yet",text:t=>`Wave A's front edge is at x = ${f1(-1+2*t)} m and wave B's front edge is at x = ${f1(2-2*t)} m. Both are moving towards P at 2 m s⁻¹, but neither has reached it, so P stays at 0.`},
+ {a:0.5,b:1,s:1,title:"Wave A's sloping front is passing P",text:t=>`The front slope of the trapezoid is 1 m long and rises 1 cm. At 2 m s⁻¹ it takes 0.5 s to pass P, so P rises steadily from 0 to 1 cm, giving a straight sloping line on the d–t graph. Wave B is still ${f1(2-2*t)} m away.`},
+ {a:1,b:1,s:2,title:"Jump: wave B arrives",text:()=>"Wave B's front is a vertical edge. A vertical edge passes P in no time at all, so P jumps instantly up by 1 cm. A is already giving +1, so P goes from 1 cm to 2 cm."},
+ {a:1,b:1.5,s:3,title:"Both waves are flat at P",text:()=>"P is under the flat top of wave A (+1 cm) and the positive half of wave B (+1 cm). Adding gives 1 + 1 = 2 cm, and neither value is changing, so the d–t graph is flat."},
+ {a:1.5,b:1.5,s:4,title:"Jump: two changes at once",text:()=>"Wave B's vertical edge from +1 to −1 reaches P at the same moment that wave A's flat top ends. A is still +1, so P jumps from 1 + 1 = 2 cm down to 1 + (−1) = 0."},
+ {a:1.5,b:2,s:5,title:"A's back slope is passing P",text:()=>"Wave A's back slope takes P's A-part from 1 down to 0, while wave B holds −1. The total falls steadily from 0 to −1 cm."},
+ {a:2,b:2,s:6,title:"Jump: both waves leave",text:()=>"Wave A's slope has reached 0 and wave B's vertical back edge passes P. P jumps from −1 cm straight back to 0."},
+ {a:2,b:99,s:7,title:"Both waves have passed",text:()=>"The waves have gone through P, and through each other, unchanged. A is heading right and B left. P stays at 0."}],
+ story:["0 – 0.5 s: no wave at P, so it stays at 0.","0.5 – 1 s: A's slope passes, so P rises steadily to 1 cm.","1 s: B's vertical edge arrives, so P jumps to 2 cm.","1 – 1.5 s: 1 + 1 = 2 cm, flat.","1.5 s: B flips to −1, so P jumps to 0.","1.5 – 2 s: A's back slope plus −1, so P falls steadily to −1 cm.","2 s: B's back edge leaves, so P jumps to 0.","2 – 3 s: both have passed, so P stays at 0."],
+ tip:"Rule of thumb: a sloping edge passing P makes P change steadily; a vertical edge passing P makes P jump instantly."},
+{id:"b1",tab:"B1",intro:"Task B1: constructive superposition. Two identical rectangular pulses (1 cm high, 2 m long) travel towards each other at 1 m s⁻¹.",
+ xr:[-6,6],yr:[-1,3],T:5,rate:0.8,P0:0,pMove:true,jumps:[2,4],
+ A:(x,t)=>R1(x-t),B:(x,t)=>R2(x+t),arrows:t=>[[-3+t,1],[3-t,-1]],
+ moments:[0,2,2.5,3,3.5,4,5],
+ phases:[
+ {a:0,b:2,s:0,title:"The pulses are approaching",text:t=>`Each pulse moves 1 m every second. The front edges are at x = ${f1(-2+t)} m and x = ${f1(2-t)} m, ${f1(4-2*t)} m apart. Nothing overlaps yet, so the resultant is just the two pulses.`},
+ {a:2,b:3,s:1,title:"Overlapping: displacements add",text:t=>`Where the pulses overlap (from ${f1(-t+2)} m to ${f1(t-2)} m) both give +1 cm, so the resultant there is 1 + 1 = 2 cm. Outside the overlap the resultant is just one pulse, 1 cm high.`},
+ {a:3,b:3,s:2,title:"Complete overlap: maximum displacement",text:()=>"Both pulses sit exactly on top of each other from −1 m to +1 m. The resultant is one pulse 2 cm high: twice the height of either pulse. This is the largest displacement the string reaches."},
+ {a:3,b:4,s:3,title:"Separating again",text:()=>"The pulses carry on through each other. The overlap shrinks, so the 2 cm section gets narrower."},
+ {a:4,b:99,s:4,title:"Passed through, unchanged",text:()=>"The pulses have passed through each other and look exactly as they did before they met. Superposition does not change either wave."}],
+ story:["0 – 2 s: the pulses approach; no overlap.","2 – 3 s: the overlap grows and the overlapping part is 1 + 1 = 2 cm.","3 s: complete overlap: one pulse 2 cm high.","3 – 4 s: the overlap shrinks.","4 s onwards: the pulses are separate again and unchanged."],
+ tip:"Try moving P to −1.5 m or +0.5 m. When does P reach 2 cm, and for how long?"},
+{id:"b2",tab:"B2",intro:"Task B2: destructive superposition. A triangular pulse (+2 cm) and an identical upside-down pulse (−2 cm) travel towards each other at 1 m s⁻¹.",
+ xr:[-6,6],yr:[-2.5,2.5],T:5,rate:0.8,P0:-0.5,pMove:true,jumps:[],
+ A:(x,t)=>T1(x-t),B:(x,t)=>T2(x+t),arrows:t=>[[-3+t,1],[3-t,-1]],
+ moments:[0,2,2.5,3,3.5,4,5],
+ phases:[
+ {a:0,b:2,s:0,title:"The pulses are approaching",text:t=>`The pulses are ${f1(4-2*t)} m apart. Nothing overlaps yet.`},
+ {a:2,b:3,s:1,title:"Overlapping: displacements partly cancel",text:()=>"Where they overlap, one pulse gives a positive displacement and the other a negative one, so they partly cancel. The resultant is smaller than either pulse."},
+ {a:3,b:3,s:2,title:"Complete cancellation",text:()=>"At this instant +2 and −2 add to zero everywhere: the string is completely flat. The energy has not vanished, because the string is still moving. All the energy is kinetic for this moment, which is how the pulses reappear."},
+ {a:3,b:4,s:3,title:"Reappearing",text:()=>"The moving string carries on, and the two pulses emerge again on the other side of each other."},
+ {a:4,b:99,s:4,title:"Passed through, unchanged",text:()=>"Both pulses are back to their original shapes, travelling away from each other."}],
+ story:["0 – 2 s: the pulses approach.","2 – 3 s: partial cancellation where they overlap.","3 s: total cancellation: the string is flat but still moving.","3 – 4 s: the pulses re-emerge.","4 s onwards: both pulses are unchanged."],
+ tip:"Move P to 0 m. The two pulses always give equal and opposite displacements there, so P never moves at all."},
+{id:"b3",tab:"B3",mode:"x",intro:"Task B3: adding continuous waves. This is a snapshot, so time is frozen. Move the cursor along the string and add the two waves one point at a time to build the resultant.",
+ xr:[0,16],yr:[-3.5,3.5],T:16,rate:1.2,P0:0,jumps:[],
+ A:x=>2*Math.sin(Math.PI*x/4),B:x=>Math.sin(Math.PI*x/2),
+ moments:[0,1,2,3,4,5,6,7,8],
+ phases:[],story:["Pick a position on the string.","Read off wave 1 and wave 2 at that position.","Add them, watching the signs.","Plot the point, then move on to the next position.","Join the points with a smooth curve."],
+ tip:"The resultant pattern repeats every 8 m, the longer wavelength, and it is not a sine wave."},
+{id:"b4",tab:"B4",intro:"Task B4 (stretch): two identical waves (amplitude 1 cm, λ = 4 m) travel in opposite directions at 1 m s⁻¹. Move P around to find points that never move.",
+ xr:[0,12],yr:[-2.5,2.5],T:4,rate:0.5,P0:1,pMove:true,jumps:[],nodes:true,
+ A:(x,t)=>Math.sin(Math.PI*(x-t)/2),B:(x,t)=>Math.sin(Math.PI*(x+t)/2),arrows:()=>[],
+ moments:[0,0.5,1,1.5,2,3,4],
+ phases:[
+ {a:0,b:0,s:0,title:"In step: constructive everywhere",text:()=>"The two waves lie exactly on top of each other, so the resultant has amplitude 2 cm."},
+ {a:0,b:1,s:1,title:"Moving apart",text:t=>`Each wave has moved ${f1(t)} m in opposite directions. The resultant shrinks, but its zero points stay at the same places.`},
+ {a:1,b:1,s:2,title:"Antiphase: flat string",text:()=>"Each wave has moved 1 m (a quarter wavelength) in opposite directions, so the two are half a wavelength out of step. They cancel everywhere."},
+ {a:1,b:2,s:3,title:"Growing upside down",text:()=>"The resultant grows again, now inverted. The zero points still have not moved."},
+ {a:2,b:2,s:4,title:"In step again: inverted",text:()=>"Each wave has moved half a wavelength. The resultant is the t = 0 shape upside down."},
+ {a:2,b:4.01,s:5,title:"And back again",text:()=>"The pattern returns to its start after 4 s. It never travels left or right: it is a stationary (standing) wave."}],
+ story:["0 s: in step, amplitude 2 cm.","0 – 1 s: shrinking.","1 s: completely flat.","1 – 2 s: growing inverted.","2 s: fully inverted.","2 – 4 s: back to the start."],
+ tip:"Try P = 2 m: it never moves, so it is a node. Try P = 1 m: it moves the most, so it is an antinode. Nodes are λ/2 = 2 m apart."}
+];
+let sc=S[0],t=0,P=0,playing=false,last=0;
+const slider=$("slider"),snap=$("snap"),dt=$("dt"),pslider=$("pslider");
+$("tabs").innerHTML=S.map(s=>`<a href="#${s.id}" data-id="${s.id}">${s.tab}</a>`).join("");
+const probe=document.createElement("span");probe.style.display="none";document.body.appendChild(probe);
+const css=n=>{probe.style.color=`var(${n})`;return getComputedStyle(probe).color};
+const isX=()=>sc.mode==="x";
+const pA=tt=>isX()?sc.A(tt):sc.A(P,tt), pB=tt=>isX()?sc.B(tt):sc.B(P,tt), pP=tt=>pA(tt)+pB(tt);
+const atJump=tt=>(P===0||sc.id!=="a2")&&sc.id==="a2"?sc.jumps.find(j=>Math.abs(tt-j)<1e-6):jumpAt(tt);
+function jumpAt(tt){if(isX())return undefined;const e=1e-6;for(const f of [pA,pB]){if(Math.abs(f(tt-e)-f(tt+e))>0.01)return tt}return undefined}
+function phaseOf(tt){let k=sc.phases.findIndex(p=>p.a===p.b&&Math.abs(tt-p.a)<1e-6);if(k<0)k=sc.phases.findIndex(p=>p.a!==p.b&&tt>=p.a&&tt<p.b);return k}
+
+function setup(c){const r=c.getBoundingClientRect(),d=devicePixelRatio||1;c.width=Math.max(1,Math.round(r.width*d));c.height=Math.max(1,Math.round(r.height*d));const g=c.getContext("2d");g.setTransform(d,0,0,d,0,0);return{g,W:r.width,H:r.height}}
+function frame(g,W,H,xr,yr,xlab,step){
+ const L=46,R=12,T=10,B=34,sx=x=>L+(x-xr[0])/(xr[1]-xr[0])*(W-L-R),sy=y=>T+(yr[1]-y)/(yr[1]-yr[0])*(H-T-B);
+ g.clearRect(0,0,W,H);g.lineWidth=1;g.strokeStyle=css("--grid");
+ for(let x=xr[0];x<=xr[1]+1e-9;x+=step/2){g.beginPath();g.moveTo(sx(x),sy(yr[1]));g.lineTo(sx(x),sy(yr[0]));g.stroke()}
+ for(let y=Math.ceil(yr[0]*2)/2;y<=yr[1]+1e-9;y+=0.5){g.beginPath();g.moveTo(sx(xr[0]),sy(y));g.lineTo(sx(xr[1]),sy(y));g.stroke()}
+ g.strokeStyle=css("--line");g.strokeRect(sx(xr[0]),sy(yr[1]),sx(xr[1])-sx(xr[0]),sy(yr[0])-sy(yr[1]));
+ g.strokeStyle=css("--axis");g.lineWidth=1.2;g.beginPath();g.moveTo(sx(xr[0]),sy(0));g.lineTo(sx(xr[1]),sy(0));g.stroke();
+ g.fillStyle=css("--muted");g.font="13px 'Red Hat Text',sans-serif";g.textAlign="center";g.textBaseline="top";
+ const n=Math.round((xr[1]-xr[0])/step),skip=W<520&&n>8?2:1;
+ for(let i=0;i<=n;i++){if(i%skip)continue;const x=xr[0]+i*step;g.fillText((Math.round(x*10)/10).toString().replace("-","−"),sx(x),sy(yr[0])+4)}
+ g.textAlign="right";g.textBaseline="middle";
+ for(let y=Math.ceil(yr[0]);y<=yr[1];y++)g.fillText(String(y).replace("-","−"),L-6,sy(y));
+ g.textBaseline="bottom";g.fillText(xlab,sx(xr[1]),sy(yr[0])+30);
+ g.save();g.translate(12,sy((yr[0]+yr[1])/2));g.rotate(-Math.PI/2);g.textAlign="center";g.textBaseline="top";g.fillText("displacement / cm",0,-2);g.restore();
+ return{sx,sy};
+}
+function curve(g,sx,sy,f,a,b,col,w,dash,n=1400){if(b<=a)return;g.strokeStyle=col;g.lineWidth=w;g.setLineDash(dash||[]);g.beginPath();
+ for(let i=0;i<=n;i++){const x=a+(b-a)*i/n,y=f(x);i?g.lineTo(sx(x),sy(y)):g.moveTo(sx(x),sy(y))}g.stroke();g.setLineDash([])}
+function dot(g,x,y,col,r=6.5){g.fillStyle=col;g.beginPath();g.arc(x,y,r,0,7);g.fill();g.strokeStyle=css("--panel");g.lineWidth=2;g.stroke()}
+
+function drawSnap(){
+ const{g,W,H}=setup(snap),xr=sc.xr,yr=sc.yr;const{sx,sy}=frame(g,W,H,xr,yr,"position / m",1);
+ const A=isX()?(x=>sc.A(x)):(x=>sc.A(x,t)),B=isX()?(x=>sc.B(x)):(x=>sc.B(x,t));
+ if($("showComps").checked){curve(g,sx,sy,A,xr[0],xr[1],css("--a"),2,[6,4],2800);curve(g,sx,sy,B,xr[0],xr[1],css("--b"),2,[6,4],2800)}
+ if(sc.nodes){g.fillStyle=css("--muted");for(let x=xr[0];x<=xr[1];x+=2){g.beginPath();g.moveTo(sx(x),sy(0)-6);g.lineTo(sx(x)+5,sy(0));g.lineTo(sx(x),sy(0)+6);g.lineTo(sx(x)-5,sy(0));g.fill()}}
+ const X=isX()?t:P;
+ if(isX()){curve(g,sx,sy,x=>A(x)+B(x),xr[0],t,css("--res"),3,null,1600);
+  for(let x=Math.ceil(xr[0]);x<=t+1e-9;x++)dot(g,sx(x),sy(A(x)+B(x)),css("--res"),3.5)}
+ else curve(g,sx,sy,x=>A(x)+B(x),xr[0],xr[1],css("--res"),3,null,2800);
+ g.strokeStyle=css("--p");g.globalAlpha=.35;g.lineWidth=2;g.beginPath();g.moveTo(sx(X),sy(yr[1]));g.lineTo(sx(X),sy(yr[0]));g.stroke();g.globalAlpha=1;
+ if(isX()){dot(g,sx(X),sy(A(X)),css("--a"),5);dot(g,sx(X),sy(B(X)),css("--b"),5)}
+ const j=atJump(t);const vals=j!==undefined?[pP(t-1e-6),pP(t+1e-6)]:[pP(t)];
+ if(vals.length===2){g.strokeStyle=css("--p");g.lineWidth=3;g.beginPath();g.moveTo(sx(X),sy(vals[0]));g.lineTo(sx(X),sy(vals[1]));g.stroke()}
+ vals.forEach(v=>dot(g,sx(X),sy(v),css("--p")));
+ g.fillStyle=css("--p");g.font="700 15px 'Red Hat Display',sans-serif";g.textAlign="left";g.textBaseline="bottom";g.fillText(isX()?"x":"P",sx(X)+8,sy(yr[0])-4);
+ if(sc.arrows){const arr=(x,dir,col)=>{if(x<xr[0]+0.7||x>xr[1]-0.7)return;const y=sy(yr[1]-0.35);g.strokeStyle=col;g.fillStyle=col;g.lineWidth=2;g.beginPath();g.moveTo(sx(x-dir*0.6),y);g.lineTo(sx(x+dir*0.6),y);g.stroke();g.beginPath();g.moveTo(sx(x+dir*0.6),y);g.lineTo(sx(x+dir*0.6)-dir*8,y-5);g.lineTo(sx(x+dir*0.6)-dir*8,y+5);g.fill()};
+  const a=sc.arrows(t);if(a[0])arr(a[0][0],a[0][1],css("--a"));if(a[1])arr(a[1][0],a[1][1],css("--b"))}
+}
+function drawDt(){
+ if(isX()){drawTable();return}
+ const{g,W,H}=setup(dt);const{sx,sy}=frame(g,W,H,[0,sc.T],sc.yr,"time / s",sc.T>3?1:0.5);
+ if($("showGhost").checked){g.globalAlpha=.3;curve(g,sx,sy,pP,0,sc.T,css("--res"),3,null,3000);g.globalAlpha=1}
+ if($("showParts").checked&&t>0){curve(g,sx,sy,pA,0,t,css("--a"),2,[6,4],1500);curve(g,sx,sy,pB,0,t,css("--b"),2,[6,4],1500)}
+ if(t>0)curve(g,sx,sy,pP,0,t,css("--p"),3.5,null,Math.max(10,Math.round(1500*t/sc.T)));
+ g.strokeStyle=css("--axis");g.setLineDash([3,4]);g.lineWidth=1;g.beginPath();g.moveTo(sx(t),sy(sc.yr[1]));g.lineTo(sx(t),sy(sc.yr[0]));g.stroke();g.setLineDash([]);
+ const v=atJump(t)!==undefined?pP(t+1e-6):pP(t);dot(g,sx(t),sy(v),css("--p"),6);
+}
+function drawTable(){
+ const xs=[...Array(17).keys()],c=x=>x<=t+1e-9;
+ const row=(lab,f)=>`<tr><th>${lab}</th>${xs.map(x=>`<td class="${Math.abs(x-t)<1e-6?"cur":""}">${c(x)?fmt(f(x)):""}</td>`).join("")}</tr>`;
+ $("tblWrap").innerHTML=`<table class="vals"><tr><th>position / m</th>${xs.map(x=>`<th style="text-align:right">${x}</th>`).join("")}</tr>${row("wave 1 / cm",sc.A)}${row("wave 2 / cm",sc.B)}${row("resultant / cm",x=>sc.A(x)+sc.B(x))}</table>`;
+}
+function trend(f){const h=0.004,j=atJump(t);
+ if(j!==undefined&&Math.abs(f(t-1e-6)-f(t+1e-6))>0.01)return "jumping";
+ const v=f(t),d=(f(Math.min(sc.T,t+h))-f(Math.max(0,t-h)))/(Math.min(sc.T,t+h)-Math.max(0,t-h));
+ if(Math.abs(v)<0.005&&Math.abs(d)<0.05)return "zero";if(Math.abs(d)<0.05)return "steady";return d>0?"rising":"falling"}
+function autoText(){
+ if(isX()){const a=sc.A(t),b=sc.B(t),r=a+b;let why;
+  if(Math.abs(a)<0.005||Math.abs(b)<0.005)why="One wave is zero here, so the resultant is just the other wave.";
+  else if(a*b>0)why="Both waves are on the same side of the axis, so they add to a bigger displacement (constructive).";
+  else why="The waves are on opposite sides of the axis, so they partly cancel (destructive).";
+  return `At x = ${f1(t)} m: ${sgn(a)} + (${sgn(b)}) = ${sgn(r)} cm. ${why}`}
+ const nm=["wave A","wave B"],tr=[trend(pA),trend(pB)],tp=trend(pP);
+ const d=(n,tr,v)=>tr==="zero"?`${n} is not at P`:tr==="steady"?`${n} is steady at ${sgn(v)} cm`:tr==="jumping"?`${n} jumps (a vertical edge is passing)`:`${n} is ${tr}`;
+ let s=`${d("Wave A",tr[0],pA(t))}; ${d("wave B",tr[1],pB(t))}. `;
+ s+=tp==="zero"?"So P is at rest at 0.":tp==="steady"?`So P is still, at ${sgn(pP(t))} cm.`:tp==="jumping"?"So P jumps.":`So P is ${tp}.`;
+ if(sc.id==="b4"){const amp=2*Math.abs(Math.sin(Math.PI*P/2));s+=amp<0.01?" P is at a node: it never moves.":Math.abs(amp-2)<0.01?" P is at an antinode: it moves the most (amplitude 2 cm).":` P's amplitude here is ${fmt(amp)} cm.`}
+ return s}
+function readout(){
+ const j=atJump(t),E=j!==undefined?1e-6:0;
+ const show=f=>j!==undefined&&Math.abs(f(t-1e-6)-f(t+1e-6))>0.01?`${fmt(f(t-1e-6))}→${fmt(f(t+1e-6))}`:fmt(f(t+E));
+ $("vA").textContent=show(pA);$("vB").textContent=show(pB);$("vP").textContent=show(pP);
+ $("pAuto").textContent=autoText();
+ if(isX()){$("phaseTitle").textContent=`Cursor at x = ${f1(t)} m`;$("phaseText").textContent="Read each wave at the cursor (the coloured dots), add them, and plot the black point. The resultant curve grows as you move along. Fill in the same table on your worksheet.";
+  const st=Number.isInteger(Math.round(t*100)/100)?2:1;[...$("story").children].forEach((li,i)=>li.classList.toggle("now",false))}
+ else{const k=phaseOf(t),p=sc.phases[k];$("phaseTitle").textContent=p?p.title:"";$("phaseText").textContent=p?p.text(t):"";
+  [...$("story").children].forEach((li,i)=>li.classList.toggle("now",p&&p.s===i))}
+ $("tval").textContent=isX()?`x = ${t.toFixed(2)} m`:t.toFixed(2)+" s";slider.value=Math.round(t*100);
+ [...$("moments").children].forEach(b=>b.classList.toggle("on",Math.abs(+b.dataset.t-t)<1e-6));
+ $("pval").textContent=`${f1(P)} m`;
+}
+function render(){drawSnap();drawDt();readout()}
+function setT(v){t=Math.min(sc.T,Math.max(0,Math.round(v*100)/100));render()}
+function setP(v){P=Math.min(sc.xr[1],Math.max(sc.xr[0],Math.round(v*4)/4));pslider.value=P;render()}
+function tick(now){if(!playing)return;const d=(now-last)/1000;last=now;let nt=t+d*sc.rate;
+ const stops=isX()?[...Array(17).keys()].filter(x=>x>0):(sc.id==="a2"?sc.jumps:[]);
+ const crossing=stops.find(j=>t<j&&nt>=j);
+ if(nt>=sc.T){nt=sc.T;stop()}
+ t=crossing!==undefined?crossing:nt;render();
+ if(crossing!==undefined&&playing){stop();setTimeout(()=>{if(!playing&&pending){pending=false;start()}},isX()?700:1400);pending=true}
+ if(playing)requestAnimationFrame(tick)}
+let pending=false;
+function start(){if(t>=sc.T)t=0;playing=true;pending=false;$("play").textContent="Pause";$("play").setAttribute("aria-label","Pause");last=performance.now();requestAnimationFrame(tick)}
+function stop(){playing=false;$("play").textContent="Play";$("play").setAttribute("aria-label","Play")}
+function userStop(){pending=false;stop()}
+function load(id){
+ sc=S.find(s=>s.id===id)||S[0];userStop();t=0;P=sc.P0;
+ [...$("tabs").children].forEach(a=>a.classList.toggle("on",a.dataset.id===sc.id));
+ $("intro").textContent=sc.intro;$("story").innerHTML=sc.story.map(s=>`<li>${s}</li>`).join("");$("tip").textContent=sc.tip;
+ const u=isX()?" m":" s";$("moments").innerHTML=sc.moments.map(m=>`<button data-t="${m}">${m}${u}</button>`).join("");
+ slider.max=sc.T*100;slider.setAttribute("aria-label",isX()?"Cursor position":"Time");
+ $("prow").classList.toggle("show",!!sc.pMove);pslider.min=sc.xr[0];pslider.max=sc.xr[1];pslider.step=0.25;pslider.value=P;
+ $("dtFig").classList.toggle("hide",isX());$("tblWrap").classList.toggle("hide",!isX());
+ $("lParts").classList.toggle("hide",isX());$("lGhost").classList.toggle("hide",isX());
+ $("dtTitle").textContent=isX()?"Point-by-point table":"What P does over time";
+ $("dtSub").textContent=isX()?"fills in as the cursor moves":"displacement–time for P · click or drag to set time";
+ $("snapSub").textContent=isX()?"a snapshot: time is frozen":"displacement–position";
+ $("lgA").textContent=isX()?"wave 1 (λ = 8 m)":"wave A →";$("lgB").textContent=isX()?"wave 2 (λ = 4 m)":"wave B ←";$("lgP").textContent=isX()?"cursor":"point P";
+ $("sA").textContent=isX()?"wave 1":"wave A";$("sB").textContent=isX()?"wave 2":"wave B";$("sP").textContent=isX()?"resultant / cm":"P / cm";
+ $("sumTitle").textContent=isX()?"At the cursor":"At point P right now";
+ render();
+}
+$("play").onclick=()=>playing?userStop():start();
+const stepSize=()=>isX()?0.25:0.05;
+$("back").onclick=()=>{userStop();setT(t-stepSize())};$("fwd").onclick=()=>{userStop();setT(t+stepSize())};
+slider.oninput=()=>{userStop();setT(slider.value/100)};
+pslider.oninput=()=>setP(+pslider.value);
+$("moments").onclick=e=>{const b=e.target.closest("button");if(b){userStop();setT(+b.dataset.t)}};
+["showParts","showGhost","showComps"].forEach(id=>$(id).onchange=render);
+let drag=false;const dtTime=e=>{const r=dt.getBoundingClientRect();return (e.clientX-r.left-46)/(r.width-58)*sc.T};
+dt.addEventListener("pointerdown",e=>{drag=true;userStop();dt.setPointerCapture(e.pointerId);setT(dtTime(e))});
+dt.addEventListener("pointermove",e=>{if(drag)setT(dtTime(e))});dt.addEventListener("pointerup",()=>drag=false);
+let sdrag=false;const snapX=e=>{const r=snap.getBoundingClientRect();return sc.xr[0]+(e.clientX-r.left-46)/(r.width-58)*(sc.xr[1]-sc.xr[0])};
+snap.addEventListener("pointerdown",e=>{if(isX()){sdrag=true;userStop();snap.setPointerCapture(e.pointerId);setT(snapX(e))}else if(sc.pMove){sdrag=true;snap.setPointerCapture(e.pointerId);setP(snapX(e))}});
+snap.addEventListener("pointermove",e=>{if(!sdrag)return;isX()?setT(snapX(e)):setP(snapX(e))});snap.addEventListener("pointerup",()=>sdrag=false);
+document.addEventListener("keydown",e=>{if(e.target.tagName==="INPUT"&&e.target.type==="range")return;if(e.key==="ArrowRight"){userStop();setT(t+stepSize())}if(e.key==="ArrowLeft"){userStop();setT(t-stepSize())}});
+window.addEventListener("hashchange",()=>load(location.hash.slice(1)));
+const ro=new ResizeObserver(()=>render());ro.observe(snap);ro.observe(dt);
+const mo=new MutationObserver(()=>render());mo.observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+load(location.hash.slice(1));
+}
+</script>
+</body>
+</html>
