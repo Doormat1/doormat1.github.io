@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halogen Displacement Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: clear, calm school-lab worksheet; students must read every word easily
+   IDEA: a real practical bench - reagent shelf above, test-tube rack on a white tile below
+   PICTURE: three dropper bottles and three test tubes that really change colour
+   COLOUR and TYPE: black epoxy bench, white tile, halogen colours are the only bright things; Atkinson Hyperlegible
+   LAYOUT: title, shelf, bench, then the results grid that mirrors the paper table */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#16181b);--ink:light-dark(#1c1f24,#eceef1);--mute:light-dark(#57606b,#a7afb9);--line:light-dark(#d7dbe0,#353a42);--card:light-dark(#f2f4f6,#202329);--acc:light-dark(#1d5fd6,#6ea2ff);--bench:#212428;--tile:#eef1f4;--glass:rgba(255,255,255,.45);--glassline:#7a8591}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(22px,3.5vw,48px) max(5vw,16px)}
+.wrap{max-width:1100px;margin:0 auto}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.05;margin:0 0 10px;text-wrap:balance}
+h2{font-size:22px;margin:0 0 12px}
+p{margin:0 0 10px;max-width:68ch}
+.lead{color:var(--mute)}
+.steps{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px;font-weight:700}
+.steps span b{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--acc);color:#fff;margin-right:6px;font-size:15px}
+.shelf{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(8px,2vw,24px);margin-top:18px}
+.bottle{font:inherit;color:inherit;background:var(--card);border:3px solid transparent;border-radius:16px;padding:12px 8px 14px;cursor:pointer;text-align:center;min-height:44px}
+.bottle svg{width:clamp(56px,12vw,84px);height:auto;display:block;margin:0 auto 6px}
+.bottle:hover{border-color:var(--line)}
+.bottle[aria-pressed=true]{border-color:var(--acc);box-shadow:0 0 0 4px color-mix(in srgb,var(--acc) 22%,transparent)}
+.bottle:focus-visible,.tube:focus-visible,.empty:focus-visible,.tog input:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.nm{font-weight:700;display:block;line-height:1.25}
+.fm,.cn{display:block;font-size:15px;color:var(--mute)}
+.bench{background:var(--bench);color:#e9ecef}
+.tileboard{background:var(--tile);border-radius:14px;padding:6px clamp(6px,2vw,24px) 0;box-shadow:inset 0 -26px 0 #c9ced4}
+.rack{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(6px,2vw,24px)}
+.slot{position:relative;padding-top:60px;text-align:center}
+.tube{background:none;border:0;padding:0;cursor:pointer;display:block;margin:0 auto;border-radius:10px}
+.tube svg{width:64px;height:235px;display:block}
+.liq{transition:fill 1.6s ease,fill-opacity 1.6s ease}
+.lay{transition:opacity 1.8s ease}
+.pip{position:absolute;top:0;left:50%;width:30px;margin-left:-15px;opacity:0;transform:translateY(-14px);transition:opacity .25s,transform .25s;pointer-events:none}
+.pip svg{width:30px;height:90px;display:block}
+.dropping .pip{opacity:1;transform:none}
+.drop{position:absolute;left:50%;top:82px;width:8px;height:10px;margin-left:-4px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:currentColor;opacity:0}
+.dropping .drop{animation:fall .42s ease-in .3s 3}
+@keyframes fall{0%{transform:translateY(0);opacity:1}88%{opacity:1}100%{transform:translateY(98px);opacity:0}}
+.labels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(6px,2vw,24px);text-align:center;margin-top:14px}
+.labels .fm{color:#b7bec7}
+.inside{display:block;font-size:14px;color:#b7bec7;min-height:2.8em;margin-top:4px}
+.empty{font:inherit;font-size:15px;margin-top:6px;min-height:44px;padding:8px 14px;border-radius:10px;border:1px solid #5b626b;background:#2e3238;color:#fff;cursor:pointer}
+.empty:hover{background:#3a3f46}
+.status{margin:18px 0 0;padding:14px 16px;border-radius:12px;background:#2e3238;font-size:17px;max-width:none;min-height:3.2em}
+.row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.tog{display:flex;align-items:center;gap:10px;font-weight:700;cursor:pointer;min-height:44px}
+.tog input{width:22px;height:22px;accent-color:var(--acc)}
+table{border-collapse:collapse;width:100%;table-layout:fixed}
+th,td{border:2px solid var(--ink);padding:10px;vertical-align:top;text-align:left}
+th{font-size:18px}
+td.x{background:var(--ink)}
+.sw{display:flex;align-items:center;gap:8px}
+.sw i{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--glassline)}
+.todo{color:var(--mute);font-style:italic}
+details{background:var(--card);border-radius:12px;padding:14px 18px;margin-top:22px}
+summary{font-weight:700;cursor:pointer;min-height:32px}
+ol{margin:10px 0 0;padding-left:1.4em}ol li{margin-bottom:6px}
+.note{font-size:15px;color:var(--mute);margin-top:18px}
+@media(max-width:600px){body{font-size:16px}th,td{padding:6px;font-size:14px}.sw{flex-direction:column;align-items:flex-start;gap:4px}.tube svg{width:54px;height:198px}.dropping .drop{animation-name:fallS}.steps{font-size:15px}}
+@keyframes fallS{0%{transform:translateY(0);opacity:1}88%{opacity:1}100%{transform:translateY(80px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.liq,.lay,.pip{transition:none}.dropping .drop{animation:none}}
+</style>
+</head>
+<body>
+<header class="band"><div class="wrap">
+  <h1>Displacement of halogens: virtual lab</h1>
+  <p class="lead">A more reactive halogen can push a less reactive halogen out of its compound. Test each halogen with each potassium halide solution and watch the colour carefully.</p>
+  <div class="steps"><span><b>1</b>Choose a halogen</span><span><b>2</b>Click a test tube to add 3 drops</span><span><b>3</b>Record what you see in your table</span></div>
+
+  <div class="shelf" id="shelf"></div>
+</div></header>
+
+<section class="band bench"><div class="wrap">
+  <div class="tileboard"><div class="rack" id="rack"></div></div>
+  <div class="labels" id="labels"></div>
+  <p class="status" id="status" role="status" aria-live="polite">Start by choosing a halogen solution from the shelf above.</p>
+</div></section>
+
+<section class="band"><div class="wrap">
+  <div class="row">
+    <h2>Tests you have done</h2>
+    <label class="tog"><input type="checkbox" id="names"> Show colour names</label>
+  </div>
+  <table>
+    <thead><tr><th></th><th>KCl</th><th>KBr</th><th>KI</th></tr></thead>
+    <tbody id="grid"></tbody>
+  </table>
+  <p class="note">This grid shows the colours you saw. Your table needs more: did a reaction happen, and how did the colour change from start to finish?</p>
+
+  <details>
+    <summary>After the experiment: questions</summary>
+    <ol>
+      <li>In which test tubes did the colour change? What does a colour change tell you?</li>
+      <li>Put chlorine, bromine and iodine in order of reactivity, most reactive first.</li>
+      <li>Complete the word equation: chlorine + potassium bromide → ________ + ________</li>
+      <li>Explain why there was no reaction when iodine solution was added to potassium bromide.</li>
+      <li>Stretch: write a balanced symbol equation for chlorine reacting with potassium iodide.</li>
+    </ol>
+  </details>
+  <p class="note">In a real lab, chlorine water is used in a fume cupboard. Halogens are toxic and irritate the skin, eyes and lungs. Wear eye protection.</p>
+</div></section>
+
+<script>
+{
+const H=[
+  {id:'cl',name:'Chlorine water',short:'chlorine water',f:'Cl<sub>2</sub>(aq)',col:'#dcebb0',cn:'very pale green (almost colourless)'},
+  {id:'br',name:'Bromine water',short:'bromine water',f:'Br<sub>2</sub>(aq)',col:'#f08a1c',cn:'orange'},
+  {id:'i',name:'Iodine solution',short:'iodine solution',f:'I<sub>2</sub>(aq)',col:'#7e300f',cn:'red-brown'}];
+const S=[
+  {id:'cl',name:'Potassium chloride',short:'potassium chloride',f:'KCl(aq)'},
+  {id:'br',name:'Potassium bromide',short:'potassium bromide',f:'KBr(aq)'},
+  {id:'i',name:'Potassium iodide',short:'potassium iodide',f:'KI(aq)'}];
+const OUT={'cl-br':['#f3d02c','yellow'],'cl-i':['#a9521b','orange-brown'],'br-cl':['#f39a33','orange'],
+  'br-i':['#8f3f10','orange-brown (darker than bromine water)'],'i-cl':['#87371a','red-brown'],'i-br':['#87371a','red-brown']};
+const CLEAR='#d4e7f1';
+const st=S.map(()=>({hal:null,drops:0,busy:false}));
+const done={};
+let sel=null,names=false;
+const $=id=>document.getElementById(id);
+const hal=id=>H.find(h=>h.id===id);
+const hx=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));
+const mix=(a,b,t)=>'#'+hx(a).map((v,i)=>Math.round(v+(hx(b)[i]-v)*t).toString(16).padStart(2,'0')).join('');
+const say=t=>{$('status').innerHTML=t};
+
+const bottleSVG=c=>`<svg viewBox="0 0 80 112" aria-hidden="true"><rect x="31" y="2" width="18" height="12" rx="3" fill="#c0392b"/><rect x="34" y="14" width="12" height="8" fill="#9aa4ae"/><path d="M28 22h24v8c10 4 18 12 18 24v46a8 8 0 0 1-8 8H18a8 8 0 0 1-8-8V54c0-12 8-20 18-24z" fill="var(--glass)" stroke="var(--glassline)" stroke-width="2"/><path d="M11 58h58v42a7 7 0 0 1-7 7H18a7 7 0 0 1-7-7z" fill="${c}"/><path d="M18 40c-3 4-4 9-4 14" stroke="#fff" stroke-opacity=".7" stroke-width="3" fill="none" stroke-linecap="round"/></svg>`;
+const tubeSVG=i=>`<svg viewBox="0 0 60 220" aria-hidden="true"><defs><clipPath id="cp${i}"><path d="M13 12V184a17 17 0 0 0 34 0V12z"/></clipPath></defs><g clip-path="url(#cp${i})"><rect id="liq${i}" class="liq" x="0" y="120" width="60" height="100" fill="${CLEAR}" fill-opacity=".5"/><rect id="lay${i}" class="lay" x="0" y="118" width="60" height="16" fill="${CLEAR}" opacity="0"/></g><path d="M13 12V184a17 17 0 0 0 34 0V12" fill="var(--glass)" fill-opacity=".25" stroke="var(--glassline)" stroke-width="2.5"/><path d="M8 12h44" stroke="var(--glassline)" stroke-width="3.5" stroke-linecap="round"/><path d="M19 28v146" stroke="#fff" stroke-opacity=".75" stroke-width="3" stroke-linecap="round"/></svg>`;
+const pipSVG=`<svg viewBox="0 0 30 90" aria-hidden="true"><rect x="7" y="0" width="16" height="28" rx="8" fill="#c0392b"/><path d="M11 26h8v48l-4 12-4-12z" fill="#ffffff" fill-opacity=".7" stroke="#7a8591"/><path d="M12 48h6v26l-3 9-3-9z" fill="currentColor"/></svg>`;
+
+function renderShelf(){
+  $('shelf').innerHTML=H.map(h=>`<button class="bottle" data-h="${h.id}" aria-pressed="${sel===h.id}">${bottleSVG(h.col)}<span class="nm">${h.name}</span><span class="fm">${h.f}</span>${names?`<span class="cn">${h.cn}</span>`:''}</button>`).join('');
+}
+function renderRack(){
+  $('rack').innerHTML=S.map((s,i)=>`<div class="slot" id="slot${i}"><div class="pip" id="pip${i}">${pipSVG}<i class="drop"></i></div><button class="tube" data-t="${i}" aria-label="Add 3 drops to the ${s.short} test tube">${tubeSVG(i)}</button></div>`).join('');
+  $('labels').innerHTML=S.map((s,i)=>`<div><span class="nm">${s.name}</span><span class="fm">${s.f}</span><span class="inside" id="in${i}"></span><button class="empty" data-e="${i}">Empty tube</button></div>`).join('');
+  S.forEach((s,i)=>paint(i,false));
+}
+function paint(i,animate){
+  const t=st[i],liq=$('liq'+i),lay=$('lay'+i);
+  const top=120-t.drops*3;
+  liq.setAttribute('y',top);liq.setAttribute('height',220-top);
+  lay.setAttribute('y',top-1);
+  if(!t.hal){liq.setAttribute('fill',CLEAR);liq.setAttribute('fill-opacity','.5');lay.setAttribute('opacity','0');}
+  else{
+    const k=t.hal+'-'+S[i].id,fr=Math.min(t.drops/6,1);
+    if(animate){
+      lay.style.transition='none';lay.setAttribute('fill',hal(t.hal).col);lay.setAttribute('opacity','.95');
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{lay.style.transition='';lay.setAttribute('opacity','0');}));
+    }
+    liq.setAttribute('fill',mix(CLEAR,OUT[k][0],fr));
+    liq.setAttribute('fill-opacity',(.5+.45*fr).toFixed(2));
+  }
+  const inn=$('in'+i);
+  if(!t.hal) inn.textContent='Contains: '+S[i].short+' only (colourless)';
+  else inn.textContent='+ '+t.drops+' drops of '+hal(t.hal).short+(names?' → '+OUT[t.hal+'-'+S[i].id][1]:'');
+}
+function renderGrid(){
+  $('grid').innerHTML=H.map(h=>`<tr><th>${h.f.replace('(aq)','')}</th>${S.map(s=>{
+    if(h.id===s.id) return '<td class="x"></td>';
+    const k=h.id+'-'+s.id;
+    if(!done[k]) return '<td class="todo">Not tested yet</td>';
+    return `<td><span class="sw"><i style="background:${OUT[k][0]}"></i>${names?OUT[k][1]:'Tested: look at the colour'}</span></td>`;
+  }).join('')}</tr>`).join('');
+}
+function addDrops(i){
+  const t=st[i],s=S[i];
+  if(t.busy) return;
+  if(!sel){say('First choose a halogen solution from the shelf above.');return;}
+  const h=hal(sel);
+  if(sel===s.id){say(`There is no point adding ${h.short} to ${s.short}: they contain the same halogen. That box is blacked out on your table.`);return;}
+  if(t.hal&&t.hal!==sel){say(`This tube already has ${hal(t.hal).short} in it. Click <b>Empty tube</b> first. Use a clean tube for every test.`);return;}
+  if(t.drops>=9){say('That is plenty. Look carefully at the colour, then record it in your table.');return;}
+  t.busy=true;
+  const slot=$('slot'+i),pip=$('pip'+i);
+  pip.style.color=h.col;
+  slot.classList.add('dropping');
+  say(`Adding 3 drops of ${h.short} to ${s.short}…`);
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  setTimeout(()=>{
+    t.hal=sel;t.drops+=3;
+    paint(i,true);
+    slot.classList.remove('dropping');t.busy=false;
+    const k=sel+'-'+s.id;
+    done[k]=true;renderGrid();
+    let msg=`Added ${t.drops} drops of ${h.short} to ${s.short} in total. Compare the colour in the tube with the colour of the ${h.short} in its bottle.`;
+    if(t.drops<6) msg+=' Add more drops to see the colour more clearly.';
+    if(names) msg+=` The mixture is <b>${OUT[k][1]}</b>.`;
+    say(msg);
+  },reduce?200:1750);
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-h]'),tb=e.target.closest('[data-t]'),em=e.target.closest('[data-e]');
+  if(b){sel=b.dataset.h;renderShelf();say(`You picked up the ${hal(sel).short}. Now click a test tube to add 3 drops.`);document.querySelector(`[data-h="${sel}"]`).focus();}
+  else if(tb) addDrops(+tb.dataset.t);
+  else if(em){const i=+em.dataset.e;if(st[i].busy)return;st[i].hal=null;st[i].drops=0;paint(i,false);say(`The ${S[i].short} tube has been washed out and refilled with fresh ${S[i].short} solution.`);}
+});
+$('names').addEventListener('change',e=>{names=e.target.checked;renderShelf();renderGrid();S.forEach((s,i)=>paint(i,false));});
+renderShelf();renderRack();renderGrid();
+}
+</script>
+</body>
+</html>
